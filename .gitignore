@@ -1,0 +1,13 @@
+.DS_Store 
+
+# VS cache/options directory
+.vs/
+*.vsidx
+.vscode/
+
+# Temp files
+*.tmp
+*.temp
+
+# Node.js
+node_modules/
