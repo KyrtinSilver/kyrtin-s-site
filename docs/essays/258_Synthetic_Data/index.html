@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="258 - Synthetic Data" />
+  <title>258 - Synthetic Data</title>
+  <link rel="canonical" href="https://kyrtinatreides.com/essays/258_Synthetic_Data/" />
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #333333;
+      --border: #eee;
+    }
+
+    .dark-mode {
+      --bg: #1a1a1a;
+      --text: #e0e0e0;
+      --border: #333;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      margin: 1rem auto;
+      line-height: 1.6;
+      padding: 0 1rem;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background-color: var(--bg);
+      color: var(--text);
+    }
+
+    main {
+      flex: 1;
+    }
+
+    article p, 
+    article ul, 
+    article ol,
+    .essay-list,
+    .papers-list,
+    h1,
+    article img {  /* Added img to the content width constraints */
+      max-width: 65ch;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* Added specific image styling */
+    article img { 
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 2rem auto;
+    }
+
+    a {
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    nav {
+      margin-bottom: 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 1rem;
+    }
+
+    .theme-toggle {
+      background: none;
+      border: none;
+      color: inherit;
+      cursor: pointer;
+      padding: 0;
+      font-size: 1.1em;
+    }
+
+    footer {
+      margin-top: 4rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.9em;
+      color: #666;
+      text-align: center;
+    }
+
+    @media (min-width: 650px) {
+      body {
+        max-width: 650px;
+        margin: 2rem auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/essays/">Essays</a>
+      <a href="/research/">Research</a>
+    </div>
+    <button class="theme-toggle" aria-label="Toggle dark mode">⚫</button>
+  </nav>
+  <main>
+    
+<article>
+  <h1>258 - Synthetic Data</h1>
+  <time datetime="October 31, 2024">October 31, 2024</time>
+  <p>“Synthetic Data” has been another popular trend over the past couple of years, with a handful of extremely niche cases where it genuinely works well. Of course, 99% of the time it is peddled for use cases far outside of those niches. People often accept it even when they know that it will harm their systems overall, so long as it increases their perceived “performance” according to some particular KPI or benchmark.</p>
+<p>People are willing to make these kinds of poor trade-offs because the tools that they rely on are extremely inefficient at even mimicking the process of learning. This is why trash AI like LLMs often rely on “internet-scale data”, with companies like OpenAI and Anthropic frequently (and often illegally) scraping websites so hard and fast that web servers crash and CloudFlare mistakes their web-scraper bots for a DoS (Denial-of-Service) attack.</p>
+<p>The technology that so many billions of dollars are being and have already been burned on is so grossly inefficient that the entire sum of data on the internet wasn’t enough to come even remotely close to human levels of cognitive performance in any meaningful sense. Even if they were to 1,000x the entire sum of internet data with derivative “synthetic” garbage and train more LLMs on that, they’d still be using the wrong fundamental architecture to accomplish anything like human cognition.</p>
+<p>The reality is that less than 1 gigabyte of data, over 30,000 times less than the figures typically quoted for “internet-scale” datasets, is all that was required for a fundamentally different architecture to reach both human-like and human-level performance as early as 2019. This conservatively illustrates how over 5 orders of magnitude less data than companies fail with today is required to succeed when using the right architecture.</p>
+<p>To put that into perspective, about 300,000 pages of peer-reviewed papers fit into ~1.1 gigabytes of raw text, and the NCBI medical database has millions of peer-reviewed papers, each many pages in length. A single publicly available and domain-specific body of high-quality data is more than sufficient, given the right architecture. This means that there is virtually never a reason to use “Synthetic Data” outside of that tiny handful of viable niches.</p>
+<p>Again, the difference is astronomical, in addition to cleanly dividing success from failure.</p>
+<p><img src="https://media.licdn.com/dms/image/v2/D5622AQGf0MNSFTJJng/feedshare-shrink_800/feedshare-shrink_800/0/1729661298512?e=1736985600&amp;v=beta&amp;t=Ub9WR5YKY0bAc4jWwZxP6mFgLmaR7bcqi4i3dfuyf1o" alt="Comic Relief"></p>
+
+</article>
+
+  </main>
+  <footer>
+    <p>© 2024 Kyrtin Atreides</p>
+  </footer>
+
+  <script>
+    const toggleBtn = document.querySelector('.theme-toggle');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+
+    function setDarkMode(isDark) {
+      if (isDark) {
+        document.documentElement.classList.add('dark-mode');
+        toggleBtn.textContent = '⚪';
+      } else {
+        document.documentElement.classList.remove('dark-mode');
+        toggleBtn.textContent = '⚫';
+      }
+    }
+
+    const storedPreference = localStorage.getItem('theme');
+
+    // If user has a stored preference, use it. Otherwise use system.
+    if (storedPreference) {
+      setDarkMode(storedPreference === 'dark');
+    } else {
+      setDarkMode(prefersDark.matches);
+
+      // If user never chose a preference, follow system changes
+      prefersDark.addEventListener('change', (e) => {
+        // Check again if user stored a preference since the listener remains
+        if (!localStorage.getItem('theme')) {
+          setDarkMode(e.matches);
+        }
+      });
+    }
+
+    toggleBtn.addEventListener('click', () => {
+      // Toggle theme based on current state
+      const isDark = document.documentElement.classList.contains('dark-mode');
+      const newTheme = isDark ? 'light' : 'dark';
+      setDarkMode(newTheme === 'dark');
+      localStorage.setItem('theme', newTheme);
+    });
+  </script>
+</body>
+</html>

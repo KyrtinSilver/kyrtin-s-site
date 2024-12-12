@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="266 - Another Advantage" />
+  <title>266 - Another Advantage</title>
+  <link rel="canonical" href="https://kyrtinatreides.com/essays/266_Another_Advantage/" />
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #333333;
+      --border: #eee;
+    }
+
+    .dark-mode {
+      --bg: #1a1a1a;
+      --text: #e0e0e0;
+      --border: #333;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      margin: 1rem auto;
+      line-height: 1.6;
+      padding: 0 1rem;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background-color: var(--bg);
+      color: var(--text);
+    }
+
+    main {
+      flex: 1;
+    }
+
+    article p, 
+    article ul, 
+    article ol,
+    .essay-list,
+    .papers-list,
+    h1,
+    article img {  /* Added img to the content width constraints */
+      max-width: 65ch;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* Added specific image styling */
+    article img { 
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 2rem auto;
+    }
+
+    a {
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    nav {
+      margin-bottom: 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 1rem;
+    }
+
+    .theme-toggle {
+      background: none;
+      border: none;
+      color: inherit;
+      cursor: pointer;
+      padding: 0;
+      font-size: 1.1em;
+    }
+
+    footer {
+      margin-top: 4rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.9em;
+      color: #666;
+      text-align: center;
+    }
+
+    @media (min-width: 650px) {
+      body {
+        max-width: 650px;
+        margin: 2rem auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/essays/">Essays</a>
+      <a href="/research/">Research</a>
+    </div>
+    <button class="theme-toggle" aria-label="Toggle dark mode">⚫</button>
+  </nav>
+  <main>
+    
+<article>
+  <h1>266 - Another Advantage</h1>
+  <time datetime="November 14, 2024">November 14, 2024</time>
+  <p>Another advantage of “graph-native” systems is that data flowing through them and the operations being performed are discrete, making it possible to trace, log, audit, and precisely adjust them at any depth or granularity. This stands in stark contrast to end-to-end processes like you’ll find in neural networks, where what happens between the two ends is a “black box”, with or without post-hoc attempts to approximate the interior of that box.</p>
+<p>For example, take a common task where someone attempts to use a system to help in some decision-making process, even something as simple as “what to eat for lunch”:</p>
+<p>Graph-native: The system can take its entire accumulated sum of knowledge about you into consideration. This could be as superficial as things that a typical acquaintance may know about you, a couple of foods or restaurants you may like, or as deep as knowing your latest blood screening test results, dietary concerns, health conditions, and exhaustive preferences.</p>
+<p>It can also take into account the restaurants nearby, if they deliver, the cost of food and delivery, the safety of the neighborhood, any prior health code violations they may have on record, reviews (including vetting reviewers), or any other available information resources.</p>
+<p>This process can be broken down and out into fully explainable and transparent steps flowing through a deterministic system, as that system continues to learn and grow. This means that you could log every single step of this process and the factors directing steps A to B, B to C, and so on, with full context, to the point where you could write a 40-page research paper on how a system went about figuring out your ideal lunchtime destination in a few seconds.</p>
+<p>Note, the system would also keep thinking after this, as it isn’t an input-output system but rather a continuously operating one, so you could also write a paper on where the system’s thoughts turn to after assisting you.</p>
+<p>Since a graph stores actual data of any kind desired, not “weights”, the contents of a node in the graph will often be human-readable, as will the connections, such as an “of-type” connection between a number of local pizza places, or perhaps vegetarian-friendly locations.</p>
+<p>The graph-native system isn’t attempting to predict tokens but rather is performing discrete steps over deterministic data held within a graph structure, exploring additional resources to perform additional steps and improve that knowledge base both as needed and opportunistically.</p>
+<p>You don’t get “hallucination” (technically termed “bullshit”) from these dynamics. While the “tokens” a neural network uses to train the weights for probability distributions are discrete, the processing isn’t, and the resulting weights operate in a lossy superposition, making them explicitly and inherently not discrete.</p>
+<p><img src="https://media.licdn.com/dms/image/v2/D5622AQHABQSMae39xA/feedshare-shrink_800/feedshare-shrink_800/0/1731124809553?e=1736985600&amp;v=beta&amp;t=OBOoz1vEhHOcOp0a7GCycgTQYRtiQFFbBszXZstTGJ8" alt="Comic Relief"></p>
+
+</article>
+
+  </main>
+  <footer>
+    <p>© 2024 Kyrtin Atreides</p>
+  </footer>
+
+  <script>
+    const toggleBtn = document.querySelector('.theme-toggle');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+
+    function setDarkMode(isDark) {
+      if (isDark) {
+        document.documentElement.classList.add('dark-mode');
+        toggleBtn.textContent = '⚪';
+      } else {
+        document.documentElement.classList.remove('dark-mode');
+        toggleBtn.textContent = '⚫';
+      }
+    }
+
+    const storedPreference = localStorage.getItem('theme');
+
+    // If user has a stored preference, use it. Otherwise use system.
+    if (storedPreference) {
+      setDarkMode(storedPreference === 'dark');
+    } else {
+      setDarkMode(prefersDark.matches);
+
+      // If user never chose a preference, follow system changes
+      prefersDark.addEventListener('change', (e) => {
+        // Check again if user stored a preference since the listener remains
+        if (!localStorage.getItem('theme')) {
+          setDarkMode(e.matches);
+        }
+      });
+    }
+
+    toggleBtn.addEventListener('click', () => {
+      // Toggle theme based on current state
+      const isDark = document.documentElement.classList.contains('dark-mode');
+      const newTheme = isDark ? 'light' : 'dark';
+      setDarkMode(newTheme === 'dark');
+      localStorage.setItem('theme', newTheme);
+    });
+  </script>
+</body>
+</html>

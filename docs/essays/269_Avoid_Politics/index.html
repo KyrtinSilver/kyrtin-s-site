@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="269 - Avoid Politics" />
+  <title>269 - Avoid Politics</title>
+  <link rel="canonical" href="https://kyrtinatreides.com/essays/269_Avoid_Politics/" />
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #333333;
+      --border: #eee;
+    }
+
+    .dark-mode {
+      --bg: #1a1a1a;
+      --text: #e0e0e0;
+      --border: #333;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      margin: 1rem auto;
+      line-height: 1.6;
+      padding: 0 1rem;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background-color: var(--bg);
+      color: var(--text);
+    }
+
+    main {
+      flex: 1;
+    }
+
+    article p, 
+    article ul, 
+    article ol,
+    .essay-list,
+    .papers-list,
+    h1,
+    article img {  /* Added img to the content width constraints */
+      max-width: 65ch;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* Added specific image styling */
+    article img { 
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 2rem auto;
+    }
+
+    a {
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    nav {
+      margin-bottom: 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 1rem;
+    }
+
+    .theme-toggle {
+      background: none;
+      border: none;
+      color: inherit;
+      cursor: pointer;
+      padding: 0;
+      font-size: 1.1em;
+    }
+
+    footer {
+      margin-top: 4rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.9em;
+      color: #666;
+      text-align: center;
+    }
+
+    @media (min-width: 650px) {
+      body {
+        max-width: 650px;
+        margin: 2rem auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/essays/">Essays</a>
+      <a href="/research/">Research</a>
+    </div>
+    <button class="theme-toggle" aria-label="Toggle dark mode">⚫</button>
+  </nav>
+  <main>
+    
+<article>
+  <h1>269 - Avoid Politics</h1>
+  <time datetime="November 18, 2024">November 18, 2024</time>
+  <p>I make a point to avoid politics since the benefits of the technology my team works with are both non-partisan and necessary for building actual democracy, a hypothetical governance system that has never existed in human history. It is also dominantly unproductive to discuss, in no small part because the same neurons fire for politics as do for religious belief. However, there is a particular asymmetry worth noting today.</p>
+<p>Hypothetically speaking, if your country has descended into a mixture of an executive Russian-styled Strongman-focused Oligarchy and a North-Korean-styled Theocracy in the judiciary, while promising a Chinese-Communist-Party-styled approach to public dissent, your only remaining hope of recovering from the damage within less than 50-100 years is the technology we work with.</p>
+<p>I’m reminded of an interesting conversation I had with someone at an institute in Australia a few months back, who hypothesized that perhaps our company would need to offer a partisan appeal to one interest group or another in order to gain the basic funding necessary to complete our engineering workload for genuinely intelligent software systems to be deployed commercially. However, making such an appeal is unnecessary when a two-party system is propelled with terminal inertia toward complete self-destruction, with the only remaining options being to innovate or collapse.</p>
+<p>Even a slight and rigid adjustment to existing systems, such as the “ranked voting” proposed by Andrew Yang, can make a tremendous difference. Systems that are designed for more robust, complete, or even anti-fragile collective intelligence can go much, much further toward creating efficient and effective systems of governance that corruption has a more difficult time with. Systems where a collective intelligence actually has a functioning human-like mind that is both digital and scalable are inherently anti-fragile, growing more intelligent and capable as bad actors attempt to abuse and break systems, something that hasn’t been seen in any government thus far, an insurmountable advantage.</p>
+<p>I stated some time back that whichever party is most effective at abusing AI today in any given government will have a steep statistical advantage, leading the worst bad actors to win elections. This will continue for so long as the AI landscape remains the sewage pond that it is today.</p>
+<p>For some, the choice they now face is an existential one. For my team, we’re distributed across 4 continents, so if any one country collapses we have our options open. We remain non-partisan, but there are some groups whose only chance of survival hangs on working with us.</p>
+<p>Present-day events were entirely preventable, we could have completed the full engineering workload for the actual high-bar definition of AGI by now had investors in 2022 proven remotely competent. You shat the bed, and you’ve spent 2 years lying in it. How many more years do you intend to stay there?</p>
+<p><img src="https://media.licdn.com/dms/image/v2/D5622AQGEt2q0KGnjfw/feedshare-shrink_800/feedshare-shrink_800/0/1731473714879?e=1736985600&amp;v=beta&amp;t=hrJuzEcNvWuKYoo5EMPCRW4lshy90QofMPnwvn8d-js" alt="Comic Relief"></p>
+
+</article>
+
+  </main>
+  <footer>
+    <p>© 2024 Kyrtin Atreides</p>
+  </footer>
+
+  <script>
+    const toggleBtn = document.querySelector('.theme-toggle');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+
+    function setDarkMode(isDark) {
+      if (isDark) {
+        document.documentElement.classList.add('dark-mode');
+        toggleBtn.textContent = '⚪';
+      } else {
+        document.documentElement.classList.remove('dark-mode');
+        toggleBtn.textContent = '⚫';
+      }
+    }
+
+    const storedPreference = localStorage.getItem('theme');
+
+    // If user has a stored preference, use it. Otherwise use system.
+    if (storedPreference) {
+      setDarkMode(storedPreference === 'dark');
+    } else {
+      setDarkMode(prefersDark.matches);
+
+      // If user never chose a preference, follow system changes
+      prefersDark.addEventListener('change', (e) => {
+        // Check again if user stored a preference since the listener remains
+        if (!localStorage.getItem('theme')) {
+          setDarkMode(e.matches);
+        }
+      });
+    }
+
+    toggleBtn.addEventListener('click', () => {
+      // Toggle theme based on current state
+      const isDark = document.documentElement.classList.contains('dark-mode');
+      const newTheme = isDark ? 'light' : 'dark';
+      setDarkMode(newTheme === 'dark');
+      localStorage.setItem('theme', newTheme);
+    });
+  </script>
+</body>
+</html>

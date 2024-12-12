@@ -1,5 +1,5 @@
 ---
-title: "AI Agents (268)"
+title: "268 - AI Agents"
 layout: "essay.njk"
 date: 2024-11-17
 ---

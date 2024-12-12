@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="272 - Fundamental Errors" />
+  <title>272 - Fundamental Errors</title>
+  <link rel="canonical" href="https://kyrtinatreides.com/essays/272_Fundamental_Errors/" />
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #333333;
+      --border: #eee;
+    }
+
+    .dark-mode {
+      --bg: #1a1a1a;
+      --text: #e0e0e0;
+      --border: #333;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      margin: 1rem auto;
+      line-height: 1.6;
+      padding: 0 1rem;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background-color: var(--bg);
+      color: var(--text);
+    }
+
+    main {
+      flex: 1;
+    }
+
+    article p, 
+    article ul, 
+    article ol,
+    .essay-list,
+    .papers-list,
+    h1,
+    article img {  /* Added img to the content width constraints */
+      max-width: 65ch;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* Added specific image styling */
+    article img { 
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 2rem auto;
+    }
+
+    a {
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    nav {
+      margin-bottom: 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 1rem;
+    }
+
+    .theme-toggle {
+      background: none;
+      border: none;
+      color: inherit;
+      cursor: pointer;
+      padding: 0;
+      font-size: 1.1em;
+    }
+
+    footer {
+      margin-top: 4rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.9em;
+      color: #666;
+      text-align: center;
+    }
+
+    @media (min-width: 650px) {
+      body {
+        max-width: 650px;
+        margin: 2rem auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/essays/">Essays</a>
+      <a href="/research/">Research</a>
+    </div>
+    <button class="theme-toggle" aria-label="Toggle dark mode">⚫</button>
+  </nav>
+  <main>
+    
+<article>
+  <h1>272 - Fundamental Errors</h1>
+  <time datetime="November 24, 2024">November 24, 2024</time>
+  <p>One of the fundamental errors that many in AI make is a matter of “Data Decomposition”. They think that they understand the data that they feed into simple systems like transformers (such as LLMs) and/or RL algorithms. However, excluding some toy and artificial edge cases, they never understand the data that is fed in because the human brain doesn’t process that data in anything remotely resembling the same ways that neural networks do.</p>
+<p>Transformers are simple brute-force algorithms for taking some volume of data and building a collection of probability distributions of fixed size and vocabulary. This process destroys most of the value of the data, rendering it a mess of superpositioned “weights”, broken down into “tokens”. In this process, all data passing through the algorithm is decomposed in ways notoriously incomprehensible to humans, much like human concepts through a blender.</p>
+<p>When people fail to understand the data that they are feeding in, they may be surprised by the results of that data if they don’t hold a grounded and sufficient understanding of the technology that they’re working with. What a transformer does is simple, like a blender, with minor variations in the texture of outputs, but the primary thing that varies is what you feed into it.</p>
+<p>This has become a source of seemingly endless delusions in the field of AI, magical thinking where the most naïve and gullible (or nefarious and malevolent) attempt to apply terms like “reasoning”, “understanding”, “World models”, and “emergent” to LLMs and their equally narrow derivatives, like “agent” systems.</p>
+<p>Modern LLMs and the derivative systems built upon them are “maximally contaminated”, as they’ve been trained on pretty much the entire sum of the internet, including the copyrighted and illegal parts. When considering the actual Distributions of this data, it means that there is virtually nothing truly “Out of Distribution” for any of these systems, yet they still fail miserably at most tasks of any complexity. Even having trained directly on the answers to many of these benchmarks, the thing that any Data Scientist understands you’re absolutely never supposed to do, the most over-funded of these systems still often fail spectacularly.</p>
+<p>As noted in a recent post, there is no fundamental uncertainty as to what these trivially simple technologies can and cannot do. They aren’t even remotely close to the cutting edge and haven’t been for at least half a decade. Like so many other dead-end technologies and schemes before them, they are a bucket that many have tossed their hopes and dreams into because those people failed to recognize that it was fundamentally impossible for the technology to deliver on them.</p>
+<p>This is not a matter of “AI Skepticism”, as skepticism requires uncertainty, and much as it is obvious that a toaster can’t do your taxes, LLMs, RL, and “agents” aren’t fundamentally viable for most use cases.
+One of the fundamental errors that many in AI make is a matter of “Data Decomposition”. They think that they understand the data that they feed into simple systems like transformers (such as LLMs) and/or RL algorithms. However, excluding some toy and artificial edge cases, they never understand the data that is fed in because the human brain doesn’t process that data in anything remotely resembling the same ways that neural networks do.</p>
+<p>Transformers are simple brute-force algorithms for taking some volume of data and building a collection of probability distributions of fixed size and vocabulary. This process destroys most of the value of the data, rendering it a mess of superpositioned “weights”, broken down into “tokens”. In this process, all data passing through the algorithm is decomposed in ways notoriously incomprehensible to humans, much like human concepts through a blender.</p>
+<p>When people fail to understand the data that they are feeding in, they may be surprised by the results of that data if they don’t hold a grounded and sufficient understanding of the technology that they’re working with. What a transformer does is simple, like a blender, with minor variations in the texture of outputs, but the primary thing that varies is what you feed into it.</p>
+<p>This has become a source of seemingly endless delusions in the field of AI, magical thinking where the most naïve and gullible (or nefarious and malevolent) attempt to apply terms like “reasoning”, “understanding”, “World models”, and “emergent” to LLMs and their equally narrow derivatives, like “agent” systems.</p>
+<p>Modern LLMs and the derivative systems built upon them are “maximally contaminated”, as they’ve been trained on pretty much the entire sum of the internet, including the copyrighted and illegal parts. When considering the actual Distributions of this data, it means that there is virtually nothing truly “Out of Distribution” for any of these systems, yet they still fail miserably at most tasks of any complexity. Even having trained directly on the answers to many of these benchmarks, the thing that any Data Scientist understands you’re absolutely never supposed to do, the most over-funded of these systems still often fail spectacularly.</p>
+<p>As noted in a recent post, there is no fundamental uncertainty as to what these trivially simple technologies can and cannot do. They aren’t even remotely close to the cutting edge and haven’t been for at least half a decade. Like so many other dead-end technologies and schemes before them, they are a bucket that many have tossed their hopes and dreams into because those people failed to recognize that it was fundamentally impossible for the technology to deliver on them.</p>
+<p>This is not a matter of “AI Skepticism”, as skepticism requires uncertainty, and much as it is obvious that a toaster can’t do your taxes, LLMs, RL, and “agents” aren’t fundamentally viable for most use cases.</p>
+<p><img src="https://media.licdn.com/dms/image/v2/D5622AQFLmR0EupIn3Q/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1732230395904?e=1736985600&amp;v=beta&amp;t=7h0SXqOGKt7ql5uW_BAf1Qm6Ucj5CN9RTLp7CGFhDgs" alt="Comic Relief"></p>
+
+</article>
+
+  </main>
+  <footer>
+    <p>© 2024 Kyrtin Atreides</p>
+  </footer>
+
+  <script>
+    const toggleBtn = document.querySelector('.theme-toggle');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+
+    function setDarkMode(isDark) {
+      if (isDark) {
+        document.documentElement.classList.add('dark-mode');
+        toggleBtn.textContent = '⚪';
+      } else {
+        document.documentElement.classList.remove('dark-mode');
+        toggleBtn.textContent = '⚫';
+      }
+    }
+
+    const storedPreference = localStorage.getItem('theme');
+
+    // If user has a stored preference, use it. Otherwise use system.
+    if (storedPreference) {
+      setDarkMode(storedPreference === 'dark');
+    } else {
+      setDarkMode(prefersDark.matches);
+
+      // If user never chose a preference, follow system changes
+      prefersDark.addEventListener('change', (e) => {
+        // Check again if user stored a preference since the listener remains
+        if (!localStorage.getItem('theme')) {
+          setDarkMode(e.matches);
+        }
+      });
+    }
+
+    toggleBtn.addEventListener('click', () => {
+      // Toggle theme based on current state
+      const isDark = document.documentElement.classList.contains('dark-mode');
+      const newTheme = isDark ? 'light' : 'dark';
+      setDarkMode(newTheme === 'dark');
+      localStorage.setItem('theme', newTheme);
+    });
+  </script>
+</body>
+</html>

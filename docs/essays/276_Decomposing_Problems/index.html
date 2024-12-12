@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="276 - Decomposing Problems" />
+  <title>276 - Decomposing Problems</title>
+  <link rel="canonical" href="https://kyrtinatreides.com/essays/276_Decomposing_Problems/" />
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #333333;
+      --border: #eee;
+    }
+
+    .dark-mode {
+      --bg: #1a1a1a;
+      --text: #e0e0e0;
+      --border: #333;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      margin: 1rem auto;
+      line-height: 1.6;
+      padding: 0 1rem;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background-color: var(--bg);
+      color: var(--text);
+    }
+
+    main {
+      flex: 1;
+    }
+
+    article p, 
+    article ul, 
+    article ol,
+    .essay-list,
+    .papers-list,
+    h1,
+    article img {  /* Added img to the content width constraints */
+      max-width: 65ch;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* Added specific image styling */
+    article img { 
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 2rem auto;
+    }
+
+    a {
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    nav {
+      margin-bottom: 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 1rem;
+    }
+
+    .theme-toggle {
+      background: none;
+      border: none;
+      color: inherit;
+      cursor: pointer;
+      padding: 0;
+      font-size: 1.1em;
+    }
+
+    footer {
+      margin-top: 4rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.9em;
+      color: #666;
+      text-align: center;
+    }
+
+    @media (min-width: 650px) {
+      body {
+        max-width: 650px;
+        margin: 2rem auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/essays/">Essays</a>
+      <a href="/research/">Research</a>
+    </div>
+    <button class="theme-toggle" aria-label="Toggle dark mode">⚫</button>
+  </nav>
+  <main>
+    
+<article>
+  <h1>276 - Decomposing Problems</h1>
+  <time datetime="November 30, 2024">November 30, 2024</time>
+  <p>Decomposing problems into discrete steps with signal isolated from noise is one of the key factors that differentiate “10x” coders and engineers from the average “1x”, and the lower quartile’s many “0.5x” individuals. This difference in human talent is further multiplied by things like AI “coding assistants”, where the 10x coders benefit substantially, but the 1x and 0.5x coders often do serious damage, causing a net loss for less selective organizations.</p>
+<p>One of the key reasons for this asymmetric force multiplier is that a veteran 10x coder is going to be far more specific with any prompting on a coding assistant, and they’ll be able to spot problems in the generated code far more quickly and easily than their juniors. The “prompt” is where a seasoned engineer inserts the benefits of their expertise and experience, which generally takes the form of:</p>
+<p>·      More discrete, specific, and carefully worded problem, solution, environment, variable, and constraint descriptions</p>
+<p>·      More discrete processing steps, each with its own filters, signal for optimization, logs for debugging, and other forms of non-probabilistic structure serving to isolate problems.</p>
+<p>·      “Big picture” considerations of the systems architecture necessary to satisfy performance and reliability in the long-term for any serious commercially deployed systems.</p>
+<p>The junior 1x and 0.5x coders want things to magically work &quot;end-to-end&quot;, like a layman who dreams of truly performant and reliable “no code”. That desire leads them to expect things like LLMs to perform many functions that they are fundamentally incapable of, aka “magical thinking”, which produces large quantities of low-quality, vulnerable, and/or broken code.</p>
+<p>The systems are usually even less likely to fix those kinds of problems given 10x the compute burned on calling them recursively than they were to get it right in the first place. No amount of data, training, or scaling can fundamentally solve that for trivially simple architectures like LLMs. At best, they can contaminate models by training on the benchmark test data to give a shallow and naïve appearance of performance.</p>
+<p>It might be fair to treat LLMs like guns for any serious tech company. You don’t want anyone who is poorly or untrained walking around with one all of the time, just like you don’t want your 1x or 0.5x coders to touch “coding assistants” with a 10-foot pole for any commercial purpose.</p>
+<p>97% of organizations using Generative AI were affected by data breaches and related security issues attributable to it in recent memory, with 52% of those breaches directly or indirectly costing over $50 million USD per company. These expenses have also only just begun.</p>
+<p>Speaking practically, as I'm not a &quot;Doomer&quot;, the very last people on the face of the planet who should have access to &quot;AI Agents&quot; are those who want them the most today. Treat those systems like bioweapons, as they can do far more indiscriminate and widespread damage than guns.</p>
+<p><img src="https://media.licdn.com/dms/image/v2/D5622AQGvarEthzKi5A/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1732572265951?e=1736985600&amp;v=beta&amp;t=R6PAXeND_48J6wi9g6-Wh8J8wOXeRsxiM71_kKnPbJ0" alt="Comic Relief"></p>
+
+</article>
+
+  </main>
+  <footer>
+    <p>© 2024 Kyrtin Atreides</p>
+  </footer>
+
+  <script>
+    const toggleBtn = document.querySelector('.theme-toggle');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+
+    function setDarkMode(isDark) {
+      if (isDark) {
+        document.documentElement.classList.add('dark-mode');
+        toggleBtn.textContent = '⚪';
+      } else {
+        document.documentElement.classList.remove('dark-mode');
+        toggleBtn.textContent = '⚫';
+      }
+    }
+
+    const storedPreference = localStorage.getItem('theme');
+
+    // If user has a stored preference, use it. Otherwise use system.
+    if (storedPreference) {
+      setDarkMode(storedPreference === 'dark');
+    } else {
+      setDarkMode(prefersDark.matches);
+
+      // If user never chose a preference, follow system changes
+      prefersDark.addEventListener('change', (e) => {
+        // Check again if user stored a preference since the listener remains
+        if (!localStorage.getItem('theme')) {
+          setDarkMode(e.matches);
+        }
+      });
+    }
+
+    toggleBtn.addEventListener('click', () => {
+      // Toggle theme based on current state
+      const isDark = document.documentElement.classList.contains('dark-mode');
+      const newTheme = isDark ? 'light' : 'dark';
+      setDarkMode(newTheme === 'dark');
+      localStorage.setItem('theme', newTheme);
+    });
+  </script>
+</body>
+</html>

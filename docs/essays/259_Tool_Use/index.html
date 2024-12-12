@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="259 - Tool Use" />
+  <title>259 - Tool Use</title>
+  <link rel="canonical" href="https://kyrtinatreides.com/essays/259_Tool_Use/" />
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #333333;
+      --border: #eee;
+    }
+
+    .dark-mode {
+      --bg: #1a1a1a;
+      --text: #e0e0e0;
+      --border: #333;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      margin: 1rem auto;
+      line-height: 1.6;
+      padding: 0 1rem;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background-color: var(--bg);
+      color: var(--text);
+    }
+
+    main {
+      flex: 1;
+    }
+
+    article p, 
+    article ul, 
+    article ol,
+    .essay-list,
+    .papers-list,
+    h1,
+    article img {  /* Added img to the content width constraints */
+      max-width: 65ch;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* Added specific image styling */
+    article img { 
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 2rem auto;
+    }
+
+    a {
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    nav {
+      margin-bottom: 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 1rem;
+    }
+
+    .theme-toggle {
+      background: none;
+      border: none;
+      color: inherit;
+      cursor: pointer;
+      padding: 0;
+      font-size: 1.1em;
+    }
+
+    footer {
+      margin-top: 4rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.9em;
+      color: #666;
+      text-align: center;
+    }
+
+    @media (min-width: 650px) {
+      body {
+        max-width: 650px;
+        margin: 2rem auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/essays/">Essays</a>
+      <a href="/research/">Research</a>
+    </div>
+    <button class="theme-toggle" aria-label="Toggle dark mode">⚫</button>
+  </nav>
+  <main>
+    
+<article>
+  <h1>259 - Tool Use</h1>
+  <time datetime="November 2, 2024">November 2, 2024</time>
+  <p>“Tool Use” and utilizing information resources like the internet itself are a popular subject in AI/ML and a natural target for companies to orient their product “features” around. Of course, all hype aside, typical AI/ML systems are spectacularly terrible at tool use and information resource utilization in general, and only marginally improved with major investments of engineering time and compute.</p>
+<p>Right now the market offers 1,000 terrible attempts at “tool use” and “AI search”, including the EXTREMELY Anthropomorphized PR videos from OpenAI and Anthropic.</p>
+<p>The simple fact is that a system that can’t independently generalize to the point of creating new tools for new circumstances also can’t reliably use tools within real-world complexity, at least absent extremely labor-intensive and fragile hand-engineering efforts. This can also be used as a litmus test for “tool use viability”, as the overwhelming majority of attempts to claim “tool use” will fall flat by this measure.</p>
+<p>Searching information resources to retrieve useful and/or desired information, potentially summarizing or analyzing it in subsequent steps, fundamentally falls far beyond the capacities of systems like LLMs for similar reasons. However, in addition to all of the problems they have with tool use, they also “bullshit” 100% of the time, even if some fraction of that bullshitting happens to agree with reality at any given point. They have no way of distinguishing fact from fiction, by design.</p>
+<p>Lacking any human-like motivational system, and having only the weakest, shallowest, and trivial imitation of human cognitive processes, these systems rely on narrow optimizers, which as the name implies can’t handle real-world complexity. These weak systems of mimicry can be trained on human data, but that only optimizes them to a fuzzy shadow, not to the dynamics of the systems casting that shadow, humans.</p>
+<p>At the extreme end of “magical thinking” we have the current “Agentic” collection of buzzwords, where the raw sewage of cognitive biases carefully mixed with snake oil are bottled and sold. This could also be termed the “Anthropomorphism is all you need” crowd, which as noted above has been carefully weaponized by the industry's major bad actors.</p>
+<p>If you want viable tool use, you need actual intelligence, with a human-like motivational system, and the cognitive processes of a working cognitive architecture. Fortunately, those aren’t theoretical, they’ve been demonstrated for half a decade. Ironically, nobody was paying &quot;Attention&quot;.</p>
+<p><img src="https://media.licdn.com/dms/image/v2/D5622AQE2XGLmCiw23A/feedshare-shrink_800/feedshare-shrink_800/0/1729673535646?e=1736985600&amp;v=beta&amp;t=2uv1q9zk8_-ZD-L7enDKMPONo30O0Cm-ZEXarz-6N3U" alt="Comic Relief"></p>
+
+</article>
+
+  </main>
+  <footer>
+    <p>© 2024 Kyrtin Atreides</p>
+  </footer>
+
+  <script>
+    const toggleBtn = document.querySelector('.theme-toggle');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+
+    function setDarkMode(isDark) {
+      if (isDark) {
+        document.documentElement.classList.add('dark-mode');
+        toggleBtn.textContent = '⚪';
+      } else {
+        document.documentElement.classList.remove('dark-mode');
+        toggleBtn.textContent = '⚫';
+      }
+    }
+
+    const storedPreference = localStorage.getItem('theme');
+
+    // If user has a stored preference, use it. Otherwise use system.
+    if (storedPreference) {
+      setDarkMode(storedPreference === 'dark');
+    } else {
+      setDarkMode(prefersDark.matches);
+
+      // If user never chose a preference, follow system changes
+      prefersDark.addEventListener('change', (e) => {
+        // Check again if user stored a preference since the listener remains
+        if (!localStorage.getItem('theme')) {
+          setDarkMode(e.matches);
+        }
+      });
+    }
+
+    toggleBtn.addEventListener('click', () => {
+      // Toggle theme based on current state
+      const isDark = document.documentElement.classList.contains('dark-mode');
+      const newTheme = isDark ? 'light' : 'dark';
+      setDarkMode(newTheme === 'dark');
+      localStorage.setItem('theme', newTheme);
+    });
+  </script>
+</body>
+</html>
