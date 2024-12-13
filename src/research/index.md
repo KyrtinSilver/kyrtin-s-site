@@ -78,7 +78,7 @@ description: "Academic research papers and publications"
   padding: 0 0.8em;
   height: 1.8em;
   border-radius: 15px;
-  font-size: 0.85em;
+  font-size: 0.725em;
   border: 0.5px solid var(--text-tertiary, #666666);
   background: transparent;
   margin-bottom: -1em;
