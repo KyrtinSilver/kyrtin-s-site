@@ -2,23 +2,31 @@
 title: "Research"
 layout: "base.njk"
 description: "Academic research papers and publications"
-papers:
-  - title: "Cognitive biases in natural language: Automatically detecting, differentiating, and measuring bias in text"
-    url: "https://www.researchgate.net/publication/385395195_Cognitive_biases_in_natural_language_Automatically_detecting_differentiating_and_measuring_bias_in_text"
-    date: "2024-03-11"
-  - title: "The Case for Human-like Scalable Intelligence in the Medical Field"
-    url: "https://www.researchgate.net/publication/378213123_The_Case_for_Human-like_Scalable_Intelligence_in_the_Medical_Field"
-    date: "2023-01-31"
 ---
 
 # Research
 
 <ul class="papers-list">
-{% for paper in papers | sort(true, false, "date") %}
+{% for post in collections.research | sort(attribute="date") | reverse %}
+{%- if post.url != "/research/" -%}
   <li class="paper-item">
-    <a href="{{ paper.url }}">{{ paper.title }}</a>
-    <time datetime="{{ paper.date | date }}">{{ paper.date | date }}</time>
+    <div class="paper-title-row">
+      <a href="{{ post.data.externalUrl }}" target="_blank" rel="noopener noreferrer">
+        {{ post.data.title }}
+      </a>
+      <time datetime="{{ post.date | date }}">{{ post.date | date }}</time>
+    </div>
+    {% if post.data.tags %}
+    <div class="paper-tags">
+      {% for tag in post.data.tags %}
+        {% if tag != "research" %}
+        <span class="tag">{{ tag }}</span>
+        {% endif %}
+      {% endfor %}
+    </div>
+    {% endif %}
   </li>
+{%- endif -%}
 {% endfor %}
 </ul>
 
@@ -26,22 +34,75 @@ papers:
 .papers-list {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 .paper-item {
   margin-bottom: 2em;
 }
 
-.paper-item time {
-  display: block;
-  color: #666666;
-  font-size: 0.9em;
-  margin-top: 0.5em;
+.paper-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.3em;
+  line-height: 1.2;
 }
 
-@media (prefers-color-scheme: dark) {
-  .paper-item time {
-    color: #999;
+.paper-item .paper-title-row a {
+  text-decoration: none;
+  color: #333;
+  margin-right: 2em;
+  flex: 1;
+}
+
+.paper-title-row time,
+.tag {
+  color: var(--text-tertiary, #666666);
+}
+
+.paper-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+  margin-left: -0.8em;
+  margin-bottom: 0.5em;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 0.8em;
+  height: 1.8em;
+  border-radius: 15px;
+  font-size: 0.85em;
+  border: 0.5px solid var(--text-tertiary, #666666);
+  background: transparent;
+}
+
+.paper-title-row time {
+  font-size: 0.85em;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.dark-mode .papers-list .paper-item .paper-title-row a {
+  color: #e5e5e5 !important;
+}
+
+.dark-mode .paper-title-row time,
+.dark-mode .tag {
+  color: #666666 !important;
+  border-color: #666666 !important;
+}
+
+@media screen and (max-width: 480px) {
+  .papers-list .paper-item {
+    margin-bottom: 1em !important;
+  }
+  
+  .papers-list .paper-tags {
+    margin-bottom: 0.25em !important;
   }
 }
 </style>

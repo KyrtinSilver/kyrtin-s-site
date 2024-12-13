@@ -1,16 +1,42 @@
 module.exports = (eleventyConfig) => {
-  // Collections
+  // Essay Collections
   eleventyConfig.addCollection("essays", (collectionApi) => 
     collectionApi.getFilteredByGlob("src/essays/**/*.md")
   );
 
+  // Research Collections
+  eleventyConfig.addCollection("research", function(collection) {
+    const items = collection.getFilteredByGlob("src/research/**/*.md");
+    console.log("Research items:", items.map(item => ({
+      url: item.url,
+      inputPath: item.inputPath,
+      data: {
+        title: item.data.title,
+        date: item.data.date
+      }
+    })));
+    return items;
+  });
+
   // Filters
   eleventyConfig.addFilter("date", (dateObj) => {
-    const date = new Date(dateObj);
-    const month = date.toLocaleString('default', { month: 'long' });
-    const day = date.getDate();
-    const year = date.getFullYear();
-    return `${month} ${day}, ${year}`;
+    // Ensure we have a valid date string
+    if (!dateObj) return '';
+    
+    // Create date object and force UTC interpretation
+    const utcDate = new Date(dateObj);
+    utcDate.setUTCHours(12, 0, 0, 0);  // Force noon UTC
+    
+    // Check if date is valid
+    if (isNaN(utcDate.getTime())) return '';
+    
+    // Format date in local time
+    return utcDate.toLocaleDateString('en-US', {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+      timeZone: 'UTC'
+    });
   });
 
   eleventyConfig.addFilter("currentYear", () => new Date().getFullYear());
