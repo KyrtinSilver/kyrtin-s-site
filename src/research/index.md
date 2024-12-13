@@ -64,10 +64,11 @@ description: "Academic research papers and publications"
 .paper-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.3em;
-  row-gap: 0.3em;
+  gap: 0.25em;
   margin-left: -0.8em;
   margin-bottom: 0.5em;
+  width: 100%;
+  align-items: flex-start;
 }
 
 .tag {
@@ -79,6 +80,8 @@ description: "Academic research papers and publications"
   font-size: 0.85em;
   border: 0.5px solid var(--text-tertiary, #666666);
   background: transparent;
+  margin-bottom: -1em;
+  margin-left: 0.8em;
 }
 
 .paper-title-row time {
@@ -98,12 +101,18 @@ description: "Academic research papers and publications"
 }
 
 @media screen and (max-width: 480px) {
+  .papers-list .paper-tags {
+    margin-bottom: 0.25em !important;
+    max-width: calc(100vw - 2em);
+    width: 100%;
+  }
+  
   .papers-list .paper-item {
     margin-bottom: 1em !important;
   }
   
-  .papers-list .paper-tags {
-    margin-bottom: 0.25em !important;
+  .paper-title-row {
+    flex-wrap: wrap;
   }
 }
 </style>
