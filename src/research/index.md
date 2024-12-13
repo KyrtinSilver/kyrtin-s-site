@@ -64,11 +64,12 @@ description: "Academic research papers and publications"
 .paper-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.4em;
+  gap: 0.2em;
   margin-left: -0.8em;
   margin-bottom: 0.5em;
   width: 100%;
   align-items: flex-start;
+  line-height: 0.1em;
 }
 
 .tag {
