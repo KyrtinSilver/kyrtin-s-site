@@ -6,10 +6,10 @@ date: 2024-11-27
 
 Most people talking about their “dreams” for an AI future, both Dystopian and Utopian, don’t actually understand the present day’s cutting edge. Because of this pairing of blind ignorance and an assortment of cognitive biases, those “dreams”, or nightmares in the case of dystopian scenarios, are often a blended and deranged mixture of things that:
 
-•	…have already been demonstrated by the actual cutting-edge, 
-•	…are fundamentally impossible, 
-•	…are impractical by many orders of magnitude,
-•	…or that simply make no sense outside of cheap and trite science fiction narratives.
+- …have already been demonstrated by the actual cutting-edge, 
+- …are fundamentally impossible, 
+- …are impractical by many orders of magnitude,
+- …or that simply make no sense outside of cheap and trite science fiction narratives.
 
 Thanks in large part to the present dynamics of social media platforms, most of the “influencers” with the highest number of followers are also the most heavily insulated echo chambers of these delusional narratives. This subsequently causes the followers of a majority of the most popular influencers to also be the least educated. 
 
