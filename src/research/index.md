@@ -64,7 +64,7 @@ description: "Academic research papers and publications"
 .paper-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.25em;
+  gap: 0.4em;
   margin-left: -0.8em;
   margin-bottom: 0.5em;
   width: 100%;
@@ -94,10 +94,14 @@ description: "Academic research papers and publications"
   color: #e5e5e5 !important;
 }
 
-.dark-mode .paper-title-row time,
-.dark-mode .tag {
+.dark-mode .paper-title-row time {
   color: #666666 !important;
-  border-color: #666666 !important;
+}
+
+.dark-mode .tag {
+  color: var(--text-tertiary, #666666) !important;
+  border-color: var(--text-tertiary, #666666) !important;
+  background-color: rgba(102, 102, 102, 0.1) !important;
 }
 
 @media screen and (max-width: 480px) {
