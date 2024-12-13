@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="249 - Infinitely More Ways" />
+  <title>249 - Infinitely More Ways</title>
+  <link rel="canonical" href="https://kyrtinatreides.com/essays/249_Infinitely_More_Ways/" />
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #333333;
+      --border: #e6e6e6;
+    }
+
+    .dark-mode {
+      --bg: #1a1a1a;
+      --text: #e6e6e6;
+      --border: #2b2b2b;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      margin: 1rem auto;
+      line-height: 1.6;
+      padding: 0 1rem;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background-color: var(--bg);
+      color: var(--text);
+    }
+
+    main {
+      flex: 1;
+    }
+
+    article p, 
+    article ul, 
+    article ol,
+    .essay-list,
+    .papers-list,
+    h1,
+    article img {  /* Added img to the content width constraints */
+      max-width: 65ch;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* Added specific image styling */
+    article img { 
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 2rem auto;
+    }
+
+    a {
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    nav {
+      margin-bottom: 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 1rem;
+    }
+
+    .theme-toggle {
+      background: none;
+      border: none;
+      color: inherit;
+      cursor: pointer;
+      padding: 0;
+      font-size: 1.1em;
+    }
+
+    footer {
+      margin-top: 4rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.9em;
+      color: #595959;
+      text-align: center;
+    }
+
+    .dark-mode footer {
+      color: #787878;
+    }
+
+    @media (min-width: 650px) {
+      body {
+        max-width: 650px;
+        margin: 2rem auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/essays/">Essays</a>
+      <a href="/research/">Research</a>
+    </div>
+    <button class="theme-toggle" aria-label="Toggle dark mode">⚫</button>
+  </nav>
+  <main>
+    
+<article>
+  <h1>249 - Infinitely More Ways</h1>
+  <time datetime="October 16, 2024">October 16, 2024</time>
+  <p>To breathe new life into an old quote “There are infinitely more ways to (poorly address a problem) than there are ways to (address a problem well).” Dawkin’s original quote refers to being dead versus being alive, but the same asymmetry holds true for problem-solving.</p>
+<p>This principle is also subject to a “combinatorial explosion”, where the combination of more factors, such as the levels of complexity you find in any real-world system, causes an explosive increase in the number of wrong ways to address any given problem. This inherently causes the viable potion of solutions to shrink as complexity increases.</p>
+<p>Human Cognitive Bias supplies another critical mechanism in this process, since as complexity increases so too must the level of cognitive bias applied to compensate for the increased cognitive load placed on finite cognitive resources. Your brain can’t scale outside of your skull, and so we rely on cognitive bias to cope with arbitrary levels of complexity in daily life, constantly, and unconsciously.</p>
+<p>While cognitive biases exist because they are “useful, but wrong” tools that offer humans the ability to cope with uncertainty and spikes in complexity, when they fail, they systematically fail. That means that humans relying on those cognitive biases under circumstances where they fail become less competent than a literal random number generator, or as Prof. Tetlock famously put it, a “dart-throwing-chimpanzee”.</p>
+<p>Remember, the number of wrong (or poor) answers explodes at the same time that a human’s ability to wisely choose between answers is unconsciously reduced, causing these detriments in decision-making quality to rapidly and invisibly compound upon one another.</p>
+<p>No, “Generative AI” has precisely nothing viable to offer for solving this problem, though it does have a nearly infinite number of spectacularly terrible ways to address it. Many of the trends people grow familiar with in AI today are nothing more or less than the best-performing among the category of “objectively terrible attempts to solve real-world problems”.</p>
+<p>As a general rule, any time someone talks about LLMs, RAG, CoT, MoE, or “guardrails” (in AI), they are referring to attempts to duct tape incompatible technologies and/or capacities together. These may improve an even worse technology attempting to address a problem, but a pile of $hit that smells slightly less awful is still a pile of $hit.</p>
+<p>The AI that people are familiar with today isn’t built to handle complexity, and even with the advantages humans have over such systems humanity isn’t built to handle complexity above a certain threshold either. However, technology built for that purpose does exist, has been demonstrated for the past 5 years, and could be properly funded.</p>
+<p>Complexity never stops increasing in the real world, so the clock is ticking. Humanity handles complexity terribly today and may be terrible at far greater speeds and scale with the addition of comically awful technology like LLMs.</p>
+<p><img src="https://media.licdn.com/dms/image/v2/D5622AQEBTHK4USahAw/feedshare-shrink_800/feedshare-shrink_800/0/1728630831307?e=1736985600&amp;v=beta&amp;t=tjuVXnjAm9UymZD2OlWZmTwsAH0N91t31rbuSHzDaqs" alt="Comic Relief"></p>
+
+</article>
+
+  </main>
+  <footer>
+    <p>© 2024 Kyrtin Atreides</p>
+  </footer>
+
+  <script>
+    const toggleBtn = document.querySelector('.theme-toggle');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+
+    function setDarkMode(isDark) {
+      if (isDark) {
+        document.documentElement.classList.add('dark-mode');
+        toggleBtn.textContent = '⚪';
+      } else {
+        document.documentElement.classList.remove('dark-mode');
+        toggleBtn.textContent = '⚫';
+      }
+    }
+
+    const storedPreference = localStorage.getItem('theme');
+
+    // If user has a stored preference, use it. Otherwise use system.
+    if (storedPreference) {
+      setDarkMode(storedPreference === 'dark');
+    } else {
+      setDarkMode(prefersDark.matches);
+
+      // If user never chose a preference, follow system changes
+      prefersDark.addEventListener('change', (e) => {
+        // Check again if user stored a preference since the listener remains
+        if (!localStorage.getItem('theme')) {
+          setDarkMode(e.matches);
+        }
+      });
+    }
+
+    toggleBtn.addEventListener('click', () => {
+      // Toggle theme based on current state
+      const isDark = document.documentElement.classList.contains('dark-mode');
+      const newTheme = isDark ? 'light' : 'dark';
+      setDarkMode(newTheme === 'dark');
+      localStorage.setItem('theme', newTheme);
+    });
+  </script>
+</body>
+</html>
