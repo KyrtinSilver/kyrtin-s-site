@@ -1,21 +1,12 @@
 module.exports = (eleventyConfig) => {
   // Essay Collections
-  eleventyConfig.addCollection("essays", (collectionApi) => 
-    collectionApi.getFilteredByGlob("src/essays/**/*.md")
-  );
+  eleventyConfig.addCollection("essays", function(collection) {
+    return collection.getFilteredByGlob("src/essays/**/*.md");
+  });
 
   // Research Collections
   eleventyConfig.addCollection("research", function(collection) {
-    const items = collection.getFilteredByGlob("src/research/**/*.md");
-    console.log("Research items:", items.map(item => ({
-      url: item.url,
-      inputPath: item.inputPath,
-      data: {
-        title: item.data.title,
-        date: item.data.date
-      }
-    })));
-    return items;
+    return collection.getFilteredByGlob("src/research/**/*.md");
   });
 
   // Filters
