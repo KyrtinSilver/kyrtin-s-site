@@ -6,10 +6,10 @@ date: 2024-11-27
 
 Most people talking about their “dreams” for an AI future, both Dystopian and Utopian, don’t actually understand the present day’s cutting edge. Because of this pairing of blind ignorance and an assortment of cognitive biases, those “dreams”, or nightmares in the case of dystopian scenarios, are often a blended and deranged mixture of things that:
 
-- …have already been demonstrated by the actual cutting-edge, 
-- …are fundamentally impossible, 
-- …are impractical by many orders of magnitude,
-- …or that simply make no sense outside of cheap and trite science fiction narratives.
+·      …have already been demonstrated by the actual cutting-edge, 
+·      …are fundamentally impossible, 
+·      …are impractical by many orders of magnitude,
+·      …or that simply make no sense outside of cheap and trite science fiction narratives.
 
 Thanks in large part to the present dynamics of social media platforms, most of the “influencers” with the highest number of followers are also the most heavily insulated echo chambers of these delusional narratives. This subsequently causes the followers of a majority of the most popular influencers to also be the least educated. 
 
@@ -19,6 +19,6 @@ As the end of the year approaches, many people will inevitably make their “pre
 
 If and when you encounter these end-of-year predictions and “reports”, simply realize what Prof. Tetlock demonstrated, that most “experts” in these overly vocal domains are only marginally better than a “Dart-Throwing-Chimpanzee”, and unlike the dart-throwing-chimpanzee, when they are wrong, they are systematically wrong. 
 
-The net effect of them being systematically wrong with such a terrible baseline is effectively worse than random, so you’d literally be better off asking a Magic 8 Ball than most AI Influencers or major consultancies. Neither one has a meaningful understanding, but the Magic 8 Ball is unbiased.
+The net effect of them being systematically wrong with such a terrible baseline is effectively worse than random, so you’d literally be better off asking a Magic 8 Ball than most AI Influencers or major consultancies. Neither one has a meaningful understanding, but the Magic 8 Ball is at least unbiased.
 
 ![Comic Relief](https://media.licdn.com/dms/image/v2/D5622AQGYOihX2w_NCQ/feedshare-shrink_800/feedshare-shrink_800/0/1732247978070?e=1736985600&v=beta&t=SWebPAvDVDPLnr-OahV5Cb5cT-FTHK4YnwG323sYz-0)

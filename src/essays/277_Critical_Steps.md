@@ -6,9 +6,9 @@ date: 2024-12-04
 
 Building working solutions, AI or otherwise, requires walking through a few critical steps before you even begin the engineering process. The first crucial step is to determine if your chosen problem is Deterministic or Probabilistic, which can alternatively be considered as the precision required for your solution, due to the fuzziness and adversarial vulnerabilities of probability. For example:
 
-- Marketing and Art have no precisely correct solutions, they have chaotically drifting fuzzy targets, often best considered in terms of probability.
+·      Marketing and Art have no precisely correct solutions, they have chaotically drifting fuzzy targets, often best considered in terms of probability.
 
-- Causality within scientific research, the physics of real-world macro-scale objects like robots or self-driving cars, and financial transactions all have precisely correct solutions, operating deterministically.
+·      Causality within scientific research, the physics of real-world macro-scale objects like robots or self-driving cars, and financial transactions all have precisely correct solutions, operating deterministically.
 
 While a deterministic system can give a more precise solution, that added precision doesn’t necessarily benefit a probabilistic problem. Likewise, while the noise that a probabilistic system injects can on occasion be useful for reconsidering a deterministic problem, it remains nothing but noise. Misdiagnosing a problem as deterministic or probabilistic, or failing to diagnose it at all, undermines every step thereafter.
 

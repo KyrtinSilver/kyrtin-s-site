@@ -4,21 +4,39 @@ layout: "essay.njk"
 date: 2024-11-27
 ---
 
-Most people talking about their “dreams” for an AI future, both Dystopian and Utopian, don’t actually understand the present day’s cutting edge. Because of this pairing of blind ignorance and an assortment of cognitive biases, those “dreams”, or nightmares in the case of dystopian scenarios, are often a blended and deranged mixture of things that:
+The time has come for a quick AI/ML Jargon to Normal English Words reference guide:
 
-- …have already been demonstrated by the actual cutting-edge, 
-- …are fundamentally impossible, 
-- …are impractical by many orders of magnitude,
-- …or that simply make no sense outside of cheap and trite science fiction narratives.
+In-Distribution: Things it trained on.
 
-Thanks in large part to the present dynamics of social media platforms, most of the “influencers” with the highest number of followers are also the most heavily insulated echo chambers of these delusional narratives. This subsequently causes the followers of a majority of the most popular influencers to also be the least educated. 
+Out-of-Distribution: Also things it trained on, just combined differently.
 
-Even seeking alternative sources often funnels people into various traps and rabbit holes where profit may be extracted from a captive audience. From a practical and cognitive bias perspective, it isn’t even reasonable to expect the vast majority of humans to overcome these challenges, and the few who do must put in measurable effort while also making sacrifices. The internet is full of unchecked bad actors, dark patterns, and even well-intentioned delusions, none of which trivial AI models like LLMs and RL can realistically help with to a non-trivial degree.
+Generalization: Combining the things it trained on.
 
-As the end of the year approaches, many people will inevitably make their “predictions for 2025” and beyond, but those who fail to understand the present have no real chance of predicting the future. Likewise, those who fail to understand that humans aren’t rational actors will have no real chance of predicting the things that humans do, both today and in the future. Sources with conflicts of interest further compound these problems, proportionate to the length of the leash that they keep cognitive biases on, as well as their baseline honesty and accuracy.
+Learning: Memorization
 
-If and when you encounter these end-of-year predictions and “reports”, simply realize what Prof. Tetlock demonstrated, that most “experts” in these overly vocal domains are only marginally better than a “Dart-Throwing-Chimpanzee”, and unlike the dart-throwing-chimpanzee, when they are wrong, they are systematically wrong. 
+Understanding: Memorization with a Bullshit explanation added
 
-The net effect of them being systematically wrong with such a terrible baseline is effectively worse than random, so you’d literally be better off asking a Magic 8 Ball than most AI Influencers or major consultancies. Neither one has a meaningful understanding, but the Magic 8 Ball is unbiased.
+Reasoning: Plausibly combining memorization and bullshit until it gets a new top score on a benchmark.
+
+Benchmark: Things it trained on and happened to not suck at.
+
+State-of-the-Art (SOTA): The wild mating call of gullible investors who lack any scientific background.
+
+Agentic AI: A Magic 8 Ball that mostly just answers its own increasingly stupid questions while constantly running up a steep bill.
+
+World Model: A fuzzy knockoff of Google Maps printed on used toilet paper.
+
+Alignment: Bullshit that sounds like it aligns with the experimenter’s own biases.
+
+There are also “Wild Card” terms, which mean whatever you want them to mean. This gives the following words no translation, as they have no meaning in AI/ML:
+
+1.     AGI
+2.     ASI
+
+Fortunately for everyone, AI/ML does no actual work on these terms, however much some talk about them. So concludes my only ELI5 post for this year.
+
+I welcome everyone to make their own additions to this list. 
+
+Denis O. Chris Surdak Lasse Rindom Kurt Cagle I suspect might have a few of their own.
 
 ![Comic Relief](https://media.licdn.com/dms/image/v2/D5622AQGYOihX2w_NCQ/feedshare-shrink_800/feedshare-shrink_800/0/1732247978070?e=1736985600&v=beta&t=SWebPAvDVDPLnr-OahV5Cb5cT-FTHK4YnwG323sYz-0)
