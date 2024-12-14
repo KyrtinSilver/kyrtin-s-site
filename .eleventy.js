@@ -1,27 +1,19 @@
 module.exports = (eleventyConfig) => {
-  // Essay Collections
   eleventyConfig.addCollection("essays", function(collection) {
-    return collection.getFilteredByGlob("src/essays/**/*.md");
+    return collection.getFilteredByGlob("src/essays/**/*.md")
+      .filter(item => !item.inputPath.endsWith("index.md"));
   });
 
-  // Research Collections
   eleventyConfig.addCollection("research", function(collection) {
-    return collection.getFilteredByGlob("src/research/**/*.md");
+    return collection.getFilteredByGlob("src/research/**/*.md")
+      .filter(item => !item.inputPath.endsWith("index.md"));
   });
 
-  // Filters
   eleventyConfig.addFilter("date", (dateObj) => {
-    // Ensure we have a valid date string
     if (!dateObj) return '';
-    
-    // Create date object and force UTC interpretation
     const utcDate = new Date(dateObj);
-    utcDate.setUTCHours(12, 0, 0, 0);  // Force noon UTC
-    
-    // Check if date is valid
+    utcDate.setUTCHours(12, 0, 0, 0);
     if (isNaN(utcDate.getTime())) return '';
-    
-    // Format date in local time
     return utcDate.toLocaleDateString('en-US', {
       year: 'numeric',
       month: 'long',
@@ -39,14 +31,15 @@ module.exports = (eleventyConfig) => {
     require('fs').writeFileSync('docs/.nojekyll', '');
   });
 
-  // Config
   return {
     dir: {
       input: "src",
       output: "docs",
       includes: "_includes",
       layouts: "_includes/layouts"
-    }
+    },
+    markdownTemplateEngine: "njk",
+    htmlTemplateEngine: "njk",
+    dataTemplateEngine: "njk"
   };
 };
-  

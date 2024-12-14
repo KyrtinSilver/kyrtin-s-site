@@ -6,6 +6,7 @@
   <meta name="description" content="Academic research papers and publications" />
   <title>Research</title>
   <link rel="canonical" href="https://kyrtinatreides.com/research/" />
+  
   <style>
     :root {
       --bg: #ffffff;
@@ -23,7 +24,7 @@
       font-family: system-ui, -apple-system, sans-serif;
       margin: 1rem auto;
       line-height: 1.6;
-      padding: 0 1rem;
+      padding: 0 1rem; //edge padding
       min-height: 100vh;
       display: flex;
       flex-direction: column;
@@ -33,6 +34,7 @@
 
     main {
       flex: 1;
+      margin-top: 2em;
     }
 
     article p, 
@@ -40,14 +42,12 @@
     article ol,
     .essay-list,
     .papers-list,
-    h1,
-    article img {  /* Added img to the content width constraints */
+    article img {
       max-width: 65ch;
       margin-left: auto;
       margin-right: auto;
     }
 
-    /* Added specific image styling */
     article img { 
       width: 100%;
       height: auto;
@@ -113,54 +113,72 @@
   </nav>
   <main>
     
-    <h1>Research</h1>
+    <div class="page-header">
+  <h1>Research</h1>
+  <span class="research-sort-control" onclick="toggleSortResearch()">
+    Sort
+    <span class="icon-container">
+      <!-- Down Icon -->
+      <svg class="icon-down" viewBox="0 0 24 24">
+        <path d="M6 9l6 6 6-6" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <!-- Up Icon -->
+      <svg class="icon-up" viewBox="0 0 24 24" style="visibility:hidden;">
+        <path d="M18 15l-6-6-6 6" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </span>
+  </span>
+</div>
 <ul class="papers-list">
-<li class="paper-item">
-    <div class="paper-title-row">
-      <a href="https://www.researchgate.net/publication/369691463_Automated_Bias_and_Indoctrination_at_Scale_Is_All_You_Need" target="_blank" rel="noopener noreferrer">
-        Automated Bias and Indoctrination at Scale… Is All You Need
-      </a>
-      <time datetime="March 31, 2023">March 31, 2023</time>
-    </div>
+<p><li class="paper-item" data-title="automated bias and indoctrination at scale… is all you need">
+<div class="paper-title-row">
+<a href="https://www.researchgate.net/publication/369691463_Automated_Bias_and_Indoctrination_at_Scale_Is_All_You_Need" target="_blank" rel="noopener noreferrer">
+Automated Bias and Indoctrination at Scale… Is All You Need
+</a>
+<time datetime="Thu Mar 30 2023 17:00:00 GMT-0700 (Pacific Daylight Time)">March 31, 2023</time>
+</div></p>
 <p><div class="paper-tags"></p>
 <p><span class="tag">Market Forces</span></p>
 <p><span class="tag">AI Risk</span></p>
 <p><span class="tag">Mass Manipulation</span></p>
 <p><span class="tag">Information Control</span></p>
 <p></div></p>
-  </li><li class="paper-item">
-    <div class="paper-title-row">
-      <a href="https://www.researchgate.net/publication/372083027_The_Ethical_Basilisk_Thought_Experiment" target="_blank" rel="noopener noreferrer">
-        The Ethical Basilisk Thought Experiment
-      </a>
-      <time datetime="July 4, 2023">July 4, 2023</time>
-    </div>
+<p></li></p>
+<p><li class="paper-item" data-title="the ethical basilisk thought experiment">
+<div class="paper-title-row">
+<a href="https://www.researchgate.net/publication/372083027_The_Ethical_Basilisk_Thought_Experiment" target="_blank" rel="noopener noreferrer">
+The Ethical Basilisk Thought Experiment
+</a>
+<time datetime="Mon Jul 03 2023 17:00:00 GMT-0700 (Pacific Daylight Time)">July 4, 2023</time>
+</div></p>
 <p><div class="paper-tags"></p>
 <p><span class="tag">Ethical Scale</span></p>
 <p><span class="tag">Systemic Risk</span></p>
 <p><span class="tag">Moral Philosophy</span></p>
 <p><span class="tag">Existential Risk</span></p>
 <p></div></p>
-  </li><li class="paper-item">
-    <div class="paper-title-row">
-      <a href="https://www.researchgate.net/publication/372078491_Cognitive_Biases_in_Natural_Language_Automatically_Detecting_Differentiating_and_Measuring_Bias_in_Text" target="_blank" rel="noopener noreferrer">
-        Cognitive Biases in Natural Language: Automatically Detecting, Differentiating, and Measuring Bias in Text
-      </a>
-      <time datetime="July 4, 2023">July 4, 2023</time>
-    </div>
+<p></li></p>
+<p><li class="paper-item" data-title="cognitive biases in natural language: automatically detecting, differentiating, and measuring bias in text">
+<div class="paper-title-row">
+<a href="https://www.researchgate.net/publication/372078491_Cognitive_Biases_in_Natural_Language_Automatically_Detecting_Differentiating_and_Measuring_Bias_in_Text" target="_blank" rel="noopener noreferrer">
+Cognitive Biases in Natural Language: Automatically Detecting, Differentiating, and Measuring Bias in Text
+</a>
+<time datetime="Mon Jul 03 2023 17:00:00 GMT-0700 (Pacific Daylight Time)">July 4, 2023</time>
+</div></p>
 <p><div class="paper-tags"></p>
 <p><span class="tag">Cognitive Bias Detection</span></p>
 <p><span class="tag">Natural Language Processing</span></p>
 <p><span class="tag">Comparative Analysis</span></p>
 <p><span class="tag">Language Models</span></p>
 <p></div></p>
-  </li><li class="paper-item">
-    <div class="paper-title-row">
-      <a href="https://www.researchgate.net/publication/375617953_The_Human_Governance_Problem_Complex_Systems_and_the_Limits_of_Human_Cognition" target="_blank" rel="noopener noreferrer">
-        The Human Governance Problem: Complex Systems and the Limits of Human Cognition
-      </a>
-      <time datetime="November 10, 2023">November 10, 2023</time>
-    </div>
+<p></li></p>
+<p><li class="paper-item" data-title="the human governance problem: complex systems and the limits of human cognition">
+<div class="paper-title-row">
+<a href="https://www.researchgate.net/publication/375617953_The_Human_Governance_Problem_Complex_Systems_and_the_Limits_of_Human_Cognition" target="_blank" rel="noopener noreferrer">
+The Human Governance Problem: Complex Systems and the Limits of Human Cognition
+</a>
+<time datetime="Thu Nov 09 2023 16:00:00 GMT-0800 (Pacific Standard Time)">November 10, 2023</time>
+</div></p>
 <p><div class="paper-tags"></p>
 <p><span class="tag">Complex Systems</span></p>
 <p><span class="tag">Cognitive Limitations</span></p>
@@ -168,26 +186,28 @@
 <p><span class="tag">Paradox</span></p>
 <p><span class="tag">System Manipulation</span></p>
 <p></div></p>
-  </li><li class="paper-item">
-    <div class="paper-title-row">
-      <a href="https://www.researchgate.net/publication/375833353_The_Complex_Chaos_of_Cognitive_Biases_and_Emotional_Observers" target="_blank" rel="noopener noreferrer">
-        The Complex Chaos of Cognitive Biases and Emotional Observers
-      </a>
-      <time datetime="November 23, 2023">November 23, 2023</time>
-    </div>
+<p></li></p>
+<p><li class="paper-item" data-title="the complex chaos of cognitive biases and emotional observers">
+<div class="paper-title-row">
+<a href="https://www.researchgate.net/publication/375833353_The_Complex_Chaos_of_Cognitive_Biases_and_Emotional_Observers" target="_blank" rel="noopener noreferrer">
+The Complex Chaos of Cognitive Biases and Emotional Observers
+</a>
+<time datetime="Wed Nov 22 2023 16:00:00 GMT-0800 (Pacific Standard Time)">November 23, 2023</time>
+</div></p>
 <p><div class="paper-tags"></p>
 <p><span class="tag">Complexity</span></p>
 <p><span class="tag">Chaos Theory</span></p>
 <p><span class="tag">Cognitive Systems</span></p>
 <p><span class="tag">Evolutionary Dynamics</span></p>
 <p></div></p>
-  </li><li class="paper-item">
-    <div class="paper-title-row">
-      <a href="https://www.researchgate.net/publication/383244435_Cognitive_Biases_in_Natural_Language_Automatically_Detecting_Differentiating_and_Measuring_Bias_in_Text" target="_blank" rel="noopener noreferrer">
-        Cognitive Biases in Natural Language: Automatically Detecting, Differentiating, and Measuring Bias in Text
-      </a>
-      <time datetime="January 1, 2024">January 1, 2024</time>
-    </div>
+<p></li></p>
+<p><li class="paper-item" data-title="cognitive biases in natural language: automatically detecting, differentiating, and measuring bias in text">
+<div class="paper-title-row">
+<a href="https://www.researchgate.net/publication/383244435_Cognitive_Biases_in_Natural_Language_Automatically_Detecting_Differentiating_and_Measuring_Bias_in_Text" target="_blank" rel="noopener noreferrer">
+Cognitive Biases in Natural Language: Automatically Detecting, Differentiating, and Measuring Bias in Text
+</a>
+<time datetime="Sun Dec 31 2023 16:00:00 GMT-0800 (Pacific Standard Time)">January 1, 2024</time>
+</div></p>
 <p><div class="paper-tags"></p>
 <p><span class="tag">Bias</span></p>
 <p><span class="tag">Epidemiology</span></p>
@@ -195,51 +215,55 @@
 <p><span class="tag">Bias Detection</span></p>
 <p><span class="tag">Natural Language Processing</span></p>
 <p></div></p>
-  </li><li class="paper-item">
-    <div class="paper-title-row">
-      <a href="https://www.researchgate.net/publication/378191925_Automated_Bias_and_Indoctrination_at_Scale_Is_All_You_Need" target="_blank" rel="noopener noreferrer">
-        Automated Bias and Indoctrination at Scale… Is All You Need 
-      </a>
-      <time datetime="February 14, 2024">February 14, 2024</time>
-    </div>
+<p></li></p>
+<p><li class="paper-item" data-title="automated bias and indoctrination at scale… is all you need ">
+<div class="paper-title-row">
+<a href="https://www.researchgate.net/publication/378191925_Automated_Bias_and_Indoctrination_at_Scale_Is_All_You_Need" target="_blank" rel="noopener noreferrer">
+Automated Bias and Indoctrination at Scale… Is All You Need
+</a>
+<time datetime="Tue Feb 13 2024 16:00:00 GMT-0800 (Pacific Standard Time)">February 14, 2024</time>
+</div></p>
 <p><div class="paper-tags"></p>
 <p><span class="tag">AI Bias</span></p>
 <p><span class="tag">Automation</span></p>
 <p><span class="tag">Cognitive Manipulation</span></p>
 <p><span class="tag">Systemic Risk</span></p>
 <p></div></p>
-  </li><li class="paper-item">
-    <div class="paper-title-row">
-      <a href="https://www.researchgate.net/publication/378213123_The_Case_for_Human-like_Scalable_Intelligence_in_the_Medical_Field" target="_blank" rel="noopener noreferrer">
-        The Case for Human-like Scalable Intelligence in the Medical Field
-      </a>
-      <time datetime="February 15, 2024">February 15, 2024</time>
-    </div>
+<p></li></p>
+<p><li class="paper-item" data-title="the case for human-like scalable intelligence in the medical field">
+<div class="paper-title-row">
+<a href="https://www.researchgate.net/publication/378213123_The_Case_for_Human-like_Scalable_Intelligence_in_the_Medical_Field" target="_blank" rel="noopener noreferrer">
+The Case for Human-like Scalable Intelligence in the Medical Field
+</a>
+<time datetime="Wed Feb 14 2024 16:00:00 GMT-0800 (Pacific Standard Time)">February 15, 2024</time>
+</div></p>
 <p><div class="paper-tags"></p>
 <p><span class="tag">Independent Core Observer Model</span></p>
 <p><span class="tag">ICOM</span></p>
 <p><span class="tag">Medical AI</span></p>
 <p><span class="tag">Scalable Intelligence</span></p>
 <p></div></p>
-  </li><li class="paper-item">
-    <div class="paper-title-row">
-      <a href="https://www.researchgate.net/publication/385395195_Cognitive_biases_in_natural_language_Automatically_detecting_differentiating_and_measuring_bias_in_text" target="_blank" rel="noopener noreferrer">
-        Cognitive biases in natural language: Automatically detecting, differentiating, and measuring bias in text
-      </a>
-      <time datetime="October 1, 2024">October 1, 2024</time>
-    </div>
+<p></li></p>
+<p><li class="paper-item" data-title="cognitive biases in natural language: automatically detecting, differentiating, and measuring bias in text">
+<div class="paper-title-row">
+<a href="https://www.researchgate.net/publication/385395195_Cognitive_biases_in_natural_language_Automatically_detecting_differentiating_and_measuring_bias_in_text" target="_blank" rel="noopener noreferrer">
+Cognitive biases in natural language: Automatically detecting, differentiating, and measuring bias in text
+</a>
+<time datetime="Mon Sep 30 2024 17:00:00 GMT-0700 (Pacific Daylight Time)">October 1, 2024</time>
+</div></p>
 <p><div class="paper-tags"></p>
 <p><span class="tag">Cognitive Biases</span></p>
 <p><span class="tag">Bias Detection</span></p>
 <p><span class="tag">Natural Language Processing</span></p>
 <p></div></p>
-  </li><li class="paper-item">
-    <div class="paper-title-row">
-      <a href="https://www.researchgate.net/publication/386734256_Solving_the_Abstraction_and_Reasoning_Corpus_for_Artificial_General_Intelligence_ARC-AGI_AI_Benchmark_with_ICOM" target="_blank" rel="noopener noreferrer">
-        Solving the Abstraction and Reasoning Corpus for Artificial General Intelligence (ARC-AGI) AI Benchmark with ICOM
-      </a>
-      <time datetime="December 11, 2024">December 11, 2024</time>
-    </div>
+<p></li></p>
+<p><li class="paper-item" data-title="solving the abstraction and reasoning corpus for artificial general intelligence (arc-agi) ai benchmark with icom">
+<div class="paper-title-row">
+<a href="https://www.researchgate.net/publication/386734256_Solving_the_Abstraction_and_Reasoning_Corpus_for_Artificial_General_Intelligence_ARC-AGI_AI_Benchmark_with_ICOM" target="_blank" rel="noopener noreferrer">
+Solving the Abstraction and Reasoning Corpus for Artificial General Intelligence (ARC-AGI) AI Benchmark with ICOM
+</a>
+<time datetime="Tue Dec 10 2024 16:00:00 GMT-0800 (Pacific Standard Time)">December 11, 2024</time>
+</div></p>
 <p><div class="paper-tags"></p>
 <p><span class="tag">Independent Core Observer Model</span></p>
 <p><span class="tag">ICOM</span></p>
@@ -247,9 +271,79 @@
 <p><span class="tag">Benchmark</span></p>
 <p><span class="tag">Puzzle Solving</span></p>
 <p></div></p>
-  </li>
+<p></li></p>
 </ul>
+<script>
+let researchAscending = false;
+function toggleSortResearch() {
+  researchAscending = !researchAscending;
+  
+  const iconDown = document.querySelector('.research-sort-control .icon-down');
+  const iconUp = document.querySelector('.research-sort-control .icon-up');
+  
+  if (researchAscending) {
+    iconDown.style.visibility = 'hidden';
+    iconUp.style.visibility = 'visible';
+  } else {
+    iconUp.style.visibility = 'hidden';
+    iconDown.style.visibility = 'visible';
+  }
+
+  const list = document.querySelector('.papers-list');
+  if (!list) return;
+  const items = [...list.children];
+  
+  while (list.firstChild) {
+    list.removeChild(list.firstChild);
+  }
+  
+  items.sort((a, b) => {
+    const aTitle = a.dataset.title || '';
+    const bTitle = b.dataset.title || '';
+    return researchAscending ? aTitle.localeCompare(bTitle) : bTitle.localeCompare(aTitle);
+  }).forEach(item => list.appendChild(item));
+}
+</script>
 <style>
+.page-header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  margin-bottom: 1em;
+  line-height:1;
+}
+
+.page-header h1 {
+  margin:0;
+  line-height:1;
+}
+
+.research-sort-control {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  cursor: pointer;
+  white-space: nowrap;
+  line-height:1;
+  font-size:1em;
+  vertical-align: middle;
+}
+
+.icon-container {
+  display:inline-block;
+  position:relative;
+  width:1em;
+  height:1em;
+  vertical-align:middle;
+}
+
+.icon-container svg {
+  width:1em;
+  height:1em;
+  position:absolute;
+  top:0; left:0;
+}
+
 .papers-list {
   list-style: none;
   padding: 0;
@@ -277,18 +371,16 @@
 
 .paper-title-row time,
 .tag {
-  color: var(--text-tertiary, #595959);
+  color: #595959;
 }
 
 .paper-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.2em;
-  margin-left: -0.8em;
-  margin-bottom: 0.5em;
-  width: 100%;
+  gap: 0.5em; 
+  margin: 0.5em 0;
   align-items: flex-start;
-  line-height: 0.1em;
+  line-height: 1.2;
 }
 
 .tag {
@@ -300,8 +392,6 @@
   font-size: 0.725em;
   border: 0.5px solid #757575;
   background: transparent;
-  margin-bottom: -1em;
-  margin-left: 0.8em;
 }
 
 .paper-title-row time {
@@ -361,16 +451,11 @@
     }
 
     const storedPreference = localStorage.getItem('theme');
-
-    // If user has a stored preference, use it. Otherwise use system.
     if (storedPreference) {
       setDarkMode(storedPreference === 'dark');
     } else {
       setDarkMode(prefersDark.matches);
-
-      // If user never chose a preference, follow system changes
       prefersDark.addEventListener('change', (e) => {
-        // Check again if user stored a preference since the listener remains
         if (!localStorage.getItem('theme')) {
           setDarkMode(e.matches);
         }
@@ -378,7 +463,6 @@
     }
 
     toggleBtn.addEventListener('click', () => {
-      // Toggle theme based on current state
       const isDark = document.documentElement.classList.contains('dark-mode');
       const newTheme = isDark ? 'light' : 'dark';
       setDarkMode(newTheme === 'dark');

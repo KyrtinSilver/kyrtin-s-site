@@ -3,9 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="description" content="Personal site of Kyrtin Atreides - Researcher exploring cognitive biases and AI" />
+  <meta name="description" content="Personal site of Kyrtin Atreides" />
   <title>Home</title>
   <link rel="canonical" href="https://kyrtinatreides.com/" />
+  
   <style>
     :root {
       --bg: #ffffff;
@@ -23,7 +24,7 @@
       font-family: system-ui, -apple-system, sans-serif;
       margin: 1rem auto;
       line-height: 1.6;
-      padding: 0 1rem;
+      padding: 0 1rem; //edge padding
       min-height: 100vh;
       display: flex;
       flex-direction: column;
@@ -33,6 +34,7 @@
 
     main {
       flex: 1;
+      margin-top: 2em;
     }
 
     article p, 
@@ -40,14 +42,12 @@
     article ol,
     .essay-list,
     .papers-list,
-    h1,
-    article img {  /* Added img to the content width constraints */
+    article img {
       max-width: 65ch;
       margin-left: auto;
       margin-right: auto;
     }
 
-    /* Added specific image styling */
     article img { 
       width: 100%;
       height: auto;
@@ -113,10 +113,30 @@
   </nav>
   <main>
     
-    <h1>Kyrtin Atreides</h1>
+    <div class="page-header">
+  <h1>Kyrtin Atreides</h1>
+</div>
 <p>Researcher exploring cognitive biases and artificial intelligence.</p>
-<p><a href="https://www.researchgate.net/profile/Kyrtin-Atreides">ResearchGate</a> · <a href="https://www.linkedin.com/in/kyrtin-atreides/">LinkedIn</a></p>
+<p>
+  <a href="https://www.researchgate.net/profile/Kyrtin-Atreides">ResearchGate</a> · 
+  <a href="https://www.linkedin.com/in/kyrtin-atreides/">LinkedIn</a>
+</p>
+<style>
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1em;
+  line-height: 1;
+}
 
+.page-header h1 {
+  margin: 0;
+  line-height: 1;
+  font-size: 2em; /* Ensure a consistent font-size across all pages if needed */
+  text-align: left;
+}
+</style>
     
   </main>
   <footer>
@@ -138,16 +158,11 @@
     }
 
     const storedPreference = localStorage.getItem('theme');
-
-    // If user has a stored preference, use it. Otherwise use system.
     if (storedPreference) {
       setDarkMode(storedPreference === 'dark');
     } else {
       setDarkMode(prefersDark.matches);
-
-      // If user never chose a preference, follow system changes
       prefersDark.addEventListener('change', (e) => {
-        // Check again if user stored a preference since the listener remains
         if (!localStorage.getItem('theme')) {
           setDarkMode(e.matches);
         }
@@ -155,7 +170,6 @@
     }
 
     toggleBtn.addEventListener('click', () => {
-      // Toggle theme based on current state
       const isDark = document.documentElement.classList.contains('dark-mode');
       const newTheme = isDark ? 'light' : 'dark';
       setDarkMode(newTheme === 'dark');

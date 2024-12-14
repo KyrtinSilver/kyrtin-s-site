@@ -6,6 +6,7 @@
   <meta name="description" content="257 - Context Length" />
   <title>257 - Context Length</title>
   <link rel="canonical" href="https://kyrtinatreides.com/essays/257_Context_Length/" />
+  
   <style>
     :root {
       --bg: #ffffff;
@@ -23,7 +24,7 @@
       font-family: system-ui, -apple-system, sans-serif;
       margin: 1rem auto;
       line-height: 1.6;
-      padding: 0 1rem;
+      padding: 0 1rem; //edge padding
       min-height: 100vh;
       display: flex;
       flex-direction: column;
@@ -33,6 +34,7 @@
 
     main {
       flex: 1;
+      margin-top: 2em;
     }
 
     article p, 
@@ -40,14 +42,12 @@
     article ol,
     .essay-list,
     .papers-list,
-    h1,
-    article img {  /* Added img to the content width constraints */
+    article img {
       max-width: 65ch;
       margin-left: auto;
       margin-right: auto;
     }
 
-    /* Added specific image styling */
     article img { 
       width: 100%;
       height: auto;
@@ -150,16 +150,11 @@
     }
 
     const storedPreference = localStorage.getItem('theme');
-
-    // If user has a stored preference, use it. Otherwise use system.
     if (storedPreference) {
       setDarkMode(storedPreference === 'dark');
     } else {
       setDarkMode(prefersDark.matches);
-
-      // If user never chose a preference, follow system changes
       prefersDark.addEventListener('change', (e) => {
-        // Check again if user stored a preference since the listener remains
         if (!localStorage.getItem('theme')) {
           setDarkMode(e.matches);
         }
@@ -167,7 +162,6 @@
     }
 
     toggleBtn.addEventListener('click', () => {
-      // Toggle theme based on current state
       const isDark = document.documentElement.classList.contains('dark-mode');
       const newTheme = isDark ? 'light' : 'dark';
       setDarkMode(newTheme === 'dark');
