@@ -1,7 +1,7 @@
 ---
 title: "Research"
 layout: "base.njk"
-description: "Academic research papers and publications"
+description: "Research papers, preprints, and publications"
 ---
 
 <div class="page-header">
@@ -120,8 +120,7 @@ function toggleSortResearch() {
 .papers-list {
   list-style: none;
   padding: 0;
-  margin: 0; /* no extra margin */
-  /* No max-width centering from base, so it starts flush left relative to body padding */
+  margin: 0; 
 }
 
 .paper-item {
@@ -181,7 +180,7 @@ function toggleSortResearch() {
   font-size: 0.725em;
   border: 0.5px solid #757575;
   background: transparent;
-  margin:0 0.6em 0 0; /* no extra margin */
+  margin:0 0.6em 0 0;
   box-sizing:border-box;
 }
 

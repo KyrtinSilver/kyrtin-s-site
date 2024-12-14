@@ -13,20 +13,3 @@ description: "Personal site of Kyrtin Atreides"
   <a href="https://www.researchgate.net/profile/Kyrtin-Atreides">ResearchGate</a> · 
   <a href="https://www.linkedin.com/in/kyrtin-atreides/">LinkedIn</a>
 </p>
-
-<style>
-.page-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 1em;
-  line-height: 1;
-}
-
-.page-header h1 {
-  margin: 0;
-  line-height: 1;
-  font-size: 2em; /* Ensure a consistent font-size across all pages if needed */
-  text-align: left;
-}
-</style>

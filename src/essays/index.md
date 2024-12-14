@@ -1,7 +1,7 @@
 ---
 title: "Essays"
 layout: "base.njk"
-description: "Collection of essays on various topics"
+description: "Essays, updates, and thoughts"
 ---
 
 <div class="page-header">
@@ -9,11 +9,11 @@ description: "Collection of essays on various topics"
   <span class="essays-sort-control" onclick="toggleSortEssays()">
     Sort
     <span class="icon-container">
-      <!-- Down Icon -->
+      <!-- Chevron Down Icon -->
       <svg class="icon-down" viewBox="0 0 24 24">
         <path d="M6 9l6 6 6-6" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
       </svg>
-      <!-- Up Icon -->
+      <!-- Chevron Up Icon -->
       <svg class="icon-up" viewBox="0 0 24 24" style="visibility:hidden;">
         <path d="M18 15l-6-6-6 6" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
       </svg>
@@ -72,7 +72,7 @@ function toggleSortEssays() {
   justify-content: space-between; 
   align-items: center;
   margin-bottom: 1em;
-  line-height: 1; /* Ensure consistent line-height */
+  line-height: 1; 
 }
 
 .page-header h1 {
@@ -80,7 +80,6 @@ function toggleSortEssays() {
   line-height:1;
 }
 
-/* Sort control inline with text and icons aligned vertically */
 .essays-sort-control {
   display: inline-flex;
   align-items: center;
