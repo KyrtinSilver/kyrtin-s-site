@@ -9,7 +9,7 @@ description: "Academic research papers and publications"
   <span class="research-sort-control" onclick="toggleSortResearch()">
     Sort
     <span class="icon-container">
-      <!-- Down Icon -->
+      <!-- Chevron Icon -->
       <svg class="icon-down" viewBox="0 0 24 24">
         <path d="M6 9l6 6 6-6" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
       </svg>
@@ -120,7 +120,8 @@ function toggleSortResearch() {
 .papers-list {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 0; /* no extra margin */
+  /* No max-width centering from base, so it starts flush left relative to body padding */
 }
 
 .paper-item {
@@ -133,6 +134,8 @@ function toggleSortResearch() {
   align-items: flex-start;
   margin-bottom: 0.3em;
   line-height: 1.2;
+  margin:0;
+  padding:0;
 }
 
 .paper-item .paper-title-row a {
@@ -150,27 +153,43 @@ function toggleSortResearch() {
 .paper-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5em; 
-  margin: 0.5em 0;
+  justify-content: flex-start;
   align-items: flex-start;
-  line-height: 1.2;
+  gap: 0em; 
+  margin: 0;
+  padding: 0; 
+  line-height: 0; 
+  width: 100%;
+}
+
+.paper-tags p, .paper-item p {
+  margin: 0.6em 0;
+  padding: 0;
+}
+
+.papers-list li, .paper-item li {
+  margin: 0.5em 0;
+  padding: 0.3em 0;
 }
 
 .tag {
   display: inline-flex;
   align-items: center;
-  padding: 0 0.8em;
+  padding: 0 0.8em; 
   height: 1.8em;
   border-radius: 15px;
   font-size: 0.725em;
   border: 0.5px solid #757575;
   background: transparent;
+  margin:0 0.6em 0 0; /* no extra margin */
+  box-sizing:border-box;
 }
 
 .paper-title-row time {
   font-size: 0.85em;
   white-space: nowrap;
   flex-shrink: 0;
+  margin:0; padding:0;
 }
 
 .dark-mode .papers-list .paper-item .paper-title-row a {
