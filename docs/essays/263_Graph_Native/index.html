@@ -118,17 +118,41 @@
   <time datetime="November 9, 2024">November 9, 2024</time>
   <p>A “Graph-Native” system is one where the system’s dynamics occur within an adaptive graph structure, and any non-graph-structured outputs are translations of that structure being converted into linear sequences of human language. Moving from higher to lower dimensionality from source to output offers distinct advantages:</p>
 <p>Graph-Native System:</p>
-<p>·      A graph database stores actual data, grows dynamically, and the connectome between existing data is refined over time. Data loss in processing is avoided, and effective data quality improves as it is integrated into the growing connectome.</p>
-<p>·      Data can be easily cited, retrieved, removed, added, and audited.</p>
-<p>·      There is never any “hallucination” (technically, “bullshit”) since it doesn’t operate as an auto-complete function like LLMs.</p>
-<p>·      These systems aren’t driven by the narrow optimizers used to “train” neural networks, and they are compatible with various versions of a human-like motivational system.</p>
-<p>·      These systems have no fixed scale, unlike neural networks with fixed parameter counts often built into the model names. Instead, they can grow dynamically over time, including scaling resource utilization up and down on a per-problem basis to optimize for utilization efficiency.</p>
+<ul>
+<li>
+<p>A graph database stores actual data, grows dynamically, and the connectome between existing data is refined over time. Data loss in processing is avoided, and effective data quality improves as it is integrated into the growing connectome.</p>
+</li>
+<li>
+<p>Data can be easily cited, retrieved, removed, added, and audited.</p>
+</li>
+<li>
+<p>There is never any “hallucination” (technically, “bullshit”) since it doesn’t operate as an auto-complete function like LLMs.</p>
+</li>
+<li>
+<p>These systems aren’t driven by the narrow optimizers used to “train” neural networks, and they are compatible with various versions of a human-like motivational system.</p>
+</li>
+<li>
+<p>These systems have no fixed scale, unlike neural networks with fixed parameter counts often built into the model names. Instead, they can grow dynamically over time, including scaling resource utilization up and down on a per-problem basis to optimize for utilization efficiency.</p>
+</li>
+</ul>
 <p>LLMs (and other neural networks):</p>
-<p>·      …store “weights”, the result of running brute-force compute over training data, to create a probabilistic model which fits the curves of that data’s distributions across “tokens”.</p>
-<p>·      It stores probabilistic distributions in a messy superposition, with no data ever truly retrievable, or removable, and no non-probabilistic connectome between points.</p>
-<p>·      “Hallucination” (Bullshit) is a feature of these auto-complete systems that can fundamentally never be removed.</p>
-<p>·      Narrow optimizers used in training and inference bottleneck the dynamics of these systems across all dimensions, as they are fundamentally incompatible with more robust human-like motivational systems.</p>
-<p>·      These systems are “trained” at fixed scales, and must be retrained at great expense to scale them up, or potentially “distilled” at lesser expense to scale them down, but they are never dynamically scalable. This also means that they are fundamentally incapable of dynamic growth, and so for anything added to them at a fixed scale, something else is lost.</p>
+<ul>
+<li>
+<p>…store “weights”, the result of running brute-force compute over training data, to create a probabilistic model which fits the curves of that data’s distributions across “tokens”.</p>
+</li>
+<li>
+<p>It stores probabilistic distributions in a messy superposition, with no data ever truly retrievable, or removable, and no non-probabilistic connectome between points.</p>
+</li>
+<li>
+<p>“Hallucination” (Bullshit) is a feature of these auto-complete systems that can fundamentally never be removed.</p>
+</li>
+<li>
+<p>Narrow optimizers used in training and inference bottleneck the dynamics of these systems across all dimensions, as they are fundamentally incompatible with more robust human-like motivational systems.</p>
+</li>
+<li>
+<p>These systems are “trained” at fixed scales, and must be retrained at great expense to scale them up, or potentially “distilled” at lesser expense to scale them down, but they are never dynamically scalable. This also means that they are fundamentally incapable of dynamic growth, and so for anything added to them at a fixed scale, something else is lost.</p>
+</li>
+</ul>
 <p>Our previous research system from the Uplift.bio project (2019-2022) was Graph-Native, utilizing a Graph database with a human-like motivational system based on the Plutchik Emotional Model embedded in every node and surface of the graph.</p>
 <p>Graph structure is far more complex and variable than text and image data, to such a point that it isn’t feasible to optimize over it beyond a very marginal degree using various narrow optimizers common in the field. However, when you are able to optimize over that structure (using human-like systems), the resulting system is a vastly superior learner, analyst, tool user, and tool maker.</p>
 <p><img src="https://media.licdn.com/dms/image/v2/D5622AQHNRgWVqS9W3A/feedshare-shrink_800/feedshare-shrink_800/0/1729918612669?e=1736985600&amp;v=beta&amp;t=Ohw3sJHOehGXihJxI4WFKWmNV7zfOk9nDi1qDY7m-Uk" alt="Comic Relief"></p>

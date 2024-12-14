@@ -11,9 +11,9 @@ The remainder is split almost evenly between data pipeline errors and actual wro
 The result was 88% accuracy for a 2-run ensemble, a 5% gain over the results of this run in isolation. If the problems erroring out in this run were removed and only failures remained then the score would be 91%.
 
 All in all, for this currently active fragment of ICOM this gives us:
-·      a baseline of 83%, 
-·      median of 88%, 
-·      and a best-case scenario of 91%.
+- a baseline of 83%, 
+- median of 88%, 
+- and a best-case scenario of 91%.
 
 As the target is 85%+ in this case, that seems sufficient, but only time and the verification will tell.
 

@@ -1,7 +1,7 @@
 ---
 title: "236 - Mental Accounting"
 layout: "essay.njk"
-date: 2024-9-13
+date: 2024-09-13
 ---
 
 Almost all accounting includes “Mental Accounting”, also known as the “two-pocket” theory, a cognitive bias that attempts to divide the same funds into separate categories or “budgets”. There is utility to this approach, as is the case for almost any cognitive bias we observe in action today, but where it fails it fails systematically.

@@ -12,11 +12,11 @@ As I’ve said before, if I’m bothering to talk about it then yes, there is a 
 
 Such systems could, for example:
 
-·      Assist a Board of Directors with complete and interactive access to the full scope of an organization’s knowledge, current pain points, and potential future concerns.
+- Assist a Board of Directors with complete and interactive access to the full scope of an organization’s knowledge, current pain points, and potential future concerns.
 
-·      Actively volunteer relevant information, supporting or debunking what is being discussed, as well as preparing analyses in minutes, rather than days or weeks.
+- Actively volunteer relevant information, supporting or debunking what is being discussed, as well as preparing analyses in minutes, rather than days or weeks.
 
-·      Iteratively improve governance, operation, and cooperation, increasing the company’s ability to pivot into opportunities as they emerge.
+- Iteratively improve governance, operation, and cooperation, increasing the company’s ability to pivot into opportunities as they emerge.
 
 For a more advanced and complete integration, a company could also architect their org chart around such systems, replacing typical and often tall hierarchies with direct connections to the mind of the organization for every employee. One version of this is illustrated in the attached image, where employees from interns to the CEO all interact with the system in different capacities, each fulfilling their respective roles as part of that interaction.
 

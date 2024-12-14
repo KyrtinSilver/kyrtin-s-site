@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="238 - Greedily Scraping" />
+  <title>238 - Greedily Scraping</title>
+  <link rel="canonical" href="https://kyrtinatreides.com/essays/238_Greedily_Scraping/" />
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #333333;
+      --border: #e6e6e6;
+    }
+
+    .dark-mode {
+      --bg: #1a1a1a;
+      --text: #e6e6e6;
+      --border: #2b2b2b;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      margin: 1rem auto;
+      line-height: 1.6;
+      padding: 0 1rem;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background-color: var(--bg);
+      color: var(--text);
+    }
+
+    main {
+      flex: 1;
+    }
+
+    article p, 
+    article ul, 
+    article ol,
+    .essay-list,
+    .papers-list,
+    h1,
+    article img {  /* Added img to the content width constraints */
+      max-width: 65ch;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* Added specific image styling */
+    article img { 
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 2rem auto;
+    }
+
+    a {
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    nav {
+      margin-bottom: 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 1rem;
+    }
+
+    .theme-toggle {
+      background: none;
+      border: none;
+      color: inherit;
+      cursor: pointer;
+      padding: 0;
+      font-size: 1.1em;
+    }
+
+    footer {
+      margin-top: 4rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.9em;
+      color: #595959;
+      text-align: center;
+    }
+
+    .dark-mode footer {
+      color: #787878;
+    }
+
+    @media (min-width: 650px) {
+      body {
+        max-width: 650px;
+        margin: 2rem auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/essays/">Essays</a>
+      <a href="/research/">Research</a>
+    </div>
+    <button class="theme-toggle" aria-label="Toggle dark mode">⚫</button>
+  </nav>
+  <main>
+    
+<article>
+  <h1>238 - Greedily Scraping</h1>
+  <time datetime="September 15, 2024">September 15, 2024</time>
+  <p>Every company around in the LLM space seems to be busy greedily scraping every bit of data they can, legally or illegally, with or without permission. Companies have repeatedly been caught, and sued, for doing this, and yet they keep stealing everything they possibly can at maximum speed. Fortunately, there is a way to stop this.</p>
+<p>The only reasonable way to stop this activity is to poison the data being scraped, automatically as bots are detected. There are a wide variety of ways to do this, and many of them may be applied in combination, causing any of the bad actors engaged in malicious scraping to face a combinatorial explosion should they try to detect and filter out such poisoning.</p>
+<p>Rather, when applying this technique one can exploit the expectation that they will try to detect and filter it out by injecting the data that they are biased to favor, such as BigBench, MMLU, and other benchmark data.</p>
+<p>Since the trash technology of LLMs is heuristic, in the above example this poisons the heuristics in a very specific way, either causing the poison to go undetected or flagging much of their benchmark data leakage as poison. In either case, the result is very bad for them, as well as irreversible, since LLMs are specifically the kind of trash technology that you can’t “untrain”.</p>
+<p>As bad actors ignore the robots.txt file (they are malevolent after all) instead of relying on that file there needs to be a rabbit hole to send the scrapers down once their highly obvious activity is first detected. Sites that operate large repositories can serve as the backbone of this process, as they can detect that the first 1,000 page hits conform to the pattern of a scraper and send it down the rabbit hole while giving smaller sites templates for detection at the scale of 10 page hits to allow for broad coverage.</p>
+<p>The ”Rabbit Hole” that our hypothetical “Anti-Scraper” can send the bots down will present them with a warped, scrambled, and very large randomly generated number of pages. LLMs are fundamentally incapable of handling combinatorial explosions (see ARC-AGI for more on this) because they can’t “learn” priors, so applying any three or more methods at once, in random combinations, can defy their detection.</p>
+<p>Individual methods to be combined for warping and scrambling pages can, for example, include randomly:</p>
+<ul>
+<li>Rearranging sentences on the page</li>
+<li>Inserting extra letters, symbols, and punctuation</li>
+<li>Deleting spaces</li>
+<li>Inserting content from other pages</li>
+<li>Embedding links to unrelated sites</li>
+<li>Inserting content used in popular benchmarks</li>
+<li>Inserting unrelated SEO tags</li>
+<li>…and many more.</li>
+</ul>
+<p>This can allow for all of the greedy scrapers to irreversibly contaminate their newest models. While it might require the donation of bandwidth and/or hardware to host the rabbit hole that poisons them, that is still far cheaper than lawsuits, and unlike lawsuits, it can actually stop them.</p>
+<p><img src="https://media.licdn.com/dms/image/v2/D5622AQEOgQUJNKG24w/feedshare-shrink_800/feedshare-shrink_800/0/1723686414938?e=1736985600&amp;v=beta&amp;t=mj-9AQ3flOITKkcr0qlE0PtMcMNtj3eRcNBnIavMqdY" alt="Comic Relief"></p>
+
+</article>
+
+  </main>
+  <footer>
+    <p>© 2024 Kyrtin Atreides</p>
+  </footer>
+
+  <script>
+    const toggleBtn = document.querySelector('.theme-toggle');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+
+    function setDarkMode(isDark) {
+      if (isDark) {
+        document.documentElement.classList.add('dark-mode');
+        toggleBtn.textContent = '⚪';
+      } else {
+        document.documentElement.classList.remove('dark-mode');
+        toggleBtn.textContent = '⚫';
+      }
+    }
+
+    const storedPreference = localStorage.getItem('theme');
+
+    // If user has a stored preference, use it. Otherwise use system.
+    if (storedPreference) {
+      setDarkMode(storedPreference === 'dark');
+    } else {
+      setDarkMode(prefersDark.matches);
+
+      // If user never chose a preference, follow system changes
+      prefersDark.addEventListener('change', (e) => {
+        // Check again if user stored a preference since the listener remains
+        if (!localStorage.getItem('theme')) {
+          setDarkMode(e.matches);
+        }
+      });
+    }
+
+    toggleBtn.addEventListener('click', () => {
+      // Toggle theme based on current state
+      const isDark = document.documentElement.classList.contains('dark-mode');
+      const newTheme = isDark ? 'light' : 'dark';
+      setDarkMode(newTheme === 'dark');
+      localStorage.setItem('theme', newTheme);
+    });
+  </script>
+</body>
+</html>

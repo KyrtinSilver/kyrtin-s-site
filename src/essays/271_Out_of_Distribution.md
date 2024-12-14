@@ -8,8 +8,8 @@ date: 2024-11-23
 
 That mistake is to confuse the portions of a distribution that aren’t directly memorizable with the parts of a distribution that introduce nothing not seen in the directly memorizable parts, just in unseen combinations. For example:
 
-·      Red and Green apples are contained in training data (Directly in Distribution)
-·      Purple apples aren’t contained in training data, but both the color purple and apples are, and nothing unseen is called for (Combinations of content found within training data, but unseen in a specific combination, Indirectly in Distribution)
+- Red and Green apples are contained in training data (Directly in Distribution)
+- Purple apples aren’t contained in training data, but both the color purple and apples are, and nothing unseen is called for (Combinations of content found within training data, but unseen in a specific combination, Indirectly in Distribution)
 
 Another popular example of the latter is “a picture of a horse riding an astronaut”. The problem with this is that it isn’t actually “generalization”, “reasoning”, “understanding”, “emergence”, or a “world model”, it is simply filling in the virtually infinite combinatorial space of unseen combinations that are present within the distribution of internet-scale datasets. 
 

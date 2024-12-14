@@ -1,7 +1,7 @@
 ---
 title: "238 - Greedily Scraping"
 layout: "essay.njk"
-date: 2024-9-15
+date: 2024-09-15
 ---
 
 Every company around in the LLM space seems to be busy greedily scraping every bit of data they can, legally or illegally, with or without permission. Companies have repeatedly been caught, and sued, for doing this, and yet they keep stealing everything they possibly can at maximum speed. Fortunately, there is a way to stop this.
@@ -18,14 +18,14 @@ The ”Rabbit Hole” that our hypothetical “Anti-Scraper” can send the bots
 
 Individual methods to be combined for warping and scrambling pages can, for example, include randomly:
 
-·      Rearranging sentences on the page
-·      Inserting extra letters, symbols, and punctuation
-·      Deleting spaces
-·      Inserting content from other pages
-·      Embedding links to unrelated sites
-·      Inserting content used in popular benchmarks
-·      Inserting unrelated SEO tags
-·      …and many more.
+- Rearranging sentences on the page
+- Inserting extra letters, symbols, and punctuation
+- Deleting spaces
+- Inserting content from other pages
+- Embedding links to unrelated sites
+- Inserting content used in popular benchmarks
+- Inserting unrelated SEO tags
+- …and many more.
 
 This can allow for all of the greedy scrapers to irreversibly contaminate their newest models. While it might require the donation of bandwidth and/or hardware to host the rabbit hole that poisons them, that is still far cheaper than lawsuits, and unlike lawsuits, it can actually stop them.
 

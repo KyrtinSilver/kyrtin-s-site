@@ -8,13 +8,11 @@ Decomposing problems into discrete steps with signal isolated from noise is one 
 
 One of the key reasons for this asymmetric force multiplier is that a veteran 10x coder is going to be far more specific with any prompting on a coding assistant, and they’ll be able to spot problems in the generated code far more quickly and easily than their juniors. The “prompt” is where a seasoned engineer inserts the benefits of their expertise and experience, which generally takes the form of:
 
-·      More discrete, specific, and carefully worded problem, solution, environment, variable, and constraint descriptions
+- More discrete, specific, and carefully worded problem, solution, environment, variable, and constraint descriptions
  
- 
-·      More discrete processing steps, each with its own filters, signal for optimization, logs for debugging, and other forms of non-probabilistic structure serving to isolate problems.
- 
- 
-·      “Big picture” considerations of the systems architecture necessary to satisfy performance and reliability in the long-term for any serious commercially deployed systems.
+- More discrete processing steps, each with its own filters, signal for optimization, logs for debugging, and other forms of non-probabilistic structure serving to isolate problems.
+
+- “Big picture” considerations of the systems architecture necessary to satisfy performance and reliability in the long-term for any serious commercially deployed systems.
 
 The junior 1x and 0.5x coders want things to magically work "end-to-end", like a layman who dreams of truly performant and reliable “no code”. That desire leads them to expect things like LLMs to perform many functions that they are fundamentally incapable of, aka “magical thinking”, which produces large quantities of low-quality, vulnerable, and/or broken code.
 

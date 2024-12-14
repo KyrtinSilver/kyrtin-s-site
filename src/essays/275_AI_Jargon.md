@@ -30,8 +30,8 @@ Alignment: Bullshit that sounds like it aligns with the experimenter’s own bia
 
 There are also “Wild Card” terms, which mean whatever you want them to mean. This gives the following words no translation, as they have no meaning in AI/ML:
 
-1.     AGI
-2.     ASI
+1. AGI
+2. ASI
 
 Fortunately for everyone, AI/ML does no actual work on these terms, however much some talk about them. So concludes my only ELI5 post for this year.
 
