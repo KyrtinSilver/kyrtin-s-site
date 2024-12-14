@@ -6,6 +6,7 @@ description: "Personal site of Kyrtin Atreides"
 
 <div class="page-header">
   <h1>Kyrtin Atreides</h1>
+  <span></span>
 </div>
 
 <p>Researcher exploring cognitive biases and artificial intelligence.</p>
