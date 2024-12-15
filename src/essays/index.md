@@ -97,7 +97,7 @@ document.querySelector('.essays-sort-control .chevron-down').classList.add('acti
 .icon-container svg {
   width: 24px;
   height: 24px;
-  fill: none;
+  fill: currentColor;
   stroke: currentColor;
   stroke-width: 2;
   stroke-linecap: round;
