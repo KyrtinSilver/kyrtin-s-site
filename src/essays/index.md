@@ -142,14 +142,33 @@ document.querySelector('.essays-sort-control .chevron-down').classList.add('acti
 }
 
 .essay-date {
-  color: var(tertiary-dark);
   font-size: 0.9em;
   white-space: nowrap;
 }
 
-@media (prefers-color-scheme: dark) {
-  .essay-date {
-    color: var(--tertiary-light);
-  }
+.paper-title-row time {
+  font-size: 0.9em;
+  white-space: nowrap;
+  flex-shrink: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 0.8em; 
+  height: 1.8em;
+  border-radius: 15px;
+  font-size: 0.73em;
+  border: 0.5px solid var(--text-secondary);
+  background: transparent;
+  margin: 0 0.6em 0 0;
+  box-sizing: border-box;
+}
+
+/* Remove all color overrides for dark mode */
+.dark-mode .tag {
+  background-color: rgba(102, 102, 102, 0.15);
 }
 </style>

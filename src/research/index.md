@@ -86,7 +86,6 @@ document.querySelector('.research-sort-control .chevron-down').classList.add('ac
 .page-header h1 {
   margin: 0;
   line-height: 1;
-  color: var(--text);
 }
 
 .research-sort-control {
@@ -97,7 +96,6 @@ document.querySelector('.research-sort-control .chevron-down').classList.add('ac
   white-space: nowrap;
   line-height: 1;
   font-size: 1em;
-  color: var(--text);
 }
 
 .icon-container {
@@ -156,14 +154,21 @@ document.querySelector('.research-sort-control .chevron-down').classList.add('ac
 
 .paper-item .paper-title-row a {
   text-decoration: none;
-  color: var(--text);
   margin-right: 2em;
   flex: 1;
 }
 
-.paper-title-row time,
 .tag {
-  color: var(--tertiary);
+  display: inline-flex;
+  align-items: center;
+  padding: 0 0.8em; 
+  height: 1.8em;
+  border-radius: 15px;
+  font-size: 0.73em;
+  border: 0.5px solid var(--text-tertiary);
+  background: transparent;
+  margin:0 0.6em 0 0;
+  box-sizing:border-box;
 }
 
 .paper-tags {
@@ -188,37 +193,12 @@ document.querySelector('.research-sort-control .chevron-down').classList.add('ac
   padding: 0.3em 0;
 }
 
-.tag {
-  display: inline-flex;
-  align-items: center;
-  padding: 0 0.8em; 
-  height: 1.8em;
-  border-radius: 15px;
-  font-size: 0.73em;
-  border: 0.5px solid var(--text-tertiary);
-  background: transparent;
-  margin:0 0.6em 0 0;
-  box-sizing:border-box;
-  color: var(--text-tertiary);
-}
-
 .paper-title-row time {
-  color: var(--text-tertiary);
   font-size: 0.9em;
   white-space: nowrap;
 }
 
-.dark-mode .papers-list .paper-item .paper-title-row a {
-  color: var(--text) !important;
-}
-
-.dark-mode .paper-title-row time {
-  color: var(--text-tertiary) !important;
-}
-
 .dark-mode .tag {
-  color: var(--text-tertiary);
-  border-color: var(--text-tertiary);
   background-color: rgba(102, 102, 102, 0.15);
 }
 
@@ -235,13 +215,6 @@ document.querySelector('.research-sort-control .chevron-down').classList.add('ac
   
   .paper-title-row {
     flex-wrap: wrap;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .paper-title-row time,
-  .tag {
-    color: var(--tertiary-light);
   }
 }
 </style>
