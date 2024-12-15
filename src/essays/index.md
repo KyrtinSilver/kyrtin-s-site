@@ -94,10 +94,11 @@ document.querySelector('.essays-sort-control .chevron-down').classList.add('acti
   height: 24px;
 }
 
-.icon-container svg {
+.essays-sort-control .icon-container .chevron-down,
+.essays-sort-control .icon-container .chevron-up {
   width: 24px;
   height: 24px;
-  fill: currentColor;
+  fill: none;
   stroke: currentColor;
   stroke-width: 2;
   stroke-linecap: round;
@@ -120,7 +121,6 @@ document.querySelector('.essays-sort-control .chevron-down').classList.add('acti
   display: block;
 }
 
-/* Essay list styling as before */
 .essay-list {
   list-style: disc;
   padding-left: 1.5em;

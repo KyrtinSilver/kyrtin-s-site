@@ -6,8 +6,8 @@ date: 2024-11-27
 
 Most people talking about their “dreams” for an AI future, both Dystopian and Utopian, don’t actually understand the present day’s cutting edge. Because of this pairing of blind ignorance and an assortment of cognitive biases, those “dreams”, or nightmares in the case of dystopian scenarios, are often a blended and deranged mixture of things that:
 
-- …have already been demonstrated by the actual cutting-edge, 
-- …are fundamentally impossible, 
+- Have already been demonstrated by the actual cutting-edge, 
+- Are fundamentally impossible, 
 - …are impractical by many orders of magnitude,
 - …or that simply make no sense outside of cheap and trite science fiction narratives.
 
