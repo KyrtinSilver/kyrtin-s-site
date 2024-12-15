@@ -252,6 +252,57 @@
       color: var(--text-tertiary) !important;
       border-color: var(--text-tertiary) !important;
     }
+
+    /* Base text colors */
+    article h1 {
+      color: var(--text-primary);
+    }
+
+    article time {
+      color: var(--text-secondary);
+    }
+
+    article {
+      color: var(--text-primary);
+    }
+
+    /* Research-specific styles */
+    .papers-list .paper-title-row a {
+      color: var(--text-primary);
+    }
+
+    .papers-list time,
+    .tag {
+      color: var(--text-secondary);
+    }
+
+    .tag {
+      border-color: var(--text-secondary);
+    }
+
+    /* Essay-specific styles */
+    .essay-list .essay-title {
+      color: var(--text-primary);
+    }
+
+    .essay-list time {
+      color: var(--text-secondary);
+    }
+
+    /* Dark mode overrides if needed */
+    .dark-mode article,
+    .dark-mode article h1,
+    .dark-mode .papers-list .paper-title-row a,
+    .dark-mode .essay-list .essay-title {
+      color: var(--text-primary);
+    }
+
+    .dark-mode article time,
+    .dark-mode .papers-list time,
+    .dark-mode .essay-list time,
+    .dark-mode .tag {
+      color: var(--text-secondary);
+    }
   </style>
 </head>
 <body>
