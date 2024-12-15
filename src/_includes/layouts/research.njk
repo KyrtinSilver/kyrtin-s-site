@@ -2,7 +2,7 @@
 
 {% block content %}
 <article>
-  <h1 style="color: var(--primary);">{{ title }}</h1>
+  <h1 style="color: var(--text);">{{ title }}</h1>
   <time datetime="{{ date | date }}" style="color: var(--secondary);">{{ date | date }}</time>
   {{ content | safe }}
 </article>

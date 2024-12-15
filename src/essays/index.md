@@ -142,14 +142,14 @@ document.querySelector('.essays-sort-control .chevron-down').classList.add('acti
 }
 
 .essay-date {
-  color: #666666;
+  color: var(tertiary-dark);
   font-size: 0.9em;
   white-space: nowrap;
 }
 
 @media (prefers-color-scheme: dark) {
   .essay-date {
-    color: #999;
+    color: var(--tertiary-light);
   }
 }
 </style>

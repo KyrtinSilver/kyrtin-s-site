@@ -8,85 +8,39 @@
   <link rel="canonical" href="https://kyrtinatreides.com/research/19_Automated_Bias_and_Indoctrination_at_Scale_Is_All_You_Need/" />
   <link rel="preload" href="/assets/feather-sprite.svg" as="image" type="image/svg+xml">
   
+  <!-- Add Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
+  
   <style>
     :root {
       /* Base colors */
       --bg: #ffffff;
-      --text: #333333;
       --border: #e6e6e6;
       
-      /* Primary colors */
-      --primary: #404040;
-      --primary-light: #666666;
-      --primary-dark: #262626;
-      
-      /* Secondary colors */
-      --secondary: #4b5563;
-      --secondary-light: #9ca3af;
-      --secondary-dark: #1f2937;
-      
-      /* Accent colors */
-      --accent: #404040;
-      --accent-light: #666666;
-      --accent-dark: #262626;
-      
-      /* Semantic colors */
-      --success: #404040;
-      --warning: #666666;
-      --error: #262626;
-      --info: #404040;
-      
-      /* Surface colors */
-      --surface: #f9fafb;
-      --surface-2: #f3f4f6;
-      --surface-3: #e5e7eb;
-      
-      /* Link colors */
-      --link: var(--primary);
-      --link-hover: var(--primary-dark);
-      --link-visited: var(--primary-dark);
+      /* Text hierarchy */
+      --text-primary: #333333;    /* Main content, headings */
+      --text-secondary: #4b5563;  /* Sub-headings, important supporting text */
+      --text-tertiary: #595959;   /* Dates, metadata, less important text */
     }
 
     .dark-mode {
       /* Base colors */
       --bg: #1a1a1a;
-      --text: #e6e6e6;
       --border: #2b2b2b;
       
-      /* Primary colors */
-      --primary: #a3a3a3;
-      --primary-light: #d4d4d4;
-      --primary-dark: #737373;
-      
-      /* Secondary colors */
-      --secondary: #9ca3af;
-      --secondary-light: #d1d5db;
-      --secondary-dark: #4b5563;
-      
-      /* Accent colors */
-      --accent: #a3a3a3;
-      --accent-light: #d4d4d4;
-      --accent-dark: #737373;
-      
-      /* Semantic colors */
-      --success: #a3a3a3;
-      --warning: #d4d4d4;
-      --error: #737373;
-      --info: #a3a3a3;
-      
-      /* Surface colors */
-      --surface: #1f2937;
-      --surface-2: #374151;
-      --surface-3: #4b5563;
-      
-      /* Link colors */
-      --link: var(--primary-light);
-      --link-hover: var(--primary);
-      --link-visited: var(--primary);
+      /* Text hierarchy */
+      --text-primary: #e6e6e6;    /* Main content, headings */
+      --text-secondary: #9ca3af;  /* Sub-headings, important supporting text */
+      --text-tertiary: #787878;   /* Dates, metadata, less important text */
     }
 
     body {
-      font-family: system-ui, -apple-system, sans-serif;
+      font-family: "Geist", system-ui, -apple-system, sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
       margin: 1rem auto;
       line-height: 1.6;
       padding: 0 1rem; 
@@ -94,7 +48,7 @@
       display: flex;
       flex-direction: column;
       background-color: var(--bg);
-      color: var(--text);
+      color: var(--text-primary);
     }
 
     main {
@@ -121,7 +75,7 @@
     }
 
     a {
-      color: var(--text);
+      color: var(--text-primary);
       text-decoration: none;
     }
 
@@ -184,12 +138,12 @@
       padding-top: 2rem;
       border-top: 1px solid var(--border);
       font-size: 0.9em;
-      color: var(--secondary);
+      color: var(--text-secondary);
       text-align: center;
     }
 
     .dark-mode footer {
-      color: var(--secondary-light);
+      color: var(--text-secondary);
     }
 
     @media (min-width: 650px) {
@@ -210,6 +164,52 @@
     .page-header h1 {
       margin: 0;
       line-height: 1;
+      color: var(--text-primary);
+    }
+
+    /* Optional: Define specific weight classes if needed */
+    .geist-regular {
+      font-family: "Geist", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    .geist-medium {
+      font-family: "Geist", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 500;
+      font-style: normal;
+    }
+
+    .geist-bold {
+      font-family: "Geist", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 700;
+      font-style: normal;
+    }
+
+    .essay-title {
+      padding-right: 2em;
+      color: var(--text-primary);
+    }
+
+    .essays-sort-control {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3em;
+      cursor: pointer;
+      white-space: nowrap;
+      line-height: 1;
+      font-size: 1em;
+      color: var(--text-primary);
+    }
+
+    /* Dark mode specific overrides if needed */
+    .dark-mode .essay-title,
+    .dark-mode .page-header h1,
+    .dark-mode .essays-sort-control {
+      color: var(--text-primary);
     }
   </style>
 </head>
@@ -1386,7 +1386,7 @@
   <main>
     
 <article>
-  <h1 style="color: var(--primary);">Automated Bias and Indoctrination at Scale… Is All You Need </h1>
+  <h1 style="color: var(--text);">Automated Bias and Indoctrination at Scale… Is All You Need </h1>
   <time datetime="February 14, 2024" style="color: var(--secondary);">February 14, 2024</time>
   
 </article>
