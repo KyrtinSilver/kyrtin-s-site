@@ -70,6 +70,10 @@ document.querySelector('.essays-sort-control .chevron-down').classList.add('acti
   align-items: center;
   margin-bottom: 1em;
   line-height: 1;
+  max-width: 65ch;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
 }
 
 .page-header h1 {

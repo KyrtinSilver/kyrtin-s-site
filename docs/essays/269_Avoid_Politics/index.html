@@ -11,7 +11,7 @@
   <!-- Add Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500&display=swap" rel="stylesheet">
   
   <style>
     :root {
@@ -56,7 +56,6 @@
       margin-top: 2em;
     }
 
-    /* Remove .papers-list from this rule */
     article p, 
     article ul, 
     article ol,
@@ -94,7 +93,7 @@
     .theme-toggle {
       background: none;
       border: none;
-      color: inherit;
+      color: var(--text-secondary);
       cursor: pointer;
       padding: 0;
       display: flex;
@@ -152,6 +151,14 @@
         margin: 2rem auto;
       }
     }
+    h1,
+    .page-header h1,
+    article h1 {
+      font-size: 2rem;
+      line-height: 1;
+      margin: 0;
+      font-weight: 500 !important;
+    }
 
     .page-header {
       display: flex;
@@ -159,6 +166,30 @@
       align-items: center;
       margin-bottom: 1em;
       line-height: 1;
+      max-width: 65ch;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0;
+    }
+    article h1 {
+      max-width: 65ch;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 0.5em;
+    }
+
+    article time {
+      display: block;
+      max-width: 65ch;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 2em;
+      margin-top: 0.5em;
+      color: var(--text-secondary);
+      font-size: 0.9em;
+      white-space: nowrap;
+      padding-left: 0;
+      padding-right: 0;
     }
 
     .page-header h1 {
@@ -167,7 +198,17 @@
       color: var(--text-primary);
     }
 
-    /* Optional: Define specific weight classes if needed */
+    .page-header div {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5em;
+    }
+
+    .page-header time {
+      margin: 0;
+      padding: 0;
+    }
+
     .geist-regular {
       font-family: "Geist", sans-serif;
       font-optical-sizing: auto;
@@ -179,13 +220,6 @@
       font-family: "Geist", sans-serif;
       font-optical-sizing: auto;
       font-weight: 500;
-      font-style: normal;
-    }
-
-    .geist-bold {
-      font-family: "Geist", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: 700;
       font-style: normal;
     }
 
@@ -213,7 +247,6 @@
     }
 
     .research-sort-control {
-      /* ... other styles ... */
       color: var(--text-primary);
     }
 
@@ -294,6 +327,37 @@
       color: var(--text-secondary);
       font-size: 0.9em;
       white-space: nowrap;
+    }
+
+    .page-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1em;
+      line-height: 1;
+      max-width: 65ch;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    article h1 {
+      font-weight: 500;
+      margin-bottom: 0.5em;
+    }
+
+    article time {
+      display: block;
+      color: var(--text-secondary);
+      font-size: 0.9em;
+      margin-bottom: 2.5em;
+      white-space: nowrap;
+      line-height: 1.2;
+    }
+
+    .dark-mode h1,
+    .dark-mode .page-header h1,
+    .dark-mode article h1 {
+      font-weight: 500;
     }
   </style>
 </head>
@@ -1470,8 +1534,13 @@
   <main>
     
 <article>
-  <h1>269 - Avoid Politics</h1>
-  <time datetime="November 19, 2024">November 19, 2024</time>
+  <div class="page-header">
+    <div>
+      <h1>269 - Avoid Politics</h1>
+      <time datetime="November 19, 2024">November 19, 2024</time>
+    </div>
+    <span></span>
+  </div>
   <div>
     <p>I make a point to avoid politics since the benefits of the technology my team works with are both non-partisan and necessary for building actual democracy, a hypothetical governance system that has never existed in human history. It is also dominantly unproductive to discuss politics, in no small part because the same neurons fire for politics as do for religious belief. However, there is a particular asymmetry worth noting today.</p>
 <p>Hypothetically speaking, if your country has descended into a mixture of an executive Russian-styled Strongman-focused Oligarchy and a North-Korean-styled Theocracy in the judiciary, while promising a Chinese-Communist-Party-styled approach to public dissent, your only remaining hope of recovering from the damage within less than 50-100 years is the technology we work with.</p>
