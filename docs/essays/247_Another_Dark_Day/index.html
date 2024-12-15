@@ -6,18 +6,83 @@
   <meta name="description" content="247 - Another Dark Day" />
   <title>247 - Another Dark Day</title>
   <link rel="canonical" href="https://kyrtinatreides.com/essays/247_Another_Dark_Day/" />
+  <link rel="preload" href="/assets/feather-sprite.svg" as="image" type="image/svg+xml">
   
   <style>
     :root {
+      /* Base colors */
       --bg: #ffffff;
       --text: #333333;
       --border: #e6e6e6;
+      
+      /* Primary colors */
+      --primary: #2563eb;
+      --primary-light: #60a5fa;
+      --primary-dark: #1e40af;
+      
+      /* Secondary colors */
+      --secondary: #4b5563;
+      --secondary-light: #9ca3af;
+      --secondary-dark: #1f2937;
+      
+      /* Accent colors */
+      --accent: #8b5cf6;
+      --accent-light: #a78bfa;
+      --accent-dark: #6d28d9;
+      
+      /* Semantic colors */
+      --success: #10b981;
+      --warning: #f59e0b;
+      --error: #ef4444;
+      --info: #3b82f6;
+      
+      /* Surface colors */
+      --surface: #f9fafb;
+      --surface-2: #f3f4f6;
+      --surface-3: #e5e7eb;
+      
+      /* Link colors */
+      --link: var(--primary);
+      --link-hover: var(--primary-dark);
+      --link-visited: var(--primary-dark);
     }
 
     .dark-mode {
+      /* Base colors */
       --bg: #1a1a1a;
       --text: #e6e6e6;
       --border: #2b2b2b;
+      
+      /* Primary colors */
+      --primary: #60a5fa;
+      --primary-light: #93c5fd;
+      --primary-dark: #2563eb;
+      
+      /* Secondary colors */
+      --secondary: #9ca3af;
+      --secondary-light: #d1d5db;
+      --secondary-dark: #4b5563;
+      
+      /* Accent colors */
+      --accent: #a78bfa;
+      --accent-light: #c4b5fd;
+      --accent-dark: #8b5cf6;
+      
+      /* Semantic colors */
+      --success: #34d399;
+      --warning: #fbbf24;
+      --error: #f87171;
+      --info: #60a5fa;
+      
+      /* Surface colors */
+      --surface: #1f2937;
+      --surface-2: #374151;
+      --surface-3: #4b5563;
+      
+      /* Link colors */
+      --link: var(--primary-light);
+      --link-hover: var(--primary);
+      --link-visited: var(--primary);
     }
 
     body {
@@ -78,7 +143,16 @@
       color: inherit;
       cursor: pointer;
       padding: 0;
-      font-size: 1.1em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .theme-toggle svg {
+      width: 24px;
+      height: 24px;
+      /* Debug styles */
+      border: 1px solid red;
     }
 
     footer {
@@ -86,12 +160,12 @@
       padding-top: 2rem;
       border-top: 1px solid var(--border);
       font-size: 0.9em;
-      color: #595959;
+      color: var(--secondary);
       text-align: center;
     }
 
     .dark-mode footer {
-      color: #787878;
+      color: var(--secondary-light);
     }
 
     @media (min-width: 650px) {
@@ -122,13 +196,25 @@
       <a href="/essays/">Essays</a>
       <a href="/research/">Research</a>
     </div>
-    <button class="theme-toggle" aria-label="Toggle dark mode">⚫</button>
+    <button class="theme-toggle" aria-label="Toggle dark mode">
+      <svg
+        width="24"
+        height="24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <use href="https://unpkg.com/feather-icons@4.29.0/dist/feather-sprite.svg#sun" />
+      </svg>
+    </button>
   </nav>
   <main>
     
 <article>
-  <h1>247 - Another Dark Day</h1>
-  <time datetime="October 14, 2024">October 14, 2024</time>
+  <h1 style="color: var(--primary);">247 - Another Dark Day</h1>
+  <time datetime="October 14, 2024" style="color: var(--secondary);">October 14, 2024</time>
   <p>It is another dark day for humanity, where some of the wealthiest groups on the planet have declared that they are indeed the most incompetent humans to have ever lived. The blatantly obvious Ponzi Scheme sucking all of the funds out of AI has secured yet another $6.6 bn in funding, which they’ll promptly blow on compute within the next few months, all for a technology that any half-wit already understands is a dead end, fundamentally incapable of “intelligence” in any meaningful sense.</p>
 <p>The only “winner” seems to be Apple, who managed to avoid the Sunk Cost Fallacy and cut their losses by making only one mistake with the Ponzi Schemers. Meanwhile, Google panicked so badly that they blew $2.7 bn cutting a deal to rehire one old engineer. The wealthiest and least competent people in human history continue to make more egregious and obvious mistakes at ever-larger scales, causing orders of magnitude greater damage to humanity.</p>
 <p>There are finite and fast-approaching limits as to how long this may continue. Beyond those limits are all of the various forms that human extinction can take, and nothing else. This isn’t because the “AI Safety” crowd holds any water, they usually make the same stupid mistakes as the Ponzi Schemers, but rather it is because all of the existing problems are coming to a head, and can cascade over one another.</p>
@@ -149,10 +235,10 @@
     function setDarkMode(isDark) {
       if (isDark) {
         document.documentElement.classList.add('dark-mode');
-        toggleBtn.textContent = '⚪';
+        toggleBtn.querySelector('use').setAttribute('href', '/assets/feather-sprite.svg#moon');
       } else {
         document.documentElement.classList.remove('dark-mode');
-        toggleBtn.textContent = '⚫';
+        toggleBtn.querySelector('use').setAttribute('href', '/assets/feather-sprite.svg#sun');
       }
     }
 

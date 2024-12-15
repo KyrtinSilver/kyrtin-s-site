@@ -6,18 +6,83 @@
   <meta name="description" content="244 - Who Like Numbers" />
   <title>244 - Who Like Numbers</title>
   <link rel="canonical" href="https://kyrtinatreides.com/essays/244_Who_Like_Numbers/" />
+  <link rel="preload" href="/assets/feather-sprite.svg" as="image" type="image/svg+xml">
   
   <style>
     :root {
+      /* Base colors */
       --bg: #ffffff;
       --text: #333333;
       --border: #e6e6e6;
+      
+      /* Primary colors */
+      --primary: #2563eb;
+      --primary-light: #60a5fa;
+      --primary-dark: #1e40af;
+      
+      /* Secondary colors */
+      --secondary: #4b5563;
+      --secondary-light: #9ca3af;
+      --secondary-dark: #1f2937;
+      
+      /* Accent colors */
+      --accent: #8b5cf6;
+      --accent-light: #a78bfa;
+      --accent-dark: #6d28d9;
+      
+      /* Semantic colors */
+      --success: #10b981;
+      --warning: #f59e0b;
+      --error: #ef4444;
+      --info: #3b82f6;
+      
+      /* Surface colors */
+      --surface: #f9fafb;
+      --surface-2: #f3f4f6;
+      --surface-3: #e5e7eb;
+      
+      /* Link colors */
+      --link: var(--primary);
+      --link-hover: var(--primary-dark);
+      --link-visited: var(--primary-dark);
     }
 
     .dark-mode {
+      /* Base colors */
       --bg: #1a1a1a;
       --text: #e6e6e6;
       --border: #2b2b2b;
+      
+      /* Primary colors */
+      --primary: #60a5fa;
+      --primary-light: #93c5fd;
+      --primary-dark: #2563eb;
+      
+      /* Secondary colors */
+      --secondary: #9ca3af;
+      --secondary-light: #d1d5db;
+      --secondary-dark: #4b5563;
+      
+      /* Accent colors */
+      --accent: #a78bfa;
+      --accent-light: #c4b5fd;
+      --accent-dark: #8b5cf6;
+      
+      /* Semantic colors */
+      --success: #34d399;
+      --warning: #fbbf24;
+      --error: #f87171;
+      --info: #60a5fa;
+      
+      /* Surface colors */
+      --surface: #1f2937;
+      --surface-2: #374151;
+      --surface-3: #4b5563;
+      
+      /* Link colors */
+      --link: var(--primary-light);
+      --link-hover: var(--primary);
+      --link-visited: var(--primary);
     }
 
     body {
@@ -78,7 +143,16 @@
       color: inherit;
       cursor: pointer;
       padding: 0;
-      font-size: 1.1em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .theme-toggle svg {
+      width: 24px;
+      height: 24px;
+      /* Debug styles */
+      border: 1px solid red;
     }
 
     footer {
@@ -86,12 +160,12 @@
       padding-top: 2rem;
       border-top: 1px solid var(--border);
       font-size: 0.9em;
-      color: #595959;
+      color: var(--secondary);
       text-align: center;
     }
 
     .dark-mode footer {
-      color: #787878;
+      color: var(--secondary-light);
     }
 
     @media (min-width: 650px) {
@@ -122,13 +196,25 @@
       <a href="/essays/">Essays</a>
       <a href="/research/">Research</a>
     </div>
-    <button class="theme-toggle" aria-label="Toggle dark mode">⚫</button>
+    <button class="theme-toggle" aria-label="Toggle dark mode">
+      <svg
+        width="24"
+        height="24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <use href="https://unpkg.com/feather-icons@4.29.0/dist/feather-sprite.svg#sun" />
+      </svg>
+    </button>
   </nav>
   <main>
     
 <article>
-  <h1>244 - Who Like Numbers</h1>
-  <time datetime="October 8, 2024">October 8, 2024</time>
+  <h1 style="color: var(--primary);">244 - Who Like Numbers</h1>
+  <time datetime="October 8, 2024" style="color: var(--secondary);">October 8, 2024</time>
   <p>For people who like numbers: While waiting for the ARC-AGI-PUB score verification to be performed I’ve been putting the public web form we’ve prepared to demonstrate it through some thorough testing. After some long hours putting all 400 puzzles through the web form, it accurately solves 83% of the ARC-AGI’s public evaluation dataset, available on GitHub.</p>
 <p>The remainder is split almost evenly between data pipeline errors and actual wrong answers to problems. In hunting down the different errors, I noted that our efforts to clean the pipeline have caused some to flip from error to successfully solving, or from successfully solving to errors, as compared to the last run through our command console. This led me to check what our score would be if two runs were ensembled to simulate two guesses per problem.</p>
 <p>The result was 88% accuracy for a 2-run ensemble, a 5% gain over the results of this run in isolation. If the problems erroring out in this run were removed and only failures remained then the score would be 91%.</p>
@@ -157,10 +243,10 @@
     function setDarkMode(isDark) {
       if (isDark) {
         document.documentElement.classList.add('dark-mode');
-        toggleBtn.textContent = '⚪';
+        toggleBtn.querySelector('use').setAttribute('href', '/assets/feather-sprite.svg#moon');
       } else {
         document.documentElement.classList.remove('dark-mode');
-        toggleBtn.textContent = '⚫';
+        toggleBtn.querySelector('use').setAttribute('href', '/assets/feather-sprite.svg#sun');
       }
     }
 

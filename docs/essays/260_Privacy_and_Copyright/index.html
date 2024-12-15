@@ -6,18 +6,83 @@
   <meta name="description" content="260 - Privacy and Copyright" />
   <title>260 - Privacy and Copyright</title>
   <link rel="canonical" href="https://kyrtinatreides.com/essays/260_Privacy_and_Copyright/" />
+  <link rel="preload" href="/assets/feather-sprite.svg" as="image" type="image/svg+xml">
   
   <style>
     :root {
+      /* Base colors */
       --bg: #ffffff;
       --text: #333333;
       --border: #e6e6e6;
+      
+      /* Primary colors */
+      --primary: #2563eb;
+      --primary-light: #60a5fa;
+      --primary-dark: #1e40af;
+      
+      /* Secondary colors */
+      --secondary: #4b5563;
+      --secondary-light: #9ca3af;
+      --secondary-dark: #1f2937;
+      
+      /* Accent colors */
+      --accent: #8b5cf6;
+      --accent-light: #a78bfa;
+      --accent-dark: #6d28d9;
+      
+      /* Semantic colors */
+      --success: #10b981;
+      --warning: #f59e0b;
+      --error: #ef4444;
+      --info: #3b82f6;
+      
+      /* Surface colors */
+      --surface: #f9fafb;
+      --surface-2: #f3f4f6;
+      --surface-3: #e5e7eb;
+      
+      /* Link colors */
+      --link: var(--primary);
+      --link-hover: var(--primary-dark);
+      --link-visited: var(--primary-dark);
     }
 
     .dark-mode {
+      /* Base colors */
       --bg: #1a1a1a;
       --text: #e6e6e6;
       --border: #2b2b2b;
+      
+      /* Primary colors */
+      --primary: #60a5fa;
+      --primary-light: #93c5fd;
+      --primary-dark: #2563eb;
+      
+      /* Secondary colors */
+      --secondary: #9ca3af;
+      --secondary-light: #d1d5db;
+      --secondary-dark: #4b5563;
+      
+      /* Accent colors */
+      --accent: #a78bfa;
+      --accent-light: #c4b5fd;
+      --accent-dark: #8b5cf6;
+      
+      /* Semantic colors */
+      --success: #34d399;
+      --warning: #fbbf24;
+      --error: #f87171;
+      --info: #60a5fa;
+      
+      /* Surface colors */
+      --surface: #1f2937;
+      --surface-2: #374151;
+      --surface-3: #4b5563;
+      
+      /* Link colors */
+      --link: var(--primary-light);
+      --link-hover: var(--primary);
+      --link-visited: var(--primary);
     }
 
     body {
@@ -78,7 +143,16 @@
       color: inherit;
       cursor: pointer;
       padding: 0;
-      font-size: 1.1em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .theme-toggle svg {
+      width: 24px;
+      height: 24px;
+      /* Debug styles */
+      border: 1px solid red;
     }
 
     footer {
@@ -86,12 +160,12 @@
       padding-top: 2rem;
       border-top: 1px solid var(--border);
       font-size: 0.9em;
-      color: #595959;
+      color: var(--secondary);
       text-align: center;
     }
 
     .dark-mode footer {
-      color: #787878;
+      color: var(--secondary-light);
     }
 
     @media (min-width: 650px) {
@@ -122,13 +196,25 @@
       <a href="/essays/">Essays</a>
       <a href="/research/">Research</a>
     </div>
-    <button class="theme-toggle" aria-label="Toggle dark mode">⚫</button>
+    <button class="theme-toggle" aria-label="Toggle dark mode">
+      <svg
+        width="24"
+        height="24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <use href="https://unpkg.com/feather-icons@4.29.0/dist/feather-sprite.svg#sun" />
+      </svg>
+    </button>
   </nav>
   <main>
     
 <article>
-  <h1>260 - Privacy and Copyright</h1>
-  <time datetime="November 3, 2024">November 3, 2024</time>
+  <h1 style="color: var(--primary);">260 - Privacy and Copyright</h1>
+  <time datetime="November 3, 2024" style="color: var(--secondary);">November 3, 2024</time>
   <p>Privacy and Copyright are hot topics in AI, but many of the arguments and justifications being made on the subject are blatantly false, even as other critical flaws in the popular architectures are swept under the rug.</p>
 <p>One of the key arguments is for certain large companies to claim that AI couldn’t perform as well as it does without them stealing everything that they possibly can, both legally and illegally. This is 100% false, as trash like LLMs have never reached the cutting edge, and the architecture that has stood alone at the cutting edge for the past half a decade didn’t require stealing anything. As I noted previously, if your method and/or architecture requires “internet-scale data” then you NEVER get general intelligence from it, given any scale, amount of compute, or volume of data.</p>
 <p>The &quot;...but we have to...&quot; argument is often made in an attempt to better sweep a particular critical flaw under the rug, which is that the only way to truly remove data from such trash AI systems is to delete the models. Just as data is never truly “stored” in these systems, the shadows and fragments of training data exist in a kind of superposition of weight networks, so they can never be fully removed either. *While research attempting this has been done, it isn’t robust, nor can it ever be short of severely crippling the models.</p>
@@ -152,10 +238,10 @@
     function setDarkMode(isDark) {
       if (isDark) {
         document.documentElement.classList.add('dark-mode');
-        toggleBtn.textContent = '⚪';
+        toggleBtn.querySelector('use').setAttribute('href', '/assets/feather-sprite.svg#moon');
       } else {
         document.documentElement.classList.remove('dark-mode');
-        toggleBtn.textContent = '⚫';
+        toggleBtn.querySelector('use').setAttribute('href', '/assets/feather-sprite.svg#sun');
       }
     }
 

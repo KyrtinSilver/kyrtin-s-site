@@ -26,6 +26,8 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.addPassthroughCopy("src/CNAME");
   eleventyConfig.addPassthroughCopy("src/robots.txt");
+  eleventyConfig.addPassthroughCopy("src/assets");
+  eleventyConfig.addPassthroughCopy("src/_includes/assets");
 
   eleventyConfig.on('eleventy.after', () => {
     require('fs').writeFileSync('docs/.nojekyll', '');
@@ -34,7 +36,7 @@ module.exports = (eleventyConfig) => {
   return {
     dir: {
       input: "src",
-      output: "docs",
+      output: "_site",
       includes: "_includes",
       layouts: "_includes/layouts"
     },

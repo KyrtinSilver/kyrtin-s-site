@@ -9,13 +9,11 @@ description: "Essays, updates, and thoughts"
   <span class="essays-sort-control" onclick="toggleSortEssays()">
     Sort
     <span class="icon-container">
-      <!-- Chevron Down Icon -->
-      <svg class="icon-down" viewBox="0 0 24 24">
-        <path d="M6 9l6 6 6-6" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <svg class="chevron-down">
+        <use href="#chevron-down" />
       </svg>
-      <!-- Chevron Up Icon -->
-      <svg class="icon-up" viewBox="0 0 24 24" style="visibility:hidden;">
-        <path d="M18 15l-6-6-6 6" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <svg class="chevron-up">
+        <use href="#chevron-up" />
       </svg>
     </span>
   </span>
@@ -36,19 +34,15 @@ description: "Essays, updates, and thoughts"
 
 <script>
 let essaysAscending = false;
+
 function toggleSortEssays() {
   essaysAscending = !essaysAscending;
   
-  const iconDown = document.querySelector('.essays-sort-control .icon-down');
-  const iconUp = document.querySelector('.essays-sort-control .icon-up');
+  const chevronDown = document.querySelector('.essays-sort-control .chevron-down');
+  const chevronUp = document.querySelector('.essays-sort-control .chevron-up');
   
-  if (essaysAscending) {
-    iconDown.style.visibility = 'hidden';
-    iconUp.style.visibility = 'visible';
-  } else {
-    iconUp.style.visibility = 'hidden';
-    iconDown.style.visibility = 'visible';
-  }
+  chevronDown.classList.toggle('active', !essaysAscending);
+  chevronUp.classList.toggle('active', essaysAscending);
 
   const list = document.querySelector('.essay-list');
   if (!list) return;
@@ -64,6 +58,9 @@ function toggleSortEssays() {
     return essaysAscending ? aTitle.localeCompare(bTitle) : bTitle.localeCompare(aTitle);
   }).forEach(item => list.appendChild(item));
 }
+
+// Initialize the sort direction
+document.querySelector('.essays-sort-control .chevron-down').classList.add('active');
 </script>
 
 <style>
@@ -72,12 +69,12 @@ function toggleSortEssays() {
   justify-content: space-between; 
   align-items: center;
   margin-bottom: 1em;
-  line-height: 1; 
+  line-height: 1;
 }
 
 .page-header h1 {
   margin: 0;
-  line-height:1;
+  line-height: 1;
 }
 
 .essays-sort-control {
@@ -86,28 +83,41 @@ function toggleSortEssays() {
   gap: 0.3em;
   cursor: pointer;
   white-space: nowrap;
-  line-height:1;
-  font-size:1em; 
-  vertical-align: middle;
+  line-height: 1;
+  font-size: 1em;
 }
 
-/* Container for icons to ensure no shift:
-   position:relative; same width/height for stable layout
-*/
 .icon-container {
-  display:inline-block;
-  position:relative;
-  width:1em;
-  height:1em;
-  vertical-align:middle;
+  display: inline-flex;
+  align-items: center;
+  width: 24px;
+  height: 24px;
 }
 
-/* Icons occupy the same space */
 .icon-container svg {
-  width:1em;
-  height:1em;
-  position:absolute;
-  top:0; left:0;
+  width: 24px;
+  height: 24px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.icon-container .chevron-up {
+  display: none;
+}
+
+.icon-container .chevron-up.active {
+  display: block;
+}
+
+.icon-container .chevron-down {
+  display: none;
+}
+
+.icon-container .chevron-down.active {
+  display: block;
 }
 
 /* Essay list styling as before */
