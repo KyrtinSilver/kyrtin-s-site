@@ -211,6 +211,47 @@
     .dark-mode .essays-sort-control {
       color: var(--text-primary);
     }
+
+    .essay-date {
+      color: var(--text-tertiary);
+      font-size: 0.9em;
+      white-space: nowrap;
+    }
+
+    .research-sort-control {
+      /* ... other styles ... */
+      color: var(--text-primary);
+    }
+
+    .paper-item .paper-title-row a {
+      text-decoration: none;
+      color: var(--text-primary);
+      margin-right: 2em;
+      flex: 1;
+    }
+
+    .paper-title-row time,
+    .tag {
+      color: var(--text-tertiary);
+    }
+
+    .tag {
+      /* ... other styles ... */
+      border: 0.5px solid var(--text-tertiary);
+    }
+
+    .dark-mode .papers-list .paper-item .paper-title-row a {
+      color: var(--text-primary) !important;
+    }
+
+    .dark-mode .paper-title-row time {
+      color: var(--text-tertiary) !important;
+    }
+
+    .dark-mode .tag {
+      color: var(--text-tertiary) !important;
+      border-color: var(--text-tertiary) !important;
+    }
   </style>
 </head>
 <body>
@@ -1386,9 +1427,10 @@
   <main>
     
 <article>
-  <h1 style="color: var(--text);">271 - Out of Distribution</h1>
-  <time datetime="November 23, 2024" style="color: var(--secondary);">November 23, 2024</time>
-  <p>“Out of Distribution” (OOD) in the AI/ML research literature often doesn’t actually mean Out of Distribution in the literal sense. We’ve frequently encountered this problem in daily paper discussions on AI, where the authors repeatedly make this critical and fundamental mistake.</p>
+  <h1>271 - Out of Distribution</h1>
+  <time datetime="November 23, 2024">November 23, 2024</time>
+  <div>
+    <p>“Out of Distribution” (OOD) in the AI/ML research literature often doesn’t actually mean Out of Distribution in the literal sense. We’ve frequently encountered this problem in daily paper discussions on AI, where the authors repeatedly make this critical and fundamental mistake.</p>
 <p>That mistake is to confuse the portions of a distribution that aren’t directly memorizable with the parts of a distribution that introduce nothing not seen in the directly memorizable parts, just in unseen combinations. For example:</p>
 <ul>
 <li>Red and Green apples are contained in training data (Directly in Distribution)</li>
@@ -1402,6 +1444,7 @@
 <p>There is a real and urgent need for UX improvements among many major companies, with Microsoft being the long-running champion of “The World’s Worst UX”, but if a UX Researcher starts talking about the “generalization” or “reasoning” of LLMs, it is time to give them the “Ole Yeller” treatment and take them out back.</p>
 <p><img src="https://media.licdn.com/dms/image/v2/D5622AQErKHCCHJdADA/feedshare-shrink_800/feedshare-shrink_800/0/1732073989715?e=1736985600&amp;v=beta&amp;t=cZufpb4VwrOfSfdgPdv_4jYAvYelKDC7IrXDoThqBAw" alt="Comic Relief"></p>
 
+  </div>
 </article>
 
   </main>

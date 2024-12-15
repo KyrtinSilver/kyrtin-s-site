@@ -211,6 +211,47 @@
     .dark-mode .essays-sort-control {
       color: var(--text-primary);
     }
+
+    .essay-date {
+      color: var(--text-tertiary);
+      font-size: 0.9em;
+      white-space: nowrap;
+    }
+
+    .research-sort-control {
+      /* ... other styles ... */
+      color: var(--text-primary);
+    }
+
+    .paper-item .paper-title-row a {
+      text-decoration: none;
+      color: var(--text-primary);
+      margin-right: 2em;
+      flex: 1;
+    }
+
+    .paper-title-row time,
+    .tag {
+      color: var(--text-tertiary);
+    }
+
+    .tag {
+      /* ... other styles ... */
+      border: 0.5px solid var(--text-tertiary);
+    }
+
+    .dark-mode .papers-list .paper-item .paper-title-row a {
+      color: var(--text-primary) !important;
+    }
+
+    .dark-mode .paper-title-row time {
+      color: var(--text-tertiary) !important;
+    }
+
+    .dark-mode .tag {
+      color: var(--text-tertiary) !important;
+      border-color: var(--text-tertiary) !important;
+    }
   </style>
 </head>
 <body>
@@ -1386,9 +1427,10 @@
   <main>
     
 <article>
-  <h1 style="color: var(--text);">278 - ICOM to ARC-AGI</h1>
-  <time datetime="December 11, 2024" style="color: var(--secondary);">December 11, 2024</time>
-  <p>The results, analysis, and data from applying a fragment of ICOM to ARC-AGI now have a 30-page research paper dedicated to them, including additional context provided in the &quot;technical report&quot; that the ARC-AGI team published on December 6th. <a href="https://lnkd.in/gDffb7R5">https://lnkd.in/gDffb7R5</a></p>
+  <h1>278 - ICOM to ARC-AGI</h1>
+  <time datetime="December 11, 2024">December 11, 2024</time>
+  <div>
+    <p>The results, analysis, and data from applying a fragment of ICOM to ARC-AGI now have a 30-page research paper dedicated to them, including additional context provided in the &quot;technical report&quot; that the ARC-AGI team published on December 6th. <a href="https://lnkd.in/gDffb7R5">https://lnkd.in/gDffb7R5</a></p>
 <p>The TLDR is that even a fragment of our systems was ~1,000 times more efficient in terms of cost, and vastly more performant, than the top score on their PUB leaderboard at the time of testing. By the ARC-AGI team’s own estimates, the prior method from Greenblatt would require a further 12,500 times more compute to reach our team’s score, which lands around the human baseline of 85%.</p>
 <p>In other words, a fragment of our systems was quite literally more than a million times more efficient (~1,000*12,500), even on toy problems like those in ARC-AGI. Real-world complexity problems could predictably increase this by further orders of magnitude for any business use cases of non-trivial complexity.</p>
 <p>The ARC-AGI team still practices arbitrary exclusion on the benchmark, so the currently listed top scores aren’t accurate on either leaderboard anymore, since the Prize leaderboard’s top team (55.5%) removed themselves by refusing to disclose the method that they used.</p>
@@ -1397,6 +1439,7 @@
 <p>2025 promises to likely be a year where most people in AI find themselves surprised to bewilderment, while the people who’ve followed our work find it all entirely predictable, and long overdue. We’ll see you there.</p>
 <p><img src="https://media.licdn.com/dms/image/v2/D5622AQF_YqvWWX2pww/feedshare-shrink_800/B56ZO0Ruj_G4Ag-/0/1733896366828?e=1736985600&amp;v=beta&amp;t=CtSyJEOAPlgoiU-yxitDvwRl7IsomBdW5lY98eyOwgQ" alt="Comic Relief"></p>
 
+  </div>
 </article>
 
   </main>

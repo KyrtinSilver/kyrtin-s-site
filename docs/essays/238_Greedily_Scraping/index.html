@@ -211,6 +211,47 @@
     .dark-mode .essays-sort-control {
       color: var(--text-primary);
     }
+
+    .essay-date {
+      color: var(--text-tertiary);
+      font-size: 0.9em;
+      white-space: nowrap;
+    }
+
+    .research-sort-control {
+      /* ... other styles ... */
+      color: var(--text-primary);
+    }
+
+    .paper-item .paper-title-row a {
+      text-decoration: none;
+      color: var(--text-primary);
+      margin-right: 2em;
+      flex: 1;
+    }
+
+    .paper-title-row time,
+    .tag {
+      color: var(--text-tertiary);
+    }
+
+    .tag {
+      /* ... other styles ... */
+      border: 0.5px solid var(--text-tertiary);
+    }
+
+    .dark-mode .papers-list .paper-item .paper-title-row a {
+      color: var(--text-primary) !important;
+    }
+
+    .dark-mode .paper-title-row time {
+      color: var(--text-tertiary) !important;
+    }
+
+    .dark-mode .tag {
+      color: var(--text-tertiary) !important;
+      border-color: var(--text-tertiary) !important;
+    }
   </style>
 </head>
 <body>
@@ -1386,9 +1427,10 @@
   <main>
     
 <article>
-  <h1 style="color: var(--text);">238 - Greedily Scraping</h1>
-  <time datetime="September 15, 2024" style="color: var(--secondary);">September 15, 2024</time>
-  <p>Every company around in the LLM space seems to be busy greedily scraping every bit of data they can, legally or illegally, with or without permission. Companies have repeatedly been caught, and sued, for doing this, and yet they keep stealing everything they possibly can at maximum speed. Fortunately, there is a way to stop this.</p>
+  <h1>238 - Greedily Scraping</h1>
+  <time datetime="September 15, 2024">September 15, 2024</time>
+  <div>
+    <p>Every company around in the LLM space seems to be busy greedily scraping every bit of data they can, legally or illegally, with or without permission. Companies have repeatedly been caught, and sued, for doing this, and yet they keep stealing everything they possibly can at maximum speed. Fortunately, there is a way to stop this.</p>
 <p>The only reasonable way to stop this activity is to poison the data being scraped, automatically as bots are detected. There are a wide variety of ways to do this, and many of them may be applied in combination, causing any of the bad actors engaged in malicious scraping to face a combinatorial explosion should they try to detect and filter out such poisoning.</p>
 <p>Rather, when applying this technique one can exploit the expectation that they will try to detect and filter it out by injecting the data that they are biased to favor, such as BigBench, MMLU, and other benchmark data.</p>
 <p>Since the trash technology of LLMs is heuristic, in the above example this poisons the heuristics in a very specific way, either causing the poison to go undetected or flagging much of their benchmark data leakage as poison. In either case, the result is very bad for them, as well as irreversible, since LLMs are specifically the kind of trash technology that you can’t “untrain”.</p>
@@ -1408,6 +1450,7 @@
 <p>This can allow for all of the greedy scrapers to irreversibly contaminate their newest models. While it might require the donation of bandwidth and/or hardware to host the rabbit hole that poisons them, that is still far cheaper than lawsuits, and unlike lawsuits, it can actually stop them.</p>
 <p><img src="https://media.licdn.com/dms/image/v2/D5622AQEOgQUJNKG24w/feedshare-shrink_800/feedshare-shrink_800/0/1723686414938?e=1736985600&amp;v=beta&amp;t=mj-9AQ3flOITKkcr0qlE0PtMcMNtj3eRcNBnIavMqdY" alt="Comic Relief"></p>
 
+  </div>
 </article>
 
   </main>

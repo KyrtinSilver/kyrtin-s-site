@@ -211,6 +211,47 @@
     .dark-mode .essays-sort-control {
       color: var(--text-primary);
     }
+
+    .essay-date {
+      color: var(--text-tertiary);
+      font-size: 0.9em;
+      white-space: nowrap;
+    }
+
+    .research-sort-control {
+      /* ... other styles ... */
+      color: var(--text-primary);
+    }
+
+    .paper-item .paper-title-row a {
+      text-decoration: none;
+      color: var(--text-primary);
+      margin-right: 2em;
+      flex: 1;
+    }
+
+    .paper-title-row time,
+    .tag {
+      color: var(--text-tertiary);
+    }
+
+    .tag {
+      /* ... other styles ... */
+      border: 0.5px solid var(--text-tertiary);
+    }
+
+    .dark-mode .papers-list .paper-item .paper-title-row a {
+      color: var(--text-primary) !important;
+    }
+
+    .dark-mode .paper-title-row time {
+      color: var(--text-tertiary) !important;
+    }
+
+    .dark-mode .tag {
+      color: var(--text-tertiary) !important;
+      border-color: var(--text-tertiary) !important;
+    }
   </style>
 </head>
 <body>
@@ -1386,9 +1427,10 @@
   <main>
     
 <article>
-  <h1 style="color: var(--text);">241 - Go Silent</h1>
-  <time datetime="October 2, 2024" style="color: var(--secondary);">October 2, 2024</time>
-  <p>If I go silent then it is usually a sign that things are happening. Our team is one of 8 finalists in a “Startup Showdown” taking place at an AI Conference in SF on September 10th, and the ARC-AGI Challenge will be run with one of our mid-assembly systems soon.</p>
+  <h1>241 - Go Silent</h1>
+  <time datetime="October 2, 2024">October 2, 2024</time>
+  <div>
+    <p>If I go silent then it is usually a sign that things are happening. Our team is one of 8 finalists in a “Startup Showdown” taking place at an AI Conference in SF on September 10th, and the ARC-AGI Challenge will be run with one of our mid-assembly systems soon.</p>
 <p>I had previously estimated the probability of being selected as a finalist for such a conference competition as very low, 5%, denoting the default margin of error. It may be a fluke, a true 5% probability event, or it may be that the AI industry is finally starting to look beyond trash technology like LLMs and the various things built on top of them. I can’t even guess the revised probability yet, pending further evidence.</p>
 <p>Whether or not the competition gives us a gold star, or whatever one is supposed to “win” at such an event, things are moving in the right direction, and given the right direction then acceleration becomes a “when” rather than an “if”.</p>
 <p>The score validation process for ARC-AGI is complicated for anything that can’t simply be uploaded to Kaggle like a proprietary and patent-pending cognitive architecture developed over the past 11 years from scratch, but I’d be rather surprised if they proved unwilling to validate a new high score.</p>
@@ -1396,6 +1438,7 @@
 <p>I’ll be grading the competence of the VC panel remotely from Japan.</p>
 <p><a href="https://aiconference.com/"><img src="https://u.today/sites/default/files/styles/event_full/public/2024-09/51641.jpg" alt="Comic Relief"></a></p>
 
+  </div>
 </article>
 
   </main>

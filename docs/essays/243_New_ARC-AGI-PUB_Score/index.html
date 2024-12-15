@@ -211,6 +211,47 @@
     .dark-mode .essays-sort-control {
       color: var(--text-primary);
     }
+
+    .essay-date {
+      color: var(--text-tertiary);
+      font-size: 0.9em;
+      white-space: nowrap;
+    }
+
+    .research-sort-control {
+      /* ... other styles ... */
+      color: var(--text-primary);
+    }
+
+    .paper-item .paper-title-row a {
+      text-decoration: none;
+      color: var(--text-primary);
+      margin-right: 2em;
+      flex: 1;
+    }
+
+    .paper-title-row time,
+    .tag {
+      color: var(--text-tertiary);
+    }
+
+    .tag {
+      /* ... other styles ... */
+      border: 0.5px solid var(--text-tertiary);
+    }
+
+    .dark-mode .papers-list .paper-item .paper-title-row a {
+      color: var(--text-primary) !important;
+    }
+
+    .dark-mode .paper-title-row time {
+      color: var(--text-tertiary) !important;
+    }
+
+    .dark-mode .tag {
+      color: var(--text-tertiary) !important;
+      border-color: var(--text-tertiary) !important;
+    }
   </style>
 </head>
 <body>
@@ -1386,9 +1427,10 @@
   <main>
     
 <article>
-  <h1 style="color: var(--text);">243 - New ARC-AGI-PUB Score</h1>
-  <time datetime="October 6, 2024" style="color: var(--secondary);">October 6, 2024</time>
-  <p>Our new ARC-AGI-PUB score (pending verification) continues to rise as the data pipeline is cleaned up, now at 82% counting all pipeline errors as misses, with human performance being 85%. The next nearest scores are 46% and 43% respectively, so we’re blowing the competition out of the water by a wide margin, but we can also boost our score further in a variety of ways.</p>
+  <h1>243 - New ARC-AGI-PUB Score</h1>
+  <time datetime="October 6, 2024">October 6, 2024</time>
+  <div>
+    <p>Our new ARC-AGI-PUB score (pending verification) continues to rise as the data pipeline is cleaned up, now at 82% counting all pipeline errors as misses, with human performance being 85%. The next nearest scores are 46% and 43% respectively, so we’re blowing the competition out of the water by a wide margin, but we can also boost our score further in a variety of ways.</p>
 <p>This is only the start of the performance curve for ICOM-based systems.</p>
 <p>Things that we didn’t do:</p>
 <ul>
@@ -1411,6 +1453,7 @@
 <p>“The best is yet to come.” -Sinatra</p>
 <p><img src="https://media.licdn.com/dms/image/v2/D5622AQFIeLSy4wD-RA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1726177862978?e=1736985600&amp;v=beta&amp;t=QAGbJmWygPw-HkqAkUyUNhcDHFk2upY3DF1GVVFqK9o" alt="Comic Relief"></p>
 
+  </div>
 </article>
 
   </main>

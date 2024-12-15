@@ -211,6 +211,47 @@
     .dark-mode .essays-sort-control {
       color: var(--text-primary);
     }
+
+    .essay-date {
+      color: var(--text-tertiary);
+      font-size: 0.9em;
+      white-space: nowrap;
+    }
+
+    .research-sort-control {
+      /* ... other styles ... */
+      color: var(--text-primary);
+    }
+
+    .paper-item .paper-title-row a {
+      text-decoration: none;
+      color: var(--text-primary);
+      margin-right: 2em;
+      flex: 1;
+    }
+
+    .paper-title-row time,
+    .tag {
+      color: var(--text-tertiary);
+    }
+
+    .tag {
+      /* ... other styles ... */
+      border: 0.5px solid var(--text-tertiary);
+    }
+
+    .dark-mode .papers-list .paper-item .paper-title-row a {
+      color: var(--text-primary) !important;
+    }
+
+    .dark-mode .paper-title-row time {
+      color: var(--text-tertiary) !important;
+    }
+
+    .dark-mode .tag {
+      color: var(--text-tertiary) !important;
+      border-color: var(--text-tertiary) !important;
+    }
   </style>
 </head>
 <body>
@@ -1386,9 +1427,10 @@
   <main>
     
 <article>
-  <h1 style="color: var(--text);">263 - Graph-Native</h1>
-  <time datetime="November 9, 2024" style="color: var(--secondary);">November 9, 2024</time>
-  <p>A “Graph-Native” system is one where the system’s dynamics occur within an adaptive graph structure, and any non-graph-structured outputs are translations of that structure being converted into linear sequences of human language. Moving from higher to lower dimensionality from source to output offers distinct advantages:</p>
+  <h1>263 - Graph-Native</h1>
+  <time datetime="November 9, 2024">November 9, 2024</time>
+  <div>
+    <p>A “Graph-Native” system is one where the system’s dynamics occur within an adaptive graph structure, and any non-graph-structured outputs are translations of that structure being converted into linear sequences of human language. Moving from higher to lower dimensionality from source to output offers distinct advantages:</p>
 <p>Graph-Native System:</p>
 <ul>
 <li>
@@ -1429,6 +1471,7 @@
 <p>Graph structure is far more complex and variable than text and image data, to such a point that it isn’t feasible to optimize over it beyond a very marginal degree using various narrow optimizers common in the field. However, when you are able to optimize over that structure (using human-like systems), the resulting system is a vastly superior learner, analyst, tool user, and tool maker.</p>
 <p><img src="https://media.licdn.com/dms/image/v2/D5622AQHNRgWVqS9W3A/feedshare-shrink_800/feedshare-shrink_800/0/1729918612669?e=1736985600&amp;v=beta&amp;t=Ohw3sJHOehGXihJxI4WFKWmNV7zfOk9nDi1qDY7m-Uk" alt="Comic Relief"></p>
 
+  </div>
 </article>
 
   </main>

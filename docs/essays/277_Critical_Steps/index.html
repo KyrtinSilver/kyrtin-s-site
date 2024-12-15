@@ -211,6 +211,47 @@
     .dark-mode .essays-sort-control {
       color: var(--text-primary);
     }
+
+    .essay-date {
+      color: var(--text-tertiary);
+      font-size: 0.9em;
+      white-space: nowrap;
+    }
+
+    .research-sort-control {
+      /* ... other styles ... */
+      color: var(--text-primary);
+    }
+
+    .paper-item .paper-title-row a {
+      text-decoration: none;
+      color: var(--text-primary);
+      margin-right: 2em;
+      flex: 1;
+    }
+
+    .paper-title-row time,
+    .tag {
+      color: var(--text-tertiary);
+    }
+
+    .tag {
+      /* ... other styles ... */
+      border: 0.5px solid var(--text-tertiary);
+    }
+
+    .dark-mode .papers-list .paper-item .paper-title-row a {
+      color: var(--text-primary) !important;
+    }
+
+    .dark-mode .paper-title-row time {
+      color: var(--text-tertiary) !important;
+    }
+
+    .dark-mode .tag {
+      color: var(--text-tertiary) !important;
+      border-color: var(--text-tertiary) !important;
+    }
   </style>
 </head>
 <body>
@@ -1386,9 +1427,10 @@
   <main>
     
 <article>
-  <h1 style="color: var(--text);">277 - Critical Steps</h1>
-  <time datetime="December 4, 2024" style="color: var(--secondary);">December 4, 2024</time>
-  <p>Building working solutions, AI or otherwise, requires walking through a few critical steps before you even begin the engineering process. The first crucial step is to determine if your chosen problem is Deterministic or Probabilistic, which can alternatively be considered as the precision required for your solution, due to the fuzziness and adversarial vulnerabilities of probability. For example:</p>
+  <h1>277 - Critical Steps</h1>
+  <time datetime="December 4, 2024">December 4, 2024</time>
+  <div>
+    <p>Building working solutions, AI or otherwise, requires walking through a few critical steps before you even begin the engineering process. The first crucial step is to determine if your chosen problem is Deterministic or Probabilistic, which can alternatively be considered as the precision required for your solution, due to the fuzziness and adversarial vulnerabilities of probability. For example:</p>
 <ul>
 <li>
 <p>Marketing and Art have no precisely correct solutions, they have chaotically drifting fuzzy targets, often best considered in terms of probability.</p>
@@ -1405,6 +1447,7 @@
 <p>Before you gulp down that “AI solution”, be sure that you’re drinking from the right container.</p>
 <p><img src="https://media.licdn.com/dms/image/v2/D4D22AQGIUZ3J56SLhQ/feedshare-shrink_800/feedshare-shrink_800/0/1732907582802?e=1736985600&amp;v=beta&amp;t=yw4hwFAmxcBxiTB4ggPedRZzNBxVZoAJH8ch2h06uCQ" alt="Comic Relief"></p>
 
+  </div>
 </article>
 
   </main>

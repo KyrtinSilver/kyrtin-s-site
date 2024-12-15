@@ -211,6 +211,47 @@
     .dark-mode .essays-sort-control {
       color: var(--text-primary);
     }
+
+    .essay-date {
+      color: var(--text-tertiary);
+      font-size: 0.9em;
+      white-space: nowrap;
+    }
+
+    .research-sort-control {
+      /* ... other styles ... */
+      color: var(--text-primary);
+    }
+
+    .paper-item .paper-title-row a {
+      text-decoration: none;
+      color: var(--text-primary);
+      margin-right: 2em;
+      flex: 1;
+    }
+
+    .paper-title-row time,
+    .tag {
+      color: var(--text-tertiary);
+    }
+
+    .tag {
+      /* ... other styles ... */
+      border: 0.5px solid var(--text-tertiary);
+    }
+
+    .dark-mode .papers-list .paper-item .paper-title-row a {
+      color: var(--text-primary) !important;
+    }
+
+    .dark-mode .paper-title-row time {
+      color: var(--text-tertiary) !important;
+    }
+
+    .dark-mode .tag {
+      color: var(--text-tertiary) !important;
+      border-color: var(--text-tertiary) !important;
+    }
   </style>
 </head>
 <body>
@@ -1386,9 +1427,10 @@
   <main>
     
 <article>
-  <h1 style="color: var(--text);">275 - AI Jargon</h1>
-  <time datetime="November 27, 2024" style="color: var(--secondary);">November 27, 2024</time>
-  <p>The time has come for a quick AI/ML Jargon to Normal English Words reference guide:</p>
+  <h1>275 - AI Jargon</h1>
+  <time datetime="November 27, 2024">November 27, 2024</time>
+  <div>
+    <p>The time has come for a quick AI/ML Jargon to Normal English Words reference guide:</p>
 <p>In-Distribution: Things it trained on.</p>
 <p>Out-of-Distribution: Also things it trained on, just combined differently.</p>
 <p>Generalization: Combining the things it trained on.</p>
@@ -1410,6 +1452,7 @@
 <p>Denis O. Chris Surdak Lasse Rindom Kurt Cagle I suspect might have a few of their own.</p>
 <p><img src="https://media.licdn.com/dms/image/v2/D5622AQGYOihX2w_NCQ/feedshare-shrink_800/feedshare-shrink_800/0/1732247978070?e=1736985600&amp;v=beta&amp;t=SWebPAvDVDPLnr-OahV5Cb5cT-FTHK4YnwG323sYz-0" alt="Comic Relief"></p>
 
+  </div>
 </article>
 
   </main>

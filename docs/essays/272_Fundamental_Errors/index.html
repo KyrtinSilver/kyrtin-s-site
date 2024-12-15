@@ -211,6 +211,47 @@
     .dark-mode .essays-sort-control {
       color: var(--text-primary);
     }
+
+    .essay-date {
+      color: var(--text-tertiary);
+      font-size: 0.9em;
+      white-space: nowrap;
+    }
+
+    .research-sort-control {
+      /* ... other styles ... */
+      color: var(--text-primary);
+    }
+
+    .paper-item .paper-title-row a {
+      text-decoration: none;
+      color: var(--text-primary);
+      margin-right: 2em;
+      flex: 1;
+    }
+
+    .paper-title-row time,
+    .tag {
+      color: var(--text-tertiary);
+    }
+
+    .tag {
+      /* ... other styles ... */
+      border: 0.5px solid var(--text-tertiary);
+    }
+
+    .dark-mode .papers-list .paper-item .paper-title-row a {
+      color: var(--text-primary) !important;
+    }
+
+    .dark-mode .paper-title-row time {
+      color: var(--text-tertiary) !important;
+    }
+
+    .dark-mode .tag {
+      color: var(--text-tertiary) !important;
+      border-color: var(--text-tertiary) !important;
+    }
   </style>
 </head>
 <body>
@@ -1386,9 +1427,10 @@
   <main>
     
 <article>
-  <h1 style="color: var(--text);">272 - Fundamental Errors</h1>
-  <time datetime="November 25, 2024" style="color: var(--secondary);">November 25, 2024</time>
-  <p>One of the fundamental errors that many in AI make is a matter of “Data Decomposition”. They think that they understand the data that they feed into simple systems like transformers (such as LLMs) and/or RL algorithms. However, excluding some toy and artificial edge cases, they never understand the data that is fed in because the human brain doesn’t process that data in anything remotely resembling the same ways that neural networks do.</p>
+  <h1>272 - Fundamental Errors</h1>
+  <time datetime="November 25, 2024">November 25, 2024</time>
+  <div>
+    <p>One of the fundamental errors that many in AI make is a matter of “Data Decomposition”. They think that they understand the data that they feed into simple systems like transformers (such as LLMs) and/or RL algorithms. However, excluding some toy and artificial edge cases, they never understand the data that is fed in because the human brain doesn’t process that data in anything remotely resembling the same ways that neural networks do.</p>
 <p>Transformers are simple brute-force algorithms for taking some volume of data and building a collection of probability distributions of fixed size and vocabulary. This process destroys most of the value of the data, rendering it a mess of superpositioned “weights”, broken down into “tokens”. In this process, all data passing through the algorithm is decomposed in ways notoriously incomprehensible to humans, much like human concepts passing through a blender.</p>
 <p>When people fail to understand the data that they are feeding in, they may be surprised by the results of that data if they don’t hold a grounded and sufficient understanding of the technology that they’re working with. What a transformer does is simple, like a blender, with minor variations in the texture of outputs, but the primary thing that varies is what you feed into it (and the cognitive biases of the observer).</p>
 <p>This has become a source of seemingly endless delusions in the field of AI, magical thinking where the most naïve and gullible (or nefarious and malevolent) attempt to apply terms like “reasoning”, “understanding”, “world models”, and “emergent” to LLMs and their equally narrow derivatives, like “agent” systems.</p>
@@ -1397,6 +1439,7 @@
 <p>This is not a matter of “AI Skepticism”, as skepticism requires uncertainty, and much as it is obvious that a toaster can’t do your taxes, LLMs, RL, and “agents” aren’t fundamentally viable for most use cases either, they are just narrow tools.</p>
 <p><img src="https://media.licdn.com/dms/image/v2/D5622AQFLmR0EupIn3Q/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1732230395904?e=1736985600&amp;v=beta&amp;t=7h0SXqOGKt7ql5uW_BAf1Qm6Ucj5CN9RTLp7CGFhDgs" alt="Comic Relief"></p>
 
+  </div>
 </article>
 
   </main>

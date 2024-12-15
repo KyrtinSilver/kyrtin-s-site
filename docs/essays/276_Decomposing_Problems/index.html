@@ -211,6 +211,47 @@
     .dark-mode .essays-sort-control {
       color: var(--text-primary);
     }
+
+    .essay-date {
+      color: var(--text-tertiary);
+      font-size: 0.9em;
+      white-space: nowrap;
+    }
+
+    .research-sort-control {
+      /* ... other styles ... */
+      color: var(--text-primary);
+    }
+
+    .paper-item .paper-title-row a {
+      text-decoration: none;
+      color: var(--text-primary);
+      margin-right: 2em;
+      flex: 1;
+    }
+
+    .paper-title-row time,
+    .tag {
+      color: var(--text-tertiary);
+    }
+
+    .tag {
+      /* ... other styles ... */
+      border: 0.5px solid var(--text-tertiary);
+    }
+
+    .dark-mode .papers-list .paper-item .paper-title-row a {
+      color: var(--text-primary) !important;
+    }
+
+    .dark-mode .paper-title-row time {
+      color: var(--text-tertiary) !important;
+    }
+
+    .dark-mode .tag {
+      color: var(--text-tertiary) !important;
+      border-color: var(--text-tertiary) !important;
+    }
   </style>
 </head>
 <body>
@@ -1386,9 +1427,10 @@
   <main>
     
 <article>
-  <h1 style="color: var(--text);">276 - Decomposing Problems</h1>
-  <time datetime="December 1, 2024" style="color: var(--secondary);">December 1, 2024</time>
-  <p>Decomposing problems into discrete steps with signal isolated from noise is one of the key factors that differentiate “10x” coders and engineers from the average “1x”, and the lower quartile’s many “0.5x” individuals. This difference in human talent is further multiplied by things like AI “coding assistants”, where the 10x coders benefit substantially, but the 1x and 0.5x coders often do serious damage, causing a net loss for less selective organizations.</p>
+  <h1>276 - Decomposing Problems</h1>
+  <time datetime="December 1, 2024">December 1, 2024</time>
+  <div>
+    <p>Decomposing problems into discrete steps with signal isolated from noise is one of the key factors that differentiate “10x” coders and engineers from the average “1x”, and the lower quartile’s many “0.5x” individuals. This difference in human talent is further multiplied by things like AI “coding assistants”, where the 10x coders benefit substantially, but the 1x and 0.5x coders often do serious damage, causing a net loss for less selective organizations.</p>
 <p>One of the key reasons for this asymmetric force multiplier is that a veteran 10x coder is going to be far more specific with any prompting on a coding assistant, and they’ll be able to spot problems in the generated code far more quickly and easily than their juniors. The “prompt” is where a seasoned engineer inserts the benefits of their expertise and experience, which generally takes the form of:</p>
 <ul>
 <li>
@@ -1408,6 +1450,7 @@
 <p>Speaking practically, as I'm not a &quot;Doomer&quot;, the very last people on the face of the planet who should have access to &quot;AI Agents&quot; are those who want them the most today. Treat those systems like bioweapons, as they can do far more indiscriminate and widespread damage than guns.</p>
 <p><img src="https://media.licdn.com/dms/image/v2/D5622AQGvarEthzKi5A/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1732572265951?e=1736985600&amp;v=beta&amp;t=R6PAXeND_48J6wi9g6-Wh8J8wOXeRsxiM71_kKnPbJ0" alt="Comic Relief"></p>
 
+  </div>
 </article>
 
   </main>

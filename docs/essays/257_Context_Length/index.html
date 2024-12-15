@@ -211,6 +211,47 @@
     .dark-mode .essays-sort-control {
       color: var(--text-primary);
     }
+
+    .essay-date {
+      color: var(--text-tertiary);
+      font-size: 0.9em;
+      white-space: nowrap;
+    }
+
+    .research-sort-control {
+      /* ... other styles ... */
+      color: var(--text-primary);
+    }
+
+    .paper-item .paper-title-row a {
+      text-decoration: none;
+      color: var(--text-primary);
+      margin-right: 2em;
+      flex: 1;
+    }
+
+    .paper-title-row time,
+    .tag {
+      color: var(--text-tertiary);
+    }
+
+    .tag {
+      /* ... other styles ... */
+      border: 0.5px solid var(--text-tertiary);
+    }
+
+    .dark-mode .papers-list .paper-item .paper-title-row a {
+      color: var(--text-primary) !important;
+    }
+
+    .dark-mode .paper-title-row time {
+      color: var(--text-tertiary) !important;
+    }
+
+    .dark-mode .tag {
+      color: var(--text-tertiary) !important;
+      border-color: var(--text-tertiary) !important;
+    }
   </style>
 </head>
 <body>
@@ -1386,9 +1427,10 @@
   <main>
     
 <article>
-  <h1 style="color: var(--text);">257 - Context Length</h1>
-  <time datetime="October 30, 2024" style="color: var(--secondary);">October 30, 2024</time>
-  <p>“Context Length” has been a popular metric for comparison in AI/ML for the past 2 years, referring to the number of “tokens” of input that can be used to predict the next token in a sequence for some output. People began raising this length from 32K until it exceeded over 1 million for some models…at which point that line of “magical thinking” died a fiery death, as it didn’t solve the problems some had naively hoped it would.</p>
+  <h1>257 - Context Length</h1>
+  <time datetime="October 30, 2024">October 30, 2024</time>
+  <div>
+    <p>“Context Length” has been a popular metric for comparison in AI/ML for the past 2 years, referring to the number of “tokens” of input that can be used to predict the next token in a sequence for some output. People began raising this length from 32K until it exceeded over 1 million for some models…at which point that line of “magical thinking” died a fiery death, as it didn’t solve the problems some had naively hoped it would.</p>
 <p>The manic frenzy for longer context length was then transformed into hyping up “RAG”, which ironically ended up living up to the acronym, as like a dirty and torn scrap of unsanitary cloth it was forever spreading “bullshit” (sometimes erroneously called “Hallucination”) across everything it touched. The further irony is that both of these “imaginary solutions” are attached to an already solved problem.</p>
 <p>My team’s systems don’t measure data in terms of “tokens”, because we don’t rely on naive brute-force math and magical thinking, but we can calculate a rough equivalence between actual data and tokens:</p>
 <p>75 words is typically estimated to be ~100 tokens, and 75 words in raw text is ~454 bytes in size.</p>
@@ -1400,6 +1442,7 @@
 <p>The right architecture makes an astronomical difference, which is also usually the difference between success and failure.</p>
 <p><img src="https://media.licdn.com/dms/image/v2/D4D22AQHa2f9OATkMkg/feedshare-shrink_800/feedshare-shrink_800/0/1729658426032?e=1736985600&amp;v=beta&amp;t=_OKGTEt7GGjZEopwdvedNWrdPIn3JlX9v6HfrDofIZE" alt="Comic Relief"></p>
 
+  </div>
 </article>
 
   </main>

@@ -211,6 +211,47 @@
     .dark-mode .essays-sort-control {
       color: var(--text-primary);
     }
+
+    .essay-date {
+      color: var(--text-tertiary);
+      font-size: 0.9em;
+      white-space: nowrap;
+    }
+
+    .research-sort-control {
+      /* ... other styles ... */
+      color: var(--text-primary);
+    }
+
+    .paper-item .paper-title-row a {
+      text-decoration: none;
+      color: var(--text-primary);
+      margin-right: 2em;
+      flex: 1;
+    }
+
+    .paper-title-row time,
+    .tag {
+      color: var(--text-tertiary);
+    }
+
+    .tag {
+      /* ... other styles ... */
+      border: 0.5px solid var(--text-tertiary);
+    }
+
+    .dark-mode .papers-list .paper-item .paper-title-row a {
+      color: var(--text-primary) !important;
+    }
+
+    .dark-mode .paper-title-row time {
+      color: var(--text-tertiary) !important;
+    }
+
+    .dark-mode .tag {
+      color: var(--text-tertiary) !important;
+      border-color: var(--text-tertiary) !important;
+    }
   </style>
 </head>
 <body>
@@ -1386,9 +1427,10 @@
   <main>
     
 <article>
-  <h1 style="color: var(--text);">255 - The Most Valuable Insight</h1>
-  <time datetime="October 26, 2024" style="color: var(--secondary);">October 26, 2024</time>
-  <p>“The most valuable insight to give voice to is the one that practically nobody else is articulating.”</p>
+  <h1>255 - The Most Valuable Insight</h1>
+  <time datetime="October 26, 2024">October 26, 2024</time>
+  <div>
+    <p>“The most valuable insight to give voice to is the one that practically nobody else is articulating.”</p>
 <p>The first handful of people to point something out offer far greater value than the million that may follow. This is part of the philosophy I adhere to when determining what is worth saying (a tiny fraction of what crosses my mind), and subsequently how to say it. Of course, this is the polar opposite of repeating popular narratives.</p>
 <p>This can be considered in terms of “Explore vs Exploit”, also known as the “Multi-Armed Bandit Problem”, where the choice is constantly made whether to explore new possibilities or to exploit those known opportunities. Exploration isn’t guaranteed to succeed, but whenever it does it offers more value than exploiting known opportunities, partly by growing the number and variety of such opportunities cumulatively for each step thereafter.</p>
 <p>If such a cumulative increase in value is to be added, either the insight itself must provide novel value or the means of articulating it must effectively communicate the content to a previously inaccessible category. For example, Daniel Kahneman discovering types of cognitive bias adds cumulative novel value, whereas Gary Marcus or Noam Chomsky articulating previously known points in new ways explores effective communication to previously insulated categories.</p>
@@ -1398,6 +1440,7 @@
 <p>The downfall of naïve heuristics is to look at only Survivorship Biased data, like the tiny fraction of things I determine to be worth sharing, specifically because they either aren’t being said or aren’t being articulated very well. If you only see the shadow of a process, not the underlying dynamics, then making yourself look very foolish becomes a matter of “when”, rather than “if”.</p>
 <p><img src="https://media.licdn.com/dms/image/v2/D5622AQEb4PY_hUXglg/feedshare-shrink_800/feedshare-shrink_800/0/1729552765970?e=1736985600&amp;v=beta&amp;t=e-w0zRa-TaOLpNVuS8SL-AOcVUz_QIyTZfo68Ff9bjQ" alt="Comic Relief"></p>
 
+  </div>
 </article>
 
   </main>

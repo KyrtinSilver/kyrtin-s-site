@@ -211,6 +211,47 @@
     .dark-mode .essays-sort-control {
       color: var(--text-primary);
     }
+
+    .essay-date {
+      color: var(--text-tertiary);
+      font-size: 0.9em;
+      white-space: nowrap;
+    }
+
+    .research-sort-control {
+      /* ... other styles ... */
+      color: var(--text-primary);
+    }
+
+    .paper-item .paper-title-row a {
+      text-decoration: none;
+      color: var(--text-primary);
+      margin-right: 2em;
+      flex: 1;
+    }
+
+    .paper-title-row time,
+    .tag {
+      color: var(--text-tertiary);
+    }
+
+    .tag {
+      /* ... other styles ... */
+      border: 0.5px solid var(--text-tertiary);
+    }
+
+    .dark-mode .papers-list .paper-item .paper-title-row a {
+      color: var(--text-primary) !important;
+    }
+
+    .dark-mode .paper-title-row time {
+      color: var(--text-tertiary) !important;
+    }
+
+    .dark-mode .tag {
+      color: var(--text-tertiary) !important;
+      border-color: var(--text-tertiary) !important;
+    }
   </style>
 </head>
 <body>
@@ -1386,9 +1427,10 @@
   <main>
     
 <article>
-  <h1 style="color: var(--text);">261 - Training Data</h1>
-  <time datetime="November 5, 2024" style="color: var(--secondary);">November 5, 2024</time>
-  <p>“Training Data” is a term that is ubiquitous in the AI/ML space, to such a point that it is assumed to be a deciding factor in everything by default. However, systems that aren’t fundamentally built to fit the curve of data distributions don’t inherently require “Training Data”, and some of those systems vastly outperform neural networks in the real world.</p>
+  <h1>261 - Training Data</h1>
+  <time datetime="November 5, 2024">November 5, 2024</time>
+  <div>
+    <p>“Training Data” is a term that is ubiquitous in the AI/ML space, to such a point that it is assumed to be a deciding factor in everything by default. However, systems that aren’t fundamentally built to fit the curve of data distributions don’t inherently require “Training Data”, and some of those systems vastly outperform neural networks in the real world.</p>
 <p>Somewhere someone probably just spit out their coffee in surprise and confusion, as the concept of systems that don’t rely on training data is entirely alien to many in AI/ML. Most wouldn’t have the faintest idea of where to even begin trying to build such systems absent the crutch of training data.</p>
 <p>Normally a large body of data, often many datasets pooled together, is used to train a neural network, where a process of brute-force math is applied to turn that data into a set of “weights” for the neural network. This turns the weights into a fuzzy representation of the data that was fed into it, curve-fitting to the distributions.</p>
 <p>However, an entirely different set of dynamics is not only possible but frequently preferable. Three key factors are required to make the alternative work, a graph database structure, a human-like motivational system embedded within that structure, and a working cognitive architecture to process both the data in the database and the motivational values attached to all nodes and surfaces within it.</p>
@@ -1398,6 +1440,7 @@
 <p>This is the difference that using the right architecture for the job makes, the orders of magnitude separating success from failure.</p>
 <p><img src="https://media.licdn.com/dms/image/v2/D5622AQFudLSz1gUNSQ/feedshare-shrink_800/feedshare-shrink_800/0/1729821060695?e=1736985600&amp;v=beta&amp;t=K3O6FZTaEbhgM8ipzxzWQ8ufWmuqmAFSzqpCSOM1VAw" alt="Comic Relief"></p>
 
+  </div>
 </article>
 
   </main>

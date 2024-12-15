@@ -211,6 +211,47 @@
     .dark-mode .essays-sort-control {
       color: var(--text-primary);
     }
+
+    .essay-date {
+      color: var(--text-tertiary);
+      font-size: 0.9em;
+      white-space: nowrap;
+    }
+
+    .research-sort-control {
+      /* ... other styles ... */
+      color: var(--text-primary);
+    }
+
+    .paper-item .paper-title-row a {
+      text-decoration: none;
+      color: var(--text-primary);
+      margin-right: 2em;
+      flex: 1;
+    }
+
+    .paper-title-row time,
+    .tag {
+      color: var(--text-tertiary);
+    }
+
+    .tag {
+      /* ... other styles ... */
+      border: 0.5px solid var(--text-tertiary);
+    }
+
+    .dark-mode .papers-list .paper-item .paper-title-row a {
+      color: var(--text-primary) !important;
+    }
+
+    .dark-mode .paper-title-row time {
+      color: var(--text-tertiary) !important;
+    }
+
+    .dark-mode .tag {
+      color: var(--text-tertiary) !important;
+      border-color: var(--text-tertiary) !important;
+    }
   </style>
 </head>
 <body>
@@ -1386,9 +1427,10 @@
   <main>
     
 <article>
-  <h1 style="color: var(--text);">235 - The Great Divide</h1>
-  <time datetime="August 29, 2024" style="color: var(--secondary);">August 29, 2024</time>
-  <p>The great divide separating humanity from the high bar of “AGI” is anything but uniform.</p>
+  <h1>235 - The Great Divide</h1>
+  <time datetime="August 29, 2024">August 29, 2024</time>
+  <div>
+    <p>The great divide separating humanity from the high bar of “AGI” is anything but uniform.</p>
 <p>For example, if Company A requires “internet-scale data”, safely over 30 TB for text alone in 2022, just to manage mediocre performance on a task relative to humans, then they are over 30,000 times less competent than Company B who required less than 1 GB of text data to exceed that performance, years earlier.</p>
 <p>In effect, this means that for Company A the chasm between the present moment and any non-trivial definition of “AGI” may be the size of the Grand Canyon, but for Company B it could be a simple hop from one side to the other. The amount of funding necessary also scales volumetrically, so while the maximally incompetent (and often fraudulent) companies try to fill the Grand Canyon of AI with $7 trillion, a competent company requires less than 0.001% of that amount.</p>
 <p>The same divide also exists between the people who invest in companies A and B, with company A’s investors being &gt;30,000 times less competent than those of Company B. Just as “you are what you eat”, if you swallow the story that company A feeds you, that comes at a high cost. This principle generalizes to those who “evangelize/promote” or partner with such companies, to varying degrees.</p>
@@ -1398,6 +1440,7 @@
 <p>Anyone riding the Titanic of big tech who just scraped the broad side of the internet’s iceberg isn’t likely to stay above water in the long-term.</p>
 <p><img src="https://media.licdn.com/dms/image/v2/D5622AQG2pmXF4aS4Yw/feedshare-shrink_800/feedshare-shrink_800/0/1723008698747?e=1736985600&amp;v=beta&amp;t=HQvpMJT-ojeQHij0FtwmgGDivMFLm_7g8LH5H2bY7ig" alt="Comic Relief"></p>
 
+  </div>
 </article>
 
   </main>

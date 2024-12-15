@@ -211,6 +211,47 @@
     .dark-mode .essays-sort-control {
       color: var(--text-primary);
     }
+
+    .essay-date {
+      color: var(--text-tertiary);
+      font-size: 0.9em;
+      white-space: nowrap;
+    }
+
+    .research-sort-control {
+      /* ... other styles ... */
+      color: var(--text-primary);
+    }
+
+    .paper-item .paper-title-row a {
+      text-decoration: none;
+      color: var(--text-primary);
+      margin-right: 2em;
+      flex: 1;
+    }
+
+    .paper-title-row time,
+    .tag {
+      color: var(--text-tertiary);
+    }
+
+    .tag {
+      /* ... other styles ... */
+      border: 0.5px solid var(--text-tertiary);
+    }
+
+    .dark-mode .papers-list .paper-item .paper-title-row a {
+      color: var(--text-primary) !important;
+    }
+
+    .dark-mode .paper-title-row time {
+      color: var(--text-tertiary) !important;
+    }
+
+    .dark-mode .tag {
+      color: var(--text-tertiary) !important;
+      border-color: var(--text-tertiary) !important;
+    }
   </style>
 </head>
 <body>
@@ -1386,9 +1427,10 @@
   <main>
     
 <article>
-  <h1 style="color: var(--text);">265 - To Better Understand</h1>
-  <time datetime="November 13, 2024" style="color: var(--secondary);">November 13, 2024</time>
-  <p>To better understand the dynamics of a “graph-native” system as I term it, let's walk through a quick comparative example (character limit allowing, as a full example would require a research paper length).</p>
+  <h1>265 - To Better Understand</h1>
+  <time datetime="November 13, 2024">November 13, 2024</time>
+  <div>
+    <p>To better understand the dynamics of a “graph-native” system as I term it, let's walk through a quick comparative example (character limit allowing, as a full example would require a research paper length).</p>
 <p>Example 1: A system has access to a company’s body of knowledge and the internet, and it is asked to assist the company in analyzing the viability of options for a major decision the Board of Directors faces, such as a potential M&amp;A, or pivoting into a new market.</p>
 <p>Graph-Native: The system analyzes all relevant knowledge currently in the graph, and searches available resources, such as the internet, to vet, refine, and expand upon that knowledge and understanding. This added value also comes in the form of the connectome of the graph further developing and refining over time, the connections between all contexts it contains, which includes improving the motivational data that guide exploration and action.</p>
 <p>This allows the system to perform much as an analyst would, but at greater speeds and scales, considering and integrating far more data into the process, absent the biases of limited human cognitive bandwidth and lossy human memory. The result is also far more explainable than the analyst, as every step of the process, though hyper-complex, is both deterministic and fully auditable. This is possible because the process isn’t driven by the weights of neural networks, but rather by a dynamically growing and evolving graph database flowing through a cognitive architecture over time, similar in flow to Chaos Theory and the Three-Body Problem.</p>
@@ -1398,6 +1440,7 @@
 <p>The outputs are known to vary even with subtle changes like the model of GPU that the LLM runs on, while offering no trace of explainability, and only “post-hoc” substitutes for explanations may be applied. It is a very fancy and intentionally biased Regression to the Mean via sequential Magic 8 Balls fitting to the curve of data distributions.</p>
 <p><img src="https://media.licdn.com/dms/image/v2/D5622AQGPzTUnzOserQ/feedshare-shrink_800/feedshare-shrink_800/0/1731111379582?e=1736985600&amp;v=beta&amp;t=LxfadVMizwbYKRd3-m20FcUs-nqyWKmA8Ij6VBX51GQ" alt="Comic Relief"></p>
 
+  </div>
 </article>
 
   </main>

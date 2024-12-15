@@ -211,6 +211,47 @@
     .dark-mode .essays-sort-control {
       color: var(--text-primary);
     }
+
+    .essay-date {
+      color: var(--text-tertiary);
+      font-size: 0.9em;
+      white-space: nowrap;
+    }
+
+    .research-sort-control {
+      /* ... other styles ... */
+      color: var(--text-primary);
+    }
+
+    .paper-item .paper-title-row a {
+      text-decoration: none;
+      color: var(--text-primary);
+      margin-right: 2em;
+      flex: 1;
+    }
+
+    .paper-title-row time,
+    .tag {
+      color: var(--text-tertiary);
+    }
+
+    .tag {
+      /* ... other styles ... */
+      border: 0.5px solid var(--text-tertiary);
+    }
+
+    .dark-mode .papers-list .paper-item .paper-title-row a {
+      color: var(--text-primary) !important;
+    }
+
+    .dark-mode .paper-title-row time {
+      color: var(--text-tertiary) !important;
+    }
+
+    .dark-mode .tag {
+      color: var(--text-tertiary) !important;
+      border-color: var(--text-tertiary) !important;
+    }
   </style>
 </head>
 <body>
@@ -1386,9 +1427,10 @@
   <main>
     
 <article>
-  <h1 style="color: var(--text);">259 - Tool Use</h1>
-  <time datetime="November 3, 2024" style="color: var(--secondary);">November 3, 2024</time>
-  <p>“Tool Use” and utilizing information resources like the internet itself are a popular subject in AI/ML and a natural target for companies to orient their product “features” around. Of course, all hype aside, typical AI/ML systems are spectacularly terrible at tool use and information resource utilization in general, and only marginally improved with major investments of engineering time and compute.</p>
+  <h1>259 - Tool Use</h1>
+  <time datetime="November 3, 2024">November 3, 2024</time>
+  <div>
+    <p>“Tool Use” and utilizing information resources like the internet itself are a popular subject in AI/ML and a natural target for companies to orient their product “features” around. Of course, all hype aside, typical AI/ML systems are spectacularly terrible at tool use and information resource utilization in general, and only marginally improved with major investments of engineering time and compute.</p>
 <p>Right now the market offers 1,000 terrible attempts at “tool use” and “AI search”, including the EXTREMELY Anthropomorphized PR videos from OpenAI and Anthropic.</p>
 <p>The simple fact is that a system that can’t independently generalize to the point of creating new tools for new circumstances also can’t reliably use tools within real-world complexity, at least absent extremely labor-intensive and fragile hand-engineering efforts. This can also be used as a litmus test for “tool use viability”, as the overwhelming majority of attempts to claim “tool use” will fall flat by this measure.</p>
 <p>Searching information resources to retrieve useful and/or desired information, potentially summarizing or analyzing it in subsequent steps, fundamentally falls far beyond the capacities of systems like LLMs for similar reasons. However, in addition to all of the problems they have with tool use, they also “bullshit” 100% of the time, even if some fraction of that bullshitting happens to agree with reality at any given point. They have no way of distinguishing fact from fiction, by design.</p>
@@ -1397,6 +1439,7 @@
 <p>If you want viable tool use, you need actual intelligence, with a human-like motivational system, and the cognitive processes of a working cognitive architecture. Fortunately, those aren’t theoretical, they’ve been demonstrated for half a decade. Ironically, nobody was paying &quot;Attention&quot;.</p>
 <p><img src="https://media.licdn.com/dms/image/v2/D5622AQE2XGLmCiw23A/feedshare-shrink_800/feedshare-shrink_800/0/1729673535646?e=1736985600&amp;v=beta&amp;t=2uv1q9zk8_-ZD-L7enDKMPONo30O0Cm-ZEXarz-6N3U" alt="Comic Relief"></p>
 
+  </div>
 </article>
 
   </main>

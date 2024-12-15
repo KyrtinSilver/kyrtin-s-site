@@ -211,6 +211,47 @@
     .dark-mode .essays-sort-control {
       color: var(--text-primary);
     }
+
+    .essay-date {
+      color: var(--text-tertiary);
+      font-size: 0.9em;
+      white-space: nowrap;
+    }
+
+    .research-sort-control {
+      /* ... other styles ... */
+      color: var(--text-primary);
+    }
+
+    .paper-item .paper-title-row a {
+      text-decoration: none;
+      color: var(--text-primary);
+      margin-right: 2em;
+      flex: 1;
+    }
+
+    .paper-title-row time,
+    .tag {
+      color: var(--text-tertiary);
+    }
+
+    .tag {
+      /* ... other styles ... */
+      border: 0.5px solid var(--text-tertiary);
+    }
+
+    .dark-mode .papers-list .paper-item .paper-title-row a {
+      color: var(--text-primary) !important;
+    }
+
+    .dark-mode .paper-title-row time {
+      color: var(--text-tertiary) !important;
+    }
+
+    .dark-mode .tag {
+      color: var(--text-tertiary) !important;
+      border-color: var(--text-tertiary) !important;
+    }
   </style>
 </head>
 <body>
@@ -1386,9 +1427,10 @@
   <main>
     
 <article>
-  <h1 style="color: var(--text);">256 - Funnier Questions</h1>
-  <time datetime="October 28, 2024" style="color: var(--secondary);">October 28, 2024</time>
-  <p>One of the funnier questions that people ask about my team’s technology is how it competes with things like OpenAI’s LLMs in terms of speed. This is funny because OpenAI’s systems fundamentally can’t do what ours do at any speed, and futile attempts to try, like “o1” aka “Fraudberry” just end up looking absurd.</p>
+  <h1>256 - Funnier Questions</h1>
+  <time datetime="October 28, 2024">October 28, 2024</time>
+  <div>
+    <p>One of the funnier questions that people ask about my team’s technology is how it competes with things like OpenAI’s LLMs in terms of speed. This is funny because OpenAI’s systems fundamentally can’t do what ours do at any speed, and futile attempts to try, like “o1” aka “Fraudberry” just end up looking absurd.</p>
 <p>Even for the modest level of complexity found in ARC-AGI puzzles OpenAI’s newest absurdity took over 18 times longer for attempting to solve puzzles than the fragment of our systems that we applied to it. For that 18x+ increase in runtime, they managed to score all of 21% on the same benchmark where a fragment of our systems scored 83% (88% with an ensemble of 2 runs). A wrong answer from a simpler system may always be faster than our systems, but CoT (“Chain of Thought”) is very far from even matching our speed on modest complexity problems, and the performance of CoT is demonstrably crap.</p>
 <p>They also likely required 10x as much hardware, but the precise depth of stupidity that their latest systems reach in terms of wasted hardware remains a closely guarded secret. They look bad enough already, with their finances telling the horrifying story of how even extremely steep discounts from Microsoft for compute can’t make them profitable, not even close.</p>
 <p>Above the level of complexity required for ARC-AGI, you find practically every real-world problem that people want to apply AI to, and as that level of complexity increases the performance of systems like LLMs that were fundamentally never designed for it crumbles. You could run 100 billion GPUs and boil the ocean without such systems overcoming the difference because that difference between toy problems and real-world problems is astronomical.</p>
@@ -1397,6 +1439,7 @@
 <p>You can fail at any speed you like, and on any budget, if your technology and vision don't mesh with reality.</p>
 <p><img src="https://media.licdn.com/dms/image/v2/D4D22AQERJpi9lLTYKQ/feedshare-shrink_800/feedshare-shrink_800/0/1729653210651?e=1736985600&amp;v=beta&amp;t=GqPTy3rjg1_JsR25t6BuxNLkBF8j6-I8JcSTRjaxVlk" alt="Comic Relief"></p>
 
+  </div>
 </article>
 
   </main>

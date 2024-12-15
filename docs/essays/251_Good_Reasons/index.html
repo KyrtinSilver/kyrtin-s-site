@@ -211,6 +211,47 @@
     .dark-mode .essays-sort-control {
       color: var(--text-primary);
     }
+
+    .essay-date {
+      color: var(--text-tertiary);
+      font-size: 0.9em;
+      white-space: nowrap;
+    }
+
+    .research-sort-control {
+      /* ... other styles ... */
+      color: var(--text-primary);
+    }
+
+    .paper-item .paper-title-row a {
+      text-decoration: none;
+      color: var(--text-primary);
+      margin-right: 2em;
+      flex: 1;
+    }
+
+    .paper-title-row time,
+    .tag {
+      color: var(--text-tertiary);
+    }
+
+    .tag {
+      /* ... other styles ... */
+      border: 0.5px solid var(--text-tertiary);
+    }
+
+    .dark-mode .papers-list .paper-item .paper-title-row a {
+      color: var(--text-primary) !important;
+    }
+
+    .dark-mode .paper-title-row time {
+      color: var(--text-tertiary) !important;
+    }
+
+    .dark-mode .tag {
+      color: var(--text-tertiary) !important;
+      border-color: var(--text-tertiary) !important;
+    }
   </style>
 </head>
 <body>
@@ -1386,9 +1427,10 @@
   <main>
     
 <article>
-  <h1 style="color: var(--text);">251 - Good Reasons</h1>
-  <time datetime="October 20, 2024" style="color: var(--secondary);">October 20, 2024</time>
-  <p>There are plenty of good reasons to buy into nuclear power, as it remains consistent, and high-output, with a low carbon footprint, and even 97%+ of “nuclear waste” can be converted into electricity. “AI” is not a good reason.</p>
+  <h1>251 - Good Reasons</h1>
+  <time datetime="October 20, 2024">October 20, 2024</time>
+  <div>
+    <p>There are plenty of good reasons to buy into nuclear power, as it remains consistent, and high-output, with a low carbon footprint, and even 97%+ of “nuclear waste” can be converted into electricity. “AI” is not a good reason.</p>
 <p>Mega-scale corporate stupidity has never been more clear-cut than buying 100,000 Nvidia GPUs, or your own nuclear reactor. GPU-based systems haven’t been cutting-edge for half a decade, and 100 billion GPUs boiling the ocean couldn’t change that.</p>
 <p>The difference between garbage like LLMs versus the actual cutting edge is measured in orders of magnitude, over 2 orders of magnitude in terms of electrical efficiency (~447x), and over 4 orders of magnitude (10,000x+) in terms of data efficiency.</p>
 <p>The hundreds of billions, if not trillions, of dollars being poured into GPU-based data centers and other brute-force compute hardware are patently absurd, and once people come to terms with reality there likely won’t be more than 5% of the current demand for GPUs, with the rest sitting idle to gather dust. Nvidia is fully aware of this, which may be why they’ve desperately peddled GPU hardware like there is no tomorrow, because for them there may not be.</p>
@@ -1396,6 +1438,7 @@
 <p>If you’re expecting those people to make any competent decisions in the near future, you should probably “go home and rethink your life”.</p>
 <p><img src="https://media.licdn.com/dms/image/v2/D5622AQG55Tmmf6QFoQ/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1729239265517?e=1736985600&amp;v=beta&amp;t=DsRtNPbLHOtqCPzTSuOp9tgzsRRzViwYn-IDsrrv7ls" alt="Comic Relief"></p>
 
+  </div>
 </article>
 
   </main>

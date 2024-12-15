@@ -211,6 +211,47 @@
     .dark-mode .essays-sort-control {
       color: var(--text-primary);
     }
+
+    .essay-date {
+      color: var(--text-tertiary);
+      font-size: 0.9em;
+      white-space: nowrap;
+    }
+
+    .research-sort-control {
+      /* ... other styles ... */
+      color: var(--text-primary);
+    }
+
+    .paper-item .paper-title-row a {
+      text-decoration: none;
+      color: var(--text-primary);
+      margin-right: 2em;
+      flex: 1;
+    }
+
+    .paper-title-row time,
+    .tag {
+      color: var(--text-tertiary);
+    }
+
+    .tag {
+      /* ... other styles ... */
+      border: 0.5px solid var(--text-tertiary);
+    }
+
+    .dark-mode .papers-list .paper-item .paper-title-row a {
+      color: var(--text-primary) !important;
+    }
+
+    .dark-mode .paper-title-row time {
+      color: var(--text-tertiary) !important;
+    }
+
+    .dark-mode .tag {
+      color: var(--text-tertiary) !important;
+      border-color: var(--text-tertiary) !important;
+    }
   </style>
 </head>
 <body>
@@ -1386,9 +1427,10 @@
   <main>
     
 <article>
-  <h1 style="color: var(--text);">242 - Taken The Stage</h1>
-  <time datetime="October 4, 2024" style="color: var(--secondary);">October 4, 2024</time>
-  <p>Now that our CEO Frits has taken the stage at the conference &amp; startup competition where we were selected as a finalist, I can share our numbers for the ARC-AGI Challenge. Some data pipeline errors are still being cleaned up due to inconsistencies in the datasets, but here are the numbers:</p>
+  <h1>242 - Taken The Stage</h1>
+  <time datetime="October 4, 2024">October 4, 2024</time>
+  <div>
+    <p>Now that our CEO Frits has taken the stage at the conference &amp; startup competition where we were selected as a finalist, I can share our numbers for the ARC-AGI Challenge. Some data pipeline errors are still being cleaned up due to inconsistencies in the datasets, but here are the numbers:</p>
 <p>Training set:</p>
 <p>“ARC Tests Complete
 total tests: 390
@@ -1408,6 +1450,7 @@ Total Failure: 103”</p>
 <p>I have another post scheduled to go over these results in more detail, and compare them to the nearest other scores on both leaderboards (Prize and Public ARC-AGI) and verification of our results with the ARC-AGI Challenge team should take place following the conference.</p>
 <p><img src="https://media.licdn.com/dms/image/v2/D5622AQHwQJh4GSs9ew/feedshare-shrink_800/feedshare-shrink_800/0/1725998906919?e=1736985600&amp;v=beta&amp;t=eBzriJcvGbZZNv7p6I_MhfI77YvCAafKqp2yeFGMlNc" alt="Comic Relief"></p>
 
+  </div>
 </article>
 
   </main>
