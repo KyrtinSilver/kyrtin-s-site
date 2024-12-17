@@ -6,7 +6,6 @@
   <meta name="description" content="243 - New ARC-AGI-PUB Score" />
   <title>243 - New ARC-AGI-PUB Score</title>
   <link rel="canonical" href="https://kyrtinatreides.com/essays/243_New_ARC-AGI-PUB_Score/" />
-  <link rel="preload" href="/assets/feather-sprite.svg" as="image" type="image/svg+xml">
   <meta name="google-site-verification" content="VgCfmx07-aHtaHzeW-ijLgOvhHzZ3Iys9vqoZyKwOcM" />
   
   
@@ -25,6 +24,7 @@
   </script>
   
   <!-- Add Google Fonts -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500&display=swap" as="style">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500&display=swap" rel="stylesheet">
@@ -87,6 +87,8 @@
       height: auto;
       display: block;
       margin: 2rem auto;
+      loading="lazy"
+      decoding="async"
     }
 
     a {
@@ -393,6 +395,89 @@
   </style>
 </head>
 <body>
+  <nav>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/essays/">Essays</a>
+      <a href="/research/">Research</a>
+    </div>
+    <button class="theme-toggle" aria-label="Toggle dark mode">
+      <svg class="sun-icon">
+        <use href="#sun" />
+      </svg>
+      <svg class="moon-icon">
+        <use href="#moon" />
+      </svg>
+    </button>
+  </nav>
+
+  <main>
+    
+<article>
+  <div class="page-header">
+    <div>
+      <h1>243 - New ARC-AGI-PUB Score</h1>
+      <time datetime="October 6, 2024">October 6, 2024</time>
+    </div>
+    <span></span>
+  </div>
+  <div>
+    <p>Our new ARC-AGI-PUB score (pending verification) continues to rise as the data pipeline is cleaned up, now at 82% counting all pipeline errors as misses, with human performance being 85%. The next nearest scores are 46% and 43% respectively, so we’re blowing the competition out of the water by a wide margin, but we can also boost our score further in a variety of ways.</p>
+<p>This is only the start of the performance curve for ICOM-based systems.</p>
+<p>Things that we didn’t do:</p>
+<ul>
+<li>
+<p>Zero “synthetic data” was used. I prepared a collection of such data just in case, but the nascent performance of our systems was already quite sufficient.</p>
+</li>
+<li>
+<p>Zero “training” and/or “fine-tuning” of neural networks for ARC-AGI was performed. Our only API calls were more generic and cheap systems, coming to between $8 and $11 in total compute per run of 400 ARC-AGI Challenge tasks. These APIs are actually a hindrance right now, as the main remaining data pipeline issue appears to be in API threading, so we may switch to a locally run model ahead of schedule.</p>
+</li>
+<li>
+<p>We haven’t implemented an opportunity for our systems to use the 3 guesses per puzzle allowed for the challenge, these numbers are from giving them only one chance per puzzle.</p>
+</li>
+<li>
+<p>We’re nowhere remotely close to maxing out the allowed compute time for an ARC-AGI Challenge run, coming in at ~1.5 hours for 400 problems, where the verification is only 100 problems and allows up to 12 hours. This means that we could allow our systems an order of magnitude more compute per each of the 3 guesses allowed per problem if we wanted to maximize our score, and it would still run in less than even the strict time limit imposed on the Prize Board.</p>
+</li>
+</ul>
+<p>To my knowledge, we’re also the only ones to put a system to the ARC-AGI Challenge that wasn’t designed, trained, and built specifically for ARC-AGI. Baseline scores for trash like GPT-4o and Claude 3.5 are 5% and 14% respectively.</p>
+<p>The ARC-AGI Challenge Prize leaderboard on Kaggle also paints this picture very clearly from another important angle, as it shows the number of entries made by each team. As I type this, the top team there, with a score of 46%, has made 281 entries since June of this year when the large cash prize was introduced, maxing out their daily allowed entries. All but 1 of the top 5 teams have over 100 entries for the same time frame.</p>
+<p>The top team for the Prize leaderboard has also been specifically working on the challenge for a long time, whereas I was only recently able to persuade my co-founder to take a brief detour from our core infrastructure engineering workload to run our systems against this challenge. This is nascent performance, not serious or sustained effort aimed at the challenge. I was able to persuade my co-founder to do this specifically because it required virtually nothing that we didn’t already have on our agenda, except the data pipeline work specific to this challenge.</p>
+<p>“The best is yet to come.” -Sinatra</p>
+<p><img src="https://media.licdn.com/dms/image/v2/D5622AQFIeLSy4wD-RA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1726177862978?e=1736985600&amp;v=beta&amp;t=QAGbJmWygPw-HkqAkUyUNhcDHFk2upY3DF1GVVFqK9o" alt="Comic Relief"></p>
+
+  </div>
+</article>
+
+  </main>
+
+  <footer>
+    <p>© 2024 Kyrtin Atreides</p>
+  </footer>
+
+  <script>
+    const toggleBtn = document.querySelector('.theme-toggle');
+    const sunIcon = toggleBtn.querySelector('.sun-icon');
+    const moonIcon = toggleBtn.querySelector('.moon-icon');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+
+    function setDarkMode(isDark) {
+      document.documentElement.classList.toggle('dark-mode', isDark);
+      sunIcon.classList.toggle('active', !isDark);
+      moonIcon.classList.toggle('active', isDark);
+    }
+
+    // Initialize theme
+    const storedTheme = localStorage.getItem('theme');
+    setDarkMode(storedTheme === 'dark' || (!storedTheme && prefersDark.matches));
+
+    // Listen for changes
+    toggleBtn.addEventListener('click', () => {
+      const isDark = document.documentElement.classList.contains('dark-mode');
+      setDarkMode(!isDark);
+      localStorage.setItem('theme', !isDark ? 'dark' : 'light');
+    });
+  </script>
+
   
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
   
@@ -1545,88 +1630,5 @@
     </symbol>
   
 </svg>
-
-  <nav>
-    <div class="nav-links">
-      <a href="/">Home</a>
-      <a href="/essays/">Essays</a>
-      <a href="/research/">Research</a>
-    </div>
-    <button class="theme-toggle" aria-label="Toggle dark mode">
-      <svg class="sun-icon">
-        <use href="#sun" />
-      </svg>
-      <svg class="moon-icon">
-        <use href="#moon" />
-      </svg>
-    </button>
-  </nav>
-
-  <main>
-    
-<article>
-  <div class="page-header">
-    <div>
-      <h1>243 - New ARC-AGI-PUB Score</h1>
-      <time datetime="October 6, 2024">October 6, 2024</time>
-    </div>
-    <span></span>
-  </div>
-  <div>
-    <p>Our new ARC-AGI-PUB score (pending verification) continues to rise as the data pipeline is cleaned up, now at 82% counting all pipeline errors as misses, with human performance being 85%. The next nearest scores are 46% and 43% respectively, so we’re blowing the competition out of the water by a wide margin, but we can also boost our score further in a variety of ways.</p>
-<p>This is only the start of the performance curve for ICOM-based systems.</p>
-<p>Things that we didn’t do:</p>
-<ul>
-<li>
-<p>Zero “synthetic data” was used. I prepared a collection of such data just in case, but the nascent performance of our systems was already quite sufficient.</p>
-</li>
-<li>
-<p>Zero “training” and/or “fine-tuning” of neural networks for ARC-AGI was performed. Our only API calls were more generic and cheap systems, coming to between $8 and $11 in total compute per run of 400 ARC-AGI Challenge tasks. These APIs are actually a hindrance right now, as the main remaining data pipeline issue appears to be in API threading, so we may switch to a locally run model ahead of schedule.</p>
-</li>
-<li>
-<p>We haven’t implemented an opportunity for our systems to use the 3 guesses per puzzle allowed for the challenge, these numbers are from giving them only one chance per puzzle.</p>
-</li>
-<li>
-<p>We’re nowhere remotely close to maxing out the allowed compute time for an ARC-AGI Challenge run, coming in at ~1.5 hours for 400 problems, where the verification is only 100 problems and allows up to 12 hours. This means that we could allow our systems an order of magnitude more compute per each of the 3 guesses allowed per problem if we wanted to maximize our score, and it would still run in less than even the strict time limit imposed on the Prize Board.</p>
-</li>
-</ul>
-<p>To my knowledge, we’re also the only ones to put a system to the ARC-AGI Challenge that wasn’t designed, trained, and built specifically for ARC-AGI. Baseline scores for trash like GPT-4o and Claude 3.5 are 5% and 14% respectively.</p>
-<p>The ARC-AGI Challenge Prize leaderboard on Kaggle also paints this picture very clearly from another important angle, as it shows the number of entries made by each team. As I type this, the top team there, with a score of 46%, has made 281 entries since June of this year when the large cash prize was introduced, maxing out their daily allowed entries. All but 1 of the top 5 teams have over 100 entries for the same time frame.</p>
-<p>The top team for the Prize leaderboard has also been specifically working on the challenge for a long time, whereas I was only recently able to persuade my co-founder to take a brief detour from our core infrastructure engineering workload to run our systems against this challenge. This is nascent performance, not serious or sustained effort aimed at the challenge. I was able to persuade my co-founder to do this specifically because it required virtually nothing that we didn’t already have on our agenda, except the data pipeline work specific to this challenge.</p>
-<p>“The best is yet to come.” -Sinatra</p>
-<p><img src="https://media.licdn.com/dms/image/v2/D5622AQFIeLSy4wD-RA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1726177862978?e=1736985600&amp;v=beta&amp;t=QAGbJmWygPw-HkqAkUyUNhcDHFk2upY3DF1GVVFqK9o" alt="Comic Relief"></p>
-
-  </div>
-</article>
-
-  </main>
-
-  <footer>
-    <p>© 2024 Kyrtin Atreides</p>
-  </footer>
-
-  <script>
-    const toggleBtn = document.querySelector('.theme-toggle');
-    const sunIcon = toggleBtn.querySelector('.sun-icon');
-    const moonIcon = toggleBtn.querySelector('.moon-icon');
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
-
-    function setDarkMode(isDark) {
-      document.documentElement.classList.toggle('dark-mode', isDark);
-      sunIcon.classList.toggle('active', !isDark);
-      moonIcon.classList.toggle('active', isDark);
-    }
-
-    // Initialize theme
-    const storedTheme = localStorage.getItem('theme');
-    setDarkMode(storedTheme === 'dark' || (!storedTheme && prefersDark.matches));
-
-    // Listen for changes
-    toggleBtn.addEventListener('click', () => {
-      const isDark = document.documentElement.classList.contains('dark-mode');
-      setDarkMode(!isDark);
-      localStorage.setItem('theme', !isDark ? 'dark' : 'light');
-    });
-  </script>
 </body>
 </html>

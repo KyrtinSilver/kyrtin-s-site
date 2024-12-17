@@ -6,7 +6,6 @@
   <meta name="description" content="272 - Fundamental Errors" />
   <title>272 - Fundamental Errors</title>
   <link rel="canonical" href="https://kyrtinatreides.com/essays/272_Fundamental_Errors/" />
-  <link rel="preload" href="/assets/feather-sprite.svg" as="image" type="image/svg+xml">
   <meta name="google-site-verification" content="VgCfmx07-aHtaHzeW-ijLgOvhHzZ3Iys9vqoZyKwOcM" />
   
   
@@ -25,6 +24,7 @@
   </script>
   
   <!-- Add Google Fonts -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500&display=swap" as="style">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500&display=swap" rel="stylesheet">
@@ -87,6 +87,8 @@
       height: auto;
       display: block;
       margin: 2rem auto;
+      loading="lazy"
+      decoding="async"
     }
 
     a {
@@ -393,6 +395,75 @@
   </style>
 </head>
 <body>
+  <nav>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/essays/">Essays</a>
+      <a href="/research/">Research</a>
+    </div>
+    <button class="theme-toggle" aria-label="Toggle dark mode">
+      <svg class="sun-icon">
+        <use href="#sun" />
+      </svg>
+      <svg class="moon-icon">
+        <use href="#moon" />
+      </svg>
+    </button>
+  </nav>
+
+  <main>
+    
+<article>
+  <div class="page-header">
+    <div>
+      <h1>272 - Fundamental Errors</h1>
+      <time datetime="November 25, 2024">November 25, 2024</time>
+    </div>
+    <span></span>
+  </div>
+  <div>
+    <p>One of the fundamental errors that many in AI make is a matter of “Data Decomposition”. They think that they understand the data that they feed into simple systems like transformers (such as LLMs) and/or RL algorithms. However, excluding some toy and artificial edge cases, they never understand the data that is fed in because the human brain doesn’t process that data in anything remotely resembling the same ways that neural networks do.</p>
+<p>Transformers are simple brute-force algorithms for taking some volume of data and building a collection of probability distributions of fixed size and vocabulary. This process destroys most of the value of the data, rendering it a mess of superpositioned “weights”, broken down into “tokens”. In this process, all data passing through the algorithm is decomposed in ways notoriously incomprehensible to humans, much like human concepts passing through a blender.</p>
+<p>When people fail to understand the data that they are feeding in, they may be surprised by the results of that data if they don’t hold a grounded and sufficient understanding of the technology that they’re working with. What a transformer does is simple, like a blender, with minor variations in the texture of outputs, but the primary thing that varies is what you feed into it (and the cognitive biases of the observer).</p>
+<p>This has become a source of seemingly endless delusions in the field of AI, magical thinking where the most naïve and gullible (or nefarious and malevolent) attempt to apply terms like “reasoning”, “understanding”, “world models”, and “emergent” to LLMs and their equally narrow derivatives, like “agent” systems.</p>
+<p>Modern LLMs and the derivative systems built upon them are “maximally contaminated”, as they’ve been trained on pretty much the entire sum of the internet, including the copyrighted and illegal parts. When considering the actual Distributions of this data, it means that there is virtually nothing truly “Out of Distribution” for any of these systems, yet they still fail miserably at most tasks of any complexity. Even having trained directly on the answers to many benchmarks, the thing that any Data Scientist understands you’re absolutely never supposed to do, the most over-funded of these systems still often fail spectacularly.</p>
+<p>There is no fundamental uncertainty as to what these trivially simple technologies can and cannot do. They aren’t even remotely close to the cutting edge and haven’t been for at least half a decade. Like so many other dead-end technologies and schemes before them, they function as a bucket that many have tossed their hopes and dreams into because those people failed to recognize that it was fundamentally impossible for the technology to deliver on them.</p>
+<p>This is not a matter of “AI Skepticism”, as skepticism requires uncertainty, and much as it is obvious that a toaster can’t do your taxes, LLMs, RL, and “agents” aren’t fundamentally viable for most use cases either, they are just narrow tools.</p>
+<p><img src="https://media.licdn.com/dms/image/v2/D5622AQFLmR0EupIn3Q/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1732230395904?e=1736985600&amp;v=beta&amp;t=7h0SXqOGKt7ql5uW_BAf1Qm6Ucj5CN9RTLp7CGFhDgs" alt="Comic Relief"></p>
+
+  </div>
+</article>
+
+  </main>
+
+  <footer>
+    <p>© 2024 Kyrtin Atreides</p>
+  </footer>
+
+  <script>
+    const toggleBtn = document.querySelector('.theme-toggle');
+    const sunIcon = toggleBtn.querySelector('.sun-icon');
+    const moonIcon = toggleBtn.querySelector('.moon-icon');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+
+    function setDarkMode(isDark) {
+      document.documentElement.classList.toggle('dark-mode', isDark);
+      sunIcon.classList.toggle('active', !isDark);
+      moonIcon.classList.toggle('active', isDark);
+    }
+
+    // Initialize theme
+    const storedTheme = localStorage.getItem('theme');
+    setDarkMode(storedTheme === 'dark' || (!storedTheme && prefersDark.matches));
+
+    // Listen for changes
+    toggleBtn.addEventListener('click', () => {
+      const isDark = document.documentElement.classList.contains('dark-mode');
+      setDarkMode(!isDark);
+      localStorage.setItem('theme', !isDark ? 'dark' : 'light');
+    });
+  </script>
+
   
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
   
@@ -1545,74 +1616,5 @@
     </symbol>
   
 </svg>
-
-  <nav>
-    <div class="nav-links">
-      <a href="/">Home</a>
-      <a href="/essays/">Essays</a>
-      <a href="/research/">Research</a>
-    </div>
-    <button class="theme-toggle" aria-label="Toggle dark mode">
-      <svg class="sun-icon">
-        <use href="#sun" />
-      </svg>
-      <svg class="moon-icon">
-        <use href="#moon" />
-      </svg>
-    </button>
-  </nav>
-
-  <main>
-    
-<article>
-  <div class="page-header">
-    <div>
-      <h1>272 - Fundamental Errors</h1>
-      <time datetime="November 25, 2024">November 25, 2024</time>
-    </div>
-    <span></span>
-  </div>
-  <div>
-    <p>One of the fundamental errors that many in AI make is a matter of “Data Decomposition”. They think that they understand the data that they feed into simple systems like transformers (such as LLMs) and/or RL algorithms. However, excluding some toy and artificial edge cases, they never understand the data that is fed in because the human brain doesn’t process that data in anything remotely resembling the same ways that neural networks do.</p>
-<p>Transformers are simple brute-force algorithms for taking some volume of data and building a collection of probability distributions of fixed size and vocabulary. This process destroys most of the value of the data, rendering it a mess of superpositioned “weights”, broken down into “tokens”. In this process, all data passing through the algorithm is decomposed in ways notoriously incomprehensible to humans, much like human concepts passing through a blender.</p>
-<p>When people fail to understand the data that they are feeding in, they may be surprised by the results of that data if they don’t hold a grounded and sufficient understanding of the technology that they’re working with. What a transformer does is simple, like a blender, with minor variations in the texture of outputs, but the primary thing that varies is what you feed into it (and the cognitive biases of the observer).</p>
-<p>This has become a source of seemingly endless delusions in the field of AI, magical thinking where the most naïve and gullible (or nefarious and malevolent) attempt to apply terms like “reasoning”, “understanding”, “world models”, and “emergent” to LLMs and their equally narrow derivatives, like “agent” systems.</p>
-<p>Modern LLMs and the derivative systems built upon them are “maximally contaminated”, as they’ve been trained on pretty much the entire sum of the internet, including the copyrighted and illegal parts. When considering the actual Distributions of this data, it means that there is virtually nothing truly “Out of Distribution” for any of these systems, yet they still fail miserably at most tasks of any complexity. Even having trained directly on the answers to many benchmarks, the thing that any Data Scientist understands you’re absolutely never supposed to do, the most over-funded of these systems still often fail spectacularly.</p>
-<p>There is no fundamental uncertainty as to what these trivially simple technologies can and cannot do. They aren’t even remotely close to the cutting edge and haven’t been for at least half a decade. Like so many other dead-end technologies and schemes before them, they function as a bucket that many have tossed their hopes and dreams into because those people failed to recognize that it was fundamentally impossible for the technology to deliver on them.</p>
-<p>This is not a matter of “AI Skepticism”, as skepticism requires uncertainty, and much as it is obvious that a toaster can’t do your taxes, LLMs, RL, and “agents” aren’t fundamentally viable for most use cases either, they are just narrow tools.</p>
-<p><img src="https://media.licdn.com/dms/image/v2/D5622AQFLmR0EupIn3Q/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1732230395904?e=1736985600&amp;v=beta&amp;t=7h0SXqOGKt7ql5uW_BAf1Qm6Ucj5CN9RTLp7CGFhDgs" alt="Comic Relief"></p>
-
-  </div>
-</article>
-
-  </main>
-
-  <footer>
-    <p>© 2024 Kyrtin Atreides</p>
-  </footer>
-
-  <script>
-    const toggleBtn = document.querySelector('.theme-toggle');
-    const sunIcon = toggleBtn.querySelector('.sun-icon');
-    const moonIcon = toggleBtn.querySelector('.moon-icon');
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
-
-    function setDarkMode(isDark) {
-      document.documentElement.classList.toggle('dark-mode', isDark);
-      sunIcon.classList.toggle('active', !isDark);
-      moonIcon.classList.toggle('active', isDark);
-    }
-
-    // Initialize theme
-    const storedTheme = localStorage.getItem('theme');
-    setDarkMode(storedTheme === 'dark' || (!storedTheme && prefersDark.matches));
-
-    // Listen for changes
-    toggleBtn.addEventListener('click', () => {
-      const isDark = document.documentElement.classList.contains('dark-mode');
-      setDarkMode(!isDark);
-      localStorage.setItem('theme', !isDark ? 'dark' : 'light');
-    });
-  </script>
 </body>
 </html>

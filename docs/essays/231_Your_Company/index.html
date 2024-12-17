@@ -6,7 +6,6 @@
   <meta name="description" content="231 - Your Company" />
   <title>231 - Your Company</title>
   <link rel="canonical" href="https://kyrtinatreides.com/essays/231_Your_Company/" />
-  <link rel="preload" href="/assets/feather-sprite.svg" as="image" type="image/svg+xml">
   <meta name="google-site-verification" content="VgCfmx07-aHtaHzeW-ijLgOvhHzZ3Iys9vqoZyKwOcM" />
   
   
@@ -25,6 +24,7 @@
   </script>
   
   <!-- Add Google Fonts -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500&display=swap" as="style">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500&display=swap" rel="stylesheet">
@@ -87,6 +87,8 @@
       height: auto;
       display: block;
       margin: 2rem auto;
+      loading="lazy"
+      decoding="async"
     }
 
     a {
@@ -393,6 +395,92 @@
   </style>
 </head>
 <body>
+  <nav>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/essays/">Essays</a>
+      <a href="/research/">Research</a>
+    </div>
+    <button class="theme-toggle" aria-label="Toggle dark mode">
+      <svg class="sun-icon">
+        <use href="#sun" />
+      </svg>
+      <svg class="moon-icon">
+        <use href="#moon" />
+      </svg>
+    </button>
+  </nav>
+
+  <main>
+    
+<article>
+  <div class="page-header">
+    <div>
+      <h1>231 - Your Company</h1>
+      <time datetime="August 23, 2024">August 23, 2024</time>
+    </div>
+    <span></span>
+  </div>
+  <div>
+    <p>Your company data could be cleaned.
+It isn’t.</p>
+<p>Your risk assessment and mitigation could do more than just move costs away from monitored KPIs.
+They don’t.</p>
+<p>Your cybersecurity could actually be secure.
+It isn’t.</p>
+<p>Your staff could be engaged in and more satisfied with their jobs.
+They aren’t.</p>
+<p>Your company’s decision-making could be far less biased and scientifically validated.
+It isn’t.</p>
+<p>Your company could do more with over 10,000 times less data.
+It doesn’t.</p>
+<p>The technology you use could be the technology that you actually need to use.
+It isn’t.</p>
+<p>Your company could add substantial value for clients, rather than marginal or no value.
+It doesn’t.</p>
+<p>The decisions your company makes could be quick, dynamic, and reversible.
+They aren’t.</p>
+<p>Your company could have a major positive impact on the world while still making a profit.
+It doesn’t.</p>
+<p>For most companies, at least 8 or 9 out of these 10 statements ring true. That is the status quo of the world as we know it, but it doesn’t have to remain that way.</p>
+<p>For example, even if a few companies only improved to the point where 3 out of 10 of these statements remained true, that difference would amount to an insurmountable advantage over their competitors. That advantage could also increase over time, as the benefits of many of these problems are cumulative, rather than transient.</p>
+<p>No, trivial and trash technology like LLMs can’t deliver these solutions, but they were never the cutting edge anyway. As the hell that is Silicon Valley freezes over in the aftermath of the hype pustule bursting, my team continues our work at the cutting edge, where we’ve been since 2019, and where we’ll likely still be in another 5 years.</p>
+<p>The best time to make the wise choice was 5 years ago, but the second-best time is today. You always have the choice to let go of the sunk cost of past mistakes, learn, and move forward. Will you?</p>
+<p><img src="https://media.licdn.com/dms/image/v2/D5622AQH5KTfSZejAPQ/feedshare-shrink_800/feedshare-shrink_800/0/1721970688728?e=1737590400&amp;v=beta&amp;t=sdhAxKg5rw3GiM4Tw8QnC9swHsy4a4sEV0nKspJ9ugQ" alt="Comic Relief"></p>
+
+  </div>
+</article>
+
+  </main>
+
+  <footer>
+    <p>© 2024 Kyrtin Atreides</p>
+  </footer>
+
+  <script>
+    const toggleBtn = document.querySelector('.theme-toggle');
+    const sunIcon = toggleBtn.querySelector('.sun-icon');
+    const moonIcon = toggleBtn.querySelector('.moon-icon');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+
+    function setDarkMode(isDark) {
+      document.documentElement.classList.toggle('dark-mode', isDark);
+      sunIcon.classList.toggle('active', !isDark);
+      moonIcon.classList.toggle('active', isDark);
+    }
+
+    // Initialize theme
+    const storedTheme = localStorage.getItem('theme');
+    setDarkMode(storedTheme === 'dark' || (!storedTheme && prefersDark.matches));
+
+    // Listen for changes
+    toggleBtn.addEventListener('click', () => {
+      const isDark = document.documentElement.classList.contains('dark-mode');
+      setDarkMode(!isDark);
+      localStorage.setItem('theme', !isDark ? 'dark' : 'light');
+    });
+  </script>
+
   
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
   
@@ -1545,91 +1633,5 @@
     </symbol>
   
 </svg>
-
-  <nav>
-    <div class="nav-links">
-      <a href="/">Home</a>
-      <a href="/essays/">Essays</a>
-      <a href="/research/">Research</a>
-    </div>
-    <button class="theme-toggle" aria-label="Toggle dark mode">
-      <svg class="sun-icon">
-        <use href="#sun" />
-      </svg>
-      <svg class="moon-icon">
-        <use href="#moon" />
-      </svg>
-    </button>
-  </nav>
-
-  <main>
-    
-<article>
-  <div class="page-header">
-    <div>
-      <h1>231 - Your Company</h1>
-      <time datetime="August 23, 2024">August 23, 2024</time>
-    </div>
-    <span></span>
-  </div>
-  <div>
-    <p>Your company data could be cleaned.
-It isn’t.</p>
-<p>Your risk assessment and mitigation could do more than just move costs away from monitored KPIs.
-They don’t.</p>
-<p>Your cybersecurity could actually be secure.
-It isn’t.</p>
-<p>Your staff could be engaged in and more satisfied with their jobs.
-They aren’t.</p>
-<p>Your company’s decision-making could be far less biased and scientifically validated.
-It isn’t.</p>
-<p>Your company could do more with over 10,000 times less data.
-It doesn’t.</p>
-<p>The technology you use could be the technology that you actually need to use.
-It isn’t.</p>
-<p>Your company could add substantial value for clients, rather than marginal or no value.
-It doesn’t.</p>
-<p>The decisions your company makes could be quick, dynamic, and reversible.
-They aren’t.</p>
-<p>Your company could have a major positive impact on the world while still making a profit.
-It doesn’t.</p>
-<p>For most companies, at least 8 or 9 out of these 10 statements ring true. That is the status quo of the world as we know it, but it doesn’t have to remain that way.</p>
-<p>For example, even if a few companies only improved to the point where 3 out of 10 of these statements remained true, that difference would amount to an insurmountable advantage over their competitors. That advantage could also increase over time, as the benefits of many of these problems are cumulative, rather than transient.</p>
-<p>No, trivial and trash technology like LLMs can’t deliver these solutions, but they were never the cutting edge anyway. As the hell that is Silicon Valley freezes over in the aftermath of the hype pustule bursting, my team continues our work at the cutting edge, where we’ve been since 2019, and where we’ll likely still be in another 5 years.</p>
-<p>The best time to make the wise choice was 5 years ago, but the second-best time is today. You always have the choice to let go of the sunk cost of past mistakes, learn, and move forward. Will you?</p>
-<p><img src="https://media.licdn.com/dms/image/v2/D5622AQH5KTfSZejAPQ/feedshare-shrink_800/feedshare-shrink_800/0/1721970688728?e=1737590400&amp;v=beta&amp;t=sdhAxKg5rw3GiM4Tw8QnC9swHsy4a4sEV0nKspJ9ugQ" alt="Comic Relief"></p>
-
-  </div>
-</article>
-
-  </main>
-
-  <footer>
-    <p>© 2024 Kyrtin Atreides</p>
-  </footer>
-
-  <script>
-    const toggleBtn = document.querySelector('.theme-toggle');
-    const sunIcon = toggleBtn.querySelector('.sun-icon');
-    const moonIcon = toggleBtn.querySelector('.moon-icon');
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
-
-    function setDarkMode(isDark) {
-      document.documentElement.classList.toggle('dark-mode', isDark);
-      sunIcon.classList.toggle('active', !isDark);
-      moonIcon.classList.toggle('active', isDark);
-    }
-
-    // Initialize theme
-    const storedTheme = localStorage.getItem('theme');
-    setDarkMode(storedTheme === 'dark' || (!storedTheme && prefersDark.matches));
-
-    // Listen for changes
-    toggleBtn.addEventListener('click', () => {
-      const isDark = document.documentElement.classList.contains('dark-mode');
-      setDarkMode(!isDark);
-      localStorage.setItem('theme', !isDark ? 'dark' : 'light');
-    });
-  </script>
 </body>
 </html>

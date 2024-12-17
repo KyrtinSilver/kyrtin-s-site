@@ -6,7 +6,6 @@
   <meta name="description" content="273 - Dreams of AI" />
   <title>273 - Dreams of AI</title>
   <link rel="canonical" href="https://kyrtinatreides.com/essays/273_Dreams_of_AI/" />
-  <link rel="preload" href="/assets/feather-sprite.svg" as="image" type="image/svg+xml">
   <meta name="google-site-verification" content="VgCfmx07-aHtaHzeW-ijLgOvhHzZ3Iys9vqoZyKwOcM" />
   
   
@@ -25,6 +24,7 @@
   </script>
   
   <!-- Add Google Fonts -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500&display=swap" as="style">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500&display=swap" rel="stylesheet">
@@ -87,6 +87,8 @@
       height: auto;
       display: block;
       margin: 2rem auto;
+      loading="lazy"
+      decoding="async"
     }
 
     a {
@@ -393,6 +395,80 @@
   </style>
 </head>
 <body>
+  <nav>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/essays/">Essays</a>
+      <a href="/research/">Research</a>
+    </div>
+    <button class="theme-toggle" aria-label="Toggle dark mode">
+      <svg class="sun-icon">
+        <use href="#sun" />
+      </svg>
+      <svg class="moon-icon">
+        <use href="#moon" />
+      </svg>
+    </button>
+  </nav>
+
+  <main>
+    
+<article>
+  <div class="page-header">
+    <div>
+      <h1>273 - Dreams of AI</h1>
+      <time datetime="November 27, 2024">November 27, 2024</time>
+    </div>
+    <span></span>
+  </div>
+  <div>
+    <p>Most people talking about their “dreams” for an AI future, both Dystopian and Utopian, don’t actually understand the present day’s cutting edge. Because of this pairing of blind ignorance and an assortment of cognitive biases, those “dreams”, or nightmares in the case of dystopian scenarios, are often a blended and deranged mixture of things that:</p>
+<ul>
+<li>Have already been demonstrated by the actual cutting-edge,</li>
+<li>Are fundamentally impossible,</li>
+<li>…are impractical by many orders of magnitude,</li>
+<li>…or that simply make no sense outside of cheap and trite science fiction narratives.</li>
+</ul>
+<p>Thanks in large part to the present dynamics of social media platforms, most of the “influencers” with the highest number of followers are also the most heavily insulated echo chambers of these delusional narratives. This subsequently causes the followers of a majority of the most popular influencers to also be the least educated.</p>
+<p>Even seeking alternative sources often funnels people into various traps and rabbit holes where profit may be extracted from a captive audience. From a practical and cognitive bias perspective, it isn’t even reasonable to expect the vast majority of humans to overcome these challenges, and the few who do must put in measurable effort while also making sacrifices. The internet is full of unchecked bad actors, dark patterns, and even well-intentioned delusions, none of which trivial AI models like LLMs and RL can realistically help with to a non-trivial degree.</p>
+<p>As the end of the year approaches, many people will inevitably make their “predictions for 2025” and beyond, but those who fail to understand the present have no real chance of predicting the future. Likewise, those who fail to understand that humans aren’t rational actors will have no real chance of predicting the things that humans do, both today and in the future. Sources with conflicts of interest further compound these problems, proportionate to the length of the leash that they keep cognitive biases on, as well as their baseline honesty and accuracy.</p>
+<p>If and when you encounter these end-of-year predictions and “reports”, simply realize what Prof. Tetlock demonstrated, that most “experts” in these overly vocal domains are only marginally better than a “Dart-Throwing-Chimpanzee”, and unlike the dart-throwing-chimpanzee, when they are wrong, they are systematically wrong.</p>
+<p>The net effect of them being systematically wrong with such a terrible baseline is effectively worse than random, so you’d literally be better off asking a Magic 8 Ball than most AI Influencers or major consultancies. Neither one has a meaningful understanding, but the Magic 8 Ball is at least unbiased.</p>
+<p><img src="https://media.licdn.com/dms/image/v2/D5622AQGYOihX2w_NCQ/feedshare-shrink_800/feedshare-shrink_800/0/1732247978070?e=1736985600&amp;v=beta&amp;t=SWebPAvDVDPLnr-OahV5Cb5cT-FTHK4YnwG323sYz-0" alt="Comic Relief"></p>
+
+  </div>
+</article>
+
+  </main>
+
+  <footer>
+    <p>© 2024 Kyrtin Atreides</p>
+  </footer>
+
+  <script>
+    const toggleBtn = document.querySelector('.theme-toggle');
+    const sunIcon = toggleBtn.querySelector('.sun-icon');
+    const moonIcon = toggleBtn.querySelector('.moon-icon');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+
+    function setDarkMode(isDark) {
+      document.documentElement.classList.toggle('dark-mode', isDark);
+      sunIcon.classList.toggle('active', !isDark);
+      moonIcon.classList.toggle('active', isDark);
+    }
+
+    // Initialize theme
+    const storedTheme = localStorage.getItem('theme');
+    setDarkMode(storedTheme === 'dark' || (!storedTheme && prefersDark.matches));
+
+    // Listen for changes
+    toggleBtn.addEventListener('click', () => {
+      const isDark = document.documentElement.classList.contains('dark-mode');
+      setDarkMode(!isDark);
+      localStorage.setItem('theme', !isDark ? 'dark' : 'light');
+    });
+  </script>
+
   
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
   
@@ -1545,79 +1621,5 @@
     </symbol>
   
 </svg>
-
-  <nav>
-    <div class="nav-links">
-      <a href="/">Home</a>
-      <a href="/essays/">Essays</a>
-      <a href="/research/">Research</a>
-    </div>
-    <button class="theme-toggle" aria-label="Toggle dark mode">
-      <svg class="sun-icon">
-        <use href="#sun" />
-      </svg>
-      <svg class="moon-icon">
-        <use href="#moon" />
-      </svg>
-    </button>
-  </nav>
-
-  <main>
-    
-<article>
-  <div class="page-header">
-    <div>
-      <h1>273 - Dreams of AI</h1>
-      <time datetime="November 27, 2024">November 27, 2024</time>
-    </div>
-    <span></span>
-  </div>
-  <div>
-    <p>Most people talking about their “dreams” for an AI future, both Dystopian and Utopian, don’t actually understand the present day’s cutting edge. Because of this pairing of blind ignorance and an assortment of cognitive biases, those “dreams”, or nightmares in the case of dystopian scenarios, are often a blended and deranged mixture of things that:</p>
-<ul>
-<li>Have already been demonstrated by the actual cutting-edge,</li>
-<li>Are fundamentally impossible,</li>
-<li>…are impractical by many orders of magnitude,</li>
-<li>…or that simply make no sense outside of cheap and trite science fiction narratives.</li>
-</ul>
-<p>Thanks in large part to the present dynamics of social media platforms, most of the “influencers” with the highest number of followers are also the most heavily insulated echo chambers of these delusional narratives. This subsequently causes the followers of a majority of the most popular influencers to also be the least educated.</p>
-<p>Even seeking alternative sources often funnels people into various traps and rabbit holes where profit may be extracted from a captive audience. From a practical and cognitive bias perspective, it isn’t even reasonable to expect the vast majority of humans to overcome these challenges, and the few who do must put in measurable effort while also making sacrifices. The internet is full of unchecked bad actors, dark patterns, and even well-intentioned delusions, none of which trivial AI models like LLMs and RL can realistically help with to a non-trivial degree.</p>
-<p>As the end of the year approaches, many people will inevitably make their “predictions for 2025” and beyond, but those who fail to understand the present have no real chance of predicting the future. Likewise, those who fail to understand that humans aren’t rational actors will have no real chance of predicting the things that humans do, both today and in the future. Sources with conflicts of interest further compound these problems, proportionate to the length of the leash that they keep cognitive biases on, as well as their baseline honesty and accuracy.</p>
-<p>If and when you encounter these end-of-year predictions and “reports”, simply realize what Prof. Tetlock demonstrated, that most “experts” in these overly vocal domains are only marginally better than a “Dart-Throwing-Chimpanzee”, and unlike the dart-throwing-chimpanzee, when they are wrong, they are systematically wrong.</p>
-<p>The net effect of them being systematically wrong with such a terrible baseline is effectively worse than random, so you’d literally be better off asking a Magic 8 Ball than most AI Influencers or major consultancies. Neither one has a meaningful understanding, but the Magic 8 Ball is at least unbiased.</p>
-<p><img src="https://media.licdn.com/dms/image/v2/D5622AQGYOihX2w_NCQ/feedshare-shrink_800/feedshare-shrink_800/0/1732247978070?e=1736985600&amp;v=beta&amp;t=SWebPAvDVDPLnr-OahV5Cb5cT-FTHK4YnwG323sYz-0" alt="Comic Relief"></p>
-
-  </div>
-</article>
-
-  </main>
-
-  <footer>
-    <p>© 2024 Kyrtin Atreides</p>
-  </footer>
-
-  <script>
-    const toggleBtn = document.querySelector('.theme-toggle');
-    const sunIcon = toggleBtn.querySelector('.sun-icon');
-    const moonIcon = toggleBtn.querySelector('.moon-icon');
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
-
-    function setDarkMode(isDark) {
-      document.documentElement.classList.toggle('dark-mode', isDark);
-      sunIcon.classList.toggle('active', !isDark);
-      moonIcon.classList.toggle('active', isDark);
-    }
-
-    // Initialize theme
-    const storedTheme = localStorage.getItem('theme');
-    setDarkMode(storedTheme === 'dark' || (!storedTheme && prefersDark.matches));
-
-    // Listen for changes
-    toggleBtn.addEventListener('click', () => {
-      const isDark = document.documentElement.classList.contains('dark-mode');
-      setDarkMode(!isDark);
-      localStorage.setItem('theme', !isDark ? 'dark' : 'light');
-    });
-  </script>
 </body>
 </html>
