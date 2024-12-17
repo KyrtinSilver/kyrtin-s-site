@@ -90,6 +90,16 @@
       gap: 1rem;
     }
 
+    .nav-links a {
+      color: var(--text-secondary);
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .nav-links a:hover {
+      color: var(--text-primary);
+    }
+
     .theme-toggle {
       background: none;
       border: none;
@@ -99,6 +109,11 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      transition: color 0.3s ease;
+    }
+
+    .theme-toggle:hover {
+      color: var(--text-primary);
     }
 
     .theme-toggle svg {
