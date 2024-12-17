@@ -37,6 +37,17 @@ module.exports = (eleventyConfig) => {
     return date ? new Date(date).toISOString() : new Date().toISOString();
   });
 
+  eleventyConfig.addFilter('optimizeImageUrl', function(content) {
+    if (typeof content !== 'string') return content;
+    
+    if (!content.includes('media.licdn.com')) return content;
+    
+    return content.replace(
+      /!\[([^\]]*)\]\((https:\/\/media\.licdn\.com\/[^)]+)\/shrink_800\/([^)]+)\)/g,
+      '![$1]($2/shrink_800/$3)'
+    );
+  });
+
   eleventyConfig.addFilter('absoluteUrl', function(url, base) {
     try {
       return new URL(url, base).toString();

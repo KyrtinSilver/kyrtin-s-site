@@ -24,7 +24,6 @@
   </script>
   
   <!-- Add Google Fonts -->
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500&display=swap" as="style">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500&display=swap" rel="stylesheet">
@@ -33,23 +32,23 @@
     :root {
       /* Base colors */
       --bg: #ffffff;
-      --border: #e6e6e6;
+      --border: #eaeaea;
       
       /* Text hierarchy */
-      --text-primary: #333333;    /* Main content, headings */
-      --text-secondary: #4b5563;  /* Sub-headings, important supporting text */
-      --text-tertiary: #595959;   /* Less important text */
+      --text-primary: #2c2c2c;    /* Main content, headings */
+      --text-secondary: #505967;  /* Sub-headings, important supporting text */
+      --text-tertiary: #667080;   /* Less important text */
     }
 
     .dark-mode {
       /* Base colors */
-      --bg: #1a1a1a;
-      --border: #2b2b2b;
+      --bg: #161619;
+      --border: #2d2d33;
       
       /* Text hierarchy */
-      --text-primary: #e6e6e6;    /* Main content, headings */
-      --text-secondary: #9ca3af;  /* Sub-headings, important supporting text */
-      --text-tertiary: #787878;   /* Less important text */
+      --text-primary: #ebebef;    /* Main content, headings */
+      --text-secondary: #a3a8b8;  /* Sub-headings, important supporting text */
+      --text-tertiary: #808291;   /* Less important text */
     }
 
     body {
@@ -87,8 +86,6 @@
       height: auto;
       display: block;
       margin: 2rem auto;
-      loading="lazy"
-      decoding="async"
     }
 
     a {
@@ -395,76 +392,6 @@
   </style>
 </head>
 <body>
-  <nav>
-    <div class="nav-links">
-      <a href="/">Home</a>
-      <a href="/essays/">Essays</a>
-      <a href="/research/">Research</a>
-    </div>
-    <button class="theme-toggle" aria-label="Toggle dark mode">
-      <svg class="sun-icon">
-        <use href="#sun" />
-      </svg>
-      <svg class="moon-icon">
-        <use href="#moon" />
-      </svg>
-    </button>
-  </nav>
-
-  <main>
-    
-<article>
-  <div class="page-header">
-    <div>
-      <h1>261 - Training Data</h1>
-      <time datetime="November 5, 2024">November 5, 2024</time>
-    </div>
-    <span></span>
-  </div>
-  <div>
-    <p>“Training Data” is a term that is ubiquitous in the AI/ML space, to such a point that it is assumed to be a deciding factor in everything by default. However, systems that aren’t fundamentally built to fit the curve of data distributions don’t inherently require “Training Data”, and some of those systems vastly outperform neural networks in the real world.</p>
-<p>Somewhere someone probably just spit out their coffee in surprise and confusion, as the concept of systems that don’t rely on training data is entirely alien to many in AI/ML. Most wouldn’t have the faintest idea of where to even begin trying to build such systems absent the crutch of training data.</p>
-<p>Normally a large body of data, often many datasets pooled together, is used to train a neural network, where a process of brute-force math is applied to turn that data into a set of “weights” for the neural network. This turns the weights into a fuzzy representation of the data that was fed into it, curve-fitting to the distributions.</p>
-<p>However, an entirely different set of dynamics is not only possible but frequently preferable. Three key factors are required to make the alternative work, a graph database structure, a human-like motivational system embedded within that structure, and a working cognitive architecture to process both the data in the database and the motivational values attached to all nodes and surfaces within it.</p>
-<p>What this entirely different architecture and set of dynamics allows is for human-like data efficiency in the learning process (an over 10,000x improvement compared to neural networks), as well as graph-native structure which preserves kinds of value that can’t be reliably stored in weights. This architecture has held cutting-edge status for half a decade now, and even with many billions of dollars wasted companies like OpenAI are no closer to catching up than they were 5 years ago.</p>
-<p>A useful litmus test to keep in mind related to the term “Training Data”, is that it is mutually exclusive with the term “General Intelligence”. If someone is using both terms to refer to the same system, you can reliably determine that they either don’t have the faintest clue what they’re talking about or that they are a bad actor.</p>
-<p>Neural networks have many viable use cases, but they are a hammer, not the entire toolbox. When one of our systems exceeded a score of 80% on the ARC-AGI challenge it didn’t use “training data” at all, whereas OpenAI’s latest massive model could only manage 21% on the same benchmark, while burning orders of magnitude more compute.</p>
-<p>This is the difference that using the right architecture for the job makes, the orders of magnitude separating success from failure.</p>
-<p><img src="https://media.licdn.com/dms/image/v2/D5622AQFudLSz1gUNSQ/feedshare-shrink_800/feedshare-shrink_800/0/1729821060695?e=1736985600&amp;v=beta&amp;t=K3O6FZTaEbhgM8ipzxzWQ8ufWmuqmAFSzqpCSOM1VAw" alt="Comic Relief"></p>
-
-  </div>
-</article>
-
-  </main>
-
-  <footer>
-    <p>© 2024 Kyrtin Atreides</p>
-  </footer>
-
-  <script>
-    const toggleBtn = document.querySelector('.theme-toggle');
-    const sunIcon = toggleBtn.querySelector('.sun-icon');
-    const moonIcon = toggleBtn.querySelector('.moon-icon');
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
-
-    function setDarkMode(isDark) {
-      document.documentElement.classList.toggle('dark-mode', isDark);
-      sunIcon.classList.toggle('active', !isDark);
-      moonIcon.classList.toggle('active', isDark);
-    }
-
-    // Initialize theme
-    const storedTheme = localStorage.getItem('theme');
-    setDarkMode(storedTheme === 'dark' || (!storedTheme && prefersDark.matches));
-
-    // Listen for changes
-    toggleBtn.addEventListener('click', () => {
-      const isDark = document.documentElement.classList.contains('dark-mode');
-      setDarkMode(!isDark);
-      localStorage.setItem('theme', !isDark ? 'dark' : 'light');
-    });
-  </script>
-
   
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
   
@@ -1617,5 +1544,75 @@
     </symbol>
   
 </svg>
+
+  <nav>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/essays/">Essays</a>
+      <a href="/research/">Research</a>
+    </div>
+    <button class="theme-toggle" aria-label="Toggle dark mode">
+      <svg class="sun-icon">
+        <use href="#sun" />
+      </svg>
+      <svg class="moon-icon">
+        <use href="#moon" />
+      </svg>
+    </button>
+  </nav>
+
+  <main>
+    
+<article>
+  <div class="page-header">
+    <div>
+      <h1>261 - Training Data</h1>
+      <time datetime="November 5, 2024">November 5, 2024</time>
+    </div>
+    <span></span>
+  </div>
+  <div>
+    <p>“Training Data” is a term that is ubiquitous in the AI/ML space, to such a point that it is assumed to be a deciding factor in everything by default. However, systems that aren’t fundamentally built to fit the curve of data distributions don’t inherently require “Training Data”, and some of those systems vastly outperform neural networks in the real world.</p>
+<p>Somewhere someone probably just spit out their coffee in surprise and confusion, as the concept of systems that don’t rely on training data is entirely alien to many in AI/ML. Most wouldn’t have the faintest idea of where to even begin trying to build such systems absent the crutch of training data.</p>
+<p>Normally a large body of data, often many datasets pooled together, is used to train a neural network, where a process of brute-force math is applied to turn that data into a set of “weights” for the neural network. This turns the weights into a fuzzy representation of the data that was fed into it, curve-fitting to the distributions.</p>
+<p>However, an entirely different set of dynamics is not only possible but frequently preferable. Three key factors are required to make the alternative work, a graph database structure, a human-like motivational system embedded within that structure, and a working cognitive architecture to process both the data in the database and the motivational values attached to all nodes and surfaces within it.</p>
+<p>What this entirely different architecture and set of dynamics allows is for human-like data efficiency in the learning process (an over 10,000x improvement compared to neural networks), as well as graph-native structure which preserves kinds of value that can’t be reliably stored in weights. This architecture has held cutting-edge status for half a decade now, and even with many billions of dollars wasted companies like OpenAI are no closer to catching up than they were 5 years ago.</p>
+<p>A useful litmus test to keep in mind related to the term “Training Data”, is that it is mutually exclusive with the term “General Intelligence”. If someone is using both terms to refer to the same system, you can reliably determine that they either don’t have the faintest clue what they’re talking about or that they are a bad actor.</p>
+<p>Neural networks have many viable use cases, but they are a hammer, not the entire toolbox. When one of our systems exceeded a score of 80% on the ARC-AGI challenge it didn’t use “training data” at all, whereas OpenAI’s latest massive model could only manage 21% on the same benchmark, while burning orders of magnitude more compute.</p>
+<p>This is the difference that using the right architecture for the job makes, the orders of magnitude separating success from failure.</p>
+<p><img src="https://media.licdn.com/dms/image/v2/D5622AQFudLSz1gUNSQ/feedshare-shrink_800/feedshare-shrink_800/0/1729821060695?e=1736985600&amp;v=beta&amp;t=K3O6FZTaEbhgM8ipzxzWQ8ufWmuqmAFSzqpCSOM1VAw" alt="Comic Relief"></p>
+
+  </div>
+</article>
+
+  </main>
+
+  <footer>
+    <p>© 2024 Kyrtin Atreides</p>
+  </footer>
+
+  <script>
+    const toggleBtn = document.querySelector('.theme-toggle');
+    const sunIcon = toggleBtn.querySelector('.sun-icon');
+    const moonIcon = toggleBtn.querySelector('.moon-icon');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+
+    function setDarkMode(isDark) {
+      document.documentElement.classList.toggle('dark-mode', isDark);
+      sunIcon.classList.toggle('active', !isDark);
+      moonIcon.classList.toggle('active', isDark);
+    }
+
+    // Initialize theme
+    const storedTheme = localStorage.getItem('theme');
+    setDarkMode(storedTheme === 'dark' || (!storedTheme && prefersDark.matches));
+
+    // Listen for changes
+    toggleBtn.addEventListener('click', () => {
+      const isDark = document.documentElement.classList.contains('dark-mode');
+      setDarkMode(!isDark);
+      localStorage.setItem('theme', !isDark ? 'dark' : 'light');
+    });
+  </script>
 </body>
 </html>

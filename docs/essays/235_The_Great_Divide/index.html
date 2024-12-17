@@ -24,7 +24,6 @@
   </script>
   
   <!-- Add Google Fonts -->
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500&display=swap" as="style">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500&display=swap" rel="stylesheet">
@@ -33,23 +32,23 @@
     :root {
       /* Base colors */
       --bg: #ffffff;
-      --border: #e6e6e6;
+      --border: #eaeaea;
       
       /* Text hierarchy */
-      --text-primary: #333333;    /* Main content, headings */
-      --text-secondary: #4b5563;  /* Sub-headings, important supporting text */
-      --text-tertiary: #595959;   /* Less important text */
+      --text-primary: #2c2c2c;    /* Main content, headings */
+      --text-secondary: #505967;  /* Sub-headings, important supporting text */
+      --text-tertiary: #667080;   /* Less important text */
     }
 
     .dark-mode {
       /* Base colors */
-      --bg: #1a1a1a;
-      --border: #2b2b2b;
+      --bg: #161619;
+      --border: #2d2d33;
       
       /* Text hierarchy */
-      --text-primary: #e6e6e6;    /* Main content, headings */
-      --text-secondary: #9ca3af;  /* Sub-headings, important supporting text */
-      --text-tertiary: #787878;   /* Less important text */
+      --text-primary: #ebebef;    /* Main content, headings */
+      --text-secondary: #a3a8b8;  /* Sub-headings, important supporting text */
+      --text-tertiary: #808291;   /* Less important text */
     }
 
     body {
@@ -87,8 +86,6 @@
       height: auto;
       display: block;
       margin: 2rem auto;
-      loading="lazy"
-      decoding="async"
     }
 
     a {
@@ -395,76 +392,6 @@
   </style>
 </head>
 <body>
-  <nav>
-    <div class="nav-links">
-      <a href="/">Home</a>
-      <a href="/essays/">Essays</a>
-      <a href="/research/">Research</a>
-    </div>
-    <button class="theme-toggle" aria-label="Toggle dark mode">
-      <svg class="sun-icon">
-        <use href="#sun" />
-      </svg>
-      <svg class="moon-icon">
-        <use href="#moon" />
-      </svg>
-    </button>
-  </nav>
-
-  <main>
-    
-<article>
-  <div class="page-header">
-    <div>
-      <h1>235 - The Great Divide</h1>
-      <time datetime="August 29, 2024">August 29, 2024</time>
-    </div>
-    <span></span>
-  </div>
-  <div>
-    <p>The great divide separating humanity from the high bar of “AGI” is anything but uniform.</p>
-<p>For example, if Company A requires “internet-scale data”, safely over 30 TB for text alone in 2022, just to manage mediocre performance on a task relative to humans, then they are over 30,000 times less competent than Company B who required less than 1 GB of text data to exceed that performance, years earlier.</p>
-<p>In effect, this means that for Company A the chasm between the present moment and any non-trivial definition of “AGI” may be the size of the Grand Canyon, but for Company B it could be a simple hop from one side to the other. The amount of funding necessary also scales volumetrically, so while the maximally incompetent (and often fraudulent) companies try to fill the Grand Canyon of AI with $7 trillion, a competent company requires less than 0.001% of that amount.</p>
-<p>The same divide also exists between the people who invest in companies A and B, with company A’s investors being &gt;30,000 times less competent than those of Company B. Just as “you are what you eat”, if you swallow the story that company A feeds you, that comes at a high cost. This principle generalizes to those who “evangelize/promote” or partner with such companies, to varying degrees.</p>
-<p>There is also a further vast divide between the dynamics of systems and companies, which underpins such dramatic differences as the data efficiency difference noted above. Some companies invest billions into technology that has effectively already hit a wall, tapering off exponentially via diminishing returns for every additional dollar spent. Many companies still run on extremely biased HR processes, barring competence from ever entering the gates, and rendering them increasingly blind to their own overwhelming inadequacies.</p>
-<p>The net result is that while pop culture may talk a lot about the major corporations burning billions on the pipe dream that they’ll achieve AGI, they are orders of magnitude too incompetent to do so. However wide you may personally consider the divide between the high bar of AGI and the present moment of available technology to be, that divide is far from uniform.</p>
-<p>For some it will be far greater, and for others far lesser, particularly if you reside within a standard deviation or two of the average. Major tech companies and startups are at the low tail of that distribution, with hiring often focused on maximizing incompetence, illusions of progress, and driving hype for the next raise, regurgitating terms like RAG, RLHF, CoT, MoE, LLMs, while abusing terms such as &quot;graphs&quot; and &quot;agentic&quot;, and various other trash that the LinkedIn algorithm seems to latch onto. A handful of people also exist at the opposite tail of that distribution, where competence is highest, and public awareness is paradoxically lowest.</p>
-<p>Anyone riding the Titanic of big tech who just scraped the broad side of the internet’s iceberg isn’t likely to stay above water in the long-term.</p>
-<p><img src="https://media.licdn.com/dms/image/v2/D5622AQG2pmXF4aS4Yw/feedshare-shrink_800/feedshare-shrink_800/0/1723008698747?e=1736985600&amp;v=beta&amp;t=HQvpMJT-ojeQHij0FtwmgGDivMFLm_7g8LH5H2bY7ig" alt="Comic Relief"></p>
-
-  </div>
-</article>
-
-  </main>
-
-  <footer>
-    <p>© 2024 Kyrtin Atreides</p>
-  </footer>
-
-  <script>
-    const toggleBtn = document.querySelector('.theme-toggle');
-    const sunIcon = toggleBtn.querySelector('.sun-icon');
-    const moonIcon = toggleBtn.querySelector('.moon-icon');
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
-
-    function setDarkMode(isDark) {
-      document.documentElement.classList.toggle('dark-mode', isDark);
-      sunIcon.classList.toggle('active', !isDark);
-      moonIcon.classList.toggle('active', isDark);
-    }
-
-    // Initialize theme
-    const storedTheme = localStorage.getItem('theme');
-    setDarkMode(storedTheme === 'dark' || (!storedTheme && prefersDark.matches));
-
-    // Listen for changes
-    toggleBtn.addEventListener('click', () => {
-      const isDark = document.documentElement.classList.contains('dark-mode');
-      setDarkMode(!isDark);
-      localStorage.setItem('theme', !isDark ? 'dark' : 'light');
-    });
-  </script>
-
   
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
   
@@ -1617,5 +1544,75 @@
     </symbol>
   
 </svg>
+
+  <nav>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/essays/">Essays</a>
+      <a href="/research/">Research</a>
+    </div>
+    <button class="theme-toggle" aria-label="Toggle dark mode">
+      <svg class="sun-icon">
+        <use href="#sun" />
+      </svg>
+      <svg class="moon-icon">
+        <use href="#moon" />
+      </svg>
+    </button>
+  </nav>
+
+  <main>
+    
+<article>
+  <div class="page-header">
+    <div>
+      <h1>235 - The Great Divide</h1>
+      <time datetime="August 29, 2024">August 29, 2024</time>
+    </div>
+    <span></span>
+  </div>
+  <div>
+    <p>The great divide separating humanity from the high bar of “AGI” is anything but uniform.</p>
+<p>For example, if Company A requires “internet-scale data”, safely over 30 TB for text alone in 2022, just to manage mediocre performance on a task relative to humans, then they are over 30,000 times less competent than Company B who required less than 1 GB of text data to exceed that performance, years earlier.</p>
+<p>In effect, this means that for Company A the chasm between the present moment and any non-trivial definition of “AGI” may be the size of the Grand Canyon, but for Company B it could be a simple hop from one side to the other. The amount of funding necessary also scales volumetrically, so while the maximally incompetent (and often fraudulent) companies try to fill the Grand Canyon of AI with $7 trillion, a competent company requires less than 0.001% of that amount.</p>
+<p>The same divide also exists between the people who invest in companies A and B, with company A’s investors being &gt;30,000 times less competent than those of Company B. Just as “you are what you eat”, if you swallow the story that company A feeds you, that comes at a high cost. This principle generalizes to those who “evangelize/promote” or partner with such companies, to varying degrees.</p>
+<p>There is also a further vast divide between the dynamics of systems and companies, which underpins such dramatic differences as the data efficiency difference noted above. Some companies invest billions into technology that has effectively already hit a wall, tapering off exponentially via diminishing returns for every additional dollar spent. Many companies still run on extremely biased HR processes, barring competence from ever entering the gates, and rendering them increasingly blind to their own overwhelming inadequacies.</p>
+<p>The net result is that while pop culture may talk a lot about the major corporations burning billions on the pipe dream that they’ll achieve AGI, they are orders of magnitude too incompetent to do so. However wide you may personally consider the divide between the high bar of AGI and the present moment of available technology to be, that divide is far from uniform.</p>
+<p>For some it will be far greater, and for others far lesser, particularly if you reside within a standard deviation or two of the average. Major tech companies and startups are at the low tail of that distribution, with hiring often focused on maximizing incompetence, illusions of progress, and driving hype for the next raise, regurgitating terms like RAG, RLHF, CoT, MoE, LLMs, while abusing terms such as &quot;graphs&quot; and &quot;agentic&quot;, and various other trash that the LinkedIn algorithm seems to latch onto. A handful of people also exist at the opposite tail of that distribution, where competence is highest, and public awareness is paradoxically lowest.</p>
+<p>Anyone riding the Titanic of big tech who just scraped the broad side of the internet’s iceberg isn’t likely to stay above water in the long-term.</p>
+<p><img src="https://media.licdn.com/dms/image/v2/D5622AQG2pmXF4aS4Yw/feedshare-shrink_800/feedshare-shrink_800/0/1723008698747?e=1736985600&amp;v=beta&amp;t=HQvpMJT-ojeQHij0FtwmgGDivMFLm_7g8LH5H2bY7ig" alt="Comic Relief"></p>
+
+  </div>
+</article>
+
+  </main>
+
+  <footer>
+    <p>© 2024 Kyrtin Atreides</p>
+  </footer>
+
+  <script>
+    const toggleBtn = document.querySelector('.theme-toggle');
+    const sunIcon = toggleBtn.querySelector('.sun-icon');
+    const moonIcon = toggleBtn.querySelector('.moon-icon');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+
+    function setDarkMode(isDark) {
+      document.documentElement.classList.toggle('dark-mode', isDark);
+      sunIcon.classList.toggle('active', !isDark);
+      moonIcon.classList.toggle('active', isDark);
+    }
+
+    // Initialize theme
+    const storedTheme = localStorage.getItem('theme');
+    setDarkMode(storedTheme === 'dark' || (!storedTheme && prefersDark.matches));
+
+    // Listen for changes
+    toggleBtn.addEventListener('click', () => {
+      const isDark = document.documentElement.classList.contains('dark-mode');
+      setDarkMode(!isDark);
+      localStorage.setItem('theme', !isDark ? 'dark' : 'light');
+    });
+  </script>
 </body>
 </html>
