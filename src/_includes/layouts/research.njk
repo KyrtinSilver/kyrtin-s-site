@@ -2,12 +2,9 @@
 
 {% block content %}
 <article>
-  <div class="page-header">
-    <h1>{{ title }}</h1>
-    <span></span>
-    <time datetime="{{ date | date }}">{{ date | date }}</time>
-  </div>
-  <div>
+  <time datetime="{{ date | date }}">{{ date | date }}</time>
+  <h1>{{ title }}</h1>
+  <div class="content">
     {{ content | safe }}
   </div>
 </article>
