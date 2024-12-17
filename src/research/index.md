@@ -44,7 +44,26 @@ description: "Research papers, preprints, and publications"
 {% endif %}
 
 <script>
-let researchAscending = false;
+let researchAscending = false; // false = newest to oldest, true = oldest to newest
+
+function sortResearch() {
+  const list = document.querySelector('.papers-list');
+  if (!list) return;
+
+  const items = [...list.children].filter(item => 
+    item.classList.contains('paper-item')
+  );
+
+  while (list.firstChild) {
+    list.removeChild(list.firstChild);
+  }
+
+  items.sort((a, b) => {
+    const aTime = new Date(a.querySelector('time').getAttribute('datetime')).getTime();
+    const bTime = new Date(b.querySelector('time').getAttribute('datetime')).getTime();
+    return researchAscending ? aTime - bTime : bTime - aTime;
+  }).forEach(item => list.appendChild(item));
+}
 
 function toggleSortResearch() {
   researchAscending = !researchAscending;
@@ -55,30 +74,15 @@ function toggleSortResearch() {
   chevronDown.classList.toggle('active', !researchAscending);
   chevronUp.classList.toggle('active', researchAscending);
 
-  const list = document.querySelector('.papers-list');
-  if (!list) return;
-  
-  const items = [...list.children].filter(item => 
-    item.classList.contains('paper-item')
-  );
-  
-  // Clear the list
-  while (list.firstChild) {
-    list.removeChild(list.firstChild);
-  }
-  
-  // Sort by the datetime attribute directly
-  items.sort((a, b) => {
-    const aTime = new Date(a.querySelector('time').getAttribute('datetime')).getTime();
-    const bTime = new Date(b.querySelector('time').getAttribute('datetime')).getTime();
-    return researchAscending ? aTime - bTime : bTime - aTime;
-  }).forEach(item => list.appendChild(item));
+  sortResearch();
 }
 
 // Initialize sort on page load
 document.addEventListener('DOMContentLoaded', () => {
-  document.querySelector('.research-sort-control .chevron-down').classList.add('active');
-  toggleSortResearch(); // Sort immediately so we start with a known order
+  const chevronDown = document.querySelector('.research-sort-control .chevron-down');
+  chevronDown.classList.add('active');
+  // Sort once in the default direction (newest to oldest)
+  sortResearch();
 });
 </script>
 

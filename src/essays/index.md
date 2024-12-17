@@ -35,15 +35,7 @@ description: "Essays, updates, and thoughts"
 <script>
 let essaysAscending = false;
 
-function toggleSortEssays() {
-  essaysAscending = !essaysAscending;
-  
-  const chevronDown = document.querySelector('.essays-sort-control .chevron-down');
-  const chevronUp = document.querySelector('.essays-sort-control .chevron-up');
-  
-  chevronDown.classList.toggle('active', !essaysAscending);
-  chevronUp.classList.toggle('active', essaysAscending);
-
+function sortEssays() {
   const list = document.querySelector('.essay-list');
   if (!list) return;
   
@@ -62,8 +54,24 @@ function toggleSortEssays() {
   }).forEach(item => list.appendChild(item));
 }
 
-// Initialize the sort direction
-document.querySelector('.essays-sort-control .chevron-down').classList.add('active');
+function toggleSortEssays() {
+  essaysAscending = !essaysAscending;
+  
+  const chevronDown = document.querySelector('.essays-sort-control .chevron-down');
+  const chevronUp = document.querySelector('.essays-sort-control .chevron-up');
+  
+  chevronDown.classList.toggle('active', !essaysAscending);
+  chevronUp.classList.toggle('active', essaysAscending);
+  
+  sortEssays();
+}
+
+// On page load, set initial direction and sort once
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelector('.essays-sort-control .chevron-down').classList.add('active');
+  // Sort once initially so the first click will correctly toggle the direction
+  sortEssays();
+});
 </script>
 
 <style>
