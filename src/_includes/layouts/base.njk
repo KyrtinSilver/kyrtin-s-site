@@ -295,8 +295,6 @@
       color: var(--text-primary);
     }
 
-<<<<<<< HEAD
-=======
     /* Dark mode specific overrides */
     .dark-mode .essay-title,
     .dark-mode .page-header h1,
@@ -355,7 +353,6 @@
       color: var(--text-primary);
     }
 
->>>>>>> 1d0fc5b (Style updates across site including date alignment and hover effects)
     /* Research-specific styles */
     .papers-list .paper-title-row a {
       color: var(--text-primary);
@@ -379,10 +376,7 @@
       color: var(--text-secondary);
     }
 
-<<<<<<< HEAD
-    /* All dates across the site */
-=======
-    /* Dark mode overrides if needed */
+    /* Dark mode overrides */
     .dark-mode article,
     .dark-mode article h1,
     .dark-mode .papers-list .paper-title-row a,
@@ -397,18 +391,20 @@
       color: var(--text-secondary);
     }
 
->>>>>>> 1d0fc5b (Style updates across site including date alignment and hover effects)
+    /* Single source of truth for ALL dates */
     time,
     .essay-date,
     article time,
     .paper-title-row time,
     .papers-list time,
-    .essay-list time {
+    .essay-list time,
+    .paper-item time {
       color: var(--text-secondary);
-      font-size: 0.9em;
+      font-size: 0.9em !important; 
       white-space: nowrap;
     }
 
+    /* Positioning for article dates */
     article time {
       display: block;
       margin-bottom: 2em;
@@ -417,6 +413,7 @@
       width: 100%;
     }
 
+    /* Content divider for essays */
     article .content {
       padding-top: 1em;
       border-top: 1px solid var(--border);
@@ -431,7 +428,7 @@
       transition: color 0.3s ease;
     }
 
-    /* Hover effect for both nav and social links */
+    /* Hover effect for nav and social links */
     .nav-links a:hover,
     .social-links a:hover {
       color: var(--text-primary);
