@@ -27,7 +27,7 @@ description: "Research papers, preprints, and publications"
         <a href="{{ post.data.externalUrl|default(post.url) }}" target="_blank" rel="noopener noreferrer">
           {{ post.data.title|default("Untitled") }}
         </a>
-        <time datetime="{{ post.date }}">{{ post.date | date }}</time>
+        <time datetime="{{ post.date | date('yyyy-MM-dd') }}">{{ post.date | date('MMMM d, yyyy') }}</time>
       </div>
       {% if post.data.tags %}
       <div class="paper-tags">
@@ -57,21 +57,29 @@ function toggleSortResearch() {
 
   const list = document.querySelector('.papers-list');
   if (!list) return;
-  const items = [...list.children];
   
+  const items = [...list.children].filter(item => 
+    item.classList.contains('paper-item')
+  );
+  
+  // Clear the list
   while (list.firstChild) {
     list.removeChild(list.firstChild);
   }
   
+  // Sort by the datetime attribute directly
   items.sort((a, b) => {
-    const aTitle = a.dataset.title || '';
-    const bTitle = b.dataset.title || '';
-    return researchAscending ? aTitle.localeCompare(bTitle) : bTitle.localeCompare(aTitle);
+    const aTime = new Date(a.querySelector('time').getAttribute('datetime')).getTime();
+    const bTime = new Date(b.querySelector('time').getAttribute('datetime')).getTime();
+    return researchAscending ? aTime - bTime : bTime - aTime;
   }).forEach(item => list.appendChild(item));
 }
 
-// Initialize the sort direction
-document.querySelector('.research-sort-control .chevron-down').classList.add('active');
+// Initialize sort on page load
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelector('.research-sort-control .chevron-down').classList.add('active');
+  toggleSortResearch(); // Sort immediately so we start with a known order
+});
 </script>
 
 <style>

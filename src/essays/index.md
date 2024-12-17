@@ -25,7 +25,7 @@ description: "Essays, updates, and thoughts"
   <li class="essay-item" data-title="{{ post.data.title|default('untitled')|lower }}">
     <span class="essay-row">
       <a class="essay-title" href="{{ post.url }}">{{ post.data.title }}</a>
-      <time class="essay-date" datetime="{{ post.date }}">{{ post.date | date }}</time>
+      <time class="essay-date" datetime="{{ post.date | date('yyyy-MM-dd') }}">{{ post.date | date('MMMM d, yyyy') }}</time>
     </span>
   </li>
   {% endif %}
@@ -46,16 +46,19 @@ function toggleSortEssays() {
 
   const list = document.querySelector('.essay-list');
   if (!list) return;
-  const items = [...list.children];
+  
+  const items = [...list.children].filter(item => 
+    item.classList.contains('essay-item')
+  );
   
   while (list.firstChild) {
     list.removeChild(list.firstChild);
   }
   
   items.sort((a, b) => {
-    const aTitle = a.dataset.title || '';
-    const bTitle = b.dataset.title || '';
-    return essaysAscending ? aTitle.localeCompare(bTitle) : bTitle.localeCompare(aTitle);
+    const aTime = new Date(a.querySelector('time').getAttribute('datetime')).getTime();
+    const bTime = new Date(b.querySelector('time').getAttribute('datetime')).getTime();
+    return essaysAscending ? aTime - bTime : bTime - aTime;
   }).forEach(item => list.appendChild(item));
 }
 
@@ -148,5 +151,4 @@ document.querySelector('.essays-sort-control .chevron-down').classList.add('acti
 .essay-date {
   white-space: nowrap;
 }
-
 </style>
