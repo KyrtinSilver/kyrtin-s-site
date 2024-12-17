@@ -9,6 +9,49 @@
   <link rel="preload" href="/assets/feather-sprite.svg" as="image" type="image/svg+xml">
   <meta name="google-site-verification" content="VgCfmx07-aHtaHzeW-ijLgOvhHzZ3Iys9vqoZyKwOcM" />
   
+  {% if layout == "layouts/essay.njk" %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "{{ title }}",
+    "author": {
+      "@type": "Person",
+      "name": "Kyrtin Atreides"
+    },
+    "datePublished": "{{ page.date | isoDate }}",
+    "description": "{{ description }}"
+  }
+  </script>
+  {% endif %}
+
+  {% if layout == "layouts/research.njk" %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ScholarlyArticle",
+    "headline": "{{ title }}",
+    "author": {
+      "@type": "Person",
+      "name": "Kyrtin Atreides"
+    },
+    "datePublished": "{{ page.date | isoDate }}",
+    "description": "{{ description }}"
+  }
+  </script>
+  {% endif %}
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Kyrtin Atreides",
+    "url": "https://kyrtinatreides.com",
+    "jobTitle": "Researcher",
+    "description": "Researcher exploring cognitive biases and artificial intelligence"
+  }
+  </script>
+  
   <!-- Add Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

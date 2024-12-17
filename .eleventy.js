@@ -33,6 +33,18 @@ module.exports = (eleventyConfig) => {
     require('fs').writeFileSync('docs/.nojekyll', '');
   });
 
+  eleventyConfig.addFilter('isoDate', function(date) {
+    return date ? new Date(date).toISOString() : new Date().toISOString();
+  });
+
+  eleventyConfig.addFilter('absoluteUrl', function(url, base) {
+    try {
+      return new URL(url, base).toString();
+    } catch(e) {
+      return base + url;
+    }
+  });
+
   return {
     dir: {
       input: "src",
