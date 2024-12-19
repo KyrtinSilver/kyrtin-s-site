@@ -9,7 +9,7 @@ description: "Personal site of Kyrtin Atreides"
   <span></span>
 </div>
 
-<p>Researcher exploring cognitive biases and artificial intelligence.</p>
+<p>COO | Co-Founder | Researcher exploring cognitive biases and artificial intelligence.</p>
 <p class="social-links">
   <a href="https://www.researchgate.net/profile/Kyrtin-Atreides">ResearchGate</a>
   <svg class="circle-icon">
