@@ -1,11 +1,32 @@
 {% extends "layouts/base.njk" %}
 
+{% block head %}
+{{ super() }}
+{% if canonical %}
+<link rel="canonical" href="{{ canonical }}">
+{% endif %}
+{% if alternate %}
+<link rel="alternate" href="{{ alternate.url }}" type="text/html" title="{{ alternate.title }}">
+{% endif %}
+{% endblock %}
+
 {% block content %}
 <article>
   <time datetime="{{ date | date }}">{{ date | date }}</time>
   <h1>{{ title }}</h1>
+  {% if version %}
+  <div class="version-tag">{{ version }}</div>
+  {% endif %}
   <div class="content">
     {{ content | safe }}
   </div>
+  
+  {% if alternate %}
+  <div class="paper-versions">
+    <p>Also available as: 
+      <a href="{{ alternate.url }}" title="{{ alternate.title }}">{{ alternate.title }}</a>
+    </p>
+  </div>
+  {% endif %}
 </article>
 {% endblock %}
