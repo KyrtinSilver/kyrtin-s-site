@@ -26,6 +26,6 @@ In contrast, I give no F\*cks about:
 - Whether humanity chooses to survive or not.
 - Every "investor" who proved less than competent.
 
-Financial competence means keeping budgets, and so too does emotional competence, both of which are skills that anyone may learn. Budget your F\*cks wisely, and more often than not you can avoid finding yourself in emotional debt. Invest in yourself by giving a F*ck about the F\cks that you give.
+Financial competence means keeping budgets, and so too does emotional competence, both of which are skills that anyone may learn. Budget your F\*cks wisely, and more often than not you can avoid finding yourself in emotional debt. Invest in yourself by giving a F\*ck about the F\*cks that you give.
 
 ![Comic Relief](https://media.licdn.com/dms/image/v2/D5622AQFoA5TWlogZdA/feedshare-shrink_800/feedshare-shrink_800/0/1719184510032?e=1737590400&v=beta&t=yn5E1crOutAhjl5R_uYL3iooyQ3dbyKtgEjgD6uyJ5Q)
