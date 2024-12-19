@@ -11,11 +11,11 @@ description: "Personal site of Kyrtin Atreides"
 
 <p>Researcher exploring cognitive biases and artificial intelligence.</p>
 <p class="social-links">
-  <a href="https://www.researchgate.net/profile/Kyrtin-Atreides">ResearchGate</a>
+  <a href="https://www.researchgate.net/profile/Kyrtin-Atreides" target="_blank" rel="noopener noreferrer">ResearchGate</a>
   <svg class="circle-icon">
     <use href="#circle" />
   </svg>
-  <a href="https://www.linkedin.com/in/kyrtin-atreides/">LinkedIn</a>
+  <a href="https://www.linkedin.com/in/kyrtin-atreides/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
 </p>
 
 <style>
