@@ -1,5 +1,5 @@
 ---
-title: "287 - Advisory Board Aspirations"
+title: "287 - Advisory Board Search"
 layout: essay.njk
 date: "2024-12-21"
 ---
@@ -43,7 +43,7 @@ reach him, as his name came up both in my own thoughts and was
 independently suggested by another.
 
 As we deploy and begin testing and releasing new results of the first
-minimally complete 8^th^ generation ICOM-based systems, looking to
+minimally complete 8th generation ICOM-based systems, looking to
 benchmarks including SWE-bench, SimpleBench, and more, things are likely
 to begin moving rather quickly. I'm also taking suggestions on
 benchmarks to target, specifically focusing on those where other models
