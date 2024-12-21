@@ -12,23 +12,23 @@ For example, let’s say that “Corporation A” adopts such a PARSES, like Nor
 
 Corporation A:
 
-·      Gains an evolving and dynamically adapting set of insights, with counterfactual simulation and scientific validation
+- Gains an evolving and dynamically adapting set of insights, with counterfactual simulation and scientific validation
 
-·      Benefits from a system with a cumulative sum of experience, which grows broader, deeper, and more personalized to the company over time.
+- Benefits from a system with a cumulative sum of experience, which grows broader, deeper, and more personalized to the company over time.
 
-·      Receives analyses communicated with increasing degrees of personalization and expertise in psychology and communication science.
+- Receives analyses communicated with increasing degrees of personalization and expertise in psychology and communication science.
 
-·      Becomes more “Antifragile”, growing more capable when put to the test, rather than breaking.
+- Becomes more “Antifragile”, growing more capable when put to the test, rather than breaking.
 
 Corporation B:
 
-·      Gains a cookie-cutter package, where any customization is either entirely manual or built on narrow and subsequently unreliable forms of AI.
+- Gains a cookie-cutter package, where any customization is either entirely manual or built on narrow and subsequently unreliable forms of AI.
 
-·      Benefits primarily from employee interpretations of the supplied data and analytics, and suffers from any combination of cognitive biases those interpretations hold.
+- Benefits primarily from employee interpretations of the supplied data and analytics, and suffers from any combination of cognitive biases those interpretations hold.
 
-·      Receives only the generic and standard analyses common to a given industry, missing all novel opportunities in both analysis and communication.
+- Receives only the generic and standard analyses common to a given industry, missing all novel opportunities in both analysis and communication.
 
-·      Becomes more “Fragile”, dependent on the generic tools, communication, assumptions, and market conditions that define the status quo.
+- Becomes more “Fragile”, dependent on the generic tools, communication, assumptions, and market conditions that define the status quo.
 
 As these Corporations strongly diverge in their performance over time, one predictably goes bankrupt, as the other grows increasingly more capable in terms of adaptation, tooling, and both internal and external communication, and recursively validates all of their assumptions. This shift may be accelerated by changing market conditions, but it can predictably take shape even in relatively calm waters.
 
