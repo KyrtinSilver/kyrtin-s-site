@@ -1,7 +1,7 @@
 ---
 title: "Home"
 layout: "base.njk"
-description: "Personal site of Kyrtin Atreides"
+description: "Kyrtin Atreides | Building scalable intelligence "
 ---
 
 <div class="page-header">
@@ -9,9 +9,13 @@ description: "Personal site of Kyrtin Atreides"
   <span></span>
 </div>
 
-<p>Researcher exploring cognitive biases and artificial intelligence.</p>
+<p>AI Researcher & Co-Founder, building scalable intelligence.</p>
 <p class="social-links">
   <a href="https://www.researchgate.net/profile/Kyrtin-Atreides" target="_blank" rel="noopener noreferrer">ResearchGate</a>
+  <svg class="circle-icon">
+    <use href="#circle" />
+  </svg>
+  <a href="https://scholar.google.com/citations?user=1njzkrQAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener noreferrer">Google Scholar</a>
   <svg class="circle-icon">
     <use href="#circle" />
   </svg>
