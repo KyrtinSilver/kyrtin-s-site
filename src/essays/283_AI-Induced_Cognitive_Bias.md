@@ -1,5 +1,5 @@
 ---
-title: "283 - Ai-induced Cognitive Bias"
+title: "283 - AI-Induced Cognitive Bias"
 layout: essay.njk
 date: "2024-12-18"
 ---

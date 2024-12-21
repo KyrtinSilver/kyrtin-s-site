@@ -1,5 +1,5 @@
 ---
-title: "286 - Exposing OpenAI's Compute Claims"
+title: "286 - Exposing Compute Claims"
 layout: essay.njk
 date: "2024-12-21"
 ---

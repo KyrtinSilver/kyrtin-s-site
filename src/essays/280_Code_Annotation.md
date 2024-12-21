@@ -1,5 +1,5 @@
 ---
-title: "280 -Code Annotation"
+title: "280 - Code Annotation"
 layout: essay.njk
 date: "2024-12-13"
 ---
