@@ -1,5 +1,5 @@
 ---
-title: "284 - A Costly Challenge"
+title: "284 - Legacy System Crisis"
 layout: essay.njk
 date: "2024-12-18"
 ---
