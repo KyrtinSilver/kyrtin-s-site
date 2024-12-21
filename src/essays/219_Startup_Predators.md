@@ -1,5 +1,5 @@
 ---
-title: "219 - Startups Face"
+title: "219 - Startup Predators"
 layout: "essay.njk"
 date: 2024-08-05
 ---
