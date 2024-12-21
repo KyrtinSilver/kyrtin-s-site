@@ -1,7 +1,24 @@
 module.exports = (eleventyConfig) => {
   eleventyConfig.addCollection("essays", function(collection) {
     return collection.getFilteredByGlob("src/essays/**/*.md")
-      .filter(item => !item.inputPath.endsWith("index.md"));
+      .filter(item => !item.inputPath.endsWith("index.md"))
+      .sort((a, b) => {
+        // First compare by date
+        const dateComparison = b.date - a.date;
+        
+        // If same date, compare by essay number
+        if (dateComparison === 0) {
+          const aMatch = a.data.title.match(/^(\d+)/);
+          const bMatch = b.data.title.match(/^(\d+)/);
+          
+          const aNum = aMatch ? parseInt(aMatch[1]) : 0;
+          const bNum = bMatch ? parseInt(bMatch[1]) : 0;
+          
+          return bNum - aNum; // Sort in descending order
+        }
+        
+        return dateComparison;
+      });
   });
 
   eleventyConfig.addCollection("research", function(collection) {
