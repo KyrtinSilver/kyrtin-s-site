@@ -1,5 +1,5 @@
 ---
-title: "206 - The Norn Advantage"
+title: "206 - Energy Supremacy"
 layout: essay.njk
 date: "2024-06-05"
 ---

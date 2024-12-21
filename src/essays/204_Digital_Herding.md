@@ -1,5 +1,5 @@
 ---
-title: "204 - Coping Mechanisms"
+title: "204 - Digital Herding"
 layout: essay.njk
 date: "2024-06-08"
 ---

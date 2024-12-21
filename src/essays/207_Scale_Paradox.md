@@ -1,5 +1,5 @@
 ---
-title: "207 - The Efficiency Paradox"
+title: "207 - Scale Paradox"
 layout: essay.njk
 date: "2024-06-11"
 ---

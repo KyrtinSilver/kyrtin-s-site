@@ -1,5 +1,5 @@
 ---
-title: "205 - Electricity Costs of AI Giants"
+title: "205 - Unsustainable Costs"
 layout: essay.njk
 date: "2024-06-04"
 ---

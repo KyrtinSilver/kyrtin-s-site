@@ -1,5 +1,5 @@
 ---
-title: "202 - Humanity's Moral Responsibility"
+title: "202 - Moral Responsibility"
 layout: essay.njk
 date: "2024-05-30"
 ---
