@@ -1,5 +1,5 @@
 ---
-title: "281 - Rethinking Developer Tools"
+title: "281 - Developer Tools"
 layout: essay.njk
 date: "2024-12-18"
 ---
