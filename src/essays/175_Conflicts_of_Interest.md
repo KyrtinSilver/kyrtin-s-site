@@ -1,5 +1,5 @@
 ---
-title: "175 - Conflics of Interest"
+title: "175 - Conflicts of Interest"
 layout: essay.njk
 date: "2024-04-03"
 ---

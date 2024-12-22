@@ -1,5 +1,5 @@
 ---
-title: "178 - DistributedConsequences"
+title: "178 - Distributed Consequences"
 layout: essay.njk
 date: "2024-04-15"
 ---
