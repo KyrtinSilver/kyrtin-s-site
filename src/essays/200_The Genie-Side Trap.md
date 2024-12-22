@@ -1,5 +1,5 @@
 ---
-title: "200 - Navigating the Genie Trap"
+title: "200 - The Genie-Side Trap"
 layout: essay.njk
 date: "2024-05-29"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "286 - Exposing Compute Claims"
 layout: essay.njk
-date: "2024-12-21"
+date: "2024-12-20"
 ---
 
 As expected, OpenAI's Day 12 was the kind of flamboyant fraud that Altman is infamous for. Now it is time to take a brief detour to debunk those claims and put them in context with numbers:

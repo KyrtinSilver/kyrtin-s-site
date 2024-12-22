@@ -1,5 +1,5 @@
 ---
-title: "212 - Navigating Moral Boundaries"
+title: "212 - Moral Boundaries"
 layout: essay.njk
 date: "2024-06-22"
 ---
