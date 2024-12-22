@@ -1,7 +1,7 @@
 ---
 title: "132 - Dark Patterns"
 layout: essay.njk
-date: "2024-01-14"
+date: "2024-01-12"
 ---
 
 The value of any application, platform, or service, is directly and inversely proportionate to the amount of time it requires to achieve any desired outcome. However, most platforms and applications are designed almost exclusively around "Dark Patterns" of UX/UI to maximize, rather than minimize, the time they require.

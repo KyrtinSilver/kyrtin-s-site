@@ -1,7 +1,7 @@
 ---
 title: "133 - Invisible Threats"
 layout: essay.njk
-date: "2024-01-12"
+date: "2024-01-14"
 ---
 
 My PSA for the week: The AI Cybersecurity space just got very spicy, with security researchers diving into a new method of compromising text-based AI systems like LLMs. [The method can be both invisible and unlikely to be robustly fixed](https://x.com/rez0__/status/1745545813512663203). 
