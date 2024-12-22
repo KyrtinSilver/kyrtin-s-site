@@ -1,5 +1,5 @@
 ---
-title: "171 - Legal Precedents"
+title: "170 - Legal Precedents"
 layout: essay.njk
 date: "2024-03-26"
 ---
