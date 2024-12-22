@@ -16,9 +16,6 @@ These legacy systems are of course inherently more vulnerable, with fewer people
 
 As my team continues our work on preparing to demonstrate the capacities of ICOM-based systems in an increasing variety of ways, some benchmarks and some use cases, this will be among them. We had already planned on the use cases of organizational management and governance, so the updating of legacy technical systems pairs well with the updating of legacy management and governance systems. Our systems have also demonstrated an antifragile aptitude for countering bad actors, so the modernization of systems could further integrate with them to provide unique security layers that grow increasingly resilient and adaptive over time.
 
-Some ".mil" domains don't even require a login to begin accessing data, and they look like they haven't been updated since 1995, with security certificates 5+ years expired. While the US may lead the world in military spending, it is obvious where that money isn't going.
+Some ".mil" domains don't even require a login to begin accessing data, and they look like they haven't been updated since 1995, with security certificates 5+ years expired. While the US may lead the world in military spending, it is obvious where that money isn't going. [(GAO Report)](https://www.gao.gov/products/gao-23-106821)
 
-<https://www.gao.gov/products/gao-23-106821>
-
-Earlier this month, a report on FAA Legacy Systems:
-<https://www.gao.gov/products/gao-25-107917>
+Earlier this month, a report on [FAA Legacy Systems](https://www.gao.gov/products/gao-25-107917) was released.
