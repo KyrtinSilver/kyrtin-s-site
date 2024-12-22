@@ -1,5 +1,5 @@
 ---
-title: "196 - The Future of Tech Hubs"
+title: "196 - Next Valley"
 layout: essay.njk
 date: "2024-05-22"
 ---
