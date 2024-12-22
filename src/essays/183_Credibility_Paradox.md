@@ -1,5 +1,5 @@
 ---
-title: "183 - The Inmates Run the Asylum"
+title: "183 - Credibility Paradox"
 layout: essay.njk
 date: "2024-04-30"
 ---

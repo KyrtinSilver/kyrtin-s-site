@@ -1,5 +1,5 @@
 ---
-title: "184 - The Illusion of AI Progress"
+title: "184 - Illusion of Progress"
 layout: essay.njk
 date: "2024-05-01"
 ---
