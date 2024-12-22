@@ -32,4 +32,4 @@ Also note that ARC-AGI puzzles are "toy problems", below real-world complexity, 
 
 This newest BS claim from OpenAI tells us nothing new about their models, just that "If you train on the test data and burn 100,000-300,000 times the compute, you can cheat your way to a top score." What it does confirm beyond any shadow of a doubt is that Chollet and his team are frauds, as no credible AI expert would buy this.
 
-Source: https://arcprize.org/blog/oai-o3-pub-breakthrough
+Source: [ARC-AGI Blog](https://arcprize.org/blog/oai-o3-pub-breakthrough)
