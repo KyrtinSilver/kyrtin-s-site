@@ -1,5 +1,5 @@
 ---
-title: "003 - Financial Mismanagement"
+title: "003 - Mismanagement"
 layout: essay.njk
 date: "2023-07-04"
 ---
