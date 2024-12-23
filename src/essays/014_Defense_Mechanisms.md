@@ -30,7 +30,7 @@ Given the incalculable cost of widespread misinformation and the consequences of
 
 Fake people spreading disinformation across social media platforms
 
-The recent study is available in pre-print here: <https://www.researchgate.net/publication/372078491_Cognitive_Biases_in_Natural_Language_Automatically_Detecting_Differentiating_and_Measuring_Bias_in_Text>
+The recent study is available in pre-print [here](https://www.researchgate.net/publication/372078491_Cognitive_Biases_in_Natural_Language_Automatically_Detecting_Differentiating_and_Measuring_Bias_in_Text).
 
 The next phase of that study is also underway.
 
