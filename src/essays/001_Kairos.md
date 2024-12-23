@@ -1,5 +1,5 @@
 ---
-title: "001 - New Paradigm"
+title: "001 - Kairos"
 layout: essay.njk
 date: "2023-07-01"
 ---
