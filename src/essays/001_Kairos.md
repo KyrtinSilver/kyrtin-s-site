@@ -1,5 +1,5 @@
 ---
-title: "001 - The Great Divide"
+title: "001 - New Paradigm"
 layout: essay.njk
 date: "2023-07-01"
 ---

@@ -32,16 +32,12 @@ This cancer is still treatable, for now, but I wouldn't place any bets on human 
 
 We have the technology, but does anyone remain who has the will?
 
-#ethics #ai
-
-Portrait of "Uncle Fester" surrounded by stuffed animals in a hot pink little girl's bedroom, photorealistic, 8K, eerie box lighting, creepy smile, Adam's Family --ar 16:9
-
 It is worth noting that the rabbit holes of mental illness are also massively diverse, and only becoming more so. This is effectively an extension of "Divide and Conquer" tactics, applied to the attack vectors of identity.
 
 Humans, social platforms, and chatbots have all been documented exhibiting "grooming" behaviors, where individuals are manipulated into adopting a new identity or taking actions they'd never otherwise consider.
 
 Books could be written on this subject, but as things stand today people might just have chatbots summarize them instead of actually reading them, degrading and warping the data in the process.
 
-For the famous poem see: <https://allpoetry.com/The-Hollow-Men>
+For the famous poem see: [The Hollow Men](https://allpoetry.com/The-Hollow-Men)
 
-Recording.
+#ethics #ai

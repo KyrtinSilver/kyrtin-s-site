@@ -24,12 +24,10 @@ They can apply the scientific method to scrutinize results, propose hypotheses, 
 
 How soon this technology can be deployed and scaled will depend on how quickly proper funding for it may be secured. One thing we can be certain of between now and then is that the cost of the status quo is a thing that humanity cannot afford.
 
-#ethics
-
-Guilty researcher wearing a white lab coat, red paint splatter everywhere, RTX, 8K, highly detailed, Dexter --ar 16:9
-
 The phrase "Publish or Perish" has often been used to describe a set of archaic practices still used in some academic and industry circles today, which contribute to this. As Edward O. Wilson famously put it:
 
 "The real problem of humanity is the following: We have Paleolithic emotions, medieval institutions and godlike technology. And it is terrifically dangerous, and it is now approaching a point of crisis overall."
 
-\*For more on what happens when Garbage Generators eat large quantities of AI-generated content, see: https://arxiv.org/abs/2307.01850
+\*For more on what happens when Garbage Generators eat large quantities of AI-generated content, see: [Self-Consuming Generative Models Go MAD](https://arxiv.org/abs/2307.01850)
+
+#ethics
