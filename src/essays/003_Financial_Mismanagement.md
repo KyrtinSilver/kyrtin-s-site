@@ -18,10 +18,8 @@ If identification of bad actors by this method proves successful, it might also 
 
 Even our early version of the cognitive bias detection system, itself just a small component of a more powerful system, managed to exceed average human performance. Now, exploration of how this new capacity may be applied truly begins.
 
-#ai #cognitivebias #fraud #bias
-
 If anyone has recommendations for more confirmed or potential frauds to analyze, an interview with the individual, before they were caught in the case of confirmed frauds, is all this process requires. The best format is text, to avoid the added labor and potential error of transcription.
 
 People with close ties to the confirmed frauds and with investments in companies that have shown major red flags (Such as Helion Energy and WorldCoin) are already on the list to be analyzed, including the CEOs of Anthropic and OpenAI.
 
-Sam Bankman-Fried having tea with Elizabeth Holmes in a comfy prison cell --ar 16:9
+#ai #cognitivebias #fraud #bias

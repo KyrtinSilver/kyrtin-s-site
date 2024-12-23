@@ -28,8 +28,4 @@ This takes cognitive effort, but all cultivation of wisdom does.
 
 "When you want wisdom and insight as badly as you want to breathe, it is then you shall have it." ― Socrates
 
-#ethics #bias #cognitivebias #philosophy #emotions
-
-"Psychologist, paying close attention to a patient, photorealistic, 8K, highly detailed --ar 16:9"
-
-"A Graph Database, Nodes and Connections, colors, Concept map, clean, professional, highly detailed, futuristic --ar 16:9 --no Text words font labels letters"
+#ethics #bias #cognitivebias #philosophy #emotion

@@ -17,5 +17,3 @@ If any #VC, #investor, #government, #corporation, or other party on the face of 
 Considering the annual spending and waste in the medical field, as well as many similar fields, the choice is obvious. Who will walk the talk?
 
 #ai #ethics #bias
-
-The world's most powerful Artificial General Intelligence, photorealistic, futuristic, in the style of Jacque Fresco, medical clean room, holographic displays --ar 16:9

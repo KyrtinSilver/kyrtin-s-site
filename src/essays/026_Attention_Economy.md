@@ -26,12 +26,10 @@ We have the technological capacity to build systems that offer such understandin
 
 The attention economy is the Titanic, and we've moved past the iceberg. Will you go down with the ship?
 
-#ethics #ai #psychology
-
-Portrait of an Advertising Industry Villain, surrounded by trash, psychological warfare, RTX, 8K, highly detailed --ar 16:9
-
 Newsfeed algorithms and search engines are also pretty terrible at predicting human responses today. Many of my own posts that they very obviously deprioritized spreading end up receiving more reactions and reshares than posts they randomly presented to 10 times more people. Such systems may be "intended" to serve a useful function, but in practice, they're often no better than random chance.
 
 A simple roll of the dice would also avoid systematic biases, like prejudice and stereotypes, which newsfeed algorithms heavily utilize. Put another way, Random is better than Racist.
 
 Though many programmers and data scientists may twist statistics to justify their continued employment at major firms, the statistics for the damage they cause in doing so are still there, they just aren't presented. If the scientific method were applied to this problem, the counter-argument statistics could debunk their methods in many cases, favoring the avoidance of many systematic biases at a bare minimum.
+
+#ethics #ai #psychology

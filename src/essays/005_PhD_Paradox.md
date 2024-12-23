@@ -24,8 +24,6 @@ Placing all weight on a symbol is effectively no different than superstition, li
 
 #bias #cognitivebias #ethics #reasoning #education
 
-"An HR department full of superstition and symbols, a volcano erupting in the distant background, hyperrealistic, 4K --ar 16:9
-
 This came to mind as I was reviewing a particularly interesting paper in peer review on the subject of cognitive bias. While I can't share any of the paper's contents due to the terms of being a reviewer, I can recommend that researchers accept at least one offer to review for a journal within their domain. If you want to encounter interesting ideas and findings first, be a reviewer.
 
 If you want your employees to encounter such ideas and findings first, encourage them to review them as well.

@@ -23,5 +23,3 @@ Bad actors are currently able to directly influence, exploit, and damage virtual
 With the automatic detection of cognitive biases now exceeding the average human's performance, we can build systems to see which of the "low-hanging fruit" is rotten without biting into it.
 
 #cognitivebias #ai #fraud
-
-"Tech Investors picking Low-hanging fruit, hyperrealistic, 4K, --ar 16:9"

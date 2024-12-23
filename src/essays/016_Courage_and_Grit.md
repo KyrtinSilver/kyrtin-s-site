@@ -31,5 +31,3 @@ I will continue to do my part, attempting to convey the critical and urgent impo
 It takes courage to step out of your comfort zone and into the unknown. It takes grit to stay there. Scientific progress demands no less, and human survival demands far more.
 
 #ai #US #EU
-
-"Paul Dirac making scientific history, photorealistic, 8K --ar 16:9"

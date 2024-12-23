@@ -24,10 +24,8 @@ Some have pointed to more money being spent on cigarette advertisements than hum
 
 The toddler that aims to push a square block through a round hole is playing in the nuclear missile silo. How long does humanity intend to leave them unattended?
 
-#ai #ethics #LLMs #AGI #bias
-
-"Toddler playing in a nuclear missile silo, holding a square block, highly detailed, 8K --ar 16:9"
-
 An increasing number of reasonable people understand that continuation of the status quo will reliably produce human extinction. If one or more people choose to invest the necessary resources to see ethical AGI deployed in time to alter humanity's current trajectory, then this may be avoided.
 
 If none make that choice, then it is no different than humanity choosing suicide. Is humanity so far gone?
+
+#ai #ethics #LLMs #AGI #bias

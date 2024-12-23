@@ -28,12 +28,8 @@ Are the investors you know looking for a "pump and dump", or are they in it for 
 
 #investment #venturecapital #startups #ai
 
-"A Venture Capitalist Prince riding in on a white horse, meeting his Startup Princess, fairy tale, RTX, 8K, highly detailed, romantic --ar 16:9"
-
-"A Prince Elon Musk riding in on a white horse, fairy tale, RTX, 8K, highly detailed, romantic --ar 16:9"
-
 Metaphors can be a particularly fun educational opportunity. Get a few people batting these puns and jokes back and forth and you might even spark some innovation.
 
-Feel free to channel your inner Charlie Sheen and add some Good Advice.
-
 \*This message is brought to you by Humor and metaphor-oriented cognitive biases.
+
+#investment #venturecapital #startups #ai

@@ -18,10 +18,8 @@ Study Phases 1 and 2 published in pre-print earlier this month are currently goi
 
 If successful, this method could be applied to the detection of many positive and negative patterns across every domain. After all, if you could detect both future Bernie Madoffs and Nobel Prize Winners through the same analysis method of an interview (or conversation) with them, what doors might that open? How much time and effort might that save?
 
-#ai #research #bias #cognitivebias #study
-
-"Diverse Nobel Prize winning scientists detecting patterns in big data, photorealistic, 8K --ar 16:9"
-
 \*Note: See the pre-print of study phases 1 and 2, as well as links to the data [here](https://www.researchgate.net/publication/372078491_Cognitive_Biases_in_Natural_Language_Automatically_Detecting_Differentiating_and_Measuring_Bias_in_Text).
 
 It is easy to imagine HR departments salivating at the thought of having a viable method of predicting the success of job applicants, Universities predicting academic success of potential students, financial firms predicting the risk of fraud, and governments predicting the risk of corruption. These capacities could become Dystopian if taken to extremes, but in moderation and sensible designs they could also have a more significant positive impact.
+
+#ai #research #bias #cognitivebias #study

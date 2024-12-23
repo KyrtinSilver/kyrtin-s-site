@@ -22,10 +22,6 @@ I also point out how several other thought experiments dramatically fail, and gi
 
 [The Ethical Basilisk Thought Experiment](https://www.researchgate.net/publication/372083027_The_Ethical_Basilisk_Thought_Experiment)
 
-#ai #research #ethics
-
-"Mark Twain and Boba Fett, 4K, Mandalorian style, new season --ar 16:9"
-
 \*Note: This is neither intended to serve as positive nor negative motivation. Though this thought experiment could theoretically serve as extreme motivation for any logical human, as many researchers have demonstrated at great length, no such humans exist.
 
 As some have pointed out, what this paper indicates may be very emotionally unappealing. However, it wasn't written to be appealing, it was written to address a number of frequently overlooked points in any discussion of ethics.
@@ -34,4 +30,4 @@ It is also worth mentioning that this applies to all scenarios where AGI is crea
 
 My expectation is that, statistically, those who the thought experiment highlights the worst future for are also the least likely to read it in the first place.
 
-\*\*This post invokes the Bizarreness Effect via the image of Mandalorian Mark Twain.
+#ai #research #ethics

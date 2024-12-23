@@ -22,8 +22,6 @@ Consequently, meaningful progress in Equality and Fairness requires applying met
 
 Systems to detect cognitive biases that apply collective intelligence to reduce their impact on decision-making have been developed. Once they are deployed, humanity may be much better equipped to integrate the concepts of Fairness and Equality.
 
-#ai #bias #cognitivebias
-
-Scales of Justice, Futuristic, Fairness and Equality, Ethics, photorealistic, 8K, highly detailed, ornate, clean --ar 16:9
-
 \*Side Note: Someone has been "revising" ancient Greek history at a rate that raises some red flags. Take anything you read about the subject today that wasn't pulled from the Internet Archive's records with a big grain of salt.
+
+#ai #bias #cognitivebias

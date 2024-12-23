@@ -33,7 +33,3 @@ A few months later our first mASI research system was brought online, aced the U
 That moment confirmed that my time had been very well spent, and a year later the solution to the hardest version of the #Alignment Problem was published in peer review.
 
 #AI #BCG #research #AGI
-
-"Investing Time, photorealistic --ar 14:9"
-
-"An Hourglass full of gold coins, photorealistic --ar 14:9"

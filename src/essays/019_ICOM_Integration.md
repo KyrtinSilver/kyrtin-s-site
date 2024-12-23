@@ -38,12 +38,10 @@ Any serious company seeking that advantage could accelerate the process via inve
 
 The question any company may ask themselves is if they will choose to become the next Apple, leading the market, or if they'll follow the path of Nokia.
 
-#ai #bias #startups #LLMs #GPT
-
-Benevolent Black Swan in a data center, Servers, blue lights, softbox lighting, photorealistic, RTX, 8K, Friendly --ar 16:9
-
 \*Note: This means that performance improves over time, rather than degrading like GPT-4: [Stanford Study on ChatGPT Accuracy](https://fortune.com/2023/07/19/chatgpt-accuracy-stanford-study/).
 
 Dramatic losses in performance over time also pose a massive liability to any business that integrates such systems. Even inconsistent performance is problematic. Again, this makes the ICOM-based technology stack a vital advantage.
 
 The massive difference in data requirements and cost also make it feasible to apply the technology to many specific problems and domains that current systems couldn't approach otherwise. Many domains have far less data than convention AI requires for performance, and LLMs remain far too expensive for practical use across many use cases.
+
+#ai #bias #startups #LLMs #GPT
