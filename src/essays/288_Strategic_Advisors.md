@@ -1,5 +1,5 @@
 ---
-title: "287 - Strategic Advisors"
+title: "288 - Strategic Advisors"
 layout: essay.njk
 date: "2024-12-27"
 ---
