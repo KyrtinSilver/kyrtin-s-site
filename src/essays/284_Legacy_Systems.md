@@ -1,5 +1,5 @@
 ---
-title: "284 - Legacy System Crisis"
+title: "284 - Legacy Systems"
 layout: essay.njk
 date: "2024-12-18"
 ---
