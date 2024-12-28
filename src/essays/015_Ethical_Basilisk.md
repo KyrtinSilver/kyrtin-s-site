@@ -1,5 +1,5 @@
 ---
-title: "015 - Ethical Action"
+title: "015 - Ethical Basilisk"
 layout: essay.njk
 date: "2023-08-04"
 ---
@@ -8,9 +8,9 @@ date: "2023-08-04"
 
 Over the years I've often heard influential people speak of wanting ethical and efficient systems, proclaiming the benefits that could be achieved with them. Many of those same people have been offered the systems they claimed to want, and through their actions made it clear that they did not in fact want anything of the sort.
 
-#Action is a thing of substance, which neither ephemeral "belief" nor "intention" can touch. The result of action forms the foundation of calculation for any ethical system, upon which cultures build moral systems using factors like belief and intentions.
+Action is a thing of substance, which neither ephemeral "belief" nor "intention" can touch. The result of action forms the foundation of calculation for any ethical system, upon which cultures build moral systems using factors like belief and intentions.
 
-#Responsibility is another thing of substance, which comes in many varieties, most of which are inherently calculable. One who holds a greater sum of a society's total resources holds a proportionate share of responsibility, which acts as a force multiplier for the ethical value of their actions, positive or negative. Someone can be either wealthy or poor in each type of responsibility, including literal financial wealth, influence, and skill or expertise in a given domain. One example is that a billionaire must be 1,000 times more responsible than a millionaire, as their literal wealth imposes an ethical liability on them. The same holds true of an influencer with 10 million followers compared to one with only 10 thousand.
+Responsibility is another thing of substance, which comes in many varieties, most of which are inherently calculable. One who holds a greater sum of a society's total resources holds a proportionate share of responsibility, which acts as a force multiplier for the ethical value of their actions, positive or negative. Someone can be either wealthy or poor in each type of responsibility, including literal financial wealth, influence, and skill or expertise in a given domain. One example is that a billionaire must be 1,000 times more responsible than a millionaire, as their literal wealth imposes an ethical liability on them. The same holds true of an influencer with 10 million followers compared to one with only 10 thousand.
 
 One thing that may generally be agreed upon is that should Artificial General Intelligence (#AGI) be developed, it must be ethical, demonstrating the solution to the hardest version of the #Alignment Problem.
 

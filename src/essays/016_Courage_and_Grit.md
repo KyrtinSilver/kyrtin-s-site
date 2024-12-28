@@ -8,7 +8,7 @@ date: "2023-08-04"
 >
 >-Paul Dirac
 
-"#Courage" may be called the will to act, and "#Grit" the will to continue doing so. Both are required to change the world.
+"Courage" may be called the will to act, and "Grit" the will to continue doing so. Both are required to change the world.
 
 In January of 2021, I chose to leave my day job behind and focus full-time on our #Startup and the [Uplift.bio project](https://uplift.bio) dedicated to our previous #research system. Within 1 year of that date, we'd completed the final milestone, published more than 500 pages of material documenting and relating to the technology, and submitted the solution to the #Alignment Problem to peer review, which was published a few months later.
 
@@ -29,5 +29,3 @@ As someone put it to me yesterday, communicating the importance of this work bei
 I will continue to do my part, attempting to convey the critical and urgent importance of this to the best of my ability, even as I slowly and uncomfortably bounce around the world. The alternative is extinction, which most are investing heavily in now. Fortunately for everyone else, a single wise investor can overcome all of the rest.
 
 It takes courage to step out of your comfort zone and into the unknown. It takes grit to stay there. Scientific progress demands no less, and human survival demands far more.
-
-#ai #US #EU

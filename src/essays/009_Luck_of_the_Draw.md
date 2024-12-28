@@ -29,7 +29,3 @@ What drives this point home is looking back and seeing the many previous “If o
 None of these events resulted in our work suddenly receiving public or investor interest, because humans aren’t rational, as demonstrated by Antonio Damasio. All of our achievements still swim in the chaotic soup that is our globalized society. It goes against many moral systems of belief to recognize how no mechanisms yet exist to reward merit, making this chaotic factor of “luck” all the more difficult to accept.
 
 Nevertheless, persistence and gradual improvement in the absence of “luck” have already led us to achieve what major tech companies and other startups have failed to even approach with orders of magnitude more resources available to them. With or without “luck”, we can continue to accomplish far more.
-
-#ai #research #ethics
-
-"Luck, probability, chance, random –ar 15:9"

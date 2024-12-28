@@ -27,5 +27,3 @@ Up until now, many of these entities have been attempting to "cut glass with a h
 I'll be posting a series of specific use cases over the coming days to drive this point home, of which this is the first.
 
 One can hope that if the umpteenth chatbot to be deployed this year, with no benchmarks to show for it, is rapidly funded to the tune of $1.3bn, that some competent investors may emerge from the current AI mess to fund technology that is actually worth deploying. Only time will tell.
-
-#ai #research #stateoftheart #cognitivebias #moderation

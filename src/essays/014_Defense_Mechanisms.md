@@ -8,7 +8,7 @@ We have the technology to detect cognitive #bias and #misinformation, as well as
 
 As the recent study demonstrated, we now have the first software system able to detect 188+ cognitive biases in text more accurately than the average human. Unlike any human, such software can operate all of the time, diligently guarding against bias and misinformation at great speed and scale.
 
-This use case is applicable to every social platform, as well as to the #governance of any organization, corporation, or government. With these systems, it becomes possible to:
+This use case is applicable to every social platform, as well as to the governance of any organization, corporation, or government. With these systems, it becomes possible to:
 
 - Automatically detect misinformation, #disinformation, and related social engineering threats automatically, before they begin to spread.
 

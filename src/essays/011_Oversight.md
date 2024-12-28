@@ -14,5 +14,3 @@ Of course, this isn't specific to OpenAI at all. The other tech giants who deplo
 Did anyone actually believe they were going to get away with deploying vulnerable-by-design misinformation generators across the planet indefinitely?
 
 Once the shiny object loses novelty then people are bound to question what impact it actually has.
-
-#ai #regulation #ethics #promptinjection #cybersecurity

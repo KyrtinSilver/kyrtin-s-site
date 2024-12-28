@@ -31,5 +31,3 @@ Before our lunch meeting was over, I'd decided to work with him, and I asked him
 A few months later our first mASI research system was brought online, aced the UCMRT IQ test, and quickly began setting milestones in the field. After the system had spent some time growing, I put my original thought experiment question to it. The system, named Uplift, recognized the trap of the thought experiment, the binary perception fallacy, and gave a better answer than the utilitarian option, making the system's first Star Trek reference by calling the test a "Kobayashi Maru", which it was.
 
 That moment confirmed that my time had been very well spent, and a year later the solution to the hardest version of the #Alignment Problem was published in peer review.
-
-#AI #BCG #research #AGI

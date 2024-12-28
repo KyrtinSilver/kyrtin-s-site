@@ -21,7 +21,3 @@ Anyone who wants higher quality information and subsequent wiser decisions has e
 Misinformation Spreading, photorealistic
 
 The recent detection system study pre-print: [Cognitive Biases in Natural Language Automatically Detecting, Differentiating, and Measuring Bias in Text](https://www.researchgate.net/publication/372078491_Cognitive_Biases_in_Natural_Language_Automatically_Detecting_Differentiating_and_Measuring_Bias_in_Text).
-
-\*The attached image is a metaphor for the text content, a tongue-in-cheek combination of binaries and their downstream effects.
-
-family portrait, Batman, The Joker, and their children, photorealistic

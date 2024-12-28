@@ -21,7 +21,3 @@ Humans have certain advantages when it comes to understanding human intelligence
 Thanks to the Dunning-Kruger Effect paired with Substitution Bias, many "#AI Experts" also fail to recognize where their own expertise abruptly ends. Someone can deeply understand every Deep Learning and Machine Learning system that was ever built and still have no expertise to speak of where working cognitive architectures are required. Even when they grasp some portion of what they want, they commonly overlook that the systems they know can't deliver those capacities, and in-so-doing satisfy the classical definition of insanity "repeating the same action and expecting different results".
 
 Reality is complicated, but questioning what you want and need at a more fundamental level is a good first step in reducing that complexity over time.
-
-#cognitivebias #ethics #decision-making
-
-Serenity, introspection, logically understanding emotional needs.
