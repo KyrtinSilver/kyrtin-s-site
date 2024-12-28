@@ -10,6 +10,8 @@ I just received confirmation for my next paper to be published in peer review vi
 
 Peer review remains glacially slow and subject to high levels of both bias and 'noise' in the process, but those pain points bring to mind a quote about Democracy:
 
-> "Many forms of Government have been tried, and will be tried in this world of sin and woe. No one pretends that democracy is perfect or all-wise. Indeed it has been said that democracy is the worst form of Government except for all those other forms that have been tried from time to time...." > > -Winston S Churchill, 11 November 1947
+> "Many forms of Government have been tried, and will be tried in this world of sin and woe. No one pretends that democracy is perfect or all-wise. Indeed it has been said that democracy is the worst form of Government except for all those other forms that have been tried from time to time...." 
+> 
+> -Winston S Churchill, 11 November 1947
 
 #ai #ethics #peer-review #bias #indoctrination
