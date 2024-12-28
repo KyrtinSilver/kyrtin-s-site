@@ -18,4 +18,4 @@ In AI the term “over-fitting” comes to mind, and in this context, a highly n
 
 You can sometimes optimize isolated factors in simple AI systems, but you can virtually never do that with aspects of your real life without running head-first into this problem. Consistent and general progress reliably takes you further than a “glass cannon” approach to life optimization.
 
-![Comic Relief](https://media.licdn.com/dms/image/v2/D5622AQHrtuy-JzA1sg/feedshare-shrink_800/feedshare-shrink_800/0/1720434131336?e=1737590400&v=beta&t=4YL54D8YhkTletuBKLZPXJFt8_fHDCE2vUYr_7DG_QM)
+![Over-Critical Self-Criticism](https://media.licdn.com/dms/image/v2/D5622AQHrtuy-JzA1sg/feedshare-shrink_800/feedshare-shrink_800/0/1720434131336?e=1737590400&v=beta&t=4YL54D8YhkTletuBKLZPXJFt8_fHDCE2vUYr_7DG_QM)

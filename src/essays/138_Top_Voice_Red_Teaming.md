@@ -15,5 +15,3 @@ So, what does the top voice system mean? Not much. Just like all of the "Certifi
 If you see me comment on any of those "collaborative articles" that LinkedIn's Microsoft overlords feed into the next-token-predicting blender, know that I'm just testing if another trivial investment of effort can make the leap from "top 4%" to "top 1%".
 
 Remember to be skeptical when people are promoted as experts by automated systems, corporate sponsorships, or lobbyists. I'll toy with these systems to mock their creators, but many game them to sell snake oil. Critical thinking may be out of fashion right now, but it beats drinking the Kool-Aid.
-
-#ai #research #credibility #credentials #influencers

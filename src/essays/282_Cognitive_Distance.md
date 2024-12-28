@@ -20,7 +20,6 @@ For purposes of Collective Intelligence, the goal isn't to gather some elite and
 
 Different domains also have very different "Hard problems", as demonstrated by many innovation platforms having the Hard problems of one domain easily solved by experts from an entirely different domain. Likewise, cultures around the world show very different patterns of adaptation to various global challenges, each culture with its own respective strengths and weaknesses.
 
-Collective Intelligence (CI) is synonymous with "Collective
-Superintelligence" specifically because effective systems of CI substantially reduce cognitive bias. Even dominantly unconscious systems making use of groups of enthusiasts rather than experts have reliably outperformed experts in this manner, such as the Swarm Intelligence method that Unanimous AI became known for with their sports betting.
+Collective Intelligence (CI) is synonymous with "Collective Superintelligence" specifically because effective systems of CI substantially reduce cognitive bias. Even dominantly unconscious systems making use of groups of enthusiasts rather than experts have reliably outperformed experts in this manner, such as the Swarm Intelligence method that Unanimous AI became known for with their sports betting.
 
 The earliest versions of our 8th-gen ICOM-based systems are strongly influenced by and built around CI research, with many related use cases in organizational management and governance. These systems may become the first to truly map and bridge cognitive distances at large.

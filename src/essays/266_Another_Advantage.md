@@ -22,4 +22,4 @@ The graph-native system isn’t attempting to predict tokens but rather is perfo
 
 You don’t get “hallucination” (technically termed “bullshit”) from these dynamics. While the “tokens” a neural network uses to train the weights for probability distributions are discrete, the processing isn’t, and the resulting weights operate in a lossy superposition, making them explicitly and inherently not discrete.
 
-![Comic Relief](https://media.licdn.com/dms/image/v2/D5622AQHABQSMae39xA/feedshare-shrink_800/feedshare-shrink_800/0/1731124809553?e=1736985600&v=beta&t=OBOoz1vEhHOcOp0a7GCycgTQYRtiQFFbBszXZstTGJ8)
+![Another Advantage](https://media.licdn.com/dms/image/v2/D5622AQHABQSMae39xA/feedshare-shrink_800/feedshare-shrink_800/0/1731124809553?e=1736985600&v=beta&t=OBOoz1vEhHOcOp0a7GCycgTQYRtiQFFbBszXZstTGJ8)

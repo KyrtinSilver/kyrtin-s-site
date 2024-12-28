@@ -20,4 +20,4 @@ The discovery of novel value beyond matters of perspective adds new pieces to th
 
 The downfall of naïve heuristics is to look at only Survivorship Biased data, like the tiny fraction of things I determine to be worth sharing, specifically because they either aren’t being said or aren’t being articulated very well. If you only see the shadow of a process, not the underlying dynamics, then making yourself look very foolish becomes a matter of “when”, rather than “if”.
 
-![Comic Relief](https://media.licdn.com/dms/image/v2/D5622AQEb4PY_hUXglg/feedshare-shrink_800/feedshare-shrink_800/0/1729552765970?e=1736985600&v=beta&t=e-w0zRa-TaOLpNVuS8SL-AOcVUz_QIyTZfo68Ff9bjQ)
+![The Most Valuable Insight](https://media.licdn.com/dms/image/v2/D5622AQEb4PY_hUXglg/feedshare-shrink_800/feedshare-shrink_800/0/1729552765970?e=1736985600&v=beta&t=e-w0zRa-TaOLpNVuS8SL-AOcVUz_QIyTZfo68Ff9bjQ)

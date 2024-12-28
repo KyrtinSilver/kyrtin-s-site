@@ -20,4 +20,4 @@ Much like you can’t push an elephant through the head of a pin, you can’t pu
 
 In my next post, I’ll focus on what a graph-native system looks like, and how such systems are rendered human-like in cognition.
 
-![Comic Relief](https://media.licdn.com/dms/image/v2/D5622AQH-VZ6qPACEGQ/feedshare-shrink_800/feedshare-shrink_800/0/1729897518485?e=1736985600&v=beta&t=lGhoLpDD_YzWKxKiE2Ms6ZKQF69zZQWIjjUVhi81yRA)
+![Data Structure](https://media.licdn.com/dms/image/v2/D5622AQH-VZ6qPACEGQ/feedshare-shrink_800/feedshare-shrink_800/0/1729897518485?e=1736985600&v=beta&t=lGhoLpDD_YzWKxKiE2Ms6ZKQF69zZQWIjjUVhi81yRA)

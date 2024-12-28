@@ -17,5 +17,3 @@ Now, consider that those who generate the most new code using such AI are also g
 "Generating" is only the first step, and not necessarily the most important. The internet isn't your Git-terbox, and nobody is going to scoop your old code, except perhaps to feed it to you via the next LLM.
 
 "...and whomsoever shall be found, without the code for getting down, must stand and face the pull requests of hell, and rot inside of Powershell..."
-
-#coding #ai #maintenance

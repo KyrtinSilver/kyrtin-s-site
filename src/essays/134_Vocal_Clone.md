@@ -19,5 +19,3 @@ The type of data in audio also helps, as it is mathematical, not semantic, meani
 To "generate" anything of reliably higher quality requires a working cognitive architecture and precisely one such system has been demonstrated to date. Absent a human-like motivational system, human-like memory, and the working cognitive architecture to process that information, nothing may be learned. If nothing is truly learned, it cannot be improved. If nothing is improved, it cannot become better than the data it was fed.
 
 Now to drive this point home, my AI Vocal Clone has "...Gotta make you understand..."
-
-#ai #generativeai #llm #research #innovation

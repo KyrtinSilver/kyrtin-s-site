@@ -18,4 +18,4 @@ For some, the choice they now face is an existential one. For my team, we’re a
 
 Present-day events were entirely preventable, we could have completed the full engineering workload for the high-bar definition of AGI by now had investors in 2022 proven remotely competent. Instead, they shat the bed, and they’ve spent 2 years lying in it. How many more years do they intend to stay there?
 
-![Comic Relief](https://media.licdn.com/dms/image/v2/D5622AQGEt2q0KGnjfw/feedshare-shrink_800/feedshare-shrink_800/0/1731473714879?e=1736985600&v=beta&t=hrJuzEcNvWuKYoo5EMPCRW4lshy90QofMPnwvn8d-js)
+![Avoid Politics](https://media.licdn.com/dms/image/v2/D5622AQGEt2q0KGnjfw/feedshare-shrink_800/feedshare-shrink_800/0/1731473714879?e=1736985600&v=beta&t=hrJuzEcNvWuKYoo5EMPCRW4lshy90QofMPnwvn8d-js)

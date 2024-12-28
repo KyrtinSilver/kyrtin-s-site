@@ -20,4 +20,4 @@ Humans can partially overcome both the natural tendency to ignore slow changes a
 
 Another more complete method may well become the preferred option after my team’s technology is commercially deployed, but for the time being people are anything but helpless. The price to do better for now remains higher cognition, and when applied to prevention (proactive) rather than treatment (reactive) a great deal more can be accomplished given the same resources.
 
-![Comic Relief](https://media.licdn.com/dms/image/v2/D5622AQFqYgehR8WYJw/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1719743638047?e=1737590400&v=beta&t=sNkKitb32OAx0l4I-OuG-vwZ1AhrYgvDLB8IcyGMEC4)
+![Scientific Evidence](https://media.licdn.com/dms/image/v2/D5622AQFqYgehR8WYJw/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1719743638047?e=1737590400&v=beta&t=sNkKitb32OAx0l4I-OuG-vwZ1AhrYgvDLB8IcyGMEC4)

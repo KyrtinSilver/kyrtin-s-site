@@ -17,5 +17,3 @@ I've watched this play out time and time again, as people with 20+ years of expe
 Unfortunately for society, many of the current tech billionaires turned investors fall into this category, consistently failing to grasp their own substitution of one type of expertise for another. Instead, they consistently fall for the adversarially optimized narratives of those selling snake oil, as the snake oil seller has a strategic advantage, in that they can optimize anything, absent any facts to tie them down.
 
 How much of what you do not know is visible to you, and how do you substitute expertise?
-
-#ai #bias #AGI #psychology #hype

@@ -20,4 +20,4 @@ Reality is often bitter, but it doesn’t care and doesn’t change based on wha
 
 The Greek temple at Delphi holds the inscription “Γνῶθι σαυτόν” (Know Thyself), offering a reminder that this is not a new problem. Reality is often bitter, but it can at least become both healthy and bitter-sweet to those who consistently prefer it.
 
-![Comic Relief](https://media.licdn.com/dms/image/v2/D5622AQEEtnbxSLj7BA/feedshare-shrink_800/feedshare-shrink_800/0/1729158133875?e=1736985600&v=beta&t=D8QwX4VTxaTKfH-gUNGZUmF7CiFpq83e9k4S8T9Jni0)
+![Words Can Be Used](https://media.licdn.com/dms/image/v2/D5622AQEEtnbxSLj7BA/feedshare-shrink_800/feedshare-shrink_800/0/1729158133875?e=1736985600&v=beta&t=D8QwX4VTxaTKfH-gUNGZUmF7CiFpq83e9k4S8T9Jni0)

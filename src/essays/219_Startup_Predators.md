@@ -28,4 +28,4 @@ It was a proud moment for me when I heard one of my colleagues say that the bad 
 
 Getting the right investor will take as long as it takes, but unlike the hasty bad actors, the right investor can help you reach the places worth going.
 
-![Comic Relief](https://media.licdn.com/dms/image/v2/D5622AQFlkR-pPhuePw/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1720056602751?e=1737590400&v=beta&t=jg657LGKaTaPUtCxnefFbeRuE4i5-bWG8iOuJ4P2Ha8)
+![Startup Predators](https://media.licdn.com/dms/image/v2/D5622AQFlkR-pPhuePw/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1720056602751?e=1737590400&v=beta&t=jg657LGKaTaPUtCxnefFbeRuE4i5-bWG8iOuJ4P2Ha8)

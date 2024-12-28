@@ -21,4 +21,4 @@ Next, I’ll dig into the pixel-level accuracy taking place in the remaining few
 
 P.S.A.: In the meantime, if you know anyone suffering from the mental illness of claiming that OpenAI is releasing products that “reason” or “understand”, introduce them to the ARC-AGI Challenge, which actually tests for those things, and which they fail at miserably. If they continue thereafter, disown them.
 
-![Comic Relief](https://media.licdn.com/dms/image/v2/D5622AQGPujHc1Eqh5w/feedshare-shrink_800/feedshare-shrink_800/0/1726651385211?e=1736985600&v=beta&t=Z2VH0vRjM9mA8qEDoQNYUpQgkjA-A6XK9nBkmv0joZU)
+![Who Like Numbers](https://media.licdn.com/dms/image/v2/D5622AQGPujHc1Eqh5w/feedshare-shrink_800/feedshare-shrink_800/0/1726651385211?e=1736985600&v=beta&t=Z2VH0vRjM9mA8qEDoQNYUpQgkjA-A6XK9nBkmv0joZU)

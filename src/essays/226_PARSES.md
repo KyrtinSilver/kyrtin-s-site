@@ -34,4 +34,4 @@ As these Corporations strongly diverge in their performance over time, one predi
 
 Another significant factor to consider in this is corporate mass and inertia.  “Big Tech” companies like Microsoft are known for their bulk, and subsequent need to “buy innovation”, as they neuter themselves of the capacity to adapt and create new technologies (that people actually want). They are high-mass, with proportionately higher inertia, and minimal ability to pivot, putting them at the greatest disadvantage absent the technology described above. They are multi-trillion-dollar Dodo Birds.
 
-![Comic Relief](https://media.licdn.com/dms/image/v2/D5622AQHXnSwIXzO25Q/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1721620961009?e=1737590400&v=beta&t=HeIBVfJx5F9MTQmkGGeo1IPTtEeJXw3jEND6bIWMM-A)
+![PARSES](https://media.licdn.com/dms/image/v2/D5622AQHXnSwIXzO25Q/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1721620961009?e=1737590400&v=beta&t=HeIBVfJx5F9MTQmkGGeo1IPTtEeJXw3jEND6bIWMM-A)

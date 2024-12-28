@@ -25,5 +25,3 @@ Old posts and edits to posts are most likely to go unnoticed, even if a user is 
 - For the more creative bad actors, these attack vectors could be combined in parallel, as well as sequenced, or used as pointers to invoke new methods of compromising the LLM, subject to regular updates. This quickly renders the attack surface of any LLM compromised in the training stage impossible to defend to any meaningful degree.
 
 All of the world's snake oil can't treat that one burn. 
-
- #AI #Cybersecurity #Research #LLMs

@@ -22,4 +22,4 @@ There will be tons of deepfakes circulating, and there will be shallow fakes get
 
 There are no treats between now and the end of the year for the US, only tricks. If you keep an eye on the news, those tricks will be on you.
 
-![Comic Relief](https://media.licdn.com/dms/image/v2/D5622AQHcb7Gmst9Qig/feedshare-shrink_800/feedshare-shrink_800/0/1729482328741?e=1736985600&v=beta&t=e8Mg5jxpwkYE5Drnlo5IrGMSn0UX1AGg8zX1LojoifA)
+![Two Celebrations](https://media.licdn.com/dms/image/v2/D5622AQHcb7Gmst9Qig/feedshare-shrink_800/feedshare-shrink_800/0/1729482328741?e=1736985600&v=beta&t=e8Mg5jxpwkYE5Drnlo5IrGMSn0UX1AGg8zX1LojoifA)

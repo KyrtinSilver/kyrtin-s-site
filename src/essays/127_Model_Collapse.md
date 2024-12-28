@@ -17,5 +17,3 @@ Any education system that encourages students to develop that crutch will see th
 Overcoming this challenge requires fundamentally different architectures than LLMs, things that Google, OpenAI, and Microsoft don't work on. They've already placed their bets on a dead horse, but it will never cross the finish line no matter how much they invest in it.
 
 Systems with human-like and human-level concept learning don't require internet-scale data, so they can afford to be highly selective, avoiding the huge volumes of mediocre "faux-data" in favor of the 0.1% of top-quality material. For educational purposes, they can also learn the entire sum of human knowledge related to education and psychology, as well as each specific domain, serving as on-demand tutors rather than mechanisms of cheating, or crutches cultivating a state of dependence.
-
-#ai #education #search #learning

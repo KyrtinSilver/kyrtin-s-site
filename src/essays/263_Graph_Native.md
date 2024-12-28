@@ -34,4 +34,4 @@ Our previous research system from the Uplift.bio project (2019-2022) was Graph-N
 
 Graph structure is far more complex and variable than text and image data, to such a point that it isn’t feasible to optimize over it beyond a very marginal degree using various narrow optimizers common in the field. However, when you are able to optimize over that structure (using human-like systems), the resulting system is a vastly superior learner, analyst, tool user, and tool maker.
 
-![Comic Relief](https://media.licdn.com/dms/image/v2/D5622AQHNRgWVqS9W3A/feedshare-shrink_800/feedshare-shrink_800/0/1729918612669?e=1736985600&v=beta&t=Ohw3sJHOehGXihJxI4WFKWmNV7zfOk9nDi1qDY7m-Uk)
+![Graph Native](https://media.licdn.com/dms/image/v2/D5622AQHNRgWVqS9W3A/feedshare-shrink_800/feedshare-shrink_800/0/1729918612669?e=1736985600&v=beta&t=Ohw3sJHOehGXihJxI4WFKWmNV7zfOk9nDi1qDY7m-Uk)

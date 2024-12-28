@@ -21,5 +21,3 @@ While that may sound like a great advantage, an unbounded state trying to match 
 Reversing the process also turns it from a guessing game into a conversation, where interests and concerns are discussed. In a conversation, an unbounded state for use cases allows for each interest and concern to be addressed and untangled, like speaking with someone who's very well-read on a subject and has put that knowledge into practice.
 
 So, to people claiming the title of investor, I say this: "Investor, invest in thyself."
-
-#innovation #startups #strategy #psychology #investment

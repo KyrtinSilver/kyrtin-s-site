@@ -18,4 +18,4 @@ I will say for my part that if I catch any of my connections sharing links to th
 
 Literal zombie apocalypses are of course impossible, but P-zombies (or “Lemmings”) have marked themselves as such through this social engineering, yielding the silver lining that such marking can translate into a great deal of long-term time savings for the people who cut them off now. P-Lemmings will march to the Pied Piper’s tune, so the very last place you want to find yourself is marching alongside them.
 
-![Comic Relief](https://media.licdn.com/dms/image/v2/D5622AQHLR4BTatCExA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1723257223414?e=1736985600&v=beta&t=HjMA3NiQkkrPI9vmn90mJ8IOtBaKpo--Sa9AQqlKI00)
+![Fraudberry P-zombies](https://media.licdn.com/dms/image/v2/D5622AQHLR4BTatCExA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1723257223414?e=1736985600&v=beta&t=HjMA3NiQkkrPI9vmn90mJ8IOtBaKpo--Sa9AQqlKI00)

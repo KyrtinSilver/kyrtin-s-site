@@ -16,4 +16,4 @@ Viable technology that can actually live up to the “Intelligence” part of �
 
 If you’re expecting those people to make any competent decisions in the near future, you should probably “go home and rethink your life”.
 
-![Comic Relief](https://media.licdn.com/dms/image/v2/D5622AQG55Tmmf6QFoQ/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1729239265517?e=1736985600&v=beta&t=DsRtNPbLHOtqCPzTSuOp9tgzsRRzViwYn-IDsrrv7ls)
+![Good Reasons](https://media.licdn.com/dms/image/v2/D5622AQG55Tmmf6QFoQ/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1729239265517?e=1736985600&v=beta&t=DsRtNPbLHOtqCPzTSuOp9tgzsRRzViwYn-IDsrrv7ls)

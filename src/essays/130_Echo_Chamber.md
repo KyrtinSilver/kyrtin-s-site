@@ -29,5 +29,3 @@ However, big tech companies are even deeper into the hole of siloed connections 
 Investors, big tech companies, and to a lesser degree governments are all eating their tails right now. Just as LLMs repeatedly trained on LLM-generated data move steadily toward "model collapse", so too do each of these groups. From each of their perspectives, this degeneration may be very difficult to see, as a falling tide lowers all boats, and any picture a group desires may be painted with statistics.
 
 The ideal time to wake up and invest wisely was 2 years ago, but the second-best time is today.
-
-#ai #startups #investment #research #innovation

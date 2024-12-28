@@ -17,5 +17,3 @@ This can change, and there is every reason to change it, but "if" it will change
 The philosophical questions that people should be asking are also completely different when they understand where the technology already stands today. Most discussions going on right now are still based on assumptions that have been debunked, making them almost entirely unproductive. Systems can already be built that actually deliver on the capacities of understanding, reasoning, transparency, explainability, cybersecurity, privacy, alignment, ethics, and a myriad of other things that LLMs and RL are fundamentally incapable of.
 
 Technology will move forward when competent people fund full-time engineers to handle the necessary workload. Until then, it is just humanity huddling around a pile of burning trash and breathing in the fumes. Personally, I'd rather freeze than join that circle.
-
-#ai #research #innovation #investment #startups

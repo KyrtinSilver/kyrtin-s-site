@@ -20,4 +20,4 @@ People try to paint that hammer many colors (CoT, MoE, RAG, RLHF, etc.) and pret
 
 “AI Agents” built on LLMs and RL are just a tornado of painted hammers flying around narrow optimizers, never escaping the fundamental uses for which a hammer is viable, only increasing in numbers and swings, unchanging in viability. The tornado might pick up a bit of soup, spraying it everywhere, and the cost will tend to be much higher than anyone can afford.
 
-![Comic Relief](https://media.licdn.com/dms/image/v2/D5622AQFNIR-Pjtb0Eg/feedshare-shrink_800/feedshare-shrink_800/0/1731468345646?e=1736985600&v=beta&t=_rDS657pUzdtWyx1kMN5fDvL6iVpkXlCVIA1oN4Vy0c)
+![AI Agents](https://media.licdn.com/dms/image/v2/D5622AQFNIR-Pjtb0Eg/feedshare-shrink_800/feedshare-shrink_800/0/1731468345646?e=1736985600&v=beta&t=_rDS657pUzdtWyx1kMN5fDvL6iVpkXlCVIA1oN4Vy0c)

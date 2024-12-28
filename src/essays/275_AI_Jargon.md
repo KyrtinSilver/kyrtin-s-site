@@ -39,4 +39,4 @@ I welcome everyone to make their own additions to this list.
 
 Denis O. Chris Surdak Lasse Rindom Kurt Cagle I suspect might have a few of their own.
 
-![Comic Relief](https://media.licdn.com/dms/image/v2/D5622AQGYOihX2w_NCQ/feedshare-shrink_800/feedshare-shrink_800/0/1732247978070?e=1736985600&v=beta&t=SWebPAvDVDPLnr-OahV5Cb5cT-FTHK4YnwG323sYz-0)
+![AI Jargon](https://media.licdn.com/dms/image/v2/D5622AQGYOihX2w_NCQ/feedshare-shrink_800/feedshare-shrink_800/0/1732247978070?e=1736985600&v=beta&t=SWebPAvDVDPLnr-OahV5Cb5cT-FTHK4YnwG323sYz-0)

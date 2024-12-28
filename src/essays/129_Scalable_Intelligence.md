@@ -17,5 +17,3 @@ Similarly, virtually every government has even more reason to invest in viable t
 In many cases, it would be trivial for a government to make the wise choice. For example, $300 bn in frozen funds from the Russian Oligarchy were seized and assigned to the purpose of rebuilding post-war Ukraine, but the only way that $300 bn would cover that cost, to begin with, is by massively improving the efficacy and efficiency of methods and technology applied to the task. The only realistic way to make that happen is by investing in the one technology capable of delivering those improvements, which would create cost-savings exceeding the investment by at least two orders of magnitude, plus an equal or greater increase in the value of the investment itself over time.
 
 It only takes 1 investor, private, corporate, or government, to change the world.
-
-#ai #startups #innovation

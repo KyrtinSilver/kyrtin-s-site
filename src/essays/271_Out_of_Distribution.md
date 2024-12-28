@@ -23,4 +23,4 @@ UX researchers should never be confused with experts on technology, as they deal
 
 There is a real and urgent need for UX improvements among many major companies, with Microsoft being the long-running champion of “The World’s Worst UX”, but if a UX Researcher starts talking about the “generalization” or “reasoning” of LLMs, it is time to give them the “Ole Yeller” treatment and take them out back.
 
-![Comic Relief](https://media.licdn.com/dms/image/v2/D5622AQErKHCCHJdADA/feedshare-shrink_800/feedshare-shrink_800/0/1732073989715?e=1736985600&v=beta&t=cZufpb4VwrOfSfdgPdv_4jYAvYelKDC7IrXDoThqBAw)
+![Out of Distribution](https://media.licdn.com/dms/image/v2/D5622AQErKHCCHJdADA/feedshare-shrink_800/feedshare-shrink_800/0/1732073989715?e=1736985600&v=beta&t=cZufpb4VwrOfSfdgPdv_4jYAvYelKDC7IrXDoThqBAw)

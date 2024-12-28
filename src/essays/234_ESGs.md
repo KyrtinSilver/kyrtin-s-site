@@ -24,4 +24,4 @@ In this chart executives serve their roles, considering the objectives within th
 
 In all cases, employees both give feedback to and receive it from these systems, and communication with every employee can grow increasingly personalized, rather than relying on one-size-fits-all corporate standard communication and the crippling fear of being scapegoated or arbitrarily “canceled” that many in such environments now live in. Employees are directly and genuinely “cared for” by their companies under this paradigm, as the company gains an actual mind of its own, and corresponding degrees of both agency and empathy.
 
-![Comic Relief](https://media.licdn.com/dms/image/v2/D5622AQESOBtiQUE4vQ/feedshare-shrink_800/feedshare-shrink_800/0/1722849959273?e=1736985600&v=beta&t=5mlg8P0i_SMLx5NIHc48njpfQfOtMPvX4Bw2HHwYm4A)
+![ESGs](https://media.licdn.com/dms/image/v2/D5622AQESOBtiQUE4vQ/feedshare-shrink_800/feedshare-shrink_800/0/1722849959273?e=1736985600&v=beta&t=5mlg8P0i_SMLx5NIHc48njpfQfOtMPvX4Bw2HHwYm4A)

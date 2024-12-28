@@ -21,5 +21,3 @@ The elephant in the room for that topic is the risk of bad actors and deepfakes,
 For anyone curious about the state of the vocal cloning technology today, I've temporarily set up an example mixing together several such voices, which can also be used to make fun of the narrow AI worshippers on Twitter.[This encapsulates my sense of humor on several levels](https://vimeo.com/manage/videos/897081232).
 
 More details on the websites and software used in the vimeo link's description. The Rick Sanchez voice model is shown [here](https://www.weights.gg/models/clm736lqx1qeccctcmd0zt2eu).
-
-#AI #innovation #research #tech #US

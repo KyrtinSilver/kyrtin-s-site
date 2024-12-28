@@ -14,6 +14,5 @@ As today's over-hyped AI severely warps all content, any perceptions, conscious 
 Many jokes have been made about AI-hypesters "Drinking the Kool-Aide", but that Kool-Aide is now AI-generated, giving them an infinite supply to guzzle down, tailored in a warped way to any situation. This adversarial dynamic can make the generated delusions of AI-hype as they currently circulate flow down an infinitely deep rabbit hole, which is something new and novel in the dynamics of cognitive bias.
 
 Worse yet, this cognitive bias can also predictably impact more under-served communities more severely, such as communities whose only accessible options are often AI-generated materials, causing what is legally known as "Disparate Impact". Ironically, tech companies frequently brag about how it is "serving" these communities in new ways, but in doing so they neglect to mention how it is systematically "mis-serving" and warping them to produce Disparate Impacts at the same time.
-time.
 
 Other "new" cognitive biases also include the IKEA Effect and the Google Effect respectively, so perhaps this one should be named after one of the offending LLM companies. However these comically awful systems reinterpret history, history is sure to look back on them less than favorably in turn.

@@ -18,4 +18,4 @@ Under competitive market dynamics, particularly zero-sum games of supply and dem
 
 This particular investment domain problem is fortunately nearing the end of its effective lifespan, for much the same reason. Once systems are deployed that assist some investors in making far more rational and scientifically validated decisions, they’ll be able to outcompete others by orders of magnitude, sending those who attempt to continue the status quo directly into bankruptcy. While poetic justice doesn’t govern market decisions, it may certainly take center stage in the near future, as those systems are properly funded, deployed, and utilized to great effect.
 
-![Comic Relief](https://media.licdn.com/dms/image/v2/D5622AQFMoRtEViQV_Q/feedshare-shrink_800/feedshare-shrink_800/0/1720593264255?e=1737590400&v=beta&t=OH74NhL8kCCBdZtz4_Sr98-aYa5R1ig-leziRVcANv8)
+![Curious Absurdities](https://media.licdn.com/dms/image/v2/D5622AQFMoRtEViQV_Q/feedshare-shrink_800/feedshare-shrink_800/0/1720593264255?e=1737590400&v=beta&t=OH74NhL8kCCBdZtz4_Sr98-aYa5R1ig-leziRVcANv8)

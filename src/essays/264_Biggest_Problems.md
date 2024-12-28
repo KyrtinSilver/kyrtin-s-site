@@ -16,4 +16,4 @@ The pull of cognitive biases is strong, and algorithmically reinforced and curat
 
 I and my colleagues have limited time to dedicate to educating people, my posts here a donation to that effect, and the battles against cognitive bias that we fight focus on far more critical processes than anything to be found on platforms like LinkedIn, but people can escape the cognitive trap of being “LLM-brained”. LLMs are one tiny tool in the technological toolbox, incapable of understanding, reasoning, or human-like & human-level thought, but like adults sitting in the sandbox at a public playground, you can step out of it and into the larger world whenever you choose to.
 
-![Comic Relief](https://media.licdn.com/dms/image/v2/D5622AQEceudK0EctkA/feedshare-shrink_800/feedshare-shrink_800/0/1730853518581?e=1736985600&v=beta&t=Ep1TkvM7psu70XuhBDZDdgsy9TSMhf2yzR7q9Uf1loY)
+![Biggest Problems](https://media.licdn.com/dms/image/v2/D5622AQEceudK0EctkA/feedshare-shrink_800/feedshare-shrink_800/0/1730853518581?e=1736985600&v=beta&t=Ep1TkvM7psu70XuhBDZDdgsy9TSMhf2yzR7q9Uf1loY)

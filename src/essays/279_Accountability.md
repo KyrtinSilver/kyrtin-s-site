@@ -8,21 +8,15 @@ Strange as it may sound, the concept of an "Ethical Company" in the AI industry 
 
 To illustrate just how alien this concept of an ethical company is, consider if you've seen any companies take ethical steps such as:
 
-- Permanently Blacklisting known bad actors from ever becoming clients
-  or employees and charging companies who later hire known bad actors
-  a steep markup, like 100% per ex-executive or 10% per ex-employee of
-  such companies, applied sequentially.
+- Permanently Blacklisting known bad actors from ever becoming clients or employees and charging companies who later hire known bad actors a steep markup, like 100% per ex-executive or 10% per ex-employee of such companies, applied sequentially.
 
-- Intentionally taking steps to drive unethical companies into
-  bankruptcy.
+- Intentionally taking steps to drive unethical companies into bankruptcy.
 
-- Intentionally selecting partner companies to drive the unethical
-  investors backing the competitors of those partners into bankruptcy.
+- Intentionally selecting partner companies to drive the unethical investors backing the competitors of those partners into bankruptcy.
 
-- Permanently Blacklisting all "Disinformation Brokers", the people
-  who've been rapidly spreading misinformation and Disinformation far
-  and wide, often in exchange for monetary compensation as
-  "influencers", paid out by known bad actors.
+- Permanently Blacklisting all "Disinformation Brokers", the people who've been rapidly spreading misinformation and Disinformation far and wide, often in exchange for monetary compensation as "influencers", paid out by known bad actors.
+
+- Permanently Blacklisting all "Disinformation Brokers", the people who've been rapidly spreading misinformation and Disinformation far and wide, often in exchange for monetary compensation as "influencers", paid out by known bad actors.
 
 The concept of lateral accountability across companies, not just to users/clients and governments who are often ignored, is almost entirely lacking in domains more broadly. "Liability" is often the limit of what typical companies consider, and even that much they frequently attempt to weasel out of.
 

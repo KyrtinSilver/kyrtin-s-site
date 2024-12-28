@@ -6,16 +6,18 @@ date: 2024-10-04
 
 Now that our CEO Frits has taken the stage at the conference & startup competition where we were selected as a finalist, I can share our numbers for the ARC-AGI Challenge. Some data pipeline errors are still being cleaned up due to inconsistencies in the datasets, but here are the numbers:
  
- Training set:
+Training set:
  
- “ARC Tests Complete
+“ARC Tests Complete
 total tests: 390
 Success %: 91.2820518016815
 Total Successes: 356
 Total Failure: 44”
+
 Only 10 tasks errored out in the data pipeline on this run of the training dataset before we moved on to the evaluation dataset due to time constraints. Counting all such pipeline errors as misses this would be 89%.
 
 Evaluation set (1st run):
+
 “ARC Tests Complete
 total tests: 334
 Success %: 88.9221549034119
@@ -30,4 +32,4 @@ What has changed in the past 5 years has been the research that we’ve conducte
 
 I have another post scheduled to go over these results in more detail, and compare them to the nearest other scores on both leaderboards (Prize and Public ARC-AGI) and verification of our results with the ARC-AGI Challenge team should take place following the conference.
 
-![Comic Relief](https://media.licdn.com/dms/image/v2/D5622AQHwQJh4GSs9ew/feedshare-shrink_800/feedshare-shrink_800/0/1725998906919?e=1736985600&v=beta&t=eBzriJcvGbZZNv7p6I_MhfI77YvCAafKqp2yeFGMlNc)
+![Taken The Stage](https://media.licdn.com/dms/image/v2/D5622AQHwQJh4GSs9ew/feedshare-shrink_800/feedshare-shrink_800/0/1725998906919?e=1736985600&v=beta&t=eBzriJcvGbZZNv7p6I_MhfI77YvCAafKqp2yeFGMlNc)

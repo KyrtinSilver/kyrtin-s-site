@@ -19,7 +19,3 @@ To consider this another way, imagine you were hanging out with your favorite mu
 Cover artists are popular specifically because of this dynamic, but their offerings are both slow on delivery and very sparse. This can change, and a new dimension will be added to music, offering new opportunities for creative individuals.
 
 This is one of the potentially positive things that 2024 could make possible, though I'd be curious to hear the thoughts of musicians on such uses of new technology.
-
-#ai #music #innovation
-
-David Draiman, lead singer from Disturbed, in Alladin, a Disney animated film, riding a magic carpet, singing "Whole New World" --ar 16:9

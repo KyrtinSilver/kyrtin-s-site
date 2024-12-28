@@ -20,4 +20,4 @@ LLM-based: The LLM model, with any number of methods and extensions duct-taped t
 
 The outputs are known to vary even with subtle changes like the model of GPU that the LLM runs on, while offering no trace of explainability, and only “post-hoc” substitutes for explanations may be applied. It is a very fancy and intentionally biased Regression to the Mean via sequential Magic 8 Balls fitting to the curve of data distributions.
 
-![Comic Relief](https://media.licdn.com/dms/image/v2/D5622AQGPzTUnzOserQ/feedshare-shrink_800/feedshare-shrink_800/0/1731111379582?e=1736985600&v=beta&t=LxfadVMizwbYKRd3-m20FcUs-nqyWKmA8Ij6VBX51GQ)
+![To Better Understand](https://media.licdn.com/dms/image/v2/D5622AQGPzTUnzOserQ/feedshare-shrink_800/feedshare-shrink_800/0/1731111379582?e=1736985600&v=beta&t=LxfadVMizwbYKRd3-m20FcUs-nqyWKmA8Ij6VBX51GQ)

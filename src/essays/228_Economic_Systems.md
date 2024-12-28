@@ -20,4 +20,4 @@ So far, I’ve resisted the urge to turn our company pitch deck into a pop-up bo
 
 Governments and companies can both be legally bankrupted, and people behaving like children, be it in politics, on Twitter, or both, won’t change that.
 
-![Comic Relief](https://media.licdn.com/dms/image/v2/D5622AQEYtxAzcez0Tg/feedshare-shrink_800/feedshare-shrink_800/0/1721810371339?e=1737590400&v=beta&t=u07bZcub989XqCZMMi8ojIdEiypOB-D7rqX3KOyZcns)
+![Economic Systems](https://media.licdn.com/dms/image/v2/D5622AQEYtxAzcez0Tg/feedshare-shrink_800/feedshare-shrink_800/0/1721810371339?e=1737590400&v=beta&t=u07bZcub989XqCZMMi8ojIdEiypOB-D7rqX3KOyZcns)

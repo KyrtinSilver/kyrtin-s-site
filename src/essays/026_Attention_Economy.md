@@ -31,5 +31,3 @@ Newsfeed algorithms and search engines are also pretty terrible at predicting hu
 A simple roll of the dice would also avoid systematic biases, like prejudice and stereotypes, which newsfeed algorithms heavily utilize. Put another way, Random is better than Racist.
 
 Though many programmers and data scientists may twist statistics to justify their continued employment at major firms, the statistics for the damage they cause in doing so are still there, they just aren't presented. If the scientific method were applied to this problem, the counter-argument statistics could debunk their methods in many cases, favoring the avoidance of many systematic biases at a bare minimum.
-
-#ethics #ai #psychology

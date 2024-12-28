@@ -20,4 +20,4 @@ Neural networks have many viable use cases, but they are a hammer, not the entir
 
 This is the difference that using the right architecture for the job makes, the orders of magnitude separating success from failure.
 
-![Comic Relief](https://media.licdn.com/dms/image/v2/D5622AQFudLSz1gUNSQ/feedshare-shrink_800/feedshare-shrink_800/0/1729821060695?e=1736985600&v=beta&t=K3O6FZTaEbhgM8ipzxzWQ8ufWmuqmAFSzqpCSOM1VAw)
+![Training Data](https://media.licdn.com/dms/image/v2/D5622AQFudLSz1gUNSQ/feedshare-shrink_800/feedshare-shrink_800/0/1729821060695?e=1736985600&v=beta&t=K3O6FZTaEbhgM8ipzxzWQ8ufWmuqmAFSzqpCSOM1VAw)

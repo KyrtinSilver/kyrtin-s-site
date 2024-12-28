@@ -17,5 +17,3 @@ Perspective is also a capacity that narrow AI tools like LLMs and RL fundamental
 The job description for an "oracle", across human history, has been something like "a person who is consulted, offering answers with intelligence and wisdom greater than that of humans". This is obviously something that LLMs can't deliver, though they are optimal Bull$hitters, which they share with most historical examples of "oracles".
 
 This means that there is a job that humans want, and have wanted for millennia, that is poorly served. Ironically, the technology to serve that job exists and has been demonstrated, but humans have thus far lacked the wisdom and/or competence to invest in it. It is actually very easy to exceed human knowledge and wisdom with digital, scalable, iteratively self-improving, and human-like intelligence. What is extremely difficult is for people to wrap their heads around that.
-
-#ai #research #innovation #startups #bias

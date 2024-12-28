@@ -18,4 +18,4 @@ The first instances will be real-time and scalable versions of our 7th-generatio
 
 2025 promises to likely be a year where most people in AI find themselves surprised to bewilderment, while the people who’ve followed our work find it all entirely predictable, and long overdue. We’ll see you there.
 
-![Comic Relief](https://media.licdn.com/dms/image/v2/D5622AQF_YqvWWX2pww/feedshare-shrink_800/B56ZO0Ruj_G4Ag-/0/1733896366828?e=1736985600&v=beta&t=CtSyJEOAPlgoiU-yxitDvwRl7IsomBdW5lY98eyOwgQ)
+![ICOM to ARC-AGI](https://media.licdn.com/dms/image/v2/D5622AQF_YqvWWX2pww/feedshare-shrink_800/B56ZO0Ruj_G4Ag-/0/1733896366828?e=1736985600&v=beta&t=CtSyJEOAPlgoiU-yxitDvwRl7IsomBdW5lY98eyOwgQ)

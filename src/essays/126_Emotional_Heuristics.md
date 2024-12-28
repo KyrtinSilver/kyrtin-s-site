@@ -19,5 +19,3 @@ Another cognitive bias comes into play to mediate this, heuristic availability. 
 This is one of the ways that humanity routinely face-plants into the pavement. Few cognitive biases are trickier to deal with than those that relate to the prediction and perception of emotional states in others, as any non-sociopathic individual will be prone to some degree of empathy, and online discourse leaves many blank spaces to fill in that humans didn't evolve for and haven't yet adapted to.
 
 Recognizing our own predictions as such is a first step and a difficult one.
-
-#ai #bias #cognitivebias
