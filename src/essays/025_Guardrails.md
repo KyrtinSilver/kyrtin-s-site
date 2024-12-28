@@ -30,7 +30,7 @@ Everyone is responsible for their actions. What actions will you take now that t
 
 #ai #ethics #cognitivebias #fraud #cybersecurity
 
-The un-paywalled article is shown on Internet Archive [here](https://web.archive.org/web/20230727120026/https://www.nytimes.com/2023/07/27/business/ai-chatgpt-safety-research.html). <https://web.archive.org/web/20230727120026/https://www.nytimes.com/2023/07/27/business/ai-chatgpt-safety-research.html>
+The un-paywalled article is shown on Internet Archive [here](https://web.archive.org/web/20230727120026/https://www.nytimes.com/2023/07/27/business/ai-chatgpt-safety-research.html).
 
 The paper itself is [here](https://llm-attacks.org/).
 

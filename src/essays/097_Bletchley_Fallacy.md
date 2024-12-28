@@ -4,7 +4,7 @@ layout: essay.njk
 date: "2023-11-02"
 ---
 
-Today, as many discuss The Bletchley Declaration on the topic of AI, I'm reminded of something a colleague sent me a short time ago that accurately summarizes what that declaration means: <https://www.instagram.com/reel/CyvmkR8NRNj/>
+Today, as many discuss The Bletchley Declaration on the topic of AI, I'm reminded of something a colleague sent me a short time ago that accurately summarizes what [that declaration means](https://www.instagram.com/reel/CyvmkR8NRNj/).
 
 Countries are making hand gestures signaling their social standing with one another, but the declaration itself is just another embodiment of people who don't have the faintest clue about the state of technology trying to write a document with meaningless and often fraudulent buzzwords. The use of the term "Foundation Model", and even more so "Frontier Model" are both gigantic red flags, as LLMs are fundamentally neither of these things. They are the "Foundation" for nothing, they are narrow tools. They aren't at the "Frontier", and never have been.
 
