@@ -35,5 +35,3 @@ I tested using a unique identifier other than the default "TOK", but even anothe
 I tested the results against several live 3D facial scanning systems, and they couldn't tell the difference between the resulting images and a live feed of my face.
 
 Enjoy making many silly images of yourself.
-
-#ai #cybersecurity #stablediffusion

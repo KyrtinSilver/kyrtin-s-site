@@ -22,5 +22,3 @@ The information ecosystem is collapsing even more quickly than the biological ec
 The status quo is a fairly short road to extinction, as the best of intentions can't move a single stone.
 
 Should we be asking for handouts rather than seeking investors? From any rational perspective that would seem like nonsense, but then again, humans aren't rational.
-
-#ai #existentialrisk #ethics #philanthropy #bias

@@ -17,5 +17,3 @@ What this means in practice is that the database constantly improves in quality,
 Hypothetically, even if they were able to completely steal such data and train a GPT to parrot it, using all available compute and with perfect accuracy (again, hypothetical), by the time the parrot was done cooking the data from such a system would have already advanced well beyond the static snapshot they sought to parrot.
 
 At first, I thought OpenAI was acting out a Monty Python sketch, but the Dumb and Dumber version of selling a dead parrot with the head taped on to a blind child may be more accurate.
-
-#ai #innovation #research #data #engineering

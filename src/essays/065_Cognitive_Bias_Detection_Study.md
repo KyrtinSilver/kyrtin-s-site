@@ -21,5 +21,3 @@ Though it remains to be seen if Phase 3 will produce the specific means of accom
 Humans have grown adept at fooling one another in this regard, as they've optimized themselves to manipulate other humans. Consequently, that optimization makes them both more visible and more vulnerable to any other robust perspective.
 
 The as-of-yet unconvicted Bernie Madoffs of today's AI industry are operating on borrowed time.
-
-#ai #bias #ethics #research #innovation

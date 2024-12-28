@@ -21,5 +21,3 @@ While it is still conjecture as to whether Microsoft will seek a majority or ful
 These two "competing" groups of frauds (former roommates) have been playing both sides against the other, to the tune of billions of dollars. Neither side is getting "AGI", or anything remotely close to it, as neither company has done a shred of work on that.
 
 In the parlance of parts of the US, "Here's your sign".
-
-#AI #OpenAI #Fraud #Microsoft #Investment

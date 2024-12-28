@@ -20,6 +20,4 @@ This makes them invaluable as long-term-oriented thinkers, and even more so when
 
 The canaries in this coal mine are all dead, and the only "call to action" I can offer requires 1 investor to leave the tunnel. No one will come to the rescue when the tunnel collapses if everyone is living inside it.
 
-#research #psychology #bias #innovation #ai
-
 Two current wars, along with all known potential near-future wars, could have been either prevented, or had their durations greatly reduced. Countless preventable deaths from inept medical practices and treatments could have been avoided. Even the systems that work reasonably well today could have been greatly improved.

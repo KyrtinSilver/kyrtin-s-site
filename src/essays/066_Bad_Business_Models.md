@@ -17,5 +17,3 @@ As noted by a few famous researchers in the field, even when the one(s) in charg
 We see the same thing in AI now, both in the offerings and on the investment side. The offers that receive funding are most often "Reliably Bad & Overpriced", and the realistic returns on investment are frequently nonexistent. Worse still, many of the AI offerings are steadily drifting deeper and deeper into fraud. The growing number of Tech executives who've committed obvious perjury and have yet to face prison time is one metric highlighting this drift.
 
 These dynamics work to the detriment of all parties, with both near and long-term consequences. Human stupidity is one market force that should never be underestimated. At the moment, it appears to be the dominant factor.
-
-#ai #innovation #investment #bias #fraud

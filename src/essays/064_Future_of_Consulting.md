@@ -25,5 +25,3 @@ Consulting is also just one use case in the very broad domain of developing and 
 The "Golden Ticket" determining who has a say in guiding humanity's future will go to the investor competent enough to comprehend this. Those who pass on the opportunity won't have to worry about the future, as neither they nor their companies will have any say in it.
 
 The next paradigm shift will be knowledge moving beyond the limits of raw data, narrow algorithms, and the human mind. Like electricity, the industrial revolution, roads, agriculture, and language before it, this shift is not optional.
-
-#ai #ethics #bias #decisionmaking #innovation

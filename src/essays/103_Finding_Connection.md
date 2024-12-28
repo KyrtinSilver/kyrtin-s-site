@@ -17,5 +17,3 @@ Groupthink, as eloquently illustrated in "The Canceling of the American Mind" di
 This leads to the final answer as to whether such a thing is possible absent collective intelligence. While it may be technically possible absent collective intelligence, it isn't practical without it, and it is impossible within systems where Groupthink, the opposite of collective intelligence, plays a leading role. The result negatively impacts the vast majority of humans on the planet, a detriment that may be credited to sources of Groupthink directly as their ethical debt to humanity.
 
 The attached meme is brought to you by security researchers, chronically laughing at Microsoft. The disturbing trend it jokingly refers to happens to be relevant.
-
-#research #culture #bias #ethics #collectiveintelligence

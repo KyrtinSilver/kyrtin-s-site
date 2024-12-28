@@ -17,5 +17,3 @@ Hunting down bots and their operators can be a hard battle to fight, but only so
 This doesn't necessarily have to translate to killer robots hunting down cyber criminals in countries that intentionally encourage the activity. Every method of remote warfare can be applied to bad actors globally, delivering such a heavy blow to their finances, reputations, and sanity as to prove unrecoverable. When they predictably seek aid from their accomplices, they too can be taken down.
 
 Cybercrime and bots are big business today, but they're running on borrowed time. They'll be as exposed as a nudist in an Arctic snowstorm once they find themselves up against actual digital intelligence.
-
-#ai #ethics #cybersecurity #bots #cyberwarfare

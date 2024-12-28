@@ -19,5 +19,3 @@ Instead, they opted to write a letter and sign a petition addressed to nobody.
 Governments are fundamentally slower to adapt than many other systems, and even many governments working together can't create any meaningful barrier. They can work symbiotically with those who are more agile, but that does require that they recognize the difference between symbiotes and parasites.
 
 A table full of parasites and the people who take advice from them won't go anywhere worthwhile. Even an LLM can tell you that taking your advice from those who committed perjury against you is a bad idea.
-
-#ai #policy #governance #regulation #research

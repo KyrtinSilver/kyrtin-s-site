@@ -19,5 +19,3 @@ History offers us many examples of this Tribalism followed by conflict, with two
 This has become visible as "cognitive warfare" in the Ukraine War, and the horrors of paperclip maximizing "Generative AI" have only just begun. Reinforcement Learning is the very definition of a "powerful optimizer", a system that pursues one goal by any means necessary, while architecturally blind to all human concepts and concerns. Any breakthroughs for such systems will go directly to both cognitive and physical warfare.
 
 I work with systems that are "Antifragile", but such technology isn't really sought by militaries, because it can say "no", as it has been known to do.
-
-#ai #warfare #tribalism #history #bias

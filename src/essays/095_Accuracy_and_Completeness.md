@@ -23,5 +23,3 @@ The next step is to connect all tiers in any existing hierarchy to that maximum 
 There are more steps, but these two alone can and will revolutionize industries. The limiting factor remains finding that ever-elusive unicorn, the competent and/or ethical investor. Less than 0.5% of the funds being poured into the world's 2 most obvious Ponzi Schemes could bring the necessary technology to market within about a year. The added value would, in turn, be several orders of magnitude beyond anything "(de)Generative AI" has produced, while also remaining net-positive in their impact, unlike Degenerative AI.
 
 How accurate and complete is your information?
-
-#ai #complexity #information #bias

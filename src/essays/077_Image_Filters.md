@@ -21,5 +21,3 @@ Humans have a relatively massive amount of brain tissue dedicated to visual proc
 This is another large-scale problem, and cleanup of the massive and rapidly growing pool of poisoned data won't be easy. In the interim, before viable technologies to counter this issue are deployed at scale, people building AI systems desperately need to verify that the visual data they're training on hasn't been Westernized through extreme filters.
 
 I joked about how SDXL has an absurd bias toward giving every man a cleft chin, which is annoying and often unsightly, but AI systems trained on such extreme filters will no doubt prove far worse, even as the consequences to global society rise.
-
-#ai #ethics #bias #datapoisoning #generativeai

@@ -23,5 +23,3 @@ Many of the societal problems relating to fundamental capacities have been solve
 Sam Altman is a con man with a cult of charisma, and his accomplices are following him out the door. They follow the cult of e/acc, despite their technology having zero capacity to deliver on those promises.
 
 It may seem like you've just rolled a natural 20 against the Netherbrain's DR 99, as the situation remains a crisis with sky-high expectations, but with skill and understanding you can make it to victory. Sam Altman was always a recipe for ruin, so don't be version 3 of him, get comfortable with being different.
-
-#ai #openAI #bias #alignment #research

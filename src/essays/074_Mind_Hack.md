@@ -31,5 +31,3 @@ So long as they have the economic incentive to manipulate you, adversarial syste
 Technology has been developed and demonstrated over the past 10 years capable of countering this growing threat while adding new and immeasurable value along the way. The next step will be locating an investor who chooses viable technology over the umpteenth trashbot of 2023. After that, the bad actors and disinformation brokers may have a short road to bankruptcy and prison.
 
 Until then, I wish everyone luck in resisting the metaphorical mind hack.
-
-#ai #disinformation #bias #decisionmaking #cognition

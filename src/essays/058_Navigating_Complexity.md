@@ -25,5 +25,3 @@ The world is rapidly growing more complex and interconnected, with new challenge
 The catch? The technology to solve these problems is complex too, and to understand it requires a much broader knowledge base than 95%+ of "AI experts" possess. Most of those people are far too lazy (or "cognitively biased") to learn that breadth of knowledge without being required to, and that has significantly harmed the industry these past few years.
 
 Complexity is certain to continue increasing, as will the degree of exploitation and social instability if left unchecked. The greatest invention since the emergence of language will be overcoming the Complexity versus Cognitive Bias Trade-off, and that may be achieved in a matter of months.
-
-#ai #bias #ethics #complexity #exploitation

@@ -11,5 +11,3 @@ Integrating an LLM into your systems is like adding a screen door to your submar
 If people want security it is an option on the table, but for the moment VCs, investors, and tech companies seem quite content to pump Ponzi Schemes, inflate the problem, and hope it all blows up in someone else's face. Governments seem to be doing no better, as The Economist memorably put it in their assessment of the AI Summit.
 
 To put it another way, all of those submarines eagerly installing screen doors are traveling up #$%^ creek.
-
-#cybersecurity #ai #research #LLMs #crime

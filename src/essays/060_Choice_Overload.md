@@ -19,5 +19,3 @@ People have sought out the "Oracle" throughout recorded history. Great quantitie
 Seeking to engineer divinity is the providence of fools, and it certainly seems to serve as a magnet for them. However, scalable real-time human-like systems built to overcome the Complexity versus Cognitive Bias Trade-off may well satisfy the quote:
 
 "Any sufficiently advanced technology is indistinguishable from magic." - Arthur C. Clarke
-
-#ai #bias #ethics #complexity #misinformation

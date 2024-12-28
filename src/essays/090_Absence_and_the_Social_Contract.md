@@ -23,5 +23,3 @@ The term "developing countries" was once coined and applied to countries rising 
 While some countries slide into Idiocracy and are likely to dive head-first into the shallow end as early as 2024's election cycles, thanks in no small part to (de)generative AI, other countries are steadily improving.
 
 A Western proverb comes to mind, "Medice, cura te ipsum", which translates as "Physician, heal thyself".
-
-#governance #psychology #innovation #trust #culture

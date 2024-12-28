@@ -23,5 +23,3 @@ Likewise, when other capacities are derived from the same architectural differen
 When the data and compute are kept 10,000 times lower than LLMs and RL systems, and new capacities are repeatedly and consistently demonstrated under those constraints, while following dynamic complexity, then the conditional probability is very close to 100% indeed. That is the very definition of "extraordinary evidence", but the human observer still has to invest the cognitive effort to see it. The very nature of anything "extraordinary" means that it isn't trivially easy to recognize and digest using lazy and automatic human cognitive systems.
 
 To extend Carl Sagan's famous phrase for a bit more complete accuracy: "Extraordinary claims require extraordinary evidence, which requires extraordinary cognition to recognize and analyze."
-
-#ai #research #bias #cognition #probability

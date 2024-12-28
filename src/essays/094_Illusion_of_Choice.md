@@ -19,5 +19,3 @@ What changes is that as a system grows more complex the human perceiver faces in
 The catch-all bucket of "Free Will" and the escapism of Compatibilism are much like the catch-all bucket of "Quantum ...", they shrink over time as more is discovered because that which is discovered can no longer be tossed in these buckets. By all evidence now known, Free Will appears to be a "useful, but wrong" concept. It remains useful for purposes of emotional motivation, even recognizing that it is likely wrong.
 
 The path forward isn't to hide inside a shrinking bucket but to pave new roads with the new tools and understanding available to us. New can be scary, but this seems like the right time of year for that.
-
-#bias #cognitivebias #cognition #deterministic #complexity

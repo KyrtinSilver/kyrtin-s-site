@@ -18,6 +18,4 @@ In contrast, groups with a homogenous perspective become echo chambers. While co
 
 For those interested in remaining intelligent and sentient I highly recommend reading it.
 
-#research #culture #governance #bias #education
-
 The only part of the book where they missed an opportunity for nuance that I observed was in failing to distinguish "ad homonym" from relevant negative contextual information. The accusation of someone using "ad homonym" is itself a favored tactic of many Group-thinks, even when the negative context is both directly relevant and demonstrably accurate.

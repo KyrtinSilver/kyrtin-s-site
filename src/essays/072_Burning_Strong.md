@@ -15,5 +15,3 @@ The particular brand of snake oil many of these companies are pushing is a slow-
 Listen to cybersecurity researchers, or deploy your own dumpster fire, the choice is yours.
 
 P.S.: Don't stand in the smoke that Disinformation Brokers are blowing. Those are distilled dumpster fire fumes, likely to cause you to hallucinate even more than the models.
-
-#ai #cybersecurity #multimodal #promptinjection #ethics

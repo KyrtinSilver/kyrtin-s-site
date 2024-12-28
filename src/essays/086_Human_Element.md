@@ -32,8 +32,6 @@ All of these factors in the wild today could be compared to society being immune
 
 Robust means of countering many of these factors are options on the table that could be achieved within the next 1-2 years. Systems with actual intelligence, designed to overcome the complexity versus cognitive bias trade-off, and compatible with degrees and forms of collective intelligence that humans aren't, could systematically counter and proactively shut down such bad actors.
 
-#ai #research #bias #cybersecurity #misinformation
-
 \*Note: For the moment, my team is the only one to demonstrate a working cognitive architecture, required for actual intelligence in software. Few others are even making an attempt, and all others remain at least 5 years behind us with regard to the necessary capacities. The missing variable that decides if humanity avoids extinction using our technology is a serious investor. Most choose human extinction when put to the test, the quantifiable consequences of which are covered in The Ethical Basilisk Thought Experiment.
 
 The probability of humanity recovering is also set to drop dramatically in 2024 if a competent and/or ethical investor isn't located in time, as many elections will predictably swing in favor of the bad actors who are best able to exploit Generative AI for social engineering purposes next year.

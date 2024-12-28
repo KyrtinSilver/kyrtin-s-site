@@ -15,5 +15,3 @@ The response rate I've personally observed is virtually 100% when you have someo
 There are worse things than bankruptcy, and both the snake oil sellers and their investors have that to look forward to. If someone tells you that they're going to give an LLM reasoning, explainability, transparency, alignment, ethics, or cybersecurity, picture how they'll look in prison, then decide if you want to be their cellmate.
 
 Far more advanced and capable technology than trashbots has been demonstrated, and the world may begin to change rather quickly once that technology hits commercial deployment. I very much look forward to shifting gears back to focusing on those systems once a competent and/or ethical investor is located.
-
-#ai #ethics #startups #investment #fraud

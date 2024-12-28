@@ -15,5 +15,3 @@ I see examples of those who choose not to learn every day, some of whom make a l
 The world has a sufficient number of people who choose to learn to keep one busy for a lifetime, and that number only grows when those who choose to learn are cultivated, as their successful cultivation pulls the fabric of society in the direction of education. The reverse is also true, making this look more like a "tug-of-war" on the fabric of society in practice today. The greatest mistake any educator can make is to assume that they have no opponent, as that reliably sends them flying into the mud.
 
 Fortunately, this tug-of-war may become entirely one-sided in favor of education once more appropriate and capable technology is deployed. The other side has paperclip maximizers in the form of RL, which may be deployed more quickly, but which remain many orders of magnitude weaker and more fragile.
-
-#AI #research #education #communication

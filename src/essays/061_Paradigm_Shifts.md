@@ -21,5 +21,3 @@ This is also a point where the snake oil of today's AI and the dynamics of more 
 In contrast, language, electricity, and the internet all created paradigm shifts that offered far more than they required in return. In such shifts the transition from one to the next isn't optional, as the advantage is truly and broadly overwhelming, to such an extent as to render the previous paradigm obsolete.
 
 The AI industry today has focused on making a faster horse, when they should have tried building something new. Like such horses, people are growing tired of cleaning up what they leave behind.
-
-#ai #innovation #investment #startups #bias

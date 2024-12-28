@@ -19,5 +19,3 @@ They stand as a testament to fragility, which any cybersecurity researcher shoul
 Again, this begs the question "Will those funding AI Startups actually learn anything?". They've had their wake-up call, but they may hit snooze and continue on with more of the same.
 
 Will you be P-zombie or Sapien, Fragile or Antifragile?
-
-#ai #reading #research

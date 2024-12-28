@@ -19,5 +19,3 @@ Fortunately for those potential investors, even if someone else comes along and 
 I make a point of calculating dispassionately, which does me no favors in communicating urgency. Humans are hard-wired with cognitive biases to react to passion, even when demonstrated passion is a red flag signaling probable flawed calculation. Passionate and flawed calculations are abundant, and very adept at the game of competing for human attention.
 
 Once humanity completely loses the ability to communicate effectively extinction will be set in stone. Will your actions carve that stone?
-
-#ai #existentialrisk #misinformation #communication #extinction

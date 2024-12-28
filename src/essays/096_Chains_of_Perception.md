@@ -23,5 +23,3 @@ Fortunately for all parties, there is precisely zero chance of Sapolsky's hypoth
 His argument for that hypothetical world is itself a distraction intended to invoke cognitive biases, which he is well aware of. The emotional response to his proposal is predictably elevated and negative across humans and animal species alike, both of which he has studied.
 
 He has played his opponents like a fiddle.
-
-#bias #research #fallacies #Determinism #ethics

@@ -23,5 +23,3 @@ To integrate this kind of information globally, while tailoring it at a local le
 It isn't something trivial like the trashbot technology that OpenAI and Google peddle, and it won't rewrite your favorite song to parody a sitcom, but the world will begin to change more quickly once it is deployed commercially.
 
 Humans today may largely have TikTok attention spans, but the systems we design need not parrot that. For the sake of society, we can and must do better.
-
-#ai #systemsthinking #ethics #culture #innovation

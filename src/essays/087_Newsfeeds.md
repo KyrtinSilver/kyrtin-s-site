@@ -1,5 +1,5 @@
 ---
-title: "087 - Newsfeed"
+title: "087 - Newsfeeds"
 layout: essay.njk
 date: "2023-10-21"
 ---
@@ -23,5 +23,3 @@ I named the paper on the subject ["Automated Bias and Indoctrination at Scale...
 The critical magnitude of this is likely to become extremely obvious in 2024, as the bad actors best able to utilize generative AI win elections by flooding each platform with the next generation of optimized social engineering. This shift opens many new doors for corruption and potent levers to sway elections. Confidence in US news has been crashing and burning, but nature abhors a vacuum, and the void that news leaves behind will no doubt be filled by the bad actors flooding and controlling each platform.
 
 The train to Dystopia (off a tall cliff) is boarding, and will soon leave the station. There is still time to halt that process, but not much. "Regulatory Capture" is nothing compared to "Country Capture".
-
-#ai #news #misinformation #bias #2024

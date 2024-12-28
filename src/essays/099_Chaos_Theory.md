@@ -15,5 +15,3 @@ On the other side of this balance, people don't want to invest in anything genui
 Humanity's future presently looks like it is up to a coin flip between the two.
 
 \*Addendum: The paper is now live and you can read it [here](https://www.researchgate.net/publication/369691463_Automhttp://dx.doi.org/10.13140/RG.2.2.11390.56641).
-
-#ai #research #investment #xrisk

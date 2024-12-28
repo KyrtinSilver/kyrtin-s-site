@@ -15,5 +15,3 @@ The observable and quantifiable reality is that humans are massively similar glo
 The differences between people in each country tend to be trivial compared to the differences between the systems each country uses to operate. In those systems are embedded many of the sources of specific problems and friction with other countries, not in the cultures or individual minds of their citizens.
 
 Like reskins of the same game with a different UI, under the clothing of culture you'll find a human, anywhere in the world.
-
-#ai #culture #governance #ethics #bias

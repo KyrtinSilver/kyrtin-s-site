@@ -17,5 +17,3 @@ The one known exception to this is when an LLM is tightly bound on both sides an
 If any government, corporation, organization, or other entity demands Cybersecurity, Factuality & Explainability, and/or Alignment, what they demand is mutually exclusive to the architecture of LLMs.
 
 LLMs alone do not, and fundamentally cannot offer these things, any more than a toaster oven can do your taxes. In both cases, starting a fire is the predictable outcome.
-
-#ai #cybersecurity #alignment #LLMs

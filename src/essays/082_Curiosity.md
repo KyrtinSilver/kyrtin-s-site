@@ -16,6 +16,4 @@ A 5-year-old is an expert in everything, even moments after asking for an ELI5. 
 
 Would you elect a 5-year-old to lead a country, company, invest billions, or dictate regulatory policy?
 
-#ai #bias #ethics #ELI5 #psychology
-
 Sadly, Bing refuses to generate an "iconic portrait of a 5-year-old tech industry billionaire", due to Microsoft's gross incompetence. Fortunately, SDXL doesn't share Microsoft's incompetence.

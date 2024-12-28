@@ -27,5 +27,3 @@ It isn't merely raw intelligence we're increasing, but also the capacity for emo
 >"Empathy is a tool for building people into groups, for allowing us to function as more than self-obsessed individuals." 
 >
 >-Neil Gaiman
-
-#ai #innovation #research #empathy #ethics

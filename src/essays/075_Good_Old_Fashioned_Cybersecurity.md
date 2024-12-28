@@ -23,5 +23,3 @@ Keep in mind that the solutions to this aren't simple, as the problem space is h
 As I'm prone to often point out, the technology already exists to handle this, but major firms are too busy throwing money at bad ideas, like "BloombergGPT", and the dozen or so aimless labradoodles that Elon Musk hired to host his own dog show.
 
 AI cybersecurity isn't the only thing that needs some serious attention, sooner rather than later.
-
-#ai #cybersecurity #startups #finance #innovation

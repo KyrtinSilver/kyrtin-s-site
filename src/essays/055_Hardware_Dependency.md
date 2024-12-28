@@ -17,7 +17,3 @@ The most advanced systems primarily bottleneck on normal RAM, but even 64 GB of 
 Normal RAM is extremely energy efficient compared to GPUs, often clocking in at about 1.1v per stick. That difference in energy efficiency directly translates to systems producing far less "waste heat", and much lower cooling costs. Normal RAM also has a far longer hardware lifecycle, with an average of 6.5 years between one generation and the next.
 
 The tech giants backed themselves into a corner with the wrong technology stack, and their stockpiles of very expensive paperweights will serve as a lesson for future generations.
-
-#ai #sustainability #ethics #GPUs #innovation
-
-Nvidia brand Beanie Baby, 8K, photorealistic

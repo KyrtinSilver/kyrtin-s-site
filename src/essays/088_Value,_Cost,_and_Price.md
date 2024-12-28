@@ -27,5 +27,3 @@ When value, cost, and price are well-aligned across these sorts of metrics, you 
 The future with regard to AI is much the same, including how dramatically it can vary based on policy. If anything, the degree of that variation will be measured in orders of magnitude rather than single-digit multiples.
 
 Value offered must align with cost and price, and the places where it does will thrive in the long term. Citizens benefit directly from this balance, and the consolidation of funds and power is mitigated.
-
-#ai #bias #culture #economics #innovation

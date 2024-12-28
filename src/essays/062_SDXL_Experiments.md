@@ -17,5 +17,3 @@ The system was able to measure how well each sentence aligned with the intended 
 Short of wiring a human brain directly into such tool AI, a hazardous and rather unappealing option for most, a human cannot compete with even a non-scaling version of that. Factor in the scalability of such systems, and there is no competition.
 
 These toys like SDXL are only the mildest preview of what is possible. Today you can spot the artifacts that flaws in the process and prompting produce, but tomorrow even the human brain's over-emphasis on visual processing won't be sufficient to tell the difference.
-
-#ai #innovation #stablediffusion #promptengineering

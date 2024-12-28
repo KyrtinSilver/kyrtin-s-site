@@ -17,5 +17,3 @@ To use the US as an example, it already has a Theocracy ruling 1/3^rd^ of the go
 The damage also doesn't occur in isolation, as it carries with it cascade risks, many of which could easily snowball into various existential risks. Whether the damage is measured in billions of dollars, trillions, or human extinction, it was avoidable.
 
 To borrow Neil DeGrasse Tyson's comparison, even the amount Americans spend on lip balm annually is greater than what it would take to fund the technology needed to prevent such damage.
-
-#ai #misinformation #democracy #bias #ethics

@@ -21,5 +21,3 @@ This leaves us with an inescapable near-future, where one of two scenarios is mo
 Countries with a long history of doubling down on the worst possible approach in medicine, like the US, will be hit hard by this change even if they do the most rational (and least likely) thing today and suddenly begin to act wisely. This is a matter of damage control, and the longer they wait the greater the damage will be when it hits.
 
 The age of Medical Idiocracy will end, and it will mean bankruptcy for those who profiteered on human suffering.
-
-#ethics #bias #medicine #governance #finance

@@ -15,5 +15,3 @@ Understanding systems no less complex than the human brain is unlikely to requir
 This gives rise to the uphill battle against cognitive biases in the learning process itself, such as the Difficulty of Processing Effect, Occam's Razor, Substitution Bias, Belief Bias, and many more specific cognitive biases.
 
 Education is a battlefield, often reminiscent of trench warfare in WWI. In this particular battle, humanity desperately needs a Christmas Truce (1914). The cost of continued attrition is too high to sustain.
-
-#bias #research #cognition #education

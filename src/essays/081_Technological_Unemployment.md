@@ -22,8 +22,6 @@ Many of humanity's current great concerns are perfectly practical to solve, and 
 
 The future could be a very different place than common fears tend to suggest.
 
-#ai #unemployment #innovation #ethics #UBI
-
 On a side note, it is unfortunately quite difficult to get images out of Bing (Dalle-3) that aren't just a hoard of white people, even when using terms like "Diversity". Evidently OpenAI's "new and improved" model thinks that all hands should be of a particular skin color. If you attempt to add "not racist" to the prompt it also hits a content flag and blocks the request.
 
 Since their CEO uses the "big lie" technique I suppose a touch of white supremacist behavior from the model is to be expected. In that context blocking any attempts at removing racism makes perfect sense. Here are some of the failed examples from my testing this morning:

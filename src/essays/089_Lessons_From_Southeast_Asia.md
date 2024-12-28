@@ -23,5 +23,3 @@ The parks also show signs of greater environmental and human health awareness th
 SEA also holds at least one more counterintuitive advantage that may become clearer in 2024.
 
 (...To be continued...)
-
-#policy #governance #logistics #economics #innovation

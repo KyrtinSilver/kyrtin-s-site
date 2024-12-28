@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="description" content="063 - Your Own Model" />
+  <meta name="description" content="087 - Newsfeeds" />
   <meta name="keywords" content="cognitive bias, AI, ethics, alignment, study, cybersecurity, artificial intelligence, AI research, machine learning, ICOM, psychoaccoustics, cognitive architecture, Mediated Artificial Super Intelligence, mASI, technology ethics, AI development, neural networks, computational efficiency, AI benchmarks, Kyrtin Atreides, AI infrastructure, tech innovation, research, scalable intelligence, human-like AI, AGI, governance, e-governance">
   <meta name="robots" content="index, follow">
-  <title>063 - Your Own Model</title>
-  <link rel="canonical" href="https://kyrtinatreides.com/essays/063_Your_Own_Model/" />
+  <title>087 - Newsfeeds</title>
+  <link rel="canonical" href="https://kyrtinatreides.com/essays/087_Newsfeeds/" />
   <meta name="google-site-verification" content="VgCfmx07-aHtaHzeW-ijLgOvhHzZ3Iys9vqoZyKwOcM" />
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -494,51 +494,21 @@
   <main>
     
 <article>
-  <time datetime="September 17, 2023">September 17, 2023</time>
-  <h1>063 - Your Own Model</h1>
+  <time datetime="October 21, 2023">October 21, 2023</time>
+  <h1>087 - Newsfeeds</h1>
   <div class="content">
-    <p>Since people seemed to like my SDXL experiment, here are the step-by-step instructions to do it for yourself:</p>
-<ol>
-<li>
-<p>Create and/or login to accounts for GitHub and Replicate.</p>
-</li>
-<li>
-<p>Create a new public GitHub repository to store your source files for fine tuning.</p>
-</li>
-<li>
-<p>Prepare a zip file containing 10 or more images clearly showing your face. The more the better, I used 22 in total.</p>
-</li>
-<li>
-<p>Open <a href="https://colab.research.google.com/drive/1SGzF3PC6uScg9Jj0Xi5wnqUdFy66FIYb?usp=sharing">this Google Colab</a>, and walk through the steps, running the code one block at a time.</p>
-</li>
-<li>
-<p>Upload the zip file to your GitHub repo, navigate to the uploaded file, and click the &quot;raw&quot; button.</p>
-</li>
-<li>
-<p>Copy the URL your zip file downloaded from into the training code block in Colab.</p>
-</li>
-<li>
-<p>Go to Replicate and <a href="https://replicate.com/create">create a model</a>. Copy the resulting my-name/my-model into the training code block in Colab.</p>
-</li>
-<li>
-<p>Tweak the parameters if you wish, but otherwise just hit train, and in a few minutes you'll have your own model for generating your own silly images of yourself.</p>
-</li>
-</ol>
-<p>To further improve output images I can also recommend:</p>
-<ul>
-<li>
-<p>Using &quot;negative prompts&quot; to correct biases in the model, and home in on exactly what you want by excluding specific patterns. For example, SDXL seems to bias heavily toward a cleft chin, but putting that in the negative prompt reduces that bias.</p>
-</li>
-<li>
-<p>Using a second system for &quot;Face Swapping&quot; on the output, to bring it that much closer to full fidelity. SDXL captures hair quite well, which face swappers don't handle, so combining the two often works best. This is similar to some methods of reinserting original data with residual layers.</p>
-</li>
-<li>
-<p>You can train a model for more steps, and with a higher batch size. A batch size of 6 and 2500 steps (defaults 4 and 1000 respectively) only cost me $1. However, in my experience the model fine tuned for longer performed substantially worse than the default settings.</p>
-</li>
-</ul>
-<p>I tested using a unique identifier other than the default &quot;TOK&quot;, but even another truly unique identifier failed horribly compared to far less training on TOK. I recommend not changing that default. For the full list of parameters you can insert into the code, see: <a href="https://replicate.com/stability-ai/sdxl#training-inputs">Stability AI SDXL Training Inputs</a></p>
-<p>I tested the results against several live 3D facial scanning systems, and they couldn't tell the difference between the resulting images and a live feed of my face.</p>
-<p>Enjoy making many silly images of yourself.</p>
+    <blockquote>
+<p>&quot;Newsfeeds, now with 50% less News!&quot;</p>
+<p>-potential new TLDR for social media platforms.</p>
+</blockquote>
+<p>As predicted in the first months of this year, the closing of information ecosystems and increasing saturation levels of corporately curated bias are well underway. <a href="https://web.archive.org/web/20231019170030/https://www.nytimes.com/2023/10/19/technology/news-social-media-traffic.html">Silicon Valley is severing ties with News</a>.</p>
+<p>It is telling that a colleague sent me that article (which I bypassed the paywall for) since I didn't encounter it in my &quot;Newsfeed&quot;. The irony of removing news from newsfeeds is thick indeed.</p>
+<p>Closed information ecosystems are easier to control and farm for data, attention, and up-selling of services. This places a heavy incentive on organizations to move in that direction and accelerate in that direction according to how quickly their competitors move that way.</p>
+<p>Regulators could slow, halt, or reverse this in theory, but in practice, they are taking much of their advice from the same people leading that charge. So long as OpenAI, Microsoft, Google, and other similar companies hold seats at the regulatory table that isn't likely to change. Foxes are architecting the hen house.</p>
+<p>Of course, my own posts are subject to the exact same nonsense. Half of them with the highest levels of engagement also reach the smallest number of people, often 10 times less in spread. The spread is also subject to no rational pattern but instead appears to rely on opaque and correlative (not causal) criteria because that is what ML systems do.</p>
+<p>I named the paper on the subject <a href="https://www.researchgate.net/publication/369691463_Automated_Bias_and_Indoctrination_at_Scale_Is_All_You_Need">&quot;Automated Bias and Indoctrination at Scale... Is All You Need&quot;</a> as a tongue-in-cheek poke at what the industry is doing, juxtaposed with the naming schemes they favor.</p>
+<p>The critical magnitude of this is likely to become extremely obvious in 2024, as the bad actors best able to utilize generative AI win elections by flooding each platform with the next generation of optimized social engineering. This shift opens many new doors for corruption and potent levers to sway elections. Confidence in US news has been crashing and burning, but nature abhors a vacuum, and the void that news leaves behind will no doubt be filled by the bad actors flooding and controlling each platform.</p>
+<p>The train to Dystopia (off a tall cliff) is boarding, and will soon leave the station. There is still time to halt that process, but not much. &quot;Regulatory Capture&quot; is nothing compared to &quot;Country Capture&quot;.</p>
 
   </div>
 </article>

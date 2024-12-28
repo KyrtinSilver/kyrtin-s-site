@@ -11,5 +11,3 @@ This paper covers concepts of computer science, neuroscience, and psychology, an
 Feedback is welcome, as are conference recommendations for where to submit it. I have another paper and thought experiment that could be submitted to conferences as well, but I generally don't go looking for them, so they'll merely be sent to some of my previous venues next year otherwise.
 
 I have placed a couple of Easter Eggs in the paper, taking a lesson from Neil DeGrasse Tyson's MasterClass and integrating humor into scientific communication.
-
-#ai #research #ethics #complexity #bias

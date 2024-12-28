@@ -18,6 +18,6 @@ In contrast, morals consider two wholly incompatible subjective factors, "intent
 
 If a Silly Con Valley tech CEO deploys technology that causes damage at a global scale, then their crime is that damage multiplied by the period of time. If they delay the deployment of technology that prevents damage and reduces existing harms, the crime is basically the same, added damage over time, regardless of their beliefs or intentions.
 
-Around 1,000 people have committed the worst crime that has ever been possible in human history over the past year, as illustrated in the Ethical Basilisk Thought Experiment: http://dx.doi.org/10.13140/RG.2.2.26522.62407
+Around 1,000 people have committed the worst crime that has ever been possible in human history over the past year, as illustrated in [the Ethical Basilisk Thought Experiment](http://dx.doi.org/10.13140/RG.2.2.26522.62407).
 
 Don't become number 1,001.

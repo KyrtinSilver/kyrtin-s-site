@@ -19,5 +19,3 @@ The optimal advantage isn't a matter of "more of this, and less of that", but ra
 As noted, this also doesn't inherently mean "getting rid of cognitive bias", as creativity is a subset of cognitive biases and a strategic advantage that humans couldn't function "at a human level" without. This was demonstrated indirectly by Antonio Damasio, since emotions control the abstract cognitive bias "system", and damaged emotions mean a damaged system of cognitive bias utilization. Rather, systems of cognitive bias require both intelligent optimization and selective application, not just the evolutionary forces of survival and biological fitness guiding them.
 
 We haven't even begun to scratch the surface of the upper bounds of creativity.
-
-#ai #bias #creativity #research #cognition

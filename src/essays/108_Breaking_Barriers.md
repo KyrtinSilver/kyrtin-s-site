@@ -17,5 +17,3 @@ As previously noted, the threat isn't that frauds might develop AGI, but that a 
 When the frauds become (more) active and start throwing the term "AGI" around in reference to OpenAI and other companies that do no actual research into AGI, as they're likely to do in the coming days, you can call them out.
 
 Remember the "Don't Panic" in big friendly letters on the Hitchhiker's Guide to the Galaxy cover. Frauds + LLM + RL + MoE + "...of thought" + RAG + agent-based hives + Q\* + Altman's magical thinking still doesn't produce AGI, or come anywhere remotely close to it. It might eventually fill the box, but that box doesn't leak.
-
-#ai #research #LLMs #AGI #bias

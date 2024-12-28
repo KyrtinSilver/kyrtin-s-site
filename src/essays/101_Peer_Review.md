@@ -17,5 +17,3 @@ The other two were in journals with the highest general prestige, both of which 
 I've personally blacklisted FrontiersIn and Cell Press from ever wasting my time again as a result, since both were guilty of this. FrontiersIn delayed the publishing of the paper listed above thanks to one troll and maximum inconsistency in reviewer feedback, and Cell Press proved even lower in reviewer quality.
 
 Then, there is everywhere else. At least four other venues have never once been unreasonable in their suggested revisions and additions to papers. This appears to embody a sort of "Goldilocks Zone", where delusions like prestige don't degrade the process itself. Ultimately, even for the troll-infested high-prestige venues, it remains a roll of the dice. The dice are just a bit loaded by the statistical differences.
-
-#ai #bias #research #peerreview

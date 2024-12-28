@@ -21,5 +21,3 @@ The comparison to Ukraine is rather perverted, as it is reversed. One should not
 Both examples of war have filled many mass graves and inflicted immense poverty, in addition to direct physical violence. That is what war does.
 
 If you want to cement strong emotions in your memory as they relate to these current events, make those emotions carve a path that ends war in all of these aspects.
-
-#ethics #bias #war #misinformation #cognitivebias

@@ -21,5 +21,3 @@ Those two pure powders, which I've used every morning for more than 10 years now
 That pattern is also precisely what we see in AI today. We're overflowing with "AI Experts" who are utterly worthless in practice, as they lack useful expertise, and the solutions fall outside of the scope they work within. The predictable result is that they produce systems that fail to offer any meaningful benefit, and easily cost 50x or more to run relative to competently designed systems.
 
 Today's typical AI is enough to give anyone a headache, but effective solutions can be achieved at a relatively trivial cost, and within short periods of time.
-
-#ai #innovation #bias #medical #migraines

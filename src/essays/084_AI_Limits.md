@@ -20,6 +20,4 @@ Most of the pre-prints I've seen circulating far and wide this year are the same
 
 When you see something new and exciting, be patient, and seek disconfirming evidence.
 
-#ai #bias #ethics #disinformation #research
-
 This "more layers" approach from the starting point of DL/ML/RL could be compared to iteratively improving the wheel, when your goal is reaching the Moon. The wheels may improve and get you somewhere, but they will never be what takes you to the Moon.
