@@ -21,5 +21,3 @@ If successful, this method could be applied to the detection of many positive an
 \*Note: See the pre-print of study phases 1 and 2, as well as links to the data [here](https://www.researchgate.net/publication/372078491_Cognitive_Biases_in_Natural_Language_Automatically_Detecting_Differentiating_and_Measuring_Bias_in_Text).
 
 It is easy to imagine HR departments salivating at the thought of having a viable method of predicting the success of job applicants, Universities predicting academic success of potential students, financial firms predicting the risk of fraud, and governments predicting the risk of corruption. These capacities could become Dystopian if taken to extremes, but in moderation and sensible designs they could also have a more significant positive impact.
-
-#ai #research #bias #cognitivebias #study

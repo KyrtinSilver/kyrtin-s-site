@@ -39,5 +39,3 @@ Humans, social platforms, and chatbots have all been documented exhibiting "groo
 Books could be written on this subject, but as things stand today people might just have chatbots summarize them instead of actually reading them, degrading and warping the data in the process.
 
 For the famous poem see: [The Hollow Men](https://allpoetry.com/The-Hollow-Men)
-
-#ethics #ai

@@ -35,5 +35,3 @@ They have many narrow AI experts, but that is about as useful in any effort aime
 Our previous research system set many world-first milestones, which still stand alone to this day. The commercial systems being prepared will operate more than 10,000 times faster, at more than 200 times the scale, and more than 10 times the memory efficiency.
 
 That 20,000,000-fold net improvement is only the beginning.
-
-#ai #research #ethics #AGI

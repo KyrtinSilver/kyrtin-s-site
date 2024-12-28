@@ -29,5 +29,3 @@ The phrase "Publish or Perish" has often been used to describe a set of archaic 
 "The real problem of humanity is the following: We have Paleolithic emotions, medieval institutions and godlike technology. And it is terrifically dangerous, and it is now approaching a point of crisis overall."
 
 \*For more on what happens when Garbage Generators eat large quantities of AI-generated content, see: [Self-Consuming Generative Models Go MAD](https://arxiv.org/abs/2307.01850)
-
-#ethics

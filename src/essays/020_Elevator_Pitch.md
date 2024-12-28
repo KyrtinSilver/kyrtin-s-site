@@ -4,7 +4,7 @@ layout: essay.njk
 date: "2023-08-05"
 ---
 
-In the #Startup world, you may dream of "Love at first sight" with an #investor riding in on a white horse to be your prince charming, but this isn't that kind of fairy tale. Imagine a random stranger walking up to you on the street, handing you a book, and proposing marriage.
+In the startup world, you may dream of "Love at first sight" with an investor riding in on a white horse to be your prince charming, but this isn't that kind of fairy tale. Imagine a random stranger walking up to you on the street, handing you a book, and proposing marriage.
 
 That is the kind of social norm violation that neglecting to gradually earn someone's time and emotional interest commits. Avoid it at all costs.
 
@@ -26,10 +26,6 @@ Perhaps Pitch Decks are the modern VC's version of Tinder. (\*Please, don't make
 
 Are the investors you know looking for a "pump and dump", or are they in it for the long term?
 
-#investment #venturecapital #startups #ai
-
 Metaphors can be a particularly fun educational opportunity. Get a few people batting these puns and jokes back and forth and you might even spark some innovation.
 
 \*This message is brought to you by Humor and metaphor-oriented cognitive biases.
-
-#investment #venturecapital #startups #ai

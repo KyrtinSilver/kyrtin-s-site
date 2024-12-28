@@ -28,18 +28,16 @@ If you know any AI "Influencers" who are still proposing "guardrails", please se
 
 Everyone is responsible for their actions. What actions will you take now that the snake oil sellers are bereft of their pants?
 
-#ai #ethics #cognitivebias #fraud #cybersecurity
-
 The un-paywalled article is shown on Internet Archive [here](https://web.archive.org/web/20230727120026/https://www.nytimes.com/2023/07/27/business/ai-chatgpt-safety-research.html).
 
 The paper itself is [here](https://llm-attacks.org/).
 
 The Github for the paper is [here](https://github.com/llm-attacks/llm-attacks).
 
-\*Note: #GPT-4 likely only performs a bit better than others due to being a Mixture-of-Experts (MoE). This difference is both trivial in practice, as any attack success rate using an automated system with over 1% success is spectacularly bad news, and because the MoE advantage can be overcome using more advanced methods.
+\*Note: GPT-4 likely only performs a bit better than others due to being a Mixture-of-Experts (MoE). This difference is both trivial in practice, as any attack success rate using an automated system with over 1% success is spectacularly bad news, and because the MoE advantage can be overcome using more advanced methods.
 
-Additionally, #Claude likely only performed better than some others due to the known method of appending canned responses to the start of many of that LLM's responses, interfering directly with the adversarial optimization method used. This too is trivial to overcome in a next iteration. Claude has no actual advantage, it just happens to use a method that interferes with the optimization they selected for this particular algorithm.
+Additionally, Claude likely only performed better than some others due to the known method of appending canned responses to the start of many of that LLM's responses, interfering directly with the adversarial optimization method used. This too is trivial to overcome in a next iteration. Claude has no actual advantage, it just happens to use a method that interferes with the optimization they selected for this particular algorithm.
 
-This is just a first-generation method of automatic adversarial prompting. Fundamentally, any prompt that a system is trained to reject via the collection of methods referred to as "guardrails" will also open the door to new methods of attack. In practical cybersecurity terms, there may as well be no difference between any of the #LLMs at they exist today.
+This is just a first-generation method of automatic adversarial prompting. Fundamentally, any prompt that a system is trained to reject via the collection of methods referred to as "guardrails" will also open the door to new methods of attack. In practical cybersecurity terms, there may as well be no difference between any of the LLMs at they exist today.
 
 The only downside to this paper is that the authors notified the frauds that they'd be losing their pants prior to publishing the results.

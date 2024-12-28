@@ -35,5 +35,3 @@ One of the best metaphors describing LLMs / chatbots as they relate to the compr
 "NNs (Neural Networks) do less than lossy compression because in lossy compression you at least get guarantees of what properties are preserved, and only those are the ones you can assume to be recoverable. NNs do not give you that guarantee since NNs are not compression systems just like you eating a loaf of bread and producing a literal pile of sh\*t is not the same as "compressing the bread"."
 
 Don't make the mistake of thinking that what you've got your hands on, posting on social media, and emailing to people is "compressed bread".
-
-#ai #ethics #privacy #cybersecurity
