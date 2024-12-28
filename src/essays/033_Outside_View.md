@@ -32,8 +32,6 @@ If such a reasonable bar was set, we could avoid the startups that only emerged 
 
 The choice is left to investors, but the consequences of that choice are something all of humanity pays the price for. Will your investments be a meme?
 
-#ai #VentureCapital #investment #decisionmaking #startups #bias
-
 \*Note: The ethical side of this problem is also proportionately more severe, as it is subject to a massive force multiplier in this particular case. That is the subject of a Thought Experiment where a number of often-overlooked factors in ethics are placed in the context of developing more advanced AI systems, like the real-time and scalable version of technology we've demonstrated since 2019: [The Ethical Basilisk Thought Experiment](https://www.researchgate.net/publication/372083027_The_Ethical_Basilisk_Thought_Experiment).
 
 As noted in the thought experiment, Actions and Responsibility matter and are both subject to this force multiplier, both positive and negative. However, neither beliefs nor intentions matter at all. It is unfortunate for those who remain oblivious and blindly walk off a cliff, but that is reality.

@@ -9,5 +9,3 @@ For those looking to stay updated on cybersecurity research related to LLMs, I c
 It combined the expertise of nearly 500 experts, over 125 active contributors, and outlined 43 distinct threats, applying a rigorous validation process and references. Some of these authors recently attended the DEFCON 31 conference, one of whom a special badge was created in honor of.
 
 Until AGI Laboratory's commercial systems are deployed, companies will have to muddle through coping with many of these vulnerabilities.
-
-#ai #cybersecurity #LLMs #promptinjection

@@ -17,5 +17,3 @@ This trade-off becomes a critical factor to consider when two things are true:
 2. A scalable system with human-like thought and learning is available (Norn, being rebuilt for scalability now).
 
 Humans are built to automatically apply heavy cognitive bias to hyper-complexity, as well as time scarcity since the two are functionally identical in resources demanded over time. Humans can build systems that scale in the ways necessary to overcome that trade-off, and that is a big part of the work we do at AGI Laboratory.
-
-#bias #ai #ethics #cognitivebias #research

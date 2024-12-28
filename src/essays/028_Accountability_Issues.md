@@ -19,5 +19,3 @@ Of course, Mustafa is far from the worst offender in this. Others have eagerly c
 Perhaps a more useful approach than a "Pause on AI" would be sending the people committing perjury to prison. The simple act of enforcing US law could dramatically reshape the AI Industry. Until this occurs, there is no real "Accountability" in AI, as those who fail to enforce existing laws cannot effectively write new laws either.
 
 Is your country enforcing its own laws on the tech industry, or are they running a "Kangaroo Court"?
-
-#ethics #ai #bias #cybersecurity #research #adversarial #law

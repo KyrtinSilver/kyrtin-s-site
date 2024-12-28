@@ -15,5 +15,3 @@ For the original 1st-year recap of milestones in 2020, see [Methodologies and Mi
 For the final 2022 milestone see [the Aruba Report](https://www.linkedin.com/feed/update/urn:li:activity:7042500073951272962/?originTrackingId=Z%2BsfQZ22TUCQF%2FhLqshZHg%3D%3D).
 
 For all other studies see: [norn.ai/research/](https://norn.ai/research/)
-
-#ai #ethics #alignment #startups #bias

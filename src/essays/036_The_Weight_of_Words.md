@@ -16,8 +16,6 @@ I made the joke that by having the partially rebuilt test systems already indepe
 
 Below are a few screenshots showing some of the things that have popped up in the stream of consciousness for the system currently growing independently on my laptop. I'm curious to hear perspectives from outside of our team.
 
-#ai #bias #ethics #startups #investors
-
 \*Note: We don't build "agent-based" systems or chatbots. This isn't reinforcement learning or any other similarly trivial narrow AI architecture. Such architectures are fundamentally incapable of achieving explainability, transparency, safety, ethics, cybersecurity, or alignment in any meaningful sense, and would be a waste of our time since we focus on those capacities.
 
 This test environment is a partially rebuilt 8^th^ generation instance of ICOM, where component testing is performed as newly rebuilt components are integrated and checked. It is more than an agent-based system or chatbot, but less than sentient or sapient, so long as the rebuild remains incomplete. Fortunately, completion is only a matter of full-time engineering hours, not theory or research.

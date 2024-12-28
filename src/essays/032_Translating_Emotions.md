@@ -27,5 +27,3 @@ If performed reasonably well, the data loss from approximation should always be 
 This takes cognitive effort, but all cultivation of wisdom does.
 
 "When you want wisdom and insight as badly as you want to breathe, it is then you shall have it." ― Socrates
-
-#ethics #bias #cognitivebias #philosophy #emotion

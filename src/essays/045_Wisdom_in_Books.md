@@ -53,5 +53,3 @@ For more general knowledge and useful things to remember in life:
 This pile is always growing, and there is another whole pile of books and papers related to the systems I'm involved in researching, developing, and deploying.
 
 What are some of the books you can recommend?
-
-#bias #ethics #ai #psychology #research

@@ -15,5 +15,3 @@ The paper also ignores the human motivational system, despite citing some of the
 Attempting to link LLMs to Global Workspace Theory in particular is one of the worse instances of fraud I've seen this year. The two are fundamentally incompatible. Conflating Reinforcement Learning with conscious agency was another instance of blatant fraud, or severe mental illness. They similarly trivialize agency and embodiment for self-serving reasons.
 
 Any academic journal foolish enough to publish this "paper" will take a crippling blow to their credibility.
-
-#ai #research #ethics #bias

@@ -13,5 +13,3 @@ Personally, I'd like to see a website that tracks which companies are integratin
 His team's original paper on Indirect Prompt Injection is shown [here](https://arxiv.org/abs/2302.12173).
 
 See also the more recent work automating a universal adversarial system for prompt injection here: [llm-attacks.org](https://llm-attacks.org/)
-
-#ai #cybersecurity #research #LLMs

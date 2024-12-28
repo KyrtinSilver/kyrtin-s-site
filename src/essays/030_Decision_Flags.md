@@ -17,7 +17,3 @@ If someone uses these words but also claims to be "logical", "data-driven", or a
 Other researchers have suggested that the word "know" might be treated the same way, but "know" is both semantically more difficult to avoid in English, and it proposes a state rather than a source of motivation.
 
 If you ever walk into a meeting that begins with the "Highest Paid Person's Opinion" (HIPPO), justified by words like "believe" or "feel", you may as well walk out of the room at that moment. Group-think driven by such red flags often takes a short drive off a tall cliff.
-
-#bias #ethics #cognitivebias #decisionmaking
-
-The big red flag of blind belief, RTX, photorealistic, 8K, highly detailed --ar 16:9

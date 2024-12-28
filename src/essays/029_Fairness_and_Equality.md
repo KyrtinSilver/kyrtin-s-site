@@ -4,7 +4,7 @@ layout: essay.njk
 date: "2023-08-05"
 ---
 
-#Fairness and #Equality are two popular, but often opposing concepts, and one of the rare cases where two such concepts are viewed as both being positive by a majority of people. The question of when and how to favor one over the other is critical to #ethics.
+Fairness and equality are two popular, but often opposing concepts, and one of the rare cases where two such concepts are viewed as both being positive by a majority of people. The question of when and how to favor one over the other is critical to ethics.
 
 Unfortunately, that question is often answered with an emotional response, as these are emotionally charged and polarizing concepts. This is ironically a recipe for cognitive bias, the enemy of both concepts. For any system to be ethical, or even minimally biased, the question must be answered logically, with a far more rigorous and consistent method than emotions offer.
 
@@ -23,5 +23,3 @@ Consequently, meaningful progress in Equality and Fairness requires applying met
 Systems to detect cognitive biases that apply collective intelligence to reduce their impact on decision-making have been developed. Once they are deployed, humanity may be much better equipped to integrate the concepts of Fairness and Equality.
 
 \*Side Note: Someone has been "revising" ancient Greek history at a rate that raises some red flags. Take anything you read about the subject today that wasn't pulled from the Internet Archive's records with a big grain of salt.
-
-#ai #bias #cognitivebias

@@ -1,5 +1,5 @@
 ---
-title: "053 - Engineering the Future"
+title: "053 - Engineering The Future"
 layout: essay.njk
 date: "2023-08-27"
 ---
@@ -87,5 +87,3 @@ The final category requires both several specific engineering prerequisites and 
 2. **Genetic Engineering:** Gene Therapy Research and Design Assistance
 
 3. **Criminal Justice:** Legal Decision-Making Support
-
-#ai #research #innovation #startups

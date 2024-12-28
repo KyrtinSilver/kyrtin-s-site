@@ -27,5 +27,3 @@ The toddler that aims to push a square block through a round hole is playing in 
 An increasing number of reasonable people understand that continuation of the status quo will reliably produce human extinction. If one or more people choose to invest the necessary resources to see ethical AGI deployed in time to alter humanity's current trajectory, then this may be avoided.
 
 If none make that choice, then it is no different than humanity choosing suicide. Is humanity so far gone?
-
-#ai #ethics #LLMs #AGI #bias

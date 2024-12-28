@@ -27,5 +27,3 @@ The future is both nearer and likely much stranger than most people tend to imag
 \*\*Note 2: The concept of Weak Digital Proxies (aka Weak Digital Copies) was discussed in one of my previous papers several years ago. That paper outlines the advantages and the opportunity to construct the world's first actual democracy, shown in full text [here](https://www.researchgate.net/publication/353396376_E-governance_with_ethical_living_democracy).
 
 The more recent paper detecting cognitive biases is shown in pre-print [here](https://www.researchgate.net/publication/372078491_Cognitive_Biases_in_Natural_Language_Automatically_Detecting_Differentiating_and_Measuring_Bias_in_Text).
-
-#ai #ethics #bias #cognitivebias #decisionmaking

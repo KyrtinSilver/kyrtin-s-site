@@ -11,5 +11,3 @@ For example, cognitive biases favoring an "in-group" of someone's personal netwo
 As any teacher is familiar with, you can only teach someone who wants to learn. There are infinite excuses for one who doesn't want to learn, making the motivation to learn critical.
 
 ![Investor Decision Tree](https://media.licdn.com/dms/image/v2/D4D22AQEBTEJIVVwrJg/feedshare-shrink_800/feedshare-shrink_800/0/1691826102792?e=1737590400&v=beta&t=g47rRtreXqje-UgenSvRsaCzf3VmQc6wkB0ScNBLP1M)
-
-#ai #ethics #explainability #cybersecurity #alignment

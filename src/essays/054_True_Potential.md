@@ -29,5 +29,3 @@ None of the models major tech companies or highly funded AI Startups are working
 In February 2022, based on the consistent trajectory of AI technology and markets, I estimated that if our work wasn't funded by the end of last year humanity would enter a "grey zone" where survival was uncertain. I had no specific knowledge of OpenAI's plans for 2022 at the time.
 
 Factoring in the events of the past year, I expect humanity's odds of survival to drop below 50% by the end of this year if the viable technology stack needed to address major issues today still isn't funded to at least the $25m mark by then. We'll continue our work regardless, but the door is closing on humanity's future.
-
-#ai #innovation #research #SOTA #ethics #SDGs

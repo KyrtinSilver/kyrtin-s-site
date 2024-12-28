@@ -24,8 +24,6 @@ Naïve researchers who've neglected this have been known to claim that Autism ca
 
 Cognitive Bias in humans increases proportionate to complexity, making the perception of more distant outliers proportionately more biased. However, the technology to overcome this tradeoff has already been demonstrated.
 
-#bias #cognitivebias #ethics #diversity #autism
-
 \*Note: In Collective Intelligence, there is value derived from perspectives within the space between distant neurodiverse perspectives, as points within the bounded space increase the clarity/granularity of understanding within that space. The broader that space becomes, the more connecting points within it are required to maintain this granularity of understanding.
 
 Consequently, this means that even with scalable and hardware agnostic AGI or ASI the subset where human diversity of perspective is found still offers those systems an insurmountable advantage over naïve and isolated Sci-Fi AGI concepts like Terminator's "Skynet" or Westworld's "Rehoboam".

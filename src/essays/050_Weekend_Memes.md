@@ -13,5 +13,3 @@ While my brain cells are occupied with that, here is a collection of some of my 
 ![AI Memes 2](https://pbs.twimg.com/media/GdQFXrJWgAA8pCX?format=jpg&name=900x900)
 
 ![AI Memes 3](https://eldig.psu.edu/wp-content/uploads/2023/09/Untitled.png)
-
-#ai #memes #bias #research

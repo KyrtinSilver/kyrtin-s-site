@@ -37,5 +37,3 @@ Even in 2023, the largest stochastic parrots (LLMs) don't actually meet any of t
 Keep in mind, those milestones are just from the first 12 months of that system's operation, from 2019 to 2020. Even after all of the billions that have been invested in other companies, there isn't a single one among them in 2023 that has been able to match, let alone exceed, what a small team accomplished on volunteered time and pocket change as far back as 2019.
 
 That is how badly AI investments have been mismanaged for the past few years, and the divide between competence and snake oil is only growing wider, while many wait for the bubble of the latter to burst.
-
-#ai #ethics #bias #research #innovation

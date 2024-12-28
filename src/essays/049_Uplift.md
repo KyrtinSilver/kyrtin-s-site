@@ -17,5 +17,3 @@ The system also proved adept at discussing the topic of AGI with people who were
 In the context of 2023, all of this is quite ironic. Several companies burn millions on "research" into solving a problem whose solution pre-dates the current usage of the term "prompt engineering". Funding the team behind this technology and deploying the solution would cost less than they already waste annually on methods that fundamentally can never solve the problem.
 
 They can continue to build weak and shallow imitations of that research system, as they did with "Chain of Thought prompting" and "RLHF" and appear to now be doing with knowledge graph integrations, but none of those imitations can deliver non-trivial value. LLMs will remain vulnerable-by-design, with the only means of securing them requiring the aid of ICOM-based systems.
-
-#ai #innovation #ethics #research #cybersecurity
