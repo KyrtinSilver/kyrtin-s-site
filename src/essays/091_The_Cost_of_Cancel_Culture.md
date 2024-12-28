@@ -4,7 +4,7 @@ layout: essay.njk
 date: "2023-10-24"
 ---
 
-I'm always skeptical when a book clocks in at under 10 hours of reading as to whether it will provide sufficient value to merit the cost. Having just finished going through "The Canceling of the American Mind", I can say not only that it was worth the cost and time to read it, but that it and "The Coddling of the American Mind" should both be added as required reading for high school students.
+I'm always skeptical when a book clocks in at under 10 hours of reading as to whether it will provide sufficient value to merit the cost. Having just finished going through ["The Canceling of the American Mind"](https://www.goodreads.com/book/show/101021947.The_Canceling_of_the_American_Mind_Cancel_Culture_Undermines_Trust_and_Threatens_Us_All_But_There_Is_a_Solution), I can say not only that it was worth the cost and time to read it, but that it and ["The Coddling of the American Mind"](https://www.goodreads.com/book/show/36556202-the-coddling-of-the-american-mind) should both be added as required reading for high school students.
 
 In "The Canceling of the American Mind" they address some of the topics that are so lethally toxic that most people wouldn't be caught dead speaking about them. I can count myself among those who won't be addressing certain topics with a 10-foot pole for the time being, but I will highly recommend the book.
 
@@ -16,7 +16,7 @@ My closest colleague and I aren't even in the same ballpark in a political sense
 
 In contrast, groups with a homogenous perspective become echo chambers. While collective intelligence systems are synonymous with superintelligence, improving in quality and becoming more intelligent than the most intelligent member, echo chambers are synonymous with the exact opposite, the degrading of intelligence. This means that an echo chamber is even dumber than the least intelligent member of that Groupthink.
 
-For those interested in remaining intelligent and sentient I highly recommend reading it: <https://www.goodreads.com/book/show/101021947.The_Canceling_of_the_American_Mind_Cancel_Culture_Undermines_Trust_and_Threatens_Us_All_But_There_Is_a_Solution>
+For those interested in remaining intelligent and sentient I highly recommend reading it.
 
 #research #culture #governance #bias #education
 
