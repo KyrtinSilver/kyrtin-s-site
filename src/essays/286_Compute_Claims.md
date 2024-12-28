@@ -1,5 +1,5 @@
 ---
-title: "286 - Exposing Compute Claims"
+title: "286 - Compute Claims"
 layout: essay.njk
 date: "2024-12-20"
 ---

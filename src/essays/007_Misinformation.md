@@ -1,5 +1,5 @@
 ---
-title: "007 - Misinformation Dynamics"
+title: "007 - Misinformation"
 layout: essay.njk
 date: "2023-07-07"
 ---

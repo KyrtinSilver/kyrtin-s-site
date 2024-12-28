@@ -1,5 +1,5 @@
 ---
-title: "011 - Costly Oversight"
+title: "011 - Oversight"
 layout: essay.njk
 date: "2023-07-14"
 ---

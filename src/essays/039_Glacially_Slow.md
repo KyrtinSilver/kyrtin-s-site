@@ -1,5 +1,5 @@
 ---
-title: "039 - Pre-Review Insights"
+title: "039 - Glacially Slow"
 layout: essay.njk
 date: "2023-08-17"
 ---
