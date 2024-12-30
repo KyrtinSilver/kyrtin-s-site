@@ -1,5 +1,5 @@
 ---
-title: "290 - New Year Resolutions"
+title: "290 - New Year's Resolutions"
 layout: essay.njk
 date: "2024-12-31"
 ---
