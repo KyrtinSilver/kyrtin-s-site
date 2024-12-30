@@ -1,7 +1,7 @@
 ---
 title: "291 - Playing to Strengths"
 layout: essay.njk
-date: "2024-12-31"
+date: "2025-01-02"
 ---
 
 Humans most often dramatically underestimate just how much of the real work they end up doing where LLMs and similar technology are concerned. You still have humans doing the heavy lifting of:
