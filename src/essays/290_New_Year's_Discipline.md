@@ -1,7 +1,7 @@
 ---
 title: "290 - New Year's Discipline"
 layout: essay.njk
-date: "2025-01-01"
+date: "2024-12-31"
 ---
 
 If there is one lesson everyone could stand to learn this New Year, it is that the opinions of random people on the internet, both those you see and those you don’t, matter “not at all”.
