@@ -526,7 +526,7 @@
   </main>
 
   <footer>
-    <p>© 2024 Kyrtin Atreides</p>
+    <p id="copyright"></p>
   </footer>
 
   <script>
@@ -551,6 +551,9 @@
       setDarkMode(!isDark);
       localStorage.setItem('theme', !isDark ? 'dark' : 'light');
     });
+
+    const currentYear = new Date().getFullYear();
+    document.getElementById('copyright').textContent = `© ${currentYear} Kyrtin Atreides`;
   </script>
 </body>
 </html>
