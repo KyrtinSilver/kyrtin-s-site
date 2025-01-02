@@ -1,7 +1,7 @@
 ---
 title: "291 - Playing to Strengths"
 layout: essay.njk
-date: "2025-01-01"
+date: "2025-01-02"
 ---
 
 Humans most often dramatically underestimate just how much of the real work they end up doing where LLMs and similar technology are concerned. You still have humans doing the heavy lifting of:
@@ -33,3 +33,5 @@ Of course, our list of options goes well beyond these two. No one step of this p
 5. Benefits strongly from greater experience and more direct forms of integration, including better vetting of outputs.
 
 No matter what you duct tape to a Muppet, it will remain a Muppet, and by using that Muppet you’ll just be doing your best impression of Gollum from LOTR, talking to yourself in 2 different voices. The future looks nothing like the fever dreams that people were sold under the umbrella of “GenAI” or “Agents”, but that future is coming nonetheless. If you want to continue LARPING LOTR with your best Gollum impression, no doubt Peter Theil will be right there beside you, but for the rest of us there are better things to do.
+
+![Alternate Systems](https://media.licdn.com/dms/image/v2/D5622AQEUT7dXC5xVEA/feedshare-shrink_2048_1536/B56ZQGx72mHIAs-/0/1735280543176?e=1738800000&v=beta&t=EIQYveVZl1PLPshAwwpzBj9ohWk_YLHgrWVuv_UUblM)
