@@ -1,7 +1,7 @@
 ---
 title: "293 - Full Context"
 layout: essay.njk
-date: "2025-01-07"
+date: "2025-01-06"
 ---
 
 When discussing the impact of a technology's adoption, it is critical to keep in mind both the absolute and relative shifts in value, as well as the absolute values of what you're talking about. For example:
@@ -28,4 +28,4 @@ I was reminded of this when reviewing a paper for peer review that landed at the
 
 I've observed that doctors often overlook simple but critically important factors, such as sodium vs potassium ion channel balance, or the corresponding conditions of imbalance and their often well-studied interactions and complications with common medications. Even simply reminding a doctor to ask about those conditions and symptoms where known complications are present could greatly improve many patient outcomes.
 
-![Full Context](https://media.licdn.com/dms/image/v2/D5622AQF_48_q1nC7pQ/feedshare-shrink_800/B56ZQmDP4AH0Ag-/0/1735805175008?e=1738800000&v=beta&t=W3OTV9ixiH-exkoi06326OwOPGH0Yd0hm111S2KFJQQ)
+![Full Context](https://media.licdn.com/dms/image/v2/D5622AQFtSD_q1nC7pQ/feedshare-shrink_800/B56ZQmDP4AH0Ag-/0/1735805175008?e=1738800000&v=beta&t=W3OTV9ixiH-exkoi06326OwOPGH0Yd0hm111S2KFJQQ)
