@@ -1,5 +1,5 @@
 ---
-title: "294 - Flaming Hoops"
+title: "294 - Hoops"
 layout: essay.njk
 date: "2025-01-08"
 ---

@@ -1,5 +1,5 @@
 ---
-title: "285 - AI Retrospection"
+title: "285 - Retrospection"
 layout: essay.njk
 date: "2024-12-19"
 ---

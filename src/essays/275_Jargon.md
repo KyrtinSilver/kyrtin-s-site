@@ -1,5 +1,5 @@
 ---
-title: "275 - AI Jargon"
+title: "275 - Jargon"
 layout: "essay.njk"
 date: 2024-11-27
 ---
