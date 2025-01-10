@@ -1,5 +1,5 @@
 ---
-title: "293 - Full Context"
+title: "293 - Adoption Context"
 layout: essay.njk
 date: "2025-01-06"
 ---
