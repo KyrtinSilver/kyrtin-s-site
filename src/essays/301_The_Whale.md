@@ -1,5 +1,5 @@
 ---
-title: "301 - Opensource Whale"
+title: "301 - The Whale"
 layout: essay.njk
 date: "2025-01-30"
 ---
