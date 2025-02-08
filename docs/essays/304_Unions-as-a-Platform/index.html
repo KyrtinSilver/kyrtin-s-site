@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="304 - Unions-as-a-Platform" />
+  <meta name="keywords" content="cognitive bias, AI, ethics, alignment, study, cybersecurity, artificial intelligence, AI research, machine learning, ICOM, psychoaccoustics, cognitive architecture, Mediated Artificial Super Intelligence, mASI, technology ethics, AI development, neural networks, computational efficiency, AI benchmarks, Kyrtin Atreides, AI infrastructure, tech innovation, research, scalable intelligence, human-like AI, AGI, governance, e-governance">
+  <meta name="robots" content="index, follow">
+  <title>304 - Unions-as-a-Platform</title>
+  <link rel="canonical" href="https://kyrtinatreides.com/essays/304_Unions-as-a-Platform/" />
+  <meta name="google-site-verification" content="VgCfmx07-aHtaHzeW-ijLgOvhHzZ3Iys9vqoZyKwOcM" />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link 
+    rel="stylesheet" 
+    href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500&display=swap"
+    media="print"
+    onload="this.media='all'"
+  />
+  <noscript>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500&display=swap"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </noscript>
+
+  
+
+  
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Kyrtin Atreides",
+    "url": "https://kyrtinatreides.com",
+    "jobTitle": "Researcher",
+    "description": "Researcher exploring cognitive biases and artificial intelligence"
+  }
+  </script>
+  
+  <style>
+    :root {
+      /* Base colors */
+      --bg: #FFFFFF;
+      --border: #e5e2dd;
+      
+      /* Text hierarchy */
+      --text-primary: #1d1d1f;    /* Main content, headings */
+      --text-secondary: #515154;  /* Sub-headings, important supporting text */
+    }
+
+    .dark-mode {
+      /* Base colors */
+      --bg: #000000;
+      --border: #252321;
+      
+      /* Text hierarchy */
+      --text-primary: #f5f5f7;    /* Main content, headings */
+      --text-secondary: #86868b;  /* Sub-headings, important supporting text */
+    }
+
+    body {
+      font-family: "Geist", system-ui, -apple-system, sans-serif;
+      font-display: swap;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      margin: 1rem auto;
+      line-height: 1.6;
+      padding: 0 1rem; 
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background-color: var(--bg);
+      color: var(--text-primary);
+    }
+
+    main {
+      flex: 1;
+      margin-top: 2em;
+    }
+
+    article p, 
+    article ul, 
+    article ol,
+    .essay-list,
+    article img {
+      max-width: 65ch;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    article img { 
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 2rem auto;
+    }
+
+    a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+
+    nav {
+      margin-bottom: 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 1rem;
+    }
+
+    .nav-links a {
+      color: var(--text-secondary);
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .nav-links a:hover {
+      color: var(--text-primary);
+    }
+
+    .theme-toggle {
+      background: none;
+      border: none;
+      color: var(--text-secondary);
+      cursor: pointer;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: color 0.3s ease;
+    }
+
+    .theme-toggle:hover {
+      color: var(--text-primary);
+    }
+
+    .theme-toggle svg {
+      width: 24px;
+      height: 24px;
+    }
+
+    .theme-toggle .sun-icon,
+    .theme-toggle .moon-icon {
+      display: none;
+    }
+
+    .theme-toggle .sun-icon.active,
+    .theme-toggle .moon-icon.active {
+      display: block;
+    }
+
+    .theme-toggle .sun-icon use {
+      fill: currentColor;
+      stroke: currentColor;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .theme-toggle .moon-icon use {
+      fill: currentColor;
+      stroke: currentColor;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    footer {
+      margin-top: 4rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.9em;
+      color: var(--text-secondary);
+      text-align: center;
+    }
+
+    .dark-mode footer {
+      color: var(--text-secondary);
+    }
+
+    @media (min-width: 650px) {
+      body {
+        max-width: 650px;
+        margin: 2rem auto;
+      }
+    }
+    h1,
+    .page-header h1,
+    article h1 {
+      font-size: 2rem;
+      line-height: 1;
+      margin: 0;
+      font-weight: 500 !important;
+    }
+
+    .page-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1em;
+      line-height: 1;
+      max-width: 65ch;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0;
+    }
+    article h1 {
+      max-width: 65ch;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 0.5em;
+    }
+
+    article time {
+      display: block;
+      max-width: 65ch;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 2em;
+      margin-top: 0.5em;
+      color: var(--text-secondary);
+      font-size: 0.9em;
+      white-space: nowrap;
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .page-header h1 {
+      margin: 0;
+      line-height: 1;
+      color: var(--text-primary);
+    }
+
+    .page-header div {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5em;
+    }
+
+    .page-header time {
+      margin: 0;
+      padding: 0;
+    }
+
+    .geist-regular {
+      font-family: "Geist", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    .geist-medium {
+      font-family: "Geist", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 500;
+      font-style: normal;
+    }
+
+    .essay-title {
+      padding-right: 2em;
+      color: var(--text-primary);
+    }
+
+    .essays-sort-control {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3em;
+      cursor: pointer;
+      white-space: nowrap;
+      line-height: 1;
+      font-size: 1em;
+      color: var(--text-primary);
+    }
+
+    /* Dark mode specific overrides */
+    .dark-mode .essay-title,
+    .dark-mode .page-header h1,
+    .dark-mode .essays-sort-control {
+      color: var(--text-primary);
+    }
+
+    .research-sort-control {
+      color: var(--text-primary);
+    }
+
+    .paper-item .paper-title-row a {
+      text-decoration: none;
+      color: var(--text-primary);
+      margin-right: 2em;
+      flex: 1;
+    }
+
+    /* tag definition for base styles */
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      padding: 0 0.8em;
+      height: 1.8em;
+      border-radius: 15px;
+      font-size: 0.73em;
+      margin: 0 0.6em 0 0;
+      box-sizing: border-box;
+      
+      /* Color styles */
+      border: 0.5px solid var(--text-secondary);
+      color: var(--text-secondary);
+      background-color: rgba(102, 102, 102, 0.15);  /* Light mode tag bg */
+    }
+
+    /* Dark mode override */
+    .dark-mode .tag {
+      background-color: rgba(255, 255, 255, 0.15);  /* Dark mode tag bg */
+    }
+
+    /* Light mode tag override */
+    :root:not(.dark-mode) .tag {
+      background-color: rgba(102, 102, 102, 0.15);  /* Light mode tag bg */
+    }
+
+    /* Base text colors */
+    article h1 {
+      color: var(--text-primary);
+    }
+
+    article time {
+      color: var(--text-secondary);
+    }
+
+    article {
+      color: var(--text-primary);
+    }
+
+    /* Research-specific styles */
+    .papers-list .paper-title-row a {
+      color: var(--text-primary);
+    }
+
+    .papers-list time,
+    .tag {
+      color: var(--text-secondary);
+    }
+
+    .tag {
+      border-color: var(--text-secondary);
+    }
+
+    /* Essay-specific styles */
+    .essay-list .essay-title {
+      color: var(--text-primary);
+    }
+
+    .essay-list time {
+      color: var(--text-secondary);
+    }
+
+    /* Dark mode overrides */
+    .dark-mode article,
+    .dark-mode article h1,
+    .dark-mode .papers-list .paper-title-row a,
+    .dark-mode .essay-list .essay-title {
+      color: var(--text-primary);
+    }
+
+    .dark-mode article time,
+    .dark-mode .papers-list time,
+    .dark-mode .essay-list time,
+    .dark-mode .tag {
+      color: var(--text-secondary);
+    }
+
+    /* Single source of truth for ALL dates */
+    time,
+    .essay-date,
+    article time,
+    .paper-title-row time,
+    .papers-list time,
+    .essay-list time,
+    .paper-item time {
+      color: var(--text-secondary);
+      font-size: 0.9em !important; 
+      white-space: nowrap;
+    }
+
+    /* Positioning for article dates */
+    article time {
+      display: block;
+      margin-bottom: 2em;
+      margin-left: 0;
+      text-align: left;
+      width: 100%;
+    }
+
+    /* Content divider for essays */
+    article .content {
+      padding-top: 1em;
+      border-top: 1px solid var(--border);
+      margin-top: 1em;
+    }
+
+    /* Base styles for nav, social links, and article links */
+    .nav-links a,
+    .social-links a,
+    article a {
+      color: var(--text-secondary);
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    /* Hover effect for nav, social links, and article links */
+    .nav-links a:hover,
+    .social-links a:hover,
+    article a:hover {
+      color: var(--text-primary);
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      line-height: 1.2;
+      margin: 1.5em 0 0.5em;
+      font-weight: 500;
+    }
+
+    h3 {
+      font-size: 1.25rem;
+      line-height: 1.3;
+      margin: 1.5em 0 0.5em;
+      font-weight: 500;
+    }
+
+    strong,
+    b {
+      font-weight: 500;
+    }
+  </style>
+
+  
+</head>
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="sun" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="5"></circle>
+    <line x1="12" y1="1" x2="12" y2="3"></line>
+    <line x1="12" y1="21" x2="12" y2="23"></line>
+    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+    <line x1="1" y1="12" x2="3" y2="12"></line>
+    <line x1="21" y1="12" x2="23" y2="12"></line>
+    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+  </symbol>
+  
+  <symbol id="moon" viewBox="0 0 24 24">
+    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+  </symbol>
+
+  <symbol id="chevron-up" viewBox="0 0 24 24">
+    <polyline points="18 15 12 9 6 15"></polyline>
+  </symbol>
+
+  <symbol id="chevron-down" viewBox="0 0 24 24">
+    <polyline points="6 9 12 15 18 9"></polyline>
+  </symbol>
+
+  <symbol id="circle" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="10"></circle>
+  </symbol>
+</svg>
+
+  <nav>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/essays/">Essays</a>
+      <a href="/research/">Research</a>
+    </div>
+    <button class="theme-toggle" aria-label="Toggle dark mode">
+      <svg class="sun-icon">
+        <use href="#sun" />
+      </svg>
+      <svg class="moon-icon">
+        <use href="#moon" />
+      </svg>
+    </button>
+  </nav>
+
+  <main>
+    
+<article>
+  <time datetime="February 6, 2025">February 6, 2025</time>
+  <h1>304 - Unions-as-a-Platform</h1>
+  <div class="content">
+    <p>During two recent nightmarish and time-wasting experiences, I saw several new opportunities for the coming years. This began with sudden harassment from one of my banks, Wise, demanding that I verify my address, and then rejecting the exact same documents that they demanded. You see, my bills and other bank statements weren’t formatted in a way that they approved of, which is 100% their problem, not mine.</p>
+<p>When one of my other banks finally produced a statement that met their arbitrary requirements, they immediately blocked all of my cards, because as it turns out they’ve blocked all of the cards of US residents for the past year, without warning or explanation, which I had only avoided by getting the original card issued during my time in London.</p>
+<p>This was about the most inexcusable behavior I’ve ever seen from a bank, very &quot;un-Wise&quot;. Fortunately, I never had a single point of failure, so redundant payment methods prevented this from becoming a true crisis. However, foreigners aren’t allowed to get bank cards in Vietnam (with few exceptions), and similar services to Wise simply don’t work here, so that began a sequence of further time wasting to restore my spread of redundancies.</p>
+<p>The opportunities that came to mind from these experiences are two-fold, and most similar to the concept of “Unions”, but applied to groups of customers/users and to groups of corporations. The benefits of unions have been robustly demonstrated for more than a century, but to my knowledge, they have never been attempted in this way.</p>
+<p>For customers/users, such a dynamic could offer many protections, leveraging the ability of large groups to drive companies toward better policies and resolving problems more quickly and effectively. This goes far beyond simple concepts such as “boycotting” and “class-action lawsuits”, but may include them, and it could utilize some of the same technologies required to create the first actual “living” democracy, using digital proxies, which I first wrote about following an accidental discovery in late 2020.</p>
+<p>For corporations, this takes the same concept a big step further in terms of scale, while maintaining a comparable level of complexity and utilizing a more potent version of those technologies. Some corporations have already been considered arguably more powerful than governments, and just as such systems could allow customers/users vastly more influence over companies, companies could exert vastly more influence over governments. When one company has such influence it is usually going to be a terrible thing, but when large, diverse, and cooperative groups of companies band together then collective intelligence can help those companies to push for policies that are better for everyone, not just written to facilitate “regulatory capture” or similarly nefarious ends.</p>
+<p>The same may be applied to governments, to create a far more functional version of structures like the EU, which will raise the complexity, but the technology exists to make it happen. More than that, it will have to happen, unless governments choose to become subservient to such groups of companies.</p>
+<p>Fortunately, that same technology required for actual democracy can be applied to facilitating this for customers and users, as well as for governments. Governments may also utilize the more powerful variations of this technology that may be applied to companies, giving them both sides of advantages, as well as some advantages that only emerge from hybrid systems.</p>
+<p>Customers, users, and citizens can also provide checks and balance to prevent some of the less desirable edge-cases of over-reach by both corporations and governments, keeping all parties accountable.</p>
+<p><img src="https://media.licdn.com/dms/image/v2/D5622AQH4TZzYmgUdbw/feedshare-shrink_1280/B56ZTdp4TZGUAk-/0/1738885531317?e=1741824000&amp;v=beta&amp;t=lxnHSDGJdIVMx1bpIsJQK0kYqOUFtDx8rGChPglpg-0" alt="Unions-as-a-Platform"></p>
+
+  </div>
+</article>
+
+  </main>
+
+  <footer>
+    <p id="copyright"></p>
+  </footer>
+
+  <script>
+    const toggleBtn = document.querySelector('.theme-toggle');
+    const sunIcon = toggleBtn.querySelector('.sun-icon');
+    const moonIcon = toggleBtn.querySelector('.moon-icon');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+
+    function setDarkMode(isDark) {
+      document.documentElement.classList.toggle('dark-mode', isDark);
+      sunIcon.classList.toggle('active', !isDark);
+      moonIcon.classList.toggle('active', isDark);
+    }
+
+    // Initialize theme
+    const storedTheme = localStorage.getItem('theme');
+    setDarkMode(storedTheme === 'dark' || (!storedTheme && prefersDark.matches));
+
+    // Listen for changes
+    toggleBtn.addEventListener('click', () => {
+      const isDark = document.documentElement.classList.contains('dark-mode');
+      setDarkMode(!isDark);
+      localStorage.setItem('theme', !isDark ? 'dark' : 'light');
+    });
+
+    const currentYear = new Date().getFullYear();
+    document.getElementById('copyright').textContent = `© ${currentYear} Kyrtin Atreides`;
+  </script>
+</body>
+</html>
