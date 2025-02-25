@@ -1,5 +1,5 @@
 ---
-title: "307 - Un-value Creation"
+title: "307 - Value Destruction"
 layout: essay.njk
 date: "2025-02-13"
 ---
@@ -21,4 +21,4 @@ Humans have no shortage of such vulnerabilities, and such people have been reduc
 
 While competitors gain a momentary edge in this kind of battle, overall everyone loses, some just lose less. Breaking this cycle requires investments in new technology, not just more of the same Garbage-Investment-Garbage-Outcome (GInGOut).
 
-![Un-value Creation](https://media.licdn.com/dms/image/v2/D4D22AQEk9T3gqK0O6Q/feedshare-shrink_800/B4DZT4zVQpGkAg-/0/1739340994185?e=1742428800&v=beta&t=j93UjfqVrjUz-0DjhnatYaHVgw8RSIhWZbVsmQgy-eo)
+![Value Destruction](https://media.licdn.com/dms/image/v2/D4D22AQEk9T3gqK0O6Q/feedshare-shrink_800/B4DZT4zVQpGkAg-/0/1739340994185?e=1742428800&v=beta&t=j93UjfqVrjUz-0DjhnatYaHVgw8RSIhWZbVsmQgy-eo)
