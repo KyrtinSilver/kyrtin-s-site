@@ -1,5 +1,5 @@
 ---
-title: "308 - Essay"
+title: "308 - Cybercrime"
 layout: essay.njk
 date: "2025-02-18"
 ---
