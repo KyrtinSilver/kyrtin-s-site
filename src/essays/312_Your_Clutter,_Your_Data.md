@@ -1,5 +1,5 @@
 ---
-title: "311 - Your Clutter, Your Data"
+title: "312 - Your Clutter, Your Data"
 layout: essay.njk
 date: "2025-03-04"
 ---
