@@ -14,4 +14,4 @@ In late 2022's edition of this comparison, Anthropic was the poster child for a 
 
 I highly recommend Daniel Kahneman's method of joint comparison, briefly described in the attached slide, for purposes of reducing cognitive bias when comparing similar companies, candidates, etc. If more people funding companies were less biased then these numbers wouldn't be so abysmal. Ironically, this makes the most biased investors first on the chopping block for more fundamentally capable AI.
 
-https://media.licdn.com/dms/image/v2/D5622AQGHJU9D2EUAHw/feedshare-shrink_800/B56ZXa98Z2HQAk-/0/1743135426932?e=1746662400&v=beta&t=EnrsX5wgxaD8cqHXcNE24Ekg01vRgKm9MHRH3Ae4L9I
+![Funding Fraud](https://media.licdn.com/dms/image/v2/D5622AQGHJU9D2EUAHw/feedshare-shrink_800/B56ZXa98Z2HQAk-/0/1743135426932?e=1746662400&v=beta&t=EnrsX5wgxaD8cqHXcNE24Ekg01vRgKm9MHRH3Ae4L9I)
