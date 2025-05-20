@@ -1,7 +1,7 @@
 ---
 title: "322 - No Safe Haven"
 layout: essay.njk
-date: "2025-04-02"
+date: "2025-05-01"
 ---
 
 Cognitive bias and noise (statistical, inconsistency) are two core concepts that people who talk out of their depth on AI frequently run afoul of. The difference between the two is critical to understanding what simple AI like LLMs and RL fundamentally can and can't do.
