@@ -1,5 +1,5 @@
 ---
-title: "327 - Anthropormorphic Claims"
+title: "327 - Anthropomorphic Claims"
 layout: essay.njk
 date: "2025-06-03"
 ---
