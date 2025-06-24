@@ -1,5 +1,5 @@
 ---
-title: "336 - Essay"
+title: "336 - Sources of Credibility"
 layout: essay.njk
 date: "2025-06-21"
 ---
