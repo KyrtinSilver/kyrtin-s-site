@@ -17,7 +17,7 @@ Most people appear quite happy to test these things, as it falls loosely into th
 
 Among those who do test, most only test once, and many of those paraphrase, not using exact wording. This produces a narrow distribution of possible outputs any time code isn’t invoked for the “random” task, but a very wide range of reactions from the humans interpreting said data.
 
-Most landed on 27 consistently at the start, gradually declining in frequency, though still remaining fairly high. Among those who didn’t, I’d estimate that perhaps ~20% of them quickly leapt to their own easily debunked conclusions, most obviously having not actually read the post or adjacent comments. This is consistent with “Your Brain on ChatGPT” and related findings in papers, where individuals may be suffering from “cognitive atrophy”, or it could simply be the elevated levels of more typical cognitive biases for other reasons. 
+Most landed on 27 consistently at the start, gradually declining in frequency, though still remaining fairly high. Among those who didn’t, I’d estimate that perhaps ~20% of them quickly leapt to their own easily debunked conclusions, most obviously having not actually read the post or adjacent comments. This is consistent with [“Your Brain on ChatGPT”](https://arxiv.org/abs/2506.08872) and related findings in papers, where individuals may be suffering from “cognitive atrophy”, or it could simply be the elevated levels of more typical cognitive biases for other reasons. 
 
 Only 3 true trolls appeared, requiring me to block them, while the vast majority of people favored actual conversations, a few of which proved interesting. 
 

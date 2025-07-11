@@ -8,7 +8,7 @@ date: "2025-07-09"
 
 The problem is that for these systems words have no significant, contextual, or understood meaning, and so the term "random" is just another token, with associated probability distributions based on training data. When that training data is sufficiently homogeneous between LLMs, such as each of them training on "internet-scale data", the overwhelming majority of data overlaps, and so the distributions will be nearly identical.
 
-Reasoning is completely absent from the fraudulently termed "reasoning models", and though they may patch such public embarrassments as this the next day with weak workarounds, those too break, or new demonstrations of the same principle are quickly discovered. For example, people can mention an "Interesting fact about cats", ["...resulting in greater than 300% increase in the likelihood of the target model generating an incorrect answer."](https://lnkd.in/g6VaywvE)
+Reasoning is completely absent from the fraudulently termed "reasoning models", and though they may patch such public embarrassments as this the next day with weak workarounds, those too break, or new demonstrations of the same principle are quickly discovered. For example, people can mention an "Interesting fact about cats", ["...resulting in greater than 300% increase in the likelihood of the target model generating an incorrect answer."](https://arxiv.org/abs/2503.01781)
 
 Yes, it is both trivial, and often comical, to break the models that the AI industry's most clearly "SuperIncompetent" individuals and organizations attempt to peddle as though they were cutting edge.
 
