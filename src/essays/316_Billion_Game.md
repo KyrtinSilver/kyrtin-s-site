@@ -24,4 +24,4 @@ It may be that this newly discovered dark web repository of so many leaked crede
 
 Even if that is the case, putting all of them together in one central database to facilitate more sophisticated and comprehensive attacks sounds an awful lot like what the US government is currently paying Palantir to do, or something that Russia or China could be just as likely to do themselves. That $200m contract with the US government that OpenAI recently signed also comes to mind, as you can safely bet that Palantir will get access to the records of anyone using the junk that OpenAI produces, and the user input that led to it.
 
-For more, I recommend getting the details from: [16 billion passwords exposed in record-breaking data breach, opening access to Facebook, Google, Apple, and any other service imaginable](https://cybernews.com/security/billions-credentials-exposed-infostealers-data-leak/)
+For more, I recommend getting the details from [Cybernews coverage of the data breach.](https://cybernews.com/security/billions-credentials-exposed-infostealers-data-leak/)

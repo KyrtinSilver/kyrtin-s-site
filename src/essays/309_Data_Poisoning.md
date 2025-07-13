@@ -4,7 +4,7 @@ layout: essay.njk
 date: "2025-06-05"
 ---
 
-If data is your thing (or RAG), here is a bit of poison. As another paper from my backlog (2024) illustrates anew, LLM-based systems, with or without RAG, "agentic" (BS) capacities, or other things duct-taped to them, remain fundamentally vulnerable-by-design in cybersecurity terms. [AgentPoison: Red-teaming LLM Agents via Poisoning Memory or Knowledge Bases](https://arxiv.org/abs/2407.12784)) (Please ignore the industry-standard levels of Anthropomorphism)
+If data is your thing (or RAG), here is a bit of poison. As another paper, ["AgentPoison,"](https://arxiv.org/abs/2407.12784) from my backlog (2024) illustrates anew, LLM-based systems, with or without RAG, "agentic" (BS) capacities, or other things duct-taped to them, remain fundamentally vulnerable-by-design in cybersecurity terms (please ignore the industry-standard levels of anthropomorphism).
  
 > "Such special design endows AGENTPOISON with high ASR (Attack Success Rate) even when we inject only one instance in the knowledge base with a single-token trigger."
  
