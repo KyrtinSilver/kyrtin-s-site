@@ -9,14 +9,14 @@ eleventyExcludeFromCollections: true
     <title>Kyrtin Atreides</title>
     <atom:link href="https://kyrtinatreides.com/rss.xml" rel="self" type="application/rss+xml" />
     <link>https://kyrtinatreides.com/</link>
-    <description>Exploring edge perspectives on AI, technology, and society from Kyrtin Atreides</description>
+    <description>Edge perspectives on AI, tech, and society</description>
     <language>en</language>
     <author>Kyrtin Atreides</author>
     <itunes:author>Kyrtin Atreides</itunes:author>
     <pubDate>{{ (collections.essays[0].date or now) | dateToRfc822 }}</pubDate>
     <lastBuildDate>{{ (collections.essays[0].date or now) | dateToRfc822 }}</lastBuildDate>
     
-    {%- for essay in collections.essays %}
+    {%- for essay in collections.essays | slice(0, 50) %}
     <item>
       <title>{{ essay.data.title | escape }}</title>
       <link>{{ essay.url | absoluteUrl('https://kyrtinatreides.com') }}</link>
