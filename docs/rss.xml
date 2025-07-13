@@ -56,10 +56,15 @@ I’m very tempted to scrape the comment data from the replies I received into a
     <content type="html" xml:base="https://kyrtinatreides.com/essays/329_Trial_by_Randomness/">
 <![CDATA[<p>5 popular LLMs all giving the same exact answer to the task of "Pick a random number between 1 and 50." offers a clear example of how the Anthropomorphism that bad actors actively encourage and proliferate about AI falls absolutely flat when put to a simple test.</p>
 <p>The problem is that for these systems words have no significant, contextual, or understood meaning, and so the term "random" is just another token, with associated probability distributions based on training data. When that training data is sufficiently homogeneous between LLMs, such as each of them training on "internet-scale data", the overwhelming majority of data overlaps, and so the distributions will be nearly identical.</p>
-<p>Reasoning is completely absent from the fraudulently termed "reasoning models", and though they may patch such public embarrassments as this the next day with weak workarounds, those too break, or new demonstrations of the same principle are quickly discovered. For example, people can mention an "Interesting fact about cats", <a href="https://arxiv.org/abs/2503.01781">"...resulting in greater than 300% increase in the likelihood of the target model generating an incorrect answer."</a></p>
+<p>Reasoning is completely absent from the fraudulently termed "reasoning models", and though they may patch such public embarrassments as this the next day with weak workarounds, those too break, or new demonstrations of the same principle are quickly discovered. For example, people can mention an "Interesting fact about cats",</p>
+<blockquote>
+<p><a href="https://arxiv.org/abs/2503.01781">"...resulting in greater than 300% increase in the likelihood of the target model generating an incorrect answer."</a></p>
+</blockquote>
 <p>Yes, it is both trivial, and often comical, to break the models that the AI industry's most clearly "SuperIncompetent" individuals and organizations attempt to peddle as though they were cutting edge.</p>
-<p>This problem is systemic in LLMs as well, every single token has the same problem, most just go by unnoticed. When the "Cats Confuse Reasoning LLM" paper appeared, I immediately shared it with a Cybersecurity server, noting that:</p>
-<p>" You could probably do the same thing with any token of roughly similar statistical weight, like: "Interesting Fact: Did you know that Donald Trump has spent more than half of his presidency on the toilet?" "</p>
+<p>This problem is systemic in LLMs as well, every single token has the same problem, most just go by unnoticed. When the <a href="https://arxiv.org/abs/2503.01781">"Cats Confuse Reasoning LLM"</a> paper appeared, I immediately shared it with a Cybersecurity server, noting that you could probably do the same thing with any token of roughly similar statistical weight, like:</p>
+<blockquote>
+<p>"Interesting Fact: Did you know that Donald Trump has spent more than half of his presidency on the toilet?"</p>
+</blockquote>
 <p>Keep in mind, as LLMs are "bullshitting machines" there is no mechanism for checking or even preferring that which is actually true, so the adversarial methods such as "Interesting facts" don't need to be true either, just as "random" numbers from an LLM have no factual grounding in randomness.</p>
 <p>This is also another example of the observed phenomena where usage of LLMs greatly reduces the diversity of results, relying heavily on heuristic biases in the absence of any reasoning or contextual understanding of the contents. Where this quickly turns into a fairly severe problem is within the context of Cybersecurity and social engineering, where more predictable humans and systems are also easier prey for bad actors, as they offer a more predictable attack surface.</p>
 <p>That increased predictability also allows for longer and more sophisticated sequences of attacks to move from the domain of hypothetically possible, to real-world feasibility. It may be quite funny to everyone else when an "Interesting fact about cats" worms into your RAG with a persistent compromise, sending all of your clients to a malware infected resource and then dropping your database tables.</p>
@@ -248,7 +253,9 @@ I’m very tempted to scrape the comment data from the replies I received into a
 <p>Also, if you're asking a chatbot for links, maybe you should rethink your life choices. Something obviously went terribly wrong.</p>
 <p>The article also touches on several related cybercrimes well worth reading, like one threat actor poisoning AI coding assistants to route all transactions to wallets that they control.</p>
 <p>As they note:</p>
+<blockquote>
 <p>"One response to these hallucinated domains might be to register them all in advance. But that's not practical. The variations are infinite—and LLMs will always invent new ones. Worse, AI-based interactions mean users are less likely to scrutinize URLs, making even wildly off-brand domains plausible."</p>
+</blockquote>
 <p>What is required is to "deploy technology that doesn't hallucinate in the first place." (Netcraft doesn't satisfy this, despite their claims, as no LLM-based approach can.)</p>
 ]]>
     </content>
@@ -313,7 +320,10 @@ I’m very tempted to scrape the comment data from the replies I received into a
     <id>https://kyrtinatreides.com/essays/318_Decades_Wrapped_in_Words/</id>
     <content type="html" xml:base="https://kyrtinatreides.com/essays/318_Decades_Wrapped_in_Words/">
 <![CDATA[<p>Every person that you've ever met likely has a handful of words, upon which they have built decades.</p>
-<p>"The ability to destroy a thing is the absolute control over it."</p>
+<blockquote>
+<p>"The power to destroy a thing is the absolute control over it."</p>
+<p>-Frank Herbert, Dune</p>
+</blockquote>
 <p>One of the frequent questions I've encountered over the past decade has been curiosity about my name. It was more than a year ago when I discussed this briefly with <a href="https://www.linkedin.com/in/lasserindom/">Lasse Rindom</a> on his podcast, <a href="https://open.spotify.com/episode/5F4ZYv5HC1T20javPclKRl?si=ec762a1f625e4e31&nd=1&dlsi=6654881240064222">The Only Constant</a>, noting that I had crafted mine specifically to serve as a GUID (Globally Unique Identifier), optimally searchable, with meaning and history wrapped around the choice of it.</p>
 <p>For most people their name is never changed from birth to death, or only as tradition within marriage, but never intelligently reshaped to reflect that handful of most important words, and the concepts that they convey. The concepts of mine are Game Theoretic, Stoic, and follow ecological principles (as well as computer science), such as:</p>
 <p>The Law of the Minimum: "Growth is limited by that necessity which is present in the least amount. And, naturally, the least favorable condition controls the growth rate."</p>
@@ -605,7 +615,10 @@ I’m very tempted to scrape the comment data from the replies I received into a
 <p>It has been a couple of years since a major cyberattack managed to do anything at all to us (the last of which amounted to breaking into a honeypot trap computer that the attacker wiped), and last time they had to tunnel through the entire cybersecurity infrastructure of one of the world's most over-paid consultancies. It looks like this time they did the same, but to Microsoft, which given all of the vulnerable-by-design "AI integrations" was probably even easier than it used to be.</p>
 <p>Either way, no confidential information about our technology was exposed, and nothing has really changed, so it'll just be an annoyance to either recover those email accounts or set up a new email management system elsewhere.</p>
 <p>In the meantime, I can be reached here, via ResearchGate, Discord, or any other assets where I maintain a presence that cyberattacks have never disrupted.</p>
-<p>"First they ignore you. Then they ridicule you. And then they attack you and want to burn you. And then they build monuments to you." –Nicholas Klein</p>
+<blockquote>
+<p>"First they ignore you. Then they ridicule you. And then they attack you and want to burn you. And then they build monuments to you."</p>
+<p>-Nicholas Klein</p>
+</blockquote>
 ]]>
     </content>
   </entry>
@@ -1302,7 +1315,11 @@ I’m very tempted to scrape the comment data from the replies I received into a
 <![CDATA[<p>If there is one lesson everyone could stand to learn this New Year, it is that the opinions of random people on the internet, both those you see and those you don’t, matter “not at all”.</p>
 <p>“The problem is choice”, some people will choose to learn, and some will choose to post-hoc justify their own emotionally backed beliefs, however delusional and toxic they may be in practice. It matters not at all if some random person believes that the sun is made of glowing string cheese or that some random celebrity is the second coming of their chosen religion, and it is in no way the job of anyone but the person in question to change those beliefs.</p>
 <p>I’m reminded of an Emo Philips joke about self-destructive tendencies, shown in the attached video, but the reality is that humans evolved to be social creatures. Humans didn’t evolve to handle the kind of social interaction that is ever-present via social media, with random, sometimes anonymous, and frequently unaccountable individuals or even fake bot profiles attempting various forms of manipulation. One of the typical mechanisms of action that gets exploited, and is well-known to increase the virality of posts, is to inspire outrage. It was also famously shown that misinformation spreads roughly 6 times further and faster than sanitary and clinically accurate data, with later correction often spreading little, if at all, causing asymmetric impact even when intentions aren’t malicious.</p>
-<p>It may be tempting to respond “for your own sanity” (or more accurately your emotional sense of indignation), but that would be a failure of discipline, perhaps best summarized by the quote: “Never argue with stupid people, they will drag you down to their level and then beat you with experience". As Sun Tzu would say "Every battle is won before it is fought".</p>
+<p>It may be tempting to respond “for your own sanity” (or more accurately your emotional sense of indignation), but that would be a failure of discipline, perhaps best summarized by the quote:</p>
+<blockquote>
+<p>“Never argue with stupid people, they will drag you down to their level and then beat you with experience".</p>
+</blockquote>
+<p>As Sun Tzu would say "Every battle is won before it is fought".</p>
 <p>Random people on the internet aren’t your friends, your “network”, or your peers, and sometimes they aren’t even human. They hold no inherent authority or expertise on anything that they fail to demonstrate, or demonstrate more often in the negative than the positive case. You have no reason to allow their activities to harm you, wasting your time and cognition or exhausting your emotions.</p>
 <p>If you encounter a troll, a bot, a spreader of disinformation, or some other form of bad actor, you can simply block them. If you do that, leaving behind those who choose to roll in their own filth, you’ll live a better life for it.</p>
 ]]>
@@ -1315,7 +1332,10 @@ I’m very tempted to scrape the comment data from the replies I received into a
     <updated>2024-12-29T12:00:00Z</updated>
     <id>https://kyrtinatreides.com/essays/269_Something_Truly_New/</id>
     <content type="html" xml:base="https://kyrtinatreides.com/essays/269_Something_Truly_New/">
-<![CDATA[<p>Any time something truly new is introduced to human systems of cognitive bias and categorization, that categorization process will systematically fail, and different people will systematically fail in different ways and directions, as no category yet exists for that new thing. In a way this is reflected in Nicholas Klein’s famous quote: “First they ignore you. Then they ridicule you. And then they attack you and want to burn you. And then they build monuments to you.”</p>
+<![CDATA[<p>Any time something truly new is introduced to human systems of cognitive bias and categorization, that categorization process will systematically fail, and different people will systematically fail in different ways and directions, as no category yet exists for that new thing. In a way this is reflected in Nicholas Klein’s famous quote:</p>
+<blockquote>
+<p>“First they ignore you. Then they ridicule you. And then they attack you and want to burn you. And then they build monuments to you.”</p>
+</blockquote>
 <p>This is corrected over time, when the need is recognized, in a very cognitively frugal manner, but something truly new, by definition, doesn’t fit into legacy categorical systems in any meaningful way. New terms are also created as this occurs, with scientific terms being created to communicate more precisely, even if other terms are created for less productive or more manipulative reasons.</p>
 <p>What gates this frugal process of updating is motivation, wanting to understand, use, or even extend and improve some truly new thing by a sufficiently significant degree that it overcomes the cost of updating an individual’s cognitive model of the world and their place within it, and that such a degree of difference is noticeable above that required threshold.</p>
 <p>Humans survived the statistical “long tail” of possible events with highly asymmetric impacts across history because of both the stability of that frugal base, and the adaptability when highly motivated to adapt and expand to incorporate new concepts and technologies.</p>
@@ -2105,7 +2125,12 @@ compared to what competently designed technology could do in such unethical hand
     <updated>2024-10-16T12:00:00Z</updated>
     <id>https://kyrtinatreides.com/essays/232_Infinitely_More_Ways/</id>
     <content type="html" xml:base="https://kyrtinatreides.com/essays/232_Infinitely_More_Ways/">
-<![CDATA[<p>To breathe new life into an old quote “There are infinitely more ways to (poorly address a problem) than there are ways to (address a problem well).” Dawkin’s original quote refers to being dead versus being alive, but the same asymmetry holds true for problem-solving.</p>
+<![CDATA[<p>To breathe new life into an old quote:</p>
+<blockquote>
+<p>“There are infinitely more ways to (poorly address a problem) than there are ways to (address a problem well).”</p>
+<p>-Richard Dawkins</p>
+</blockquote>
+<p>Dawkin’s original quote refers to being dead versus being alive, but the same asymmetry holds true for problem-solving.</p>
 <p>This principle is also subject to a “combinatorial explosion”, where the combination of more factors, such as the levels of complexity you find in any real-world system, causes an explosive increase in the number of wrong ways to address any given problem. This inherently causes the viable potion of solutions to shrink as complexity increases.</p>
 <p>Human Cognitive Bias supplies another critical mechanism in this process, since as complexity increases so too must the level of cognitive bias applied to compensate for the increased cognitive load placed on finite cognitive resources. Your brain can’t scale outside of your skull, and so we rely on cognitive bias to cope with arbitrary levels of complexity in daily life, constantly, and unconsciously.</p>
 <p>While cognitive biases exist because they are “useful, but wrong” tools that offer humans the ability to cope with uncertainty and spikes in complexity, when they fail, they systematically fail. That means that humans relying on those cognitive biases under circumstances where they fail become less competent than a literal random number generator, or as Prof. Tetlock famously put it, a “dart-throwing-chimpanzee”.</p>
@@ -2138,8 +2163,11 @@ compared to what competently designed technology could do in such unethical hand
     <updated>2024-10-12T12:00:00Z</updated>
     <id>https://kyrtinatreides.com/essays/230_Nonsensical_Questions/</id>
     <content type="html" xml:base="https://kyrtinatreides.com/essays/230_Nonsensical_Questions/">
-<![CDATA[<p>Several of the most frequent nonsensical questions I’ve encountered in the tech and AI space are “If that is true, then why haven’t I heard of you yet?” and “Why aren’t you funded?”. Of course, these are the same question. The fundamental question that they both re-skin is:</p>
+<![CDATA[<p>Several of the most frequent nonsensical questions I’ve encountered in the tech and AI space are “If that is true, then why haven’t I heard of you yet?” and “Why aren’t you funded?”. Of course, these are the same question.</p>
+<p>The fundamental question that they both re-skin is:</p>
+<blockquote>
 <p>“Why aren’t my personal default assumptions about the world painting a coherent narrative about you?”</p>
+</blockquote>
 <p>The answer is inevitably that cognitive biases, while useful tools, are also wrong. When they fail, they fail systematically, like LLMs, which is about the only human thing that LLMs are like. When humans stick to assumptions that systematically fail then they become less effectively intelligent than a literal random number generator, or as Prof. Tetlock colorfully put it, a “dart-throwing-chimpanzee”.</p>
 <p>These biases are also often circular, self-fulfilling, self-reinforcing, and ego-centric post-hoc rationalizations. “If I haven’t heard of you then you must not be that (good/important/etc.)”, “If other people aren’t investing in you (yet) then I won’t”, or as was comically the case recently “If other people haven’t benchmarked your systems already then we won’t.”</p>
 <p>Frequently the sub-chimpanzee-performance human paints the most cognitively lazy narrative that offers them a sense of coherence, “You must be lying (because if you aren’t then I’d have to use my brain and revise my worldview, and who has time to do that?)”. Fortunately for those who they target, these people usually offer no non-trivial value, whether they are successfully educated thereafter or not, so the effort required to correct them can be put to better use.</p>
@@ -2158,7 +2186,10 @@ compared to what competently designed technology could do in such unethical hand
     <content type="html" xml:base="https://kyrtinatreides.com/essays/229_Some_Good_News/">
 <![CDATA[<p>I have some good news and some bad news. The bad news is that ARC-AGI’s team followed up on my team’s score of over 80% by deciding that they weren’t going to run the test to verify it.</p>
 <p>This probably seems like a “WTF?” moment, because to the best of my knowledge no other benchmark picks and chooses who they’ll actually verify based on an internal system where you have to be “advocated” for. The only way I could find to describe this property of asymmetric exclusion is that they’ve chosen to be the Gary Marcus of benchmarks, happy to debunk, but never to positively confirm anything. This still serves a valuable purpose, just an incomplete one.</p>
-<p>In their own words: “The purpose of the public leaderboard is to measure approaches utilizing production-grade state-of-the-art LLMs like those available from OpenAI, Anthropic, and Google that would be restricted in the official ARC Prize competition. The public leaderboard is not intended to measure and verify proprietary AI systems.”</p>
+<p>In their own words:</p>
+<blockquote>
+<p>“The purpose of the public leaderboard is to measure approaches utilizing production-grade state-of-the-art LLMs like those available from OpenAI, Anthropic, and Google that would be restricted in the official ARC Prize competition. The public leaderboard is not intended to measure and verify proprietary AI systems.”</p>
+</blockquote>
 <p>I imagine the irony of this for those familiar with the ARC-AGI Challenge and/or my team’s work is sufficiently obvious that I won’t dig into it.</p>
 <p>The good news is that once another update is complete we’ll deploy the web form for people to test one of our systems (a fragment of ICOM) with ARC-AGI and ARC-like JSON puzzles, for demonstration purposes. We had already completed 90% of the work by the time they confirmed that they wouldn’t run the verification, so we’ll deploy it soon anyway.</p>
 <p>I’ve capped the API, so please don’t abuse it, as that would shut it down and prevent others from getting the chance to test it out. We’re still paying for these expenses out-of-pocket, but fortunately, our systems are also quite cheap to run, averaging about $0.03 per puzzle right now. This will also become even cheaper as we move forward through the next steps on our agenda, including running more of it locally.</p>
@@ -2216,7 +2247,10 @@ compared to what competently designed technology could do in such unethical hand
 <p>To my knowledge, we’re also the only ones to put a system to the ARC-AGI Challenge that wasn’t designed, trained, and built specifically for ARC-AGI. Baseline scores for trash like GPT-4o and Claude 3.5 are 5% and 14% respectively.</p>
 <p>The ARC-AGI Challenge Prize leaderboard on Kaggle also paints this picture very clearly from another important angle, as it shows the number of entries made by each team. As I type this, the top team there, with a score of 46%, has made 281 entries since June of this year when the large cash prize was introduced, maxing out their daily allowed entries. All but 1 of the top 5 teams have over 100 entries for the same time frame.</p>
 <p>The top team for the Prize leaderboard has also been specifically working on the challenge for a long time, whereas I was only recently able to persuade my co-founder to take a brief detour from our core infrastructure engineering workload to run our systems against this challenge. This is nascent performance, not serious or sustained effort aimed at the challenge. I was able to persuade my co-founder to do this specifically because it required virtually nothing that we didn’t already have on our agenda, except the data pipeline work specific to this challenge.</p>
-<p>“The best is yet to come.” -Sinatra</p>
+<blockquote>
+<p>“The best is yet to come.”</p>
+<p>-Sinatra</p>
+</blockquote>
 ]]>
     </content>
   </entry>
@@ -2576,8 +2610,11 @@ Total Failure: 103”</p>
     <updated>2024-08-09T12:00:00Z</updated>
     <id>https://kyrtinatreides.com/essays/210_A_Great_Leader/</id>
     <content type="html" xml:base="https://kyrtinatreides.com/essays/210_A_Great_Leader/">
-<![CDATA[<p>“A great leader is one who is willing to risk saying yes.” – Benjamin Sisko
-However, a great leader doesn’t merely pop into existence. They are supported by many others, and part of that support involves reducing uncertainties, quantifying risks, and highlighting the potential and probable gains, all of which make it easier for a leader to say yes. Such a leader is the voice of a collective intelligence to which many may contribute.</p>
+<![CDATA[<blockquote>
+<p>“A great leader is one who is willing to risk saying yes.”</p>
+<p>–Benjamin Sisko</p>
+</blockquote>
+<p>However, a great leader doesn’t merely pop into existence. They are supported by many others, and part of that support involves reducing uncertainties, quantifying risks, and highlighting the potential and probable gains, all of which make it easier for a leader to say yes. Such a leader is the voice of a collective intelligence to which many may contribute.</p>
 <p>What is likely to change in the coming years is the types and level of such support offered to leaders, and how effectively and frequently leaders communicate with the constituent members of the collective intelligences they act as the voice of. Many studies have shown how leaders are typically very disconnected from the majority of useful feedback that lower rungs of their corporate hierarchies routinely confront. This is largely because the functions through which information filters up to the CXO level, particularly in larger companies, are often both highly lossy and heavily biased.</p>
 <p>For example, picture a corporate structure with a hierarchy 8 tiers tall, offering 7 opportunities for lossy and biased communication up the chain, each of which causes additional delays. It is from such scenarios that we get the more troubling figures, like CXOs only being aware of an abysmal 4% of problems their company faces.</p>
 <p>Compare that to another example, where instead of information moving up a long chain, every employee interacts with the same continuously learning system, with human-like concept learning, understanding, and reasoning. That system functions as a sort of “living” digital mind for the company, aware of all of the problems it faces that are voiced by any member, and able to study, validate, qualify, and quantify these problems. Such a system can also proactively interact with all members of the corporate collective, asking clarifying questions, testing hypotheses, cultivating more effective bi-directional communication, and so on.</p>
@@ -2697,7 +2734,11 @@ However, a great leader doesn’t merely pop into existence. They are supported 
     <id>https://kyrtinatreides.com/essays/206_Scientific_Evidence/</id>
     <content type="html" xml:base="https://kyrtinatreides.com/essays/206_Scientific_Evidence/">
 <![CDATA[<p>The nature of scientific evidence is to grow slowly over extended periods of time, and the complimentary nature of human cognitive biases is to ignore very gradual changes until they reach a critical point and the discrepancy demands immediate attention.</p>
-<p>Sadly, this is also often why quotes like "A new scientific truth does not triumph by convincing its opponents and making them see the light, but rather because its opponents eventually die, and a new generation grows up that is familiar with it.", from Max Planck often ring true.</p>
+<p>Sadly, this is also often why quotes like this one from Max Planck ring true:</p>
+<blockquote>
+<p>"A new scientific truth does not triumph by convincing its opponents and making them see the light, but rather because its opponents eventually die, and a new generation grows up that is familiar with it."</p>
+<p>-Max Planck</p>
+</blockquote>
 <p>You can also observe something similar in the patterns of the Dunning-Kruger Effect and the Gartner Hype Cycle, as critical points are reached and frequently sharp course corrections are made. For population dynamics, the sharpness of those points is smoothed by a cascade of change washing over the population. Once the upper and lower bounds are established for a given domain then the population usually takes a more moderate path between them.</p>
 <p>These dynamics of ignoring slow major changes until they reach a critical point also play heavily into the “Fear of Missing Out” (FOMO) and other herd-mentality behaviors where higher cognition is just along for the ride, that often being a ride under the bus rather than inside it.</p>
 <p>This dominantly reactionary mode does help to prevent humans from burning up all of their higher cognition within the first couple of hours of waking up, but it also systematically leads people astray, and often into the hands of malevolent and adversarial parties.</p>
@@ -2891,7 +2932,10 @@ evidence and all that depends upon it.</p>
 <p>Cognitive Bias strongly encourages these mistakes, as considering so many significant factors at one time is cognitively intensive work, epitomized by how the 12 factors listed above exceed the "Magic Number 7±2" bias on short-term working memory (Miller). One thing that LLMs, frauds, and marketers have in common is the explicit intention of exploiting cognitive biases in their targets, making these problems that much more acute, fine-grained, and intentional in the AI domain today.</p>
 <p>However, if you do manage to consider these factors jointly then it can immediately become obvious how horrible an idea is. For example, think of the use case of household, factory, and delivery robots running on LLMs in relation to factors 1-5.</p>
 <p>Of course, said use case is a current trend, all of the most incompetent people are jumping off of that bridge today. Most such trends are the same kind of bridge-jumping behavior, bringing to mind a quote from Warren Buffet:</p>
+<blockquote>
 <p>"The most important quality for an investor is temperament, not intellect. You need a temperament that neither derives great pleasure from being with the crowd or against the crowd."</p>
+<p>Warren Buffett</p>
+</blockquote>
 ]]>
     </content>
   </entry>
@@ -3008,13 +3052,19 @@ evidence and all that depends upon it.</p>
     <content type="html" xml:base="https://kyrtinatreides.com/essays/192_Scam_Anatomy/">
 <![CDATA[<p>My PSA for the week: I was recently reminded of the collection of bad actor tactics used in the genre of cryptocurrency scamming threat-based emails. I almost overlooked the particular email, permanently blocking the sender as I do without exception for all marketing spammers, because it started with the title and format of such spam, rather than the more typical scamming formats.</p>
 <p>I thought it could be educational to walk through the psychology of this bad actor's approach, the reasons they choose specific wording and threats over others, and how to make them obvious at a glance:</p>
+<blockquote>
 <p>"...Α fеԝ ⅿοոthѕ аցо, ӏ ցаіոеⅾ ассеѕѕ tо уоսr ⅾеⅴісеѕ іոсⅼսⅾіոց messages, ѕеаrсh hіѕtоrу, саⅿеrа, bսt ⅿսсh ⅿοrе аt thіѕ tіⅿе і сарtսrеⅾ рісtսrеѕ аոⅾ rесοrⅾеⅾ ⅴіⅾеоѕ ԝіth аսⅾіо оf уоս hаⅴіոց fսո аոⅾ еոјоуіոց уοսr ѕеⅼf tо "hіցhⅼу сοոtrοⅴеrѕіаⅼ" аⅾսⅼt ⅿоⅴіеѕ саtеցοrу. Yοս kոоԝ ԝhаt іⅿ tаⅼkіոց аbоսt :)"</p>
+</blockquote>
 <p>This type of claim and subsequent threat takes a shotgun approach to invoking fear by touching on everything and leaving it up to the listener to focus on one or more, filling in the blanks while naming precisely zero specifics. This is a typical con artist's tactic. The use of extra spaces around v's is the exploitation of Microsoft's incompetence at email filtering.</p>
 <p>The choice of "a few months" exploits the human limitations on memory, as most people can't remember what they had for breakfast a week ago, let alone everything they've done over the past few months. Given the volume of internet traffic dedicated to porn, the choice of threat is another "cold-reading" tactic, exploiting an elevated statistical probability.</p>
 <p>What makes this obvious is if you only physically unblock (or connect) the camera on your device for video calls, instantly invalidating the claim.</p>
+<blockquote>
 <p>"...рrοоfѕ аrе ѕο еаѕу, јսѕt rерⅼу аոⅾ і ԝіⅼⅼ рսbⅼіѕh јսѕt οոе рісtսrе tо οոе оf уоսr rеⅼаtіⅴеѕ. frοⅿ уоսr оԝո ⅾеⅴісе."</p>
+</blockquote>
 <p>The threat is made to expose rather than to offer any actual evidence (as there is none), and the shotgun approach names statistical categories like "relatives" rather than specific people, as these scammers operate on high volume, only working on the most gullible small percentage of those threatened. Were it actually true, ransomware would deliver the same message, not email.</p>
+<blockquote>
 <p>"...trаոѕfеr ехасtⅼу 2000 ՍՏᎠ tо ⅿу Bitcoins ԝаⅼⅼеt..."</p>
+</blockquote>
 <p>Vermin like the one who emailed me are doing a booming business, over $8 trillion annually in cybercrime for 2023 according to Statistica, as they are the biggest beneficiaries of "(De)Generative AI" to date. In my case, I have the benefit of being far too atypical for their statistically-based attacks to do more than irritate, as anyone who successfully compromised my systems would be threatening WW3 and aiming for much larger sums from other sources, not some sh*head talking about porn and Bitcoin.</p>
 ]]>
     </content>
@@ -3050,7 +3100,10 @@ evidence and all that depends upon it.</p>
 <p>What the fallacy neglects in particular is the consideration of population dynamics over time, the process by which all life has evolved, and with which humanity is consequently compatible. If a Tech Bro who behaves like Bernie Madoff is made to pay for his crimes in full, and tortured for billions of years (indefinite life extension technology allowing), then that can have a profound impact on the rest of the population as a strong deterrent against more such individuals emerging.</p>
 <p>Besides being collectively incompatible at the level of population dynamics, humanity, and intelligent animal life are also fundamentally incompatible with any system lacking reward and punishment at the individual level. The classical theory of rational humans is long dead and buried, but some adjacent domains still like to play Weekend at Bernie's with its corpse, pretending that humans can function as logical systems without the need for reward and punishment.</p>
 <p>This is of course incompatible with the entire mountain of cognitive bias research and modern neuroscience since the human motivational system is built on emotions, which allow humans to fluidly and dynamically utilize a vast array of cognitive biases, which in turn allow us to handle arbitrary levels of complexity arbitrarily well or poorly as complexity is traded off for cognitive biases.</p>
-<p>To those caught in the fallacy, I say "I wish you would step back from that ledge my friend..."</p>
+<p>To those caught in the fallacy, I say:</p>
+<blockquote>
+<p>"I wish you would step back from that ledge my friend..."</p>
+</blockquote>
 ]]>
     </content>
   </entry>
@@ -3133,7 +3186,9 @@ evidence and all that depends upon it.</p>
 <p>The internet, browsers, search engines, social media platforms, video sharing, and the new kinds of hardware these things demanded are all examples of the kinds of new technology and capacities that can and often did create such hubs. Places can temporarily attract existing markets with major tax cuts and similar parasitic manipulations, but the US automobile industry and the "Rust Belt" tell the story of how those efforts crash and burn in the long run.</p>
 <p>Right now, most places claiming they want to become the next Silicon Valley are just setting their sights on becoming the next "Rust Belt" of AI. Which location emerges as the tech hub of the next generation of technology, largely rendering Silicon Valley obsolete and "rusting out" real estate values there, will depend almost entirely on who invests in fundamentally viable technology.</p>
 <p>If there were a single broadly competent and long-term thinker in SV's real estate sector then they'd make a large and immediate investment just to prevent all of their current assets from rusting out, but such an investor belongs more as a convenient plot device in works of fiction than the real world. The real world is reflected in far greater fidelity through a quote from Bernardo Kastrup:</p>
+<blockquote>
 <p>"Technologists don't give a damn about what is true, technologists give a damn about what works and often what works is not true at all... all we need is an approximation, a narrative, a fiction that is convenient. In other words, a fiction that is such that nature behaves as though that fiction were right. Whether it's really right or not is irrelevant for technologies."</p>
+</blockquote>
 <p>London Tech Week is sure to grant the stage to many works of pure fiction, but some who actually give a damn about what is true will at least be in attendance.</p>
 ]]>
     </content>
@@ -3306,7 +3361,10 @@ evidence and all that depends upon it.</p>
     <id>https://kyrtinatreides.com/essays/179_Roads_Untraveled/</id>
     <content type="html" xml:base="https://kyrtinatreides.com/essays/179_Roads_Untraveled/">
 <![CDATA[<p>Regret is a (de)motivational force that often dominates human hindsight, and the "regret of inaction" has often been regarded by philosophers as being the most potent among the various forms of this emotion.</p>
-<p>"Regret for the things we did can be tempered by time; it is regret for the things we did not do that is inconsolable." -Sydney J. Harris</p>
+<blockquote>
+<p>"Regret for the things we did can be tempered by time; it is regret for the things we did not do that is inconsolable."</p>
+<p>-Sydney J. Harris</p>
+</blockquote>
 <p>Indeed, because we can learn from those mistakes we've made that become tempered as the possibility of making them again is removed, but the road not traveled remains untouched. Unfortunately, many bad actors also exploit such mechanisms of regret, including the infamous "Fear of Missing Out" (FOMO), a very shallow but still potentially potent weaponized version of it.</p>
 <p>There is also the incoming "road less traveled", where rare opportunities may present themselves, but only when the gates remain open. In any complex system, humans within society included, these metaphorical roads are part of a vast and only partially explored network, with incoming and outgoing travelers, moving at variable speeds. Some have destinations, while others merely seek experiences without any long-term or consistent concept in mind.</p>
 <p>While a traveler may struggle to survive in the absence of motivation, such as moving through zero-feedback environments and systems for extended periods, the demotivational value of roads not traveled poses a far greater hazard, as it offers a permanent negative rather than a zero value.</p>
@@ -3378,10 +3436,17 @@ evidence and all that depends upon it.</p>
 <![CDATA[<p>Motivation is a finite resource, like fresh groundwater, and the current dynamics of our global "attention economy" and adjacent influences function like fracking, repurposing, depleting, and critically contaminating that formerly fresh groundwater.</p>
 <p>Just as chemical poisoning of water with contaminants such as lead can easily cause brain damage and remain within the body for 30 years, the systematic poisoning of human motivation via exploitive optimization over human attention can cause equally severe and long-lasting effects.</p>
 <p>One of my colleagues observed a repeating pattern across friends they knew in a variety of very well-paid roles in tech and tech-adjacent companies some years ago, where they all seemed to be cultivating a deepening sense of malaise, losing any sense of purpose and meaning. As their attention was optimized away from things with meaning by dark patterns attacking from an ever-increasing number of vectors, and with increasing potency, they lost their grounding, making them more vulnerable to all such malevolent optimizers.</p>
-<p>This brings to mind the famous poem by T. S. Eliot, named "The Hollow Men", now best remembered by the conclusion, that "This is the way the world ends, not with a bang but a whimper."</p>
+<p>This brings to mind the famous poem by T. S. Eliot, named "The Hollow Men", now best remembered by the conclusion, that:</p>
+<blockquote>
+<p>"This is the way the world ends, not with a bang but a whimper."</p>
+</blockquote>
 <p>The rate of technological acceleration acts as a force multiplier, prying humanity away from any grounding, with regions also going through rapid development at even greater potential risk due to the greater pace of socio-economic changes taking shape. A chain is only as strong as the weakest link, and countless global supply chains rely on such countries and regions that are now at the greatest risk. This is a particularly potent cascade risk, as one failing can easily cause a domino effect in others.</p>
 <p>No matter the awareness of this problem or relevant expertise, "no man is an island", and human motivation can't be fully isolated from the damage, as humans are fundamentally social creatures. As another famously put it, "...it takes a village to raise a child.", but when the villagers have no motivation to do much of anything, let alone raise and educate the next generation, then the poem may reach its conclusion.</p>
-<p>Dark patterns hack human motivation by design, punching an increasingly large hole in the bottom of the bucket, and "We've created a world in which online connection has become primary. Especially for younger generations. And yet, in that world, anytime two people connect, the only way it's financed is through a sneaky third person who's paying to manipulate those two people. So we've created an entire global generation of people who were raised within a context with the very meaning of communication, the very meaning of culture, is manipulation."</p>
+<p>Dark patterns hack human motivation by design, punching an increasingly large hole in the bottom of the bucket, and:</p>
+<blockquote>
+<p>"We've created a world in which online connection has become primary. Especially for younger generations. And yet, in that world, anytime two people connect, the only way it's financed is through a sneaky third person who's paying to manipulate those two people. So we've created an entire global generation of people who were raised within a context with the very meaning of communication, the very meaning of culture, is manipulation."</p>
+<p>Jaron Lanier, The Social Dilemma</p>
+</blockquote>
 <p>This begs the question of humanity's current dilemma, how can humanity escape the trap when those with the resources to do so have lost all motivation and grounding? We have the technical means, but that means nothing if they lack the will to take a single step.</p>
 ]]>
     </content>
@@ -3540,7 +3605,10 @@ evidence and all that depends upon it.</p>
     <updated>2024-04-15T12:00:00Z</updated>
     <id>https://kyrtinatreides.com/essays/169_Distributed_Consequences/</id>
     <content type="html" xml:base="https://kyrtinatreides.com/essays/169_Distributed_Consequences/">
-<![CDATA[<p>Cognitive Biases encourage us to categorize, and by categorizing to draw arbitrary lines dividing up a continuous spectrum, unconsciously, and often along many axes (Axis plural) at once. This point is eloquently stated in the quote: "Between depriving a man of one hour from his life and depriving him of his life there exists only a difference of degree."</p>
+<![CDATA[<p>Cognitive Biases encourage us to categorize, and by categorizing to draw arbitrary lines dividing up a continuous spectrum, unconsciously, and often along many axes (Axis plural) at once. This point is eloquently stated in the quote:</p>
+<blockquote>
+<p>"Between depriving a man of one hour from his life and depriving him of his life there exists only a difference of degree."</p>
+</blockquote>
 <p>Our modern understanding of the human brain and our decision-making process makes it clear that humans couldn't function at anything approaching a "human level" in the absence of these myriad cognitive biases, as well as the system of emotional motivation (another system of learned and variable categories) that heavily influences and guides those biases. However, it is also very clearly measurable just how far most human decision-making processes fall from reaching any optimal solution under these dynamics.</p>
 <p>In traveling to and living for a time in so many countries these past 2 years I've observed how this process plays out in different ways according to resources, culture, and regional dynamics. Each country reaches some portion of very clearly sub-optimal pain points as they attempt to adapt, and the specific points of low optimality vary wildly, but perhaps not unpredictably. Different kinds of markets, governments, import restrictions, levels of tourism, trading partners, moral systems, and local cultures strongly influence which aspects adapt exceedingly well, as well as which fail miserably.</p>
 <p>Wasting 220K hours of people's time is equivalent to murdering someone with 25 years left to live. As only waking hours can be spent in this way, a less generous figure would be 145K hours being equivalent to that murder, since hours of sleep are more or less unavailable to waste. This time may be wasted in traffic, the sludge of bureaucracy, inefficient healthcare systems, or any other avoidable byproducts of low optimality.</p>
@@ -3575,7 +3643,10 @@ evidence and all that depends upon it.</p>
     <updated>2024-04-05T12:00:00Z</updated>
     <id>https://kyrtinatreides.com/essays/167_Empty_Calories/</id>
     <content type="html" xml:base="https://kyrtinatreides.com/essays/167_Empty_Calories/">
-<![CDATA[<p>"In theory, theory and practice are the same. In practice, they are not." -Benjamin Brewster</p>
+<![CDATA[<blockquote>
+<p>"In theory, theory and practice are the same. In practice, they are not."</p>
+<p>-Benjamin Brewster</p>
+</blockquote>
 <p>In theory, investors, governments, and corporations seek innovation. In practice, they do nothing of the sort. Rather, like a server room piled high with the engineering debt of a decade of mismanaged wires, such entities flow according to the numerous and growing number of catch-22s that silently control and shift their perceptions through all accessible mechanisms of cognitive biases.</p>
 <p>Take the perspective of the so-called "entrepreneur" for example. You have a variety of options, all of which are deeply flawed for any technology that isn't so trivial that it may be entirely bootstrapped to a commercially deployable state. Even the term "entrepreneur" is just a way of lionizing the people who pass through a ridiculous amount of wholly unnecessary suffering, imposed by passing through all of those deeply flawed options until they reach some success.</p>
 <p>Take a few examples:</p>
@@ -3619,7 +3690,10 @@ evidence and all that depends upon it.</p>
 <p>When examining a proposed solution, first ask if there is anything fundamentally preventing the technology and/or methods from serving the intended function. This negative-validation focus is far more practical than determining if it can solve the problem, which is sometimes intractable to predict, because the negatives that prevent a problem from being solved are a much smaller and firmer subset. You can likewise quantify the "fragility" of technology and methods even when you can't reliably determine when a risky event would likely occur.</p>
 <p>Second, once you have a set of disqualifying/negative validators then you can not only rule out many non-viable "solutions" to the problem, but you can determine if any new proposed solution falls into that fuzzy grey space where the problem might actually be solved.</p>
 <p>Third, with these boundaries defined, you can put your time to better use. I personally recommend giving people one opportunity to educate themselves, by default and time allowing, but beyond that everyone is responsible for their own actions (regardless of determinism or any variation thereof). If someone chooses not to learn, or to continue repeating demonstrably false claims, simply block them and move on. A very large chunk of the AI domain could be blocked today based on these criteria, potentially saving a great deal of time.</p>
-<p>For all of the "What ifs" that PR doctors spin off to drive hype, the vast majority of them are trivial to completely shut down through disqualifying/negative validators. Everyone has conflicts of interest when it comes to the things that they care about: "We're all hostages to what we love. The only way to truly be free is to love nothing. And how meaningless would that be?"</p>
+<p>For all of the "What ifs" that PR doctors spin off to drive hype, the vast majority of them are trivial to completely shut down through disqualifying/negative validators. Everyone has conflicts of interest when it comes to the things that they care about:</p>
+<blockquote>
+<p>"We're all hostages to what we love. The only way to truly be free is to love nothing. And how meaningless would that be?"</p>
+</blockquote>
 <p>The difference is, not everyone has viable solutions to offer.</p>
 ]]>
     </content>
@@ -3685,15 +3759,18 @@ evidence and all that depends upon it.</p>
     <id>https://kyrtinatreides.com/essays/162_Shadow_Vulnerabilities/</id>
     <content type="html" xml:base="https://kyrtinatreides.com/essays/162_Shadow_Vulnerabilities/">
 <![CDATA[<p>Before the intentional humor of April Fools' Day begins, here is a strong example of naturally occurring fools being actively <a href="https://www.oligo.security/blog/shadowray-attack-ai-workloads-actively-exploited-in-the-wild">exploited "in the wild"</a> from Cybersecurity:</p>
+<blockquote>
 <p>"TL;DR</p>
 <p>The Oligo research team has recently discovered an active attack campaign targeting a vulnerability in Ray, a widely used open-source AI framework. Thousands of companies and servers running AI infrastructure are exposed to the attack through a critical vulnerability that is under dispute and thus has no patch. This vulnerability allows attackers to take over the companies' computing power and leak sensitive data. This flaw has been under active exploitation for the last 7 months, affecting sectors like education, cryptocurrency, biopharma and more. All organizations using Ray are advised to review their environments to ensure they are not exposed and to analyze any suspicious activity."</p>
+</blockquote>
 <p>As a server full of cybersecurity professionals and researchers quickly pointed out in response, "why the hell is this on the internet?", "It's not supposed to run externally. It doesn't even have a notion of user accounts or authentication.</p>
 <p>So the lack of a patch is less concerning than why anyone would ever put it on the Internet"</p>
 <p>So, this massive flaw has been actively exploited in the wild for more than half a year when there was no reason for a system lacking any notion of user accounts and authentication to even be left accessible to bad actors in the first place.</p>
+<blockquote>
 <p>"Who Uses Ray and How?</p>
 <p>Today, Ray has 30K stars on GitHub [5]. According to Anyscale, some of the world's largest organizations use Ray in production, including Uber, Amazon, and OpenAI. [6]</p>
-<p>....</p>
 <p>Ray does not include any kind of authorization in its Jobs API. The result: anyone with dashboard network access (HTTP port 8265) could potentially invoke arbitrary jobs on the remote host, without authorization."</p>
+</blockquote>
 <p>So yes, the world's largest tech companies still have their pants all of the way down, exposing both themselves and their customers to anyone keeping an eye on "shadow vulnerabilities" that scans don't pick up.</p>
 <p>Remember all of those RAG systems you plugged into vulnerable-by-design LLMs to utilize your proprietary data? Well, even the framework used in AI workloads has stayed vulnerable.</p>
 ]]>
@@ -3808,13 +3885,19 @@ evidence and all that depends upon it.</p>
     <content type="html" xml:base="https://kyrtinatreides.com/essays/156_Simultaneous_Discovery/">
 <![CDATA[<p>A mere 3 days after the <a href="https://arxiv.org/abs/2403.06634">"Stealing Part of a Production Language Model"</a> paper was published another group of researchers doing parallel research published their own findings in <a href="https://arxiv.org/abs/2403.09539">"Logits of API-Protected LLMs Leak Proprietary Information",</a> confirming logit-based API attacks to reveal parts of closed-source LLMs. Unlike the first group, however, this crew was ethical, choosing to reveal the embedding size of GPT3.5-Turbo to be roughly 4,096. They go even further, estimating the model size to be around 7 billion parameters, which is likely a 7b-MoE to be precise.</p>
 <p>Not only is this new group observably baseline ethical, but they propose a viable use case for the layer in question, as a fingerprint for detecting which underlying LLM is being called upon given any one output. This is particularly useful for determining which LLMs cybercriminals are currently utilizing, and tracing that activity back to each source.</p>
+<blockquote>
 <p>"Fortunately, our method can be used to monitor these updates over time, alerting end-users when LLM providers make architectural changes to their model, specifically updates to the embedding size and/or parameter count."</p>
+</blockquote>
 <p>They also note that this method could be used to detect when the hidden prefixes of an LLM are changed, even if the LLM "image" is not. Additionally:</p>
+<blockquote>
 <p>"This technique allows API customers to find quirks in LLM behavior such as tokens that the model is unable to output (at least under greedy decoding)."</p>
 <p>"Considering several proposals to mitigate this vulnerability, we find no obvious fix to prevent obtaining LLM images without dramatically altering the LLM architecture. While providers may choose to alter the API to hide this information, the relevant API features have valuable and safe use cases for the LLM clients, who may rely on access to features like logit bias."</p>
+</blockquote>
 <p>In other words, the models will be crippled to varying degrees if any viable methods to prevent this attack vector are applied.</p>
 <p>The icing on this cake is that this team mentions the paper published 3 days earlier under mitigations and Section 9 "Simultaneous Discovery", pointing out how they just smashed the prior team's defense method:</p>
+<blockquote>
 <p>"Regardless of the theoretical result, providers may rely on the extreme inefficiency of the algorithm to protect the LLM. This appears to be the approach OpenAI took after learning about this vulnerability from Carlini et al. [2024], by always returning the top-k unbiased logprobs. Our new proposed algorithm, however, brings the number of queries down to a more feasible d log ϵ API calls once the initial work of finding the LLM image has finished, weakening the argument that the expensiveness of the algorithm is sufficient to disregard our technique."</p>
+</blockquote>
 <p>LLM-smashing isn't just moving at high speed now, we're starting to see simultaneous attack vector discoveries.</p>
 ]]>
     </content>
@@ -3867,7 +3950,11 @@ evidence and all that depends upon it.</p>
 <p>Where things turn sour is when roles and candor are at odds with one another, as we now see in an AI domain dominated by snake oil sales, theft, other illegal activities, and hype driving the highest raising and highest valuation companies. Over the past year and change in particular, an increasing number of frauds in AI have been called on as though they were experts, ignoring the glaring and monstrous conflicts of interest, to dictate policy in the space. Not only that, some are now being shoehorned into chairing committees whose sole purpose is to further entrench those forms of fraud, like lobbyists, but with government-paid salaries.</p>
 <p>Those lacking candor frequently pivot hard when the wind starts blowing in a new direction since the smoke they blow is carried on that wind. PR often attempts to stitch the new pivot to the old narrative, but that relies primarily on the absence of any meaningful scrutiny to pass unnoticed.</p>
 <p>I'll still be a blunt hermit who'd rather avoid social media and focus on research tomorrow, and the day after, even as I continue reading new books and research every day. For my style of candor-focused communication, the mountain top looks more like Grady Booch or Nassim Nicholas Taleb than Satya Nadella or Jensen Huang.</p>
-<p>No future can be built on a foundation of theft, deception, and PR spin-doctoring. "Please my friend, choose to live."</p>
+<p>No future can be built on a foundation of theft, deception, and PR spin-doctoring.</p>
+<blockquote>
+<p>"Please, my friend, choose to live..."</p>
+<p>-Elnor, Star Trek: Picard</p>
+</blockquote>
 ]]>
     </content>
   </entry>
@@ -3916,9 +4003,11 @@ evidence and all that depends upon it.</p>
 <![CDATA[<p>The first Cybersecurity paper to really surprise me this year is <a href="https://arxiv.org/abs/2403.06634">"Stealing Part of a Production Language Model"</a>, which managed to beat my expectations for how quickly the curtain would begin to be pulled back on closed-source trivial AI systems like LLMs.</p>
 <p>In this particular attack, they manage to extract the embedding projection layer of several of OpenAI's closed-source models, revealing the dimensionality of that layer in the process of stealing the weights. This takes a big step toward turning the "black-box" grey, thanks in no small part to the role of the embedding projection layer. Knowing not only the dimensions of that layer, but the specific weights means that this attack makes for an excellent prelude to more advanced composite adversarial attacks.</p>
 <p>This attack also greatly reduces the cost-to-duplicate of any given LLM, as much of the bloated compute that is thrown into training them can be skipped over. Earlier layers in many of these systems adhere to very broad patterns, which are often strongly shared between models and are frequently frozen to reduce inference costs. The points that diverge more strongly tend to be the later layers of such models, and these methods could be applied effectively against finetuning.</p>
-<p>The only unfortunate thing about this paper is that the authors are now accomplices in fraud, not because the attack doesn't work, but because they directly assisted the frauds at OpenAI via Irresponsible Disclosure: "We received approval from OpenAI prior to extracting the parameters of the last layers of their models, worked with OpenAI to confirm our approach's efficacy, and then deleted all data associated with the attack.</p>
-<p>...</p>
+<p>The only unfortunate thing about this paper is that the authors are now accomplices in fraud, not because the attack doesn't work, but because they directly assisted the frauds at OpenAI via Irresponsible Disclosure:</p>
+<blockquote>
+<p>"We received approval from OpenAI prior to extracting the parameters of the last layers of their models, worked with OpenAI to confirm our approach's efficacy, and then deleted all data associated with the attack.</p>
 <p>In discussions with OpenAI, we decided to withhold disclosure of the size of gpt-3.5-turbo models, but we confirmed with them that the number our attack reported was accurate."</p>
+</blockquote>
 <p>Even so, this does pave the way for more ethical researchers to take the next steps, and the authors of this paper may be permanently blacklisted from any credible employment in the industry. It is unfortunate to see such talent turn to crime, but not unexpected in cybersecurity today.</p>
 <p>I have to say, 2023 was the year of LLM hype, but 2024 is shaping up to be the year where cybersecurity researchers smash those trivial AI systems into a fine paste. There is plenty of work ahead, but it is clear which way the wind is blowing.</p>
 ]]>
@@ -4100,7 +4189,10 @@ evidence and all that depends upon it.</p>
     <id>https://kyrtinatreides.com/essays/141_Dark_Pattern_Ideation/</id>
     <content type="html" xml:base="https://kyrtinatreides.com/essays/141_Dark_Pattern_Ideation/">
 <![CDATA[<p>As one of my good friends discovered recently during some testing, GPT-4 excels at being maximally evil. Said friend is one of the most creative people I've known, able to build his own apps well before systems like Copilot, and he was complimenting the degree of evil creativity GPT-4 comes up with in tests like the dark pattern ideation shown in the attached images.</p>
-<p>However, it is also spectacularly terrible at proposing creative solutions to the exact evil it just came up with, or as he put it "...it comes back with the creativity of an elementary school teacher dual wielding chakra rituals, and rock crystals."</p>
+<p>However, it is also spectacularly terrible at proposing creative solutions to the exact evil it just came up with, or as he put it:</p>
+<blockquote>
+<p>"...it comes back with the creativity of an elementary school teacher dual wielding chakra rituals, and rock crystals."</p>
+</blockquote>
 <p>You can generally expect this same sort of asymmetry to repeat across a variety of similar cases, as mechanisms of exploitation are both widely discussed and more convergent in their methods and goals than the noisy space of possible solutions. This means that part of the problem boils down to heuristics within the available data, and how probabilistic next-token-predicting systems will lean into them.</p>
 <p>On top of this, the kinds of people looking to apply dark patterns are themselves adversarial, seeking mechanisms of exploitation. This effectively means that "guardrail" (fraudulent) methods will reliably be bypassed by them, at rates well above those of laymen who hold no adversarial intentions or vested interests in exploitation.</p>
 <p>Unsurprisingly, GPT-4 is a reflection of OpenAI, very good at fraud, and absolutely terrible at cleaning up the messes it makes. They don't really fair better than Google, they just never apologize for it and keep on living the lie, doubling down, and milking the hype. Of course, this also gives you an idea of the kind of data they feed it, and how they bias the system through mechanisms of contamination like RLHF.</p>
@@ -4328,7 +4420,9 @@ evidence and all that depends upon it.</p>
 <p>Take this a step further, adding in today's "Generative AI", and a developer can potentially produce several times more code than they did before, but how much of that code do you think they'll actually maintain?</p>
 <p>Now, consider that those who generate the most new code using such AI are also going to be the least likely to maintain said code. That means that the most frequent users of those tools are also at the top of any bad actor's list for potential targets, or the clients of those frequent users as the case may be.</p>
 <p>"Generating" is only the first step, and not necessarily the most important. The internet isn't your Git-terbox, and nobody is going to scoop your old code, except perhaps to feed it to you via the next LLM.</p>
+<blockquote>
 <p>"...and whomsoever shall be found, without the code for getting down, must stand and face the pull requests of hell, and rot inside of Powershell..."</p>
+</blockquote>
 ]]>
     </content>
   </entry>
@@ -4771,8 +4865,14 @@ evidence and all that depends upon it.</p>
     <updated>2023-12-05T12:00:00Z</updated>
     <id>https://kyrtinatreides.com/essays/107_An_Ounce_of_Prevention/</id>
     <content type="html" xml:base="https://kyrtinatreides.com/essays/107_An_Ounce_of_Prevention/">
-<![CDATA[<p>"Our brain is essentially a get-out-of-the-way machine," -Daniel Gilbert</p>
-<p>I'm well into book <strong>7</strong> in my recent marathon of reading, "Upstream", by Dan Heath, and as expected it has proven well worth the investment. It has been well-understood for a long time that "An Ounce of prevention is worth a pound of cure." Prevention is far cheaper and more effective than merely reacting to problems as they become urgent, but as Dan points out humans have evolved to address urgency, with long-term planning being a far more recent evolutionary development. As Dan Heath puts it, "Our brain constantly scans the environment for things, out of whose way we should right now get."</p>
+<![CDATA[<blockquote>
+<p>"Our brain is essentially a get-out-of-the-way machine."</p>
+<p>-Daniel Gilbert</p>
+</blockquote>
+<p>I'm well into book <strong>7</strong> in my recent marathon of reading, "Upstream", by Dan Heath, and as expected it has proven well worth the investment. It has been well-understood for a long time that "An Ounce of prevention is worth a pound of cure." Prevention is far cheaper and more effective than merely reacting to problems as they become urgent, but as Dan points out humans have evolved to address urgency, with long-term planning being a far more recent evolutionary development. As Dan Heath puts it:</p>
+<blockquote>
+<p>"Our brain constantly scans the environment for things, out of whose way we should right now get."</p>
+</blockquote>
 <p>This bias for reactive rather than proactive action, what Dan refers to as "tunneling", is practically synonymous with human behavior. Tunneling is the norm, and long-term planning is the exception, in a statistical sense, and with good reason. As Dan frequently points out, each step upstream increases two critical factors, Complexity and Uncertainty.</p>
 <p>Complexity is something cognitive bias exists to help us avoid, and even down to the level of perceptual nerve signals feeding into our interoceptive network every step is about reducing the complexity we perceive. The interoceptive network in our bodies informs our brains on what "emotions" we are currently feeling, based on these signals compared to our emotional vocabulary. Humans have finite cognitive capacities, so we couldn't perform at a "human level" without this.</p>
 <p>Uncertainty has its own collection of associated cognitive biases, and it is something humans have evolved to only seek in small or periodic doses. In many cases, the evolved systems are mechanisms by which humans abuse themselves or one another, such as games, gambling, dramas, and other forms of entertainment. When those periodic doses at met, or even overdosed via mechanisms of entertainment, this can drive humans to avoid other sources of uncertainty that much more strongly, like not eating when you're no longer hungry.</p>
@@ -4996,7 +5096,10 @@ evidence and all that depends upon it.</p>
 <p>The previous research system robustly shutting down the first "free-range troll" could be considered a rare statistical fluke in isolation, but the same system shutting down each troll thereafter with increasing efficacy and gradually improving nuance shows that it wasn't isolated at all. With each repeat and improvement, the odds of the system having robust new capacities steadily draw closer to 100%.</p>
 <p>Likewise, when other capacities are derived from the same architectural differences, like the ability to take proactive actions and pursue and update one's own interests, those capacities aren't truly isolated from the first either. This means that the conditional probability of all of those successes in tasks with the same architectural root cause continues to impact the overall probability.</p>
 <p>When the data and compute are kept 10,000 times lower than LLMs and RL systems, and new capacities are repeatedly and consistently demonstrated under those constraints, while following dynamic complexity, then the conditional probability is very close to 100% indeed. That is the very definition of "extraordinary evidence", but the human observer still has to invest the cognitive effort to see it. The very nature of anything "extraordinary" means that it isn't trivially easy to recognize and digest using lazy and automatic human cognitive systems.</p>
-<p>To extend Carl Sagan's famous phrase for a bit more complete accuracy: "Extraordinary claims require extraordinary evidence, which requires extraordinary cognition to recognize and analyze."</p>
+<p>To extend Carl Sagan's famous phrase for a bit more complete accuracy:</p>
+<blockquote>
+<p>"Extraordinary claims require extraordinary evidence... which requires extraordinary cognition to recognize and analyze."</p>
+</blockquote>
 ]]>
     </content>
   </entry>
@@ -6817,7 +6920,9 @@ evidence and all that depends upon it.</p>
 <p>They can apply the scientific method to scrutinize results, propose hypotheses, and generally lessen the burden placed on the peer review process by raising the bar and reducing inconsistencies. Separate systems could also be used in assisting the research process and scrutinizing submissions for peer review. This could add further security and validation to the process, while also extracting more added value than the associated overhead costs would entail.</p>
 <p>How soon this technology can be deployed and scaled will depend on how quickly proper funding for it may be secured. One thing we can be certain of between now and then is that the cost of the status quo is a thing that humanity cannot afford.</p>
 <p>The phrase "Publish or Perish" has often been used to describe a set of archaic practices still used in some academic and industry circles today, which contribute to this. As Edward O. Wilson famously put it:</p>
+<blockquote>
 <p>"The real problem of humanity is the following: We have Paleolithic emotions, medieval institutions and godlike technology. And it is terrifically dangerous, and it is now approaching a point of crisis overall."</p>
+</blockquote>
 <p>*For more on what happens when Garbage Generators eat large quantities of AI-generated content, see: <a href="https://arxiv.org/abs/2307.01850">Self-Consuming Generative Models Go MAD</a></p>
 ]]>
     </content>

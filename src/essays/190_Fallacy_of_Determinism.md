@@ -18,4 +18,6 @@ Besides being collectively incompatible at the level of population dynamics, hum
 
 This is of course incompatible with the entire mountain of cognitive bias research and modern neuroscience since the human motivational system is built on emotions, which allow humans to fluidly and dynamically utilize a vast array of cognitive biases, which in turn allow us to handle arbitrary levels of complexity arbitrarily well or poorly as complexity is traded off for cognitive biases.
 
-To those caught in the fallacy, I say "I wish you would step back from that ledge my friend..."
+To those caught in the fallacy, I say: 
+
+> "I wish you would step back from that ledge my friend..."

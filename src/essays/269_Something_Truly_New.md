@@ -4,7 +4,9 @@ layout: essay.njk
 date: "2024-12-29"
 ---
 
-Any time something truly new is introduced to human systems of cognitive bias and categorization, that categorization process will systematically fail, and different people will systematically fail in different ways and directions, as no category yet exists for that new thing. In a way this is reflected in Nicholas Klein’s famous quote: “First they ignore you. Then they ridicule you. And then they attack you and want to burn you. And then they build monuments to you.”
+Any time something truly new is introduced to human systems of cognitive bias and categorization, that categorization process will systematically fail, and different people will systematically fail in different ways and directions, as no category yet exists for that new thing. In a way this is reflected in Nicholas Klein’s famous quote:
+
+> “First they ignore you. Then they ridicule you. And then they attack you and want to burn you. And then they build monuments to you.”
 
 This is corrected over time, when the need is recognized, in a very cognitively frugal manner, but something truly new, by definition, doesn’t fit into legacy categorical systems in any meaningful way. New terms are also created as this occurs, with scientific terms being created to communicate more precisely, even if other terms are created for less productive or more manipulative reasons.
 

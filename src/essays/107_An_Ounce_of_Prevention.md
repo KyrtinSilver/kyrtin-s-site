@@ -4,9 +4,13 @@ layout: essay.njk
 date: "2023-12-05"
 ---
 
-"Our brain is essentially a get-out-of-the-way machine," -Daniel Gilbert
+> "Our brain is essentially a get-out-of-the-way machine." 
+>
+> -Daniel Gilbert
 
-I'm well into book **7** in my recent marathon of reading, "Upstream", by Dan Heath, and as expected it has proven well worth the investment. It has been well-understood for a long time that "An Ounce of prevention is worth a pound of cure." Prevention is far cheaper and more effective than merely reacting to problems as they become urgent, but as Dan points out humans have evolved to address urgency, with long-term planning being a far more recent evolutionary development. As Dan Heath puts it, "Our brain constantly scans the environment for things, out of whose way we should right now get."
+I'm well into book **7** in my recent marathon of reading, "Upstream", by Dan Heath, and as expected it has proven well worth the investment. It has been well-understood for a long time that "An Ounce of prevention is worth a pound of cure." Prevention is far cheaper and more effective than merely reacting to problems as they become urgent, but as Dan points out humans have evolved to address urgency, with long-term planning being a far more recent evolutionary development. As Dan Heath puts it:
+
+> "Our brain constantly scans the environment for things, out of whose way we should right now get."
 
 This bias for reactive rather than proactive action, what Dan refers to as "tunneling", is practically synonymous with human behavior. Tunneling is the norm, and long-term planning is the exception, in a statistical sense, and with good reason. As Dan frequently points out, each step upstream increases two critical factors, Complexity and Uncertainty.
 

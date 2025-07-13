@@ -18,5 +18,7 @@ Either way, no confidential information about our technology was exposed, and no
 
 In the meantime, I can be reached here, via ResearchGate, Discord, or any other assets where I maintain a presence that cyberattacks have never disrupted.
 
-"First they ignore you. Then they ridicule you. And then they attack you and want to burn you. And then they build monuments to you." –Nicholas Klein
+> "First they ignore you. Then they ridicule you. And then they attack you and want to burn you. And then they build monuments to you."
+>
+> -Nicholas Klein
 

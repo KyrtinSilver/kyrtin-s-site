@@ -40,4 +40,6 @@ However, if you do manage to consider these factors jointly then it can immediat
 
 Of course, said use case is a current trend, all of the most incompetent people are jumping off of that bridge today. Most such trends are the same kind of bridge-jumping behavior, bringing to mind a quote from Warren Buffet:
 
-"The most important quality for an investor is temperament, not intellect. You need a temperament that neither derives great pleasure from being with the crowd or against the crowd."
+> "The most important quality for an investor is temperament, not intellect. You need a temperament that neither derives great pleasure from being with the crowd or against the crowd."
+>
+> Warren Buffett

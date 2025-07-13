@@ -24,5 +24,7 @@ The ARC-AGI Challenge Prize leaderboard on Kaggle also paints this picture very 
 
 The top team for the Prize leaderboard has also been specifically working on the challenge for a long time, whereas I was only recently able to persuade my co-founder to take a brief detour from our core infrastructure engineering workload to run our systems against this challenge. This is nascent performance, not serious or sustained effort aimed at the challenge. I was able to persuade my co-founder to do this specifically because it required virtually nothing that we didn’t already have on our agenda, except the data pipeline work specific to this challenge.
 
-“The best is yet to come.” -Sinatra
+> “The best is yet to come.” 
+>
+> -Sinatra
 

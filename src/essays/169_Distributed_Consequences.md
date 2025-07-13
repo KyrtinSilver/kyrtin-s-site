@@ -4,7 +4,9 @@ layout: essay.njk
 date: "2024-04-15"
 ---
 
-Cognitive Biases encourage us to categorize, and by categorizing to draw arbitrary lines dividing up a continuous spectrum, unconsciously, and often along many axes (Axis plural) at once. This point is eloquently stated in the quote: "Between depriving a man of one hour from his life and depriving him of his life there exists only a difference of degree."
+Cognitive Biases encourage us to categorize, and by categorizing to draw arbitrary lines dividing up a continuous spectrum, unconsciously, and often along many axes (Axis plural) at once. This point is eloquently stated in the quote: 
+
+> "Between depriving a man of one hour from his life and depriving him of his life there exists only a difference of degree."
 
 Our modern understanding of the human brain and our decision-making process makes it clear that humans couldn't function at anything approaching a "human level" in the absence of these myriad cognitive biases, as well as the system of emotional motivation (another system of learned and variable categories) that heavily influences and guides those biases. However, it is also very clearly measurable just how far most human decision-making processes fall from reaching any optimal solution under these dynamics.
 

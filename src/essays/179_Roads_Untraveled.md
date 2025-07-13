@@ -6,7 +6,9 @@ date: "2024-05-08"
 
 Regret is a (de)motivational force that often dominates human hindsight, and the "regret of inaction" has often been regarded by philosophers as being the most potent among the various forms of this emotion.
 
-"Regret for the things we did can be tempered by time; it is regret for the things we did not do that is inconsolable." -Sydney J. Harris
+> "Regret for the things we did can be tempered by time; it is regret for the things we did not do that is inconsolable." 
+>
+> -Sydney J. Harris
 
 Indeed, because we can learn from those mistakes we've made that become tempered as the possibility of making them again is removed, but the road not traveled remains untouched. Unfortunately, many bad actors also exploit such mechanisms of regret, including the infamous "Fear of Missing Out" (FOMO), a very shallow but still potentially potent weaponized version of it.
 

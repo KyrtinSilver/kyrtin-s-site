@@ -6,7 +6,9 @@ date: "2024-02-29"
 
 As one of my good friends discovered recently during some testing, GPT-4 excels at being maximally evil. Said friend is one of the most creative people I've known, able to build his own apps well before systems like Copilot, and he was complimenting the degree of evil creativity GPT-4 comes up with in tests like the dark pattern ideation shown in the attached images.
 
-However, it is also spectacularly terrible at proposing creative solutions to the exact evil it just came up with, or as he put it "...it comes back with the creativity of an elementary school teacher dual wielding chakra rituals, and rock crystals."
+However, it is also spectacularly terrible at proposing creative solutions to the exact evil it just came up with, or as he put it:
+
+> "...it comes back with the creativity of an elementary school teacher dual wielding chakra rituals, and rock crystals."
 
 You can generally expect this same sort of asymmetry to repeat across a variety of similar cases, as mechanisms of exploitation are both widely discussed and more convergent in their methods and goals than the noisy space of possible solutions. This means that part of the problem boils down to heuristics within the available data, and how probabilistic next-token-predicting systems will lean into them.
 

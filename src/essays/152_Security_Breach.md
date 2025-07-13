@@ -10,11 +10,11 @@ In this particular attack, they manage to extract the embedding projection layer
 
 This attack also greatly reduces the cost-to-duplicate of any given LLM, as much of the bloated compute that is thrown into training them can be skipped over. Earlier layers in many of these systems adhere to very broad patterns, which are often strongly shared between models and are frequently frozen to reduce inference costs. The points that diverge more strongly tend to be the later layers of such models, and these methods could be applied effectively against finetuning.
 
-The only unfortunate thing about this paper is that the authors are now accomplices in fraud, not because the attack doesn't work, but because they directly assisted the frauds at OpenAI via Irresponsible Disclosure: "We received approval from OpenAI prior to extracting the parameters of the last layers of their models, worked with OpenAI to confirm our approach's efficacy, and then deleted all data associated with the attack.
+The only unfortunate thing about this paper is that the authors are now accomplices in fraud, not because the attack doesn't work, but because they directly assisted the frauds at OpenAI via Irresponsible Disclosure: 
 
-...
-
-In discussions with OpenAI, we decided to withhold disclosure of the size of gpt-3.5-turbo models, but we confirmed with them that the number our attack reported was accurate."
+> "We received approval from OpenAI prior to extracting the parameters of the last layers of their models, worked with OpenAI to confirm our approach's efficacy, and then deleted all data associated with the attack.
+>
+> In discussions with OpenAI, we decided to withhold disclosure of the size of gpt-3.5-turbo models, but we confirmed with them that the number our attack reported was accurate."
 
 Even so, this does pave the way for more ethical researchers to take the next steps, and the authors of this paper may be permanently blacklisted from any credible employment in the industry. It is unfortunate to see such talent turn to crime, but not unexpected in cybersecurity today.
 

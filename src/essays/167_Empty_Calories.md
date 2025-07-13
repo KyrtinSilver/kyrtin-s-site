@@ -4,7 +4,9 @@ layout: essay.njk
 date: "2024-04-05"
 ---
 
-"In theory, theory and practice are the same. In practice, they are not." -Benjamin Brewster
+> "In theory, theory and practice are the same. In practice, they are not." 
+>
+> -Benjamin Brewster
 
 In theory, investors, governments, and corporations seek innovation. In practice, they do nothing of the sort. Rather, like a server room piled high with the engineering debt of a decade of mismanaged wires, such entities flow according to the numerous and growing number of catch-22s that silently control and shift their perceptions through all accessible mechanisms of cognitive biases.
 

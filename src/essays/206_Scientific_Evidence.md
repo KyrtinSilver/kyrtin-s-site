@@ -6,7 +6,11 @@ date: 2024-07-29
 
 The nature of scientific evidence is to grow slowly over extended periods of time, and the complimentary nature of human cognitive biases is to ignore very gradual changes until they reach a critical point and the discrepancy demands immediate attention. 
 
-Sadly, this is also often why quotes like "A new scientific truth does not triumph by convincing its opponents and making them see the light, but rather because its opponents eventually die, and a new generation grows up that is familiar with it.", from Max Planck often ring true. 
+Sadly, this is also often why quotes like this one from Max Planck ring true:
+
+> "A new scientific truth does not triumph by convincing its opponents and making them see the light, but rather because its opponents eventually die, and a new generation grows up that is familiar with it." 
+>
+> -Max Planck 
  
 You can also observe something similar in the patterns of the Dunning-Kruger Effect and the Gartner Hype Cycle, as critical points are reached and frequently sharp course corrections are made. For population dynamics, the sharpness of those points is smoothed by a cascade of change washing over the population. Once the upper and lower bounds are established for a given domain then the population usually takes a more moderate path between them.
 

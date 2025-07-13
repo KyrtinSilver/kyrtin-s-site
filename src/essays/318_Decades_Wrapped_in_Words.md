@@ -6,7 +6,9 @@ date: "2025-06-25"
 
 Every person that you've ever met likely has a handful of words, upon which they have built decades.
 
-"The ability to destroy a thing is the absolute control over it."
+> "The power to destroy a thing is the absolute control over it."
+>
+> -Frank Herbert, Dune
 
 One of the frequent questions I've encountered over the past decade has been curiosity about my name. It was more than a year ago when I discussed this briefly with [Lasse Rindom](https://www.linkedin.com/in/lasserindom/) on his podcast, [The Only Constant](https://open.spotify.com/episode/5F4ZYv5HC1T20javPclKRl?si=ec762a1f625e4e31&nd=1&dlsi=6654881240064222), noting that I had crafted mine specifically to serve as a GUID (Globally Unique Identifier), optimally searchable, with meaning and history wrapped around the choice of it.
 

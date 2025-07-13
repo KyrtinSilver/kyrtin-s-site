@@ -16,6 +16,8 @@ Second, once you have a set of disqualifying/negative validators then you can no
 
 Third, with these boundaries defined, you can put your time to better use. I personally recommend giving people one opportunity to educate themselves, by default and time allowing, but beyond that everyone is responsible for their own actions (regardless of determinism or any variation thereof). If someone chooses not to learn, or to continue repeating demonstrably false claims, simply block them and move on. A very large chunk of the AI domain could be blocked today based on these criteria, potentially saving a great deal of time.
 
-For all of the "What ifs" that PR doctors spin off to drive hype, the vast majority of them are trivial to completely shut down through disqualifying/negative validators. Everyone has conflicts of interest when it comes to the things that they care about: "We're all hostages to what we love. The only way to truly be free is to love nothing. And how meaningless would that be?"
+For all of the "What ifs" that PR doctors spin off to drive hype, the vast majority of them are trivial to completely shut down through disqualifying/negative validators. Everyone has conflicts of interest when it comes to the things that they care about: 
+
+> "We're all hostages to what we love. The only way to truly be free is to love nothing. And how meaningless would that be?"
 
 The difference is, not everyone has viable solutions to offer.

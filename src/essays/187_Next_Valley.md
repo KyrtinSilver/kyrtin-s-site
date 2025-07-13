@@ -16,6 +16,6 @@ Right now, most places claiming they want to become the next Silicon Valley are 
 
 If there were a single broadly competent and long-term thinker in SV's real estate sector then they'd make a large and immediate investment just to prevent all of their current assets from rusting out, but such an investor belongs more as a convenient plot device in works of fiction than the real world. The real world is reflected in far greater fidelity through a quote from Bernardo Kastrup:
 
-"Technologists don't give a damn about what is true, technologists give a damn about what works and often what works is not true at all... all we need is an approximation, a narrative, a fiction that is convenient. In other words, a fiction that is such that nature behaves as though that fiction were right. Whether it's really right or not is irrelevant for technologies."
+> "Technologists don't give a damn about what is true, technologists give a damn about what works and often what works is not true at all... all we need is an approximation, a narrative, a fiction that is convenient. In other words, a fiction that is such that nature behaves as though that fiction were right. Whether it's really right or not is irrelevant for technologies."
 
 London Tech Week is sure to grant the stage to many works of pure fiction, but some who actually give a damn about what is true will at least be in attendance.

@@ -18,4 +18,8 @@ Those lacking candor frequently pivot hard when the wind starts blowing in a new
 
 I'll still be a blunt hermit who'd rather avoid social media and focus on research tomorrow, and the day after, even as I continue reading new books and research every day. For my style of candor-focused communication, the mountain top looks more like Grady Booch or Nassim Nicholas Taleb than Satya Nadella or Jensen Huang.
 
-No future can be built on a foundation of theft, deception, and PR spin-doctoring. "Please my friend, choose to live."
+No future can be built on a foundation of theft, deception, and PR spin-doctoring. 
+
+> "Please, my friend, choose to live..." 
+>
+> -Elnor, Star Trek: Picard

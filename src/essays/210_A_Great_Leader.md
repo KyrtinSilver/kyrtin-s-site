@@ -4,7 +4,10 @@ layout: "essay.njk"
 date: 2024-08-09
 ---
 
-“A great leader is one who is willing to risk saying yes.” – Benjamin Sisko
+> “A great leader is one who is willing to risk saying yes.” 
+>
+> –Benjamin Sisko
+
 However, a great leader doesn’t merely pop into existence. They are supported by many others, and part of that support involves reducing uncertainties, quantifying risks, and highlighting the potential and probable gains, all of which make it easier for a leader to say yes. Such a leader is the voice of a collective intelligence to which many may contribute.
 
 What is likely to change in the coming years is the types and level of such support offered to leaders, and how effectively and frequently leaders communicate with the constituent members of the collective intelligences they act as the voice of. Many studies have shown how leaders are typically very disconnected from the majority of useful feedback that lower rungs of their corporate hierarchies routinely confront. This is largely because the functions through which information filters up to the CXO level, particularly in larger companies, are often both highly lossy and heavily biased.

@@ -4,7 +4,13 @@ layout: "essay.njk"
 date: 2024-10-16
 ---
 
-To breathe new life into an old quote “There are infinitely more ways to (poorly address a problem) than there are ways to (address a problem well).” Dawkin’s original quote refers to being dead versus being alive, but the same asymmetry holds true for problem-solving.
+To breathe new life into an old quote:
+
+> “There are infinitely more ways to (poorly address a problem) than there are ways to (address a problem well).” 
+>
+> -Richard Dawkins
+
+Dawkin’s original quote refers to being dead versus being alive, but the same asymmetry holds true for problem-solving.
 
 This principle is also subject to a “combinatorial explosion”, where the combination of more factors, such as the levels of complexity you find in any real-world system, causes an explosive increase in the number of wrong ways to address any given problem. This inherently causes the viable potion of solutions to shrink as complexity increases.
 

@@ -4,9 +4,11 @@ layout: "essay.njk"
 date: 2024-10-12
 ---
 
-Several of the most frequent nonsensical questions I’ve encountered in the tech and AI space are “If that is true, then why haven’t I heard of you yet?” and “Why aren’t you funded?”. Of course, these are the same question. The fundamental question that they both re-skin is:
+Several of the most frequent nonsensical questions I’ve encountered in the tech and AI space are “If that is true, then why haven’t I heard of you yet?” and “Why aren’t you funded?”. Of course, these are the same question. 
 
-“Why aren’t my personal default assumptions about the world painting a coherent narrative about you?”
+The fundamental question that they both re-skin is:
+
+> “Why aren’t my personal default assumptions about the world painting a coherent narrative about you?”
 
 The answer is inevitably that cognitive biases, while useful tools, are also wrong. When they fail, they fail systematically, like LLMs, which is about the only human thing that LLMs are like. When humans stick to assumptions that systematically fail then they become less effectively intelligent than a literal random number generator, or as Prof. Tetlock colorfully put it, a “dart-throwing-chimpanzee”. 
 

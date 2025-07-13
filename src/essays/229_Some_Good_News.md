@@ -8,7 +8,9 @@ I have some good news and some bad news. The bad news is that ARC-AGI’s team f
 
 This probably seems like a “WTF?” moment, because to the best of my knowledge no other benchmark picks and chooses who they’ll actually verify based on an internal system where you have to be “advocated” for. The only way I could find to describe this property of asymmetric exclusion is that they’ve chosen to be the Gary Marcus of benchmarks, happy to debunk, but never to positively confirm anything. This still serves a valuable purpose, just an incomplete one.
 
-In their own words: “The purpose of the public leaderboard is to measure approaches utilizing production-grade state-of-the-art LLMs like those available from OpenAI, Anthropic, and Google that would be restricted in the official ARC Prize competition. The public leaderboard is not intended to measure and verify proprietary AI systems.”
+In their own words: 
+
+> “The purpose of the public leaderboard is to measure approaches utilizing production-grade state-of-the-art LLMs like those available from OpenAI, Anthropic, and Google that would be restricted in the official ARC Prize competition. The public leaderboard is not intended to measure and verify proprietary AI systems.”
 
 I imagine the irony of this for those familiar with the ARC-AGI Challenge and/or my team’s work is sufficiently obvious that I won’t dig into it. 
 
