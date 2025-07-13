@@ -22,6 +22,6 @@ Educating people to make wiser decisions tomorrow than the news of today shows t
 
 Today, such news only really serves one purpose, to answer the question:
 
-"What nonsensical BS is going on today?"
+> "What nonsensical BS is going on today?"
 
 That does serve a purpose, to help people dodge the oncoming traffic of bad actors, but it does nothing to solve the problems being dodged. This makes it a semi-endless and imbalanced game of Frogger, where the game ends when all the lanes line up to form something that can't be dodged.

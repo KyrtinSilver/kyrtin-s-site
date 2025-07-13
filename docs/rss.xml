@@ -353,7 +353,9 @@ I’m very tempted to scrape the comment data from the replies I received into a
 <p>How to solve real-world problems. Often the solutions are absurdly obvious, but with equal absurdity those solutions are discouraged or any mention of them is avoided completely. The closest most media comes to solutions to real-world problems is the inverse formulation of auto-correlation. That is a fancy way of saying that you can subtract everything they propose to help find the actual solutions. This is auto-correlation because you subtract X from the full domain of X+Y, where X is the subset that they cover, and Y are the subset of actual solutions.</p>
 <p>Educating people to make wiser decisions tomorrow than the news of today shows them making. With no value added from the missing above two factors, no meaningful education can take place. Instead, some portion of the BS tends to take root, as debunking isn't uniformly distributed or accepted, and so most people are contaminated by it to varying degrees, and the "news" who spread the BS in the first place is ethically and criminally liable for the difference.</p>
 <p>Today, such news only really serves one purpose, to answer the question:</p>
+<blockquote>
 <p>"What nonsensical BS is going on today?"</p>
+</blockquote>
 <p>That does serve a purpose, to help people dodge the oncoming traffic of bad actors, but it does nothing to solve the problems being dodged. This makes it a semi-endless and imbalanced game of Frogger, where the game ends when all the lanes line up to form something that can't be dodged.</p>
 ]]>
     </content>
@@ -3624,7 +3626,9 @@ evidence and all that depends upon it.</p>
     <updated>2024-04-07T12:00:00Z</updated>
     <id>https://kyrtinatreides.com/essays/168_Data_Junkyard/</id>
     <content type="html" xml:base="https://kyrtinatreides.com/essays/168_Data_Junkyard/">
-<![CDATA[<p>"Data is the new (Snake) Oil."</p>
+<![CDATA[<blockquote>
+<p>"Data is the new (Snake) Oil."</p>
+</blockquote>
 <p>The "snake" part of that is critically important because roughly 99.9% of data is garbage and/or redundant. There is virtually nothing that requires "internet-scale data" to perform at the cutting edge because the cutting edge isn't dictated by brute-force compute.</p>
 <p>This puts all of the copyright and privacy violations major tech companies have engaged in while fighting over data in the context of the extreme depth of incompetence required to try collecting all of the world's digital trash, rather than building systems that only require quality, not quantity.</p>
 <p>Some companies have even taken this to such an extreme as to produce massive quantities of "synthetic" garbage data to feed their brute-force systems. While "synthetic data" has a handful of very narrow viable use cases, even most of the viable uses only deliver transient value until more effective systems are architected.</p>
@@ -3693,6 +3697,7 @@ evidence and all that depends upon it.</p>
 <p>For all of the "What ifs" that PR doctors spin off to drive hype, the vast majority of them are trivial to completely shut down through disqualifying/negative validators. Everyone has conflicts of interest when it comes to the things that they care about:</p>
 <blockquote>
 <p>"We're all hostages to what we love. The only way to truly be free is to love nothing. And how meaningless would that be?"</p>
+<p>Q, Star trek: Picard</p>
 </blockquote>
 <p>The difference is, not everyone has viable solutions to offer.</p>
 ]]>

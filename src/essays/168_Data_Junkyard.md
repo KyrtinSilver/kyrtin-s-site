@@ -4,7 +4,7 @@ layout: essay.njk
 date: "2024-04-07"
 ---
 
-"Data is the new (Snake) Oil."
+> "Data is the new (Snake) Oil."
 
 The "snake" part of that is critically important because roughly 99.9% of data is garbage and/or redundant. There is virtually nothing that requires "internet-scale data" to perform at the cutting edge because the cutting edge isn't dictated by brute-force compute.
 

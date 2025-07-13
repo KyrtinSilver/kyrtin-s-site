@@ -19,5 +19,7 @@ Third, with these boundaries defined, you can put your time to better use. I per
 For all of the "What ifs" that PR doctors spin off to drive hype, the vast majority of them are trivial to completely shut down through disqualifying/negative validators. Everyone has conflicts of interest when it comes to the things that they care about: 
 
 > "We're all hostages to what we love. The only way to truly be free is to love nothing. And how meaningless would that be?"
+>
+> Q, Star trek: Picard
 
 The difference is, not everyone has viable solutions to offer.
