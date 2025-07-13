@@ -15,7 +15,7 @@ eleventyExcludeFromCollections: true
     <pubDate>{{ (collections.essays[0].date or now) | dateToRfc822 }}</pubDate>
     <lastBuildDate>{{ (collections.essays[0].date or now) | dateToRfc822 }}</lastBuildDate>
     
-    {%- for essay in collections.essays | slice(0, 50) %}
+    {%- for essay in collections.essays %}
     <item>
       <title>{{ essay.data.title | escape }}</title>
       <link>{{ essay.url | absoluteUrl('https://kyrtinatreides.com') }}</link>
