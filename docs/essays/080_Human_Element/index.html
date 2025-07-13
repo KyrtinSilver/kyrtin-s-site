@@ -183,16 +183,6 @@
       text-align: center;
     }
 
-    footer a {
-      color: var(--text-secondary);
-      text-decoration: none;
-      transition: color 0.3s ease;
-    }
-
-    footer a:hover {
-      color: var(--text-primary);
-    }
-
     .dark-mode footer {
       color: var(--text-secondary);
     }
@@ -572,7 +562,7 @@
     });
 
     const currentYear = new Date().getFullYear();
-    document.getElementById('copyright').innerHTML = `© ${currentYear} Kyrtin Atreides · <a href="/rss.xml">RSS</a>`;
+    document.getElementById('copyright').textContent = `© ${currentYear} Kyrtin Atreides`;
   </script>
 </body>
 </html>
