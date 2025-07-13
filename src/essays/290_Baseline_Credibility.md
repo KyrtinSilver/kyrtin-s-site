@@ -4,7 +4,7 @@ layout: essay.njk
 date: "2025-02-20"
 ---
 
-Following another good daily paper discussion, I can recommend the [latest paper from DeepSeek & the University of Washington](https://arxiv.org/abs/2502.11089), "Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention."
+Following another good daily paper discussion, I can recommend the latest paper from DeepSeek & the University of Washington, ["Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention."](https://arxiv.org/abs/2502.11089)
 
 This particular paper introduces a new way of achieving further 10x+ gains in terms of compute time requirements, a gain that increases with the context window size, while significantly reducing token counts without losing performance. The presentation is transparent and the method is fairly elegant, making it far higher quality than any "paper" produced by a US tech startup or big company in quite some time. Moreover, they continue to deliver this high-quality work consistently, and pretty rapidly. 
 

@@ -4,7 +4,7 @@ layout: essay.njk
 date: "2025-06-01"
 ---
 
-A lot of people seem to love MCP, and they do a decent impression of a Cocker Spaniel and leak everywhere when they start talking about it, but like anything that comes out of hashtag#Anthropic, you can guarantee with virtually 100% reliability that it is BS. [Here is just one example of an attack method that broke it](https://hiddenlayer.com/innovation-hub/beyond-mcp-expanding-agentic-function-parameter-abuse/), and generalized to break other models too.
+A lot of people seem to love MCP, and they do a decent impression of a Cocker Spaniel and leak everywhere when they start talking about it, but like anything that comes out of hashtag#Anthropic, you can guarantee with virtually 100% reliability that it is BS. [Here is just one example](https://hiddenlayer.com/innovation-hub/beyond-mcp-expanding-agentic-function-parameter-abuse/) of an attack method that broke it, and generalized to break other models too.
 
 From a cybersecurity perspective, any of these artificially unintelligent systems is going to have a virtually infinite attack space, and any hand-engineered BS is only going to cause new attacks to flow around that structure, blocking nothing, only changing the flow. That change also isn't compatible with any previous changes, meaning that every update also breaks any previous measures that were taken, to varying degrees, making the overhead cost virtually infinite and one that may grow as fast as attackers can learn.
 
