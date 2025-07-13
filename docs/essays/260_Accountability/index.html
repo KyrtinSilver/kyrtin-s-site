@@ -183,6 +183,16 @@
       text-align: center;
     }
 
+    footer a {
+      color: var(--text-secondary);
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    footer a:hover {
+      color: var(--text-primary);
+    }
+
     .dark-mode footer {
       color: var(--text-secondary);
     }
@@ -555,7 +565,7 @@ compared to what competently designed technology could do in such unethical hand
     });
 
     const currentYear = new Date().getFullYear();
-    document.getElementById('copyright').textContent = `© ${currentYear} Kyrtin Atreides`;
+    document.getElementById('copyright').innerHTML = `© ${currentYear} Kyrtin Atreides · <a href="/rss.xml">RSS</a>`;
   </script>
 </body>
 </html>
