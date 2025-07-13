@@ -4,7 +4,7 @@ layout: "essay.njk"
 date: 2024-12-11
 ---
 
-The results, analysis, and data from applying a fragment of ICOM to ARC-AGI now have a 30-page research paper dedicated to them [(ResearchGate)](http://dx.doi.org/10.13140/RG.2.2.32495.34727), including additional context provided in the "technical report" that the ARC-AGI team published on December 6th.
+The results, analysis, and data from applying a fragment of ICOM to ARC-AGI now have [a 30-page research paper dedicated to them](http://dx.doi.org/10.13140/RG.2.2.32495.34727), including additional context provided in the "technical report" that the ARC-AGI team published on December 6th.
 
 The TLDR is that even a fragment of our systems was ~1,000 times more efficient in terms of cost, and vastly more performant, than the top score on their PUB leaderboard at the time of testing. By the ARC-AGI team’s own estimates, the prior method from Greenblatt would require a further 12,500 times more compute to reach our team’s score, which lands around the human baseline of 85%.
 

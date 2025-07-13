@@ -30,6 +30,4 @@ Also keep in mind that OpenAI gets a more than 3x discount on compute from Micro
 
 Also note that ARC-AGI puzzles are "toy problems", below real-world complexity, and as this demonstrates LLMs scale extremely poorly against complexity.
 
-This newest BS claim from OpenAI tells us nothing new about their models, just that "If you train on the test data and burn 100,000-300,000 times the compute, you can cheat your way to a top score." What it does confirm beyond any shadow of a doubt is that Chollet and his team are frauds, as no credible AI expert would buy this.
-
-Source: [ARC-AGI Blog](https://arcprize.org/blog/oai-o3-pub-breakthrough)
+This newest BS claim from OpenAI tells us nothing new about their models, just that *if you train on the test data and burn 100,000-300,000 times the compute*, [you can cheat your way to a top score.](https://arcprize.org/blog/oai-o3-pub-breakthrough) What it does confirm beyond any shadow of a doubt is that Chollet and his team are frauds, as no credible AI expert would buy this.
