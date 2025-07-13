@@ -22,7 +22,7 @@ eleventyExcludeFromCollections: true
       <content:encoded><![CDATA[{{ essay.templateContent | htmlToAbsoluteUrls('https://kyrtinatreides.com') }}]]></content:encoded>
       <pubDate>{{ essay.date | dateToRfc822 }}</pubDate>
       <dc:creator>Kyrtin Atreides</dc:creator>
-      <guid isPermalink="true">{{ essay.url | absoluteUrl('https://kyrtinatreides.com') }}</guid>
+      <guid>{{ essay.url | absoluteUrl('https://kyrtinatreides.com') }}</guid>
     </item>
     {%- endfor %}
   </channel>
