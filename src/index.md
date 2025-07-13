@@ -20,6 +20,10 @@ description: "Kyrtin Atreides | Building scalable intelligence "
     <use href="#circle" />
   </svg>
   <a href="https://www.linkedin.com/in/kyrtin-atreides/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+  <svg class="circle-icon">
+    <use href="#circle" />
+  </svg>
+  <a href="https://kyrtinatreides.com/rss.xml" target="_blank" rel="noopener noreferrer">RSS</a>
 </p>
 
 <style>
