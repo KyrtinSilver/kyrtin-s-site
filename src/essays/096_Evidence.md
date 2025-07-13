@@ -4,7 +4,9 @@ layout: essay.njk
 date: "2023-11-18"
 ---
 
-"Extraordinary claims require extraordinary evidence." -- Carl Sagan
+> "Extraordinary claims require extraordinary evidence." 
+>
+> -Carl Sagan
 
 Ironically, this quote is often wielded as a tool in one hand by those holding a slew of fallacies with which to neglect conditional probability in the other. While the quote itself rings true, the frequency with which it sees abuse comes to dominate heuristic associations.
 

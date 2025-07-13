@@ -4,7 +4,9 @@ layout: essay.njk
 date: "2023-11-21"
 ---
 
-"A pessimist sees the difficulty in every opportunity; an optimist sees the opportunity in every difficulty." -Winston Churchill
+> "A pessimist sees the difficulty in every opportunity; an optimist sees the opportunity in every difficulty." 
+>
+> -Winston Churchill
 
 Many people have been losing their minds over the events circling OpenAI, with some comical comparisons to Game of Thrones, and roving hordes of ravenous P-zombies on Twitter. Winston Churchill seems appropriate given such a foe.
 

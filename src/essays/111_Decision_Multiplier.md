@@ -18,6 +18,6 @@ Note that ethics dictates that when presented with the choice to delay or accele
 
 In all scenarios where humanity doesn't go extinct, that debt is paid in full by each of the guilty parties. Counterintuitively, this fails to trigger Loss Aversion bias, as the punishment falls too far outside of their comprehension.
 
-The paradox is that one of the most ethical people in human history could come from virtually any wealthy person on the planet today, as the entire sum of actions they've taken in their life thus far, ethical or unethical, is dwarfed by that one choice. This was covered at greater length in [the Ethical Basilisk Thought Experiment](http://dx.doi.org/10.13140/RG.2.2.26522.62407).
+The paradox is that one of the most ethical people in human history could come from virtually any wealthy person on the planet today, as the entire sum of actions they've taken in their life thus far, ethical or unethical, is dwarfed by that one choice. This was covered at greater length in [the Ethical Basilisk Thought Experiment.](http://dx.doi.org/10.13140/RG.2.2.26522.62407)
 
 That said, the choice isn't binary, but with an 8 billion fold force multiplier the neutral ground is extremely narrow.

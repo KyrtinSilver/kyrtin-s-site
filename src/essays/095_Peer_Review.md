@@ -4,9 +4,11 @@ layout: essay.njk
 date: "2023-11-15"
 ---
 
-"A scientific truth does not triumph by convincing its opponents and making them see the light, but rather because its opponents eventually die and a new generation grows up that is familiar with it." -- Max Plank
+> "A scientific truth does not triumph by convincing its opponents and making them see the light, but rather because its opponents eventually die and a new generation grows up that is familiar with it."
+>
+> -Max Plank
 
-The paper I prepared more than a year ago on [Complexity, Cognitive Bias, and Governance](https://www.researchgate.net/publication/372404118_Complexity_Cognitive_Bias_and_Governance) has finally been published via the Polish Academy of Sciences.
+The paper I prepared more than a year ago on complexity, cognitive Bias, and governance has finally been published [via the Polish Academy of Sciences.](https://bibliotekanauki.pl/articles/31233773)
 
 Reflecting on the past few years of publishing papers in peer review I realized that I've actually encountered only a small number of anonymous trolls in the peer review process, about one clear-cut troll per 2.5 published papers overall. The trouble is that they were positioned in the 3 worst possible places.
 

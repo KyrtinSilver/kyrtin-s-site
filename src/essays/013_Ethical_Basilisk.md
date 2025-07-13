@@ -4,7 +4,9 @@ layout: essay.njk
 date: "2023-08-04"
 ---
 
-"Action speaks louder than words but not nearly as often." -Mark Twain
+> "Action speaks louder than words but not nearly as often." 
+>
+> -Mark Twain
 
 Over the years I've often heard influential people speak of wanting ethical and efficient systems, proclaiming the benefits that could be achieved with them. Many of those same people have been offered the systems they claimed to want, and through their actions made it clear that they did not in fact want anything of the sort.
 

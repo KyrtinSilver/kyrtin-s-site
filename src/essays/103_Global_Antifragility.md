@@ -6,7 +6,7 @@ date: "2023-11-25"
 
 In going through Nassim Nicholas Taleb's book "Antifragile", someone who grew up in a city going through civil war, and subsequently getting rebuilt for the 8th time in its history, I was reminded of Cyprus, my previous destination in my most unlikely of slow world tours.
 
-Cyprus is another country that has a history full of one invasion after the next, and the only remaining country in the world with a wall dividing its capital city. My hosts during my stay there, a lovely family living in one of the suburbs of that capital city, and a couple of blocks walk from the UN's demilitarized zone, recently sent me [a good short documentary covering it](https://www.youtube.com/watch?v=p7_TZagxjyk).
+Cyprus is another country that has a history full of one invasion after the next, and the only remaining country in the world with a wall dividing its capital city. My hosts during my stay there, a lovely family living in one of the suburbs of that capital city, and a couple of blocks walk from the UN's demilitarized zone, recently sent me [a good short documentary](https://www.youtube.com/watch?v=p7_TZagxjyk) covering it.
 
 Even with most of my focus placed on remote work, when I did walk around to see Cyprus and Nicosia what I saw was often reminiscent of what the documentary shows. A handful of places were building new homes, and a handful of streets were full of shops, but those were more the exception to the rule.
 
