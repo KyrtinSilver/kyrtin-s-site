@@ -4,7 +4,7 @@ layout: essay.njk
 date: "2024-02-24"
 ---
 
-How many coders using LLMs like "Copilot" do you think are checking the code they use or other data they call on for invisible characters? If they aren't accidentally exfiltrating their own data yet, or invoking malicious code and links, [they might be in the near future](https://www.youtube.com/watch?v=7z8weQnEbsc).
+How many coders using LLMs like "Copilot" do you think are checking the code they use or other data they call on for invisible characters? If they aren't accidentally exfiltrating their own data yet, or invoking malicious code and links, [they might be in the near future.](https://www.youtube.com/watch?v=7z8weQnEbsc)
 
 Data passing through such systems has to specifically be scrubbed of any invisible characters on both inputs and outputs, as does the data being fed into those systems for training. In certain use cases such sanitation of the data may conflict with the data a system needs to train on, effectively making them permanently vulnerable, or inoperable, to varying degrees.
 

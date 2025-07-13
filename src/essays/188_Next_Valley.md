@@ -4,7 +4,7 @@ layout: essay.njk
 date: "2024-05-22"
 ---
 
-One of the benefits of having a team currently distributed across 4 continents is that we can more easily attend conferences across all of them. My colleague and our CEO, [Frits Israel],(https://linkedin.com/in/fmisrael) will be attending [London Tech Week 2024]((https://londontechweek.com/2024-agenda)) this coming month starting from June 10th, which looks to have quite a bit going on with many stages.
+One of the benefits of having a team currently distributed across 4 continents is that we can more easily attend conferences across all of them. My colleague and our CEO, [Frits Israel](https://linkedin.com/in/fmisrael), will be attending [London Tech Week 2024]((https://londontechweek.com/2024-agenda)) this coming month starting from June 10th, which looks to have quite a bit going on with many stages.
 
 For those in the area or otherwise planning to attend it will be an opportunity to meet face-to-face with a core member of our team. I spent my time in London this time last year, so it is his turn now.
 

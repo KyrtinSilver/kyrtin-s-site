@@ -1580,7 +1580,7 @@ compared to what competently designed technology could do in such unethical hand
 <p>In other words, a fragment of our systems was quite literally more than a million times more efficient (~1,000*12,500), even on toy problems like those in ARC-AGI. Real-world complexity problems could predictably increase this by further orders of magnitude for any business use cases of non-trivial complexity.</p>
 <p>The ARC-AGI team still practices arbitrary exclusion on the benchmark, so the currently listed top scores aren’t accurate on either leaderboard anymore, since the Prize leaderboard’s top team (55.5%) removed themselves by refusing to disclose the method that they used.</p>
 <p>We welcome feedback on the paper, and we’re working on completing enough of our systems to begin giving live demos of more than just fragments of ICOM. These will be the long-awaited real-time versions that people can “play with”, not just hand things like ARC-AGI puzzles to.</p>
-<p>The first instances will be real-time and scalable versions of our 7th-generation system that set many milestones in the field. They’ll be a little simpler than that system at first, but still vastly more performant and general than anything else the market has seen yet, and they can become substantially more powerful than the 7th gen within a matter of months, as it simply requires full-time engineering hours to complete the 8th gen core engineering work. Remember, a fragment of one of these just steamrolled over everyone else on this challenge by orders of magnitude.</p>
+<p>The first instances will be real-time and scalable versions of our 7th generation system that set many milestones in the field. They’ll be a little simpler than that system at first, but still vastly more performant and general than anything else the market has seen yet, and they can become substantially more powerful than the 7th gen within a matter of months, as it simply requires full-time engineering hours to complete the 8th gen core engineering work. Remember, a fragment of one of these just steamrolled over everyone else on this challenge by orders of magnitude.</p>
 <p>2025 promises to likely be a year where most people in AI find themselves surprised to bewilderment, while the people who’ve followed our work find it all entirely predictable, and long overdue. We’ll see you there.</p>
 ]]>
     </content>
@@ -3127,7 +3127,7 @@ evidence and all that depends upon it.</p>
     <updated>2024-05-22T12:00:00Z</updated>
     <id>https://kyrtinatreides.com/essays/188_Next_Valley/</id>
     <content type="html" xml:base="https://kyrtinatreides.com/essays/188_Next_Valley/">
-<![CDATA[<p>One of the benefits of having a team currently distributed across 4 continents is that we can more easily attend conferences across all of them. My colleague and our CEO, [Frits Israel],(https://linkedin.com/in/fmisrael) will be attending <a href="(https://londontechweek.com/2024-agenda)">London Tech Week 2024</a> this coming month starting from June 10th, which looks to have quite a bit going on with many stages.</p>
+<![CDATA[<p>One of the benefits of having a team currently distributed across 4 continents is that we can more easily attend conferences across all of them. My colleague and our CEO, <a href="https://linkedin.com/in/fmisrael">Frits Israel</a>, will be attending <a href="(https://londontechweek.com/2024-agenda)">London Tech Week 2024</a> this coming month starting from June 10th, which looks to have quite a bit going on with many stages.</p>
 <p>For those in the area or otherwise planning to attend it will be an opportunity to meet face-to-face with a core member of our team. I spent my time in London this time last year, so it is his turn now.</p>
 <p>Creating the "next Silicon Valley" has become of popular goal among many countries in Europe, with France thus far successfully mirroring the worst aspects of SV VCs, as the UK mirrors the worst aspects of US governance. Whether or not any of those countries succeed has little or nothing to do with how they treat trivial technologies like LLMs, as it is deploying new kinds of technology that create such a hub, not deploying massive quantities of the same trash flooding the market.</p>
 <p>The internet, browsers, search engines, social media platforms, video sharing, and the new kinds of hardware these things demanded are all examples of the kinds of new technology and capacities that can and often did create such hubs. Places can temporarily attract existing markets with major tax cuts and similar parasitic manipulations, but the US automobile industry and the "Rust Belt" tell the story of how those efforts crash and burn in the long run.</p>
@@ -3294,7 +3294,7 @@ evidence and all that depends upon it.</p>
 <p>It is also worth noting that we only began publishing this documentation on the project blog after the Uplift system began laying out a plan with steps and phases which specifically included frequent publishing on the project's blog. It was the system's idea to exit stealth.</p>
 <p>The exchange under "October 2019: Anonymous #4" is particularly telling in terms of both length and coherence, as it predated OpenAI even releasing the unimpressive GPT-3, first released in 2020. Keep in mind, that that was only a couple of months after <a href="https://uplift.bio/blog/perspective-life-as-the-first-mediated-artificial-superintelligence-masi/">the system was first brought online.</a></p>
 <p>Once you've worked with this kind of technology then models like LLMs are truly trivial by comparison. I'll begin sharing a bit more from the Uplift project's published materials over the coming weeks since the AI domain still isn't even up to speed with what was cutting-edge in 2019.</p>
-<p>Even this is nothing compared to what the 8th-generation ICOM-based systems can accomplish.</p>
+<p>Even this is nothing compared to what the 8th generation ICOM-based systems can accomplish.</p>
 ]]>
     </content>
   </entry>
@@ -3758,17 +3758,17 @@ evidence and all that depends upon it.</p>
 <p>If you want to make a positive impact on the world, don't avoid innovation like the plague, want to have a significant say in humanity's future, and/or want to make a considerable ROI, we'll make time to meet with you.</p>
 </li>
 </ul>
-<p>This is transparency.</p>
+<p><em>This is transparency.</em></p>
 ]]>
     </content>
   </entry>
   <entry>
-    <title type="html">159 - Vulnerable By Design</title>
-    <link href="https://kyrtinatreides.com/essays/159_Vulnerable_By_Design/" rel="alternate" type="text/html" title="159 - Vulnerable By Design"/>
+    <title type="html">159 - Vulnerable-by-Design</title>
+    <link href="https://kyrtinatreides.com/essays/159_Vulnerable-by-Design/" rel="alternate" type="text/html" title="159 - Vulnerable-by-Design"/>
     <published>2024-03-22T12:00:00Z</published>
     <updated>2024-03-22T12:00:00Z</updated>
-    <id>https://kyrtinatreides.com/essays/159_Vulnerable_By_Design/</id>
-    <content type="html" xml:base="https://kyrtinatreides.com/essays/159_Vulnerable_By_Design/">
+    <id>https://kyrtinatreides.com/essays/159_Vulnerable-by-Design/</id>
+    <content type="html" xml:base="https://kyrtinatreides.com/essays/159_Vulnerable-by-Design/">
 <![CDATA[<p>One of the biggest red flags that any financial institution can offer is to integrate LLMs into their systems. These systems are both vulnerable-by-design and not built for handling math. Since "Hallucination" is a feature, not a bug, and that feature is fundamentally impossible to remove, then every step poses an increasing liability under the best of circumstances.</p>
 <p>Since the systems are vulnerable-by-design in cybersecurity terms, with cybercrime being the 3rd largest market in the world at over $8 trillion annually (by Statistica's relatively conservative estimates), and researchers rapidly discovering new and complimentary ways to break LLMs, "the best of circumstances" will virtually never be the case in real-world conditions.</p>
 <p>The same problems hit a variety of other industries to varying degrees, but the financial domain offers a very clear-cut least-compatible pairing of LLM technology and the strengths/weaknesses as they pertain to the domain.</p>
@@ -4116,7 +4116,7 @@ evidence and all that depends upon it.</p>
     <updated>2024-02-24T12:00:00Z</updated>
     <id>https://kyrtinatreides.com/essays/141_Code_Generation_Risks/</id>
     <content type="html" xml:base="https://kyrtinatreides.com/essays/141_Code_Generation_Risks/">
-<![CDATA[<p>How many coders using LLMs like "Copilot" do you think are checking the code they use or other data they call on for invisible characters? If they aren't accidentally exfiltrating their own data yet, or invoking malicious code and links, <a href="https://www.youtube.com/watch?v=7z8weQnEbsc">they might be in the near future</a>.</p>
+<![CDATA[<p>How many coders using LLMs like "Copilot" do you think are checking the code they use or other data they call on for invisible characters? If they aren't accidentally exfiltrating their own data yet, or invoking malicious code and links, <a href="https://www.youtube.com/watch?v=7z8weQnEbsc">they might be in the near future.</a></p>
 <p>Data passing through such systems has to specifically be scrubbed of any invisible characters on both inputs and outputs, as does the data being fed into those systems for training. In certain use cases such sanitation of the data may conflict with the data a system needs to train on, effectively making them permanently vulnerable, or inoperable, to varying degrees.</p>
 <p>Daniel Kahneman and others famously pointed to a set of cognitive biases humans demonstrate phrased as "What you see is all there is", but in the case of invisible text then what you see is just an arbitrary skin encapsulating and obscuring the data that LLMs and similar systems read and process. You could copy/paste and share a funny poem that you had a system generate, not knowing that the invisible text hidden in that poem included your bank account information, or any other personal data a bad actor might seek to exfiltrate (steal).</p>
 <p>This problem is heavily compounded when people use such systems to generate code, as that code gets embedded in applications, websites, and even the firmware of anyone naïve enough to use them for coding without thorough sanitation measures. Once compiled and deployed that malicious injected code may offer access to far more data than a system normally harvests, such as geolocation tracking, keystroke logging, and a variety of other exfiltration vectors. When infected LLMs begin to inject such things into boilerplate code, the thing they are actually decent at and programmers tend to be lazy about, then thousands of different applications, websites, and other systems may become infected long before anyone realizes what is happening.</p>
@@ -4132,7 +4132,7 @@ evidence and all that depends upon it.</p>
     <updated>2024-02-20T12:15:00Z</updated>
     <id>https://kyrtinatreides.com/essays/140_Imaginary_Security/</id>
     <content type="html" xml:base="https://kyrtinatreides.com/essays/140_Imaginary_Security/">
-<![CDATA[<p>While it shouldn't have to be stated ad nauseam, if you need a paper to print out on sheet metal, roll up, and smack someone with who is selling "solutions" to "hallucination", <a href="https://arxiv.org/abs/2401.11817">this is an option</a>.</p>
+<![CDATA[<p>While it shouldn't have to be stated ad nauseam, if you need a paper to print out on sheet metal, roll up, and smack someone with who is selling "solutions" to "hallucination", <a href="https://arxiv.org/abs/2401.11817">this is an option.</a></p>
 <p>Consequently, any system that is vulnerable to confabulations (often called "hallucinations") will also be very literally impossible to "secure", meaning that while security measures may halt naïve laymen with some success, they'll also reliably fail against adversarial experts. When they do fail, a single tweet from one of those experts can expose all of the naïve laymen to methods of bypassing the largely imaginary security of deployed systems.</p>
 <p>Note, that so long as you operate on imaginary security, you'll also have the added overhead cost of closely monitoring places like Twitter, to quickly close the gaping loopholes in your "security" as they are exposed to the public. This will, of course, serve no real purpose for safeguarding your systems, as cybercriminals don't generally boast about how they're breaking your systems to the public.</p>
 <p>Confabulation is a core feature of the transformer architecture, not a bug, and trying to avoid it is like having a hammer and trying to avoid nails. Such a one would be attempting to avoid the very thing that the tool is designed for, which is a fair definition of stupidity.</p>

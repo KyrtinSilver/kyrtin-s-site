@@ -22,4 +22,4 @@ To investors:
 
 - If you want to make a positive impact on the world, don't avoid innovation like the plague, want to have a significant say in humanity's future, and/or want to make a considerable ROI, we'll make time to meet with you.
 
-This is transparency.
+*This is transparency.*

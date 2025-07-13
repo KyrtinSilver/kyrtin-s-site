@@ -1,5 +1,5 @@
 ---
-title: "159 - Vulnerable By Design"
+title: "159 - Vulnerable-by-Design"
 layout: essay.njk
 date: "2024-03-22"
 ---

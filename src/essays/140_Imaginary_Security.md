@@ -4,7 +4,7 @@ layout: essay.njk
 date: "2024-02-20"
 ---
 
-While it shouldn't have to be stated ad nauseam, if you need a paper to print out on sheet metal, roll up, and smack someone with who is selling "solutions" to "hallucination", [this is an option](https://arxiv.org/abs/2401.11817).
+While it shouldn't have to be stated ad nauseam, if you need a paper to print out on sheet metal, roll up, and smack someone with who is selling "solutions" to "hallucination", [this is an option.](https://arxiv.org/abs/2401.11817)
 
 Consequently, any system that is vulnerable to confabulations (often called "hallucinations") will also be very literally impossible to "secure", meaning that while security measures may halt naïve laymen with some success, they'll also reliably fail against adversarial experts. When they do fail, a single tweet from one of those experts can expose all of the naïve laymen to methods of bypassing the largely imaginary security of deployed systems.
 
