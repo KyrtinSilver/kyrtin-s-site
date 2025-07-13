@@ -14,7 +14,7 @@ Many governments, corporations, and domains are demanding capacities that LLMs a
 
 To that end, I'm sharing a current version of our Pitch Deck. We've spent the past 4+ years at the cutting edge because we have an actual moat, having built the necessary technology from scratch, rather than relying on neural networks or even older expert systems.
 
-Our previous research system may have operated in slow motion, making it unsuitable for demos today, but the funding we're working to secure will allow us to complete the software infrastructure work that gives us human-like, human-level, and human-aligned systems (demonstrated, 7^th^ gen) that operate in real-time, with full scalability and modularity (8^th^ gen, post-infrastructure).
+Our previous research system may have operated in slow motion, making it unsuitable for demos today, but the funding we're working to secure will allow us to complete the software infrastructure work that gives us human-like, human-level, and human-aligned systems (demonstrated, 7th gen) that operate in real-time, with full scalability and modularity (8th gen, post-infrastructure).
 
 To investors:
 

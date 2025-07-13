@@ -6,7 +6,7 @@ date: "2023-08-27"
 
 Over the course of 2021, I documented more than 30 verticals with specific use cases for the ICOM-based technology stack, addressing problems in ways that conventional AI like Transformers such as LLMs and Reinforcement Learning (RL) is fundamentally incapable of.
 
-All of these use cases were very conservatively estimated at being feasible within "5 years or less", and with the rebuild of the new 8^th^ generation systems underway, and many new milestones since achieved, it is time to get more specific. I've revised these use cases according to their respective engineering requirements.
+All of these use cases were very conservatively estimated at being feasible within "5 years or less", and with the rebuild of the new 8th generation systems underway, and many new milestones since achieved, it is time to get more specific. I've revised these use cases according to their respective engineering requirements.
 
 As at least some of the new systems are being built for fully independent, scalable, and real-time operation, the limitations of the previous mASI approach no longer apply. Engineering time requirements still vary by use case, but many have substantial overlap.
 

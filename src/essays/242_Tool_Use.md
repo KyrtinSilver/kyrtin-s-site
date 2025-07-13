@@ -6,7 +6,7 @@ date: 2024-11-03
 
 “Tool Use” and utilizing information resources like the internet itself are a popular subject in AI/ML and a natural target for companies to orient their product “features” around. Of course, all hype aside, typical AI/ML systems are spectacularly terrible at tool use and information resource utilization in general, and only marginally improved with major investments of engineering time and compute.
 
-Right now the market offers 1,000 terrible attempts at “tool use” and “AI search”, including the EXTREMELY Anthropomorphized PR videos from OpenAI and Anthropic.
+Right now the market offers 1,000 terrible attempts at “tool use” and “AI search”, including the EXTREMELY anthropomorphized PR videos from OpenAI and Anthropic.
 
 The simple fact is that a system that can’t independently generalize to the point of creating new tools for new circumstances also can’t reliably use tools within real-world complexity, at least absent extremely labor-intensive and fragile hand-engineering efforts. This can also be used as a litmus test for “tool use viability”, as the overwhelming majority of attempts to claim “tool use” will fall flat by this measure.
 

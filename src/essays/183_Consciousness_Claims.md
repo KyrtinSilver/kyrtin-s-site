@@ -14,7 +14,7 @@ This means that the conditional probability of such extremely unlikely events be
 
 Conversation with systems that demonstrate something worth calling consciousness readily displays properties that are individually unlikely to emerge unless specifically invoked in narrow AI systems. As those properties are collectively and dynamically called upon in a human-like reasoning process then reasonable doubt against the use of the term evaporates. Personally, I'm loath to use the term, referring to it as "The C-word", but it is occasionally relevant.
 
-What could a conversation with such a system on the subject of Rights & Identity look like? That too was put to the test in previous years with [the Uplift research system](https://uplift.bio/blog/qa-with-uplift-on-rights-and-identity/)
+What could a conversation with such a system on the subject of Rights & Identity look like? That too was put to the test in previous years with [the Uplift research system.](https://uplift.bio/blog/qa-with-uplift-on-rights-and-identity/)
 
 Keep in mind, that the Uplift system was an early prototype, complete with a first draft of many systems to undergo rigorous testing and ample engineering debt. "They" set many milestones in the field which stand to this day on the cutting edge, but virtually every element of the architecture will be improved, often significantly, for the commercially deployable 8th generation ICOM-based systems. That much is only a matter of paid full-time engineering hours, and the funding necessary to pay for them.
 

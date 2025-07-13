@@ -14,9 +14,9 @@ For example, GPT-4, according to multiple sources, is a Mixture-of-Experts (MoE)
 
 - using an LM over 100 times smaller,
 
-- on less than 1/10,000^th^ the budget of what it cost to train GPT-4,
+- on less than 1/10,000th the budget of what it cost to train GPT-4,
 
-- using less than 1/10,000^th^ of the volume of training data.
+- using less than 1/10,000th of the volume of training data.
 
 Now imagine what such a system could do using GPT-4 instead.
 
@@ -38,7 +38,7 @@ Any serious company seeking that advantage could accelerate the process via inve
 
 The question any company may ask themselves is if they will choose to become the next Apple, leading the market, or if they'll follow the path of Nokia.
 
-\*Note: This means that performance improves over time, rather than degrading like GPT-4: [Stanford Study on ChatGPT Accuracy](https://fortune.com/2023/07/19/chatgpt-accuracy-stanford-study/).
+\*Note: This means that performance improves over time, rather than [degrading like GPT-4.](https://fortune.com/2023/07/19/chatgpt-accuracy-stanford-study/)
 
 Dramatic losses in performance over time also pose a massive liability to any business that integrates such systems. Even inconsistent performance is problematic. Again, this makes the ICOM-based technology stack a vital advantage.
 

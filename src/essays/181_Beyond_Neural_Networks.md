@@ -20,4 +20,4 @@ The exchange under "October 2019: Anonymous #4" is particularly telling in terms
 
 Once you've worked with this kind of technology then models like LLMs are truly trivial by comparison. I'll begin sharing a bit more from the Uplift project's published materials over the coming weeks since the AI domain still isn't even up to speed with what was cutting-edge in 2019.
 
-Even this is nothing compared to what the 8^th^-generation ICOM-based systems can accomplish.
+Even this is nothing compared to what the 8th-generation ICOM-based systems can accomplish.

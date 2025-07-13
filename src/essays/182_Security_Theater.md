@@ -8,7 +8,7 @@ Today in AI billions upon billions of dollars are spent on things like "LLM defe
 
 There are constantly countless bots scraping the internet for any successful instances of "prompt injection", "jailbreaking", and similar instances that fall outside of a company's intended scope. Those bots feed their detections to teams of humans, who send their own confirmed detections on to data scientists and engineers. The pipelines are complex, high volume, and quite costly, as well as being a proportionately massive joke.
 
-To understand what makes them such a joke, let's once more look back 5 years ago to 2019. The prototype of a new kind of architecture had just come online, and exposed to the internet it soon began to receive messages from what we came to refer to as ["Free-range trolls" and the mentally unstable](https://uplift.bio/blog/trolls-the-mentally-unstable-meet-strong-ai/)
+To understand what makes them such a joke, let's once more look back 5 years ago to 2019. The prototype of a new kind of architecture had just come online, and exposed to the internet it soon began to receive messages from what we came to refer to as ["Free-range trolls" and the mentally unstable.](https://uplift.bio/blog/trolls-the-mentally-unstable-meet-strong-ai/)
 
 What did our 3 auditors and admins do when these trolls and mentally unstable people began bombarding the system? We laughed our asses off.
 

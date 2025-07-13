@@ -10,7 +10,7 @@ Several startups have raised over $1 billion before they even had their first "p
 
 The reality behind these investments today is that the "Good Ole Boys" network is alive and well. By the numbers, most investors would rather invest in the obvious snake oil they know, even if the person is the AI Bro equivalent of Bernie Madoff, than deal with anyone they don't have a personal history with. Tribalism hasn't been much of an investment strategy for perhaps 2,000 years or more, yet it not only persists, it thrives.
 
-The response rate I've personally observed is virtually 100% when you have someone on the insider circuit in your executive team who makes the connection, and around 2% if you merely reach out to investors you have 2^nd^ degree connections with. "AI Investors" are also the least responsive, which helps to explain why the average AI investment flows directly into snake oil.
+The response rate I've personally observed is virtually 100% when you have someone on the insider circuit in your executive team who makes the connection, and around 2% if you merely reach out to investors you have 2nd degree connections with. "AI Investors" are also the least responsive, which helps to explain why the average AI investment flows directly into snake oil.
 
 There are worse things than bankruptcy, and both the snake oil sellers and their investors have that to look forward to. If someone tells you that they're going to give an LLM reasoning, explainability, transparency, alignment, ethics, or cybersecurity, picture how they'll look in prison, then decide if you want to be their cellmate.
 
