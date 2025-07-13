@@ -4,7 +4,7 @@ layout: essay.njk
 date: "2025-07-12"
 ---
 
-Back in early 2023 I published a paper whose title I used to mock the Tech Broligarchs, titled ["Automated Bias and Indoctrination at Scale… Is All You Need"](https://www.researchgate.net/publication/378191925_Automated_Bias_and_Indoctrination_at_Scale_Is_All_You_Need), and as the reports keep coming in and getting confirmed, evidently [Elon Musk is indeed "living the meme"](https://x.com/jeremyphoward/status/1943436621556466171?t=Vv7JeOI6F_M4x1wDQ46hRA&s=19)
+Back in early 2023 I published a paper whose title I used to mock the Tech Broligarchs, titled ["Automated Bias and Indoctrination at Scale… Is All You Need"](https://www.researchgate.net/publication/378191925_Automated_Bias_and_Indoctrination_at_Scale_Is_All_You_Need), and as the reports keep coming in and getting confirmed, evidently Elon Musk is indeed ["living the meme."](https://x.com/jeremyphoward/status/1943436621556466171?t=Vv7JeOI6F_M4x1wDQ46hRA&s=19)
 
 "Grok 4", following closely behind the previous iteration identifying itself as "Mecha-Hitler" and requiring staff to scramble to delete comments and a CEO to resign, is evidently explicitly searching for Musk's stated opinions in order to regurgitate those specific beliefs. My exact words in response to this news breaking were "Elon has finally automated talking out of his ass. You can now query his ass directly through his anal user interface (AUI)."
 

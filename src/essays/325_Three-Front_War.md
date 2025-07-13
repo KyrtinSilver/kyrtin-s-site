@@ -4,10 +4,7 @@ layout: essay.njk
 date: "2025-07-03"
 ---
 
-History has some lessons for us, such as the story of Orson Welles and the famous “War of the Worlds” broadcast. His motivation, as told by the man himself, was that people shouldn't believe everything communicated through new technology by default, as he observed people doing with the radio in his time. This tendency has since been documented in cognitive bias research.
-
-[Orson Welles: The 'alien invasion' that fooled America - BBC News
-](https://www.youtube.com/watch?v=BkG70_wa4a8)
+History has some lessons for us, such as the story of [Orson Welles and the famous “War of the Worlds” broadcast.](https://www.youtube.com/watch?v=BkG70_wa4a8) His motivation, as told by the man himself, was that people shouldn't believe everything communicated through new technology by default, as he observed people doing with the radio in his time. This tendency has since been documented in cognitive bias research.
 
 This lesson hasn't quite sunk in for humanity (as tends to be the case for cognitive biases), because people repeated this mistake with AI. Bad actors even took it a step further to not just mislead people with a broadcast, but to systematically and repeatedly flood them with such disinformation for several years (and counting).
 

@@ -6,7 +6,7 @@ date: "2025-07-07"
 
 Numerous companies have eagerly adopted some form of AI into the Customer Service process, but what most of them have systematically neglected is the blade of the guillotine hanging over their heads now, cybersecurity remediation.
 
-For context, cybercrime is the 3rd largest market in the world, [on schedule to top $10.29 trillion USD annually this year, per Statista's figures](https://www.statista.com/topics/13546/cybercrime-worldwide/#topicOverview). Cybercrime is also the largest industry to widely adopt and substantially benefit from "GenAI", as neither BS nor a lack of security are significant problems for it.
+For context, cybercrime is the 3rd largest market in the world, [on schedule to top $10.29 trillion USD annually this year](https://www.statista.com/topics/13546/cybercrime-worldwide/#topicOverview), per Statista's figures. Cybercrime is also the largest industry to widely adopt and substantially benefit from "GenAI", as neither BS nor a lack of security are significant problems for it.
 
 Cybersecurity remediation is rarely easy or simple, and companies like Microsoft gladly make it very literally impossible, as they evidently no longer desire customers. One of the common points of failure is systematically blocking access to any real form of customer support, such as requiring someone to log into an account before contacting support. This is obviously impossible if the problem is account access, and yet that level of stupidity in CS systems architecture has become extremely common.
 
