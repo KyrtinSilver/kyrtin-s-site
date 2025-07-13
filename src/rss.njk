@@ -18,7 +18,7 @@ eleventyExcludeFromCollections: true
     <item>
       <title>{{ essay.data.title | escape }}</title>
       <link>{{ essay.url | absoluteUrl('https://kyrtinatreides.com') }}</link>
-      <description>{{ essay.templateContent | htmlToAbsoluteUrls('https://kyrtinatreides.com') | escape }}</description>
+      <description><![CDATA[{{ essay.templateContent | htmlToAbsoluteUrls('https://kyrtinatreides.com') }}]]></description>
       <content:encoded><![CDATA[{{ essay.templateContent | htmlToAbsoluteUrls('https://kyrtinatreides.com') }}]]></content:encoded>
       <pubDate>{{ essay.date | dateToRfc822 }}</pubDate>
       <dc:creator>Kyrtin Atreides</dc:creator>
