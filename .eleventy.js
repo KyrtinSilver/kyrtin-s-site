@@ -1,8 +1,29 @@
 const rssPlugin = require("@11ty/eleventy-plugin-rss");
+const markdownIt = require("markdown-it");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(rssPlugin);
   eleventyConfig.addGlobalData("now", new Date());
+
+  // Create a markdown-it instance for RSS content
+  const md = new markdownIt({
+    html: true,
+    linkify: true,
+    typographer: true
+  });
+
+  // Add custom filter for RSS content
+  eleventyConfig.addFilter("rssContent", function(content) {
+    if (!content) return "";
+    // Convert markdown to HTML and decode HTML entities
+    const html = md.render(content);
+    return html
+      .replace(/&quot;/g, '"')
+      .replace(/&amp;/g, '&')
+      .replace(/&lt;/g, '<')
+      .replace(/&gt;/g, '>')
+      .replace(/&#39;/g, "'");
+  });
 
   eleventyConfig.addCollection("essays", function (collection) {
     return collection
