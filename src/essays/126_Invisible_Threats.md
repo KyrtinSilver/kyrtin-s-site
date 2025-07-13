@@ -4,9 +4,9 @@ layout: essay.njk
 date: "2024-01-14"
 ---
 
-My PSA for the week: The AI Cybersecurity space just got very spicy, with security researchers diving into a new method of compromising text-based AI systems like LLMs. [The method can be both invisible and unlikely to be robustly fixed](https://x.com/rez0__/status/1745545813512663203). 
+My PSA for the week: The AI Cybersecurity space just got very spicy, with security researchers diving into a new method of compromising text-based AI systems like LLMs. The method can be both invisible and is [unlikely to be robustly fixed.](https://x.com/rez0__/status/1745545813512663203) 
 
-Like most research, this is a newer version of an older concept, noted in previous papers such as [Bad Characters: Imperceptible NLP Attacks](https://arxiv.org/abs/2106.09898).
+Like most research, this is a newer version of an older concept, noted in previous papers such as [Bad Characters: Imperceptible NLP Attacks.](https://arxiv.org/abs/2106.09898).
 
 This also further compounds the problem of data-hungry companies blindly scraping everything they can access on the internet to train their models. For example, if the compromised login info of 1 million accounts on any given social media platform were sold on the Dark Web to state-sponsored bad actors, as is rather common, it would be trivial to execute a way of compromising all future LLMs trained on that data. Let's walk through this example:
 

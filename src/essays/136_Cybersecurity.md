@@ -4,7 +4,7 @@ layout: essay.njk
 date: "2024-02-12"
 ---
 
-To my surprise, Google Deepmind has recently released [a viable cybersecurity paper](https://arxiv.org/abs/2402.05526). I've grown accustomed to seeing fluff and "emergence" delusions attached to Google, but it would appear that they're still capable of doing actual research.
+To my surprise, Google Deepmind has recently released [a viable cybersecurity paper.](https://arxiv.org/abs/2402.05526) I've grown accustomed to seeing fluff and "emergence" delusions attached to Google, but it would appear that they're still capable of doing actual research.
 
 This paper came to my attention through a cybersecurity research server recently, and the residents of that server are already looking at potential ways to take that several steps further. MoE has grown more popular, but just like every other method of duct-taping things to the transformer architecture it also introduces new cybersecurity vulnerabilities.
 

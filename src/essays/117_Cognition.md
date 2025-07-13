@@ -4,7 +4,7 @@ layout: essay.njk
 date: "2023-12-27"
 ---
 
-Following feedback, I've added 3 more sections and 6 more visual aids to the recent educational paper addressing complexity, cognitive bias, and emotional motivation, as they relate to instantiation in software and non-trivial definitions of "AGI" [ResearchGate](http://dx.doi.org/10.13140/RG.2.2.11390.56641).
+Following feedback, I've added 3 more sections and 6 more visual aids to the recent educational paper, ["The Complex Chaos of Cognitive Biases and Emotional Observers"](http://dx.doi.org/10.13140/RG.2.2.11390.56641)addressing complexity, cognitive bias, and emotional motivation, as they relate to instantiation in software and non-trivial definitions of "AGI."
 
 The added sections address comparing data quality between architectures and over time, as well as differences in the dynamics of uncertainty, and both the similarities and differences between software instantiation in a graph database versus hardware instantiation in a human brain.
 

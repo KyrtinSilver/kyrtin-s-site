@@ -18,6 +18,6 @@ Those technologies could be taken much further with the integration of working c
 
 The elephant in the room for that topic is the risk of bad actors and deepfakes, which are already growing severe at the current levels of the technology. However, raising the technology above human capacities also means the ability to inject methods of "watermarking" and tracking into any output that bad actors have no realistic hope of detecting or masking. The improvement itself becomes what enables the solution to this problem, taming the elephant, rather than ignoring it.
 
-For anyone curious about the state of the vocal cloning technology today, I've temporarily set up an example mixing together several such voices, which can also be used to make fun of the narrow AI worshippers on Twitter.[This encapsulates my sense of humor on several levels](https://vimeo.com/manage/videos/897081232).
+For anyone curious about the state of the vocal cloning technology today, [I've temporarily set up an example](https://vimeo.com/manage/videos/897081232) mixing together several such voices, which can also be used to make fun of the narrow AI worshippers on Twitter. This encapsulates my sense of humor on several levels.
 
-More details on the websites and software used in the vimeo link's description. The Rick Sanchez voice model is shown [here](https://www.weights.gg/models/clm736lqx1qeccctcmd0zt2eu).
+More details on the websites and software used in the vimeo link's description. The Rick Sanchez voice model can be found [here.](https://www.weights.gg/models/clm736lqx1qeccctcmd0zt2eu)
