@@ -18,8 +18,8 @@ eleventyExcludeFromCollections: true
   <entry>
     <title type="html">{{ essay.data.title | escape }}</title>
     <link href="{{ essay.url | absoluteUrl('https://kyrtinatreides.com') }}" rel="alternate" type="text/html" title="{{ essay.data.title | escape }}"/>
-    <published>{{ essay.date | dateToRfc3339 }}</published>
-    <updated>{{ essay.date | dateToRfc3339 }}</updated>
+    <published>{{ essay | adjustedTimestamp(collections.essays) | dateToRfc3339 }}</published>
+    <updated>{{ essay | adjustedTimestamp(collections.essays) | dateToRfc3339 }}</updated>
     <id>{{ essay.url | absoluteUrl('https://kyrtinatreides.com') }}</id>
     <content type="html" xml:base="{{ essay.url | absoluteUrl('https://kyrtinatreides.com') }}">
 <![CDATA[{{ essay.content | rssContent | safe }}]]>

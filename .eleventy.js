@@ -5,17 +5,14 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(rssPlugin);
   eleventyConfig.addGlobalData("now", new Date());
 
-  // Create a markdown-it instance for RSS content
   const md = new markdownIt({
     html: true,
     linkify: true,
     typographer: true
   });
 
-  // Add custom filter for RSS content
   eleventyConfig.addFilter("rssContent", function(content) {
     if (!content) return "";
-    // Convert markdown to HTML and decode HTML entities
     const html = md.render(content);
     return html
       .replace(/&quot;/g, '"')
@@ -30,7 +27,6 @@ module.exports = function (eleventyConfig) {
       .getFilteredByGlob("src/essays/**/*.md")
       .filter((item) => !item.inputPath.endsWith("index.md"))
       .sort((a, b) => {
-        // Convert front-matter date to Date objects (fallback to Eleventy’s built-in file date).
         const aDate = a.data.date ? new Date(a.data.date) : a.date;
         const bDate = b.data.date ? new Date(b.data.date) : b.date;
 
@@ -52,8 +48,6 @@ module.exports = function (eleventyConfig) {
       .getFilteredByGlob("src/research/**/*.md")
       .filter((item) => !item.inputPath.endsWith("index.md"));
   });
-
-  // === Filters, passthrough copies, etc. ===
 
   eleventyConfig.addFilter("date", (dateObj) => {
     if (!dateObj) return "";
@@ -100,6 +94,37 @@ module.exports = function (eleventyConfig) {
     } catch (e) {
       return base + url;
     }
+  });
+
+  eleventyConfig.addFilter("adjustedTimestamp", function (essay, allEssays) {
+    const baseDate = essay.data.date ? new Date(essay.data.date) : essay.date;
+    
+    const dateStr = baseDate.toISOString().split('T')[0];
+    const essaysOnSameDate = allEssays.filter(e => {
+      const eDate = e.data.date ? new Date(e.data.date) : e.date;
+      return eDate.toISOString().split('T')[0] === dateStr;
+    });
+    
+    if (essaysOnSameDate.length === 1) {
+      const noonDate = new Date(baseDate);
+      noonDate.setUTCHours(12, 0, 0, 0);
+      return noonDate;
+    }
+    
+    essaysOnSameDate.sort((a, b) => {
+      const aMatch = a.data.title.match(/^(\d+)/);
+      const bMatch = b.data.title.match(/^(\d+)/);
+      const aNum = aMatch ? parseInt(aMatch[1]) : 0;
+      const bNum = bMatch ? parseInt(bMatch[1]) : 0;
+      return aNum - bNum;
+    });
+    
+    const essayIndex = essaysOnSameDate.findIndex(e => e.url === essay.url);
+    
+    const adjustedDate = new Date(baseDate);
+    adjustedDate.setUTCHours(12, essayIndex * 15, 0, 0);
+    
+    return adjustedDate;
   });
 
   return {

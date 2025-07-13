@@ -1,5 +1,5 @@
 ---
-title: "332 - Shape of Unhinged Things to Come"
+title: "332 - Unhinged Things to Come"
 layout: essay.njk
 date: "2025-07-12"
 ---
