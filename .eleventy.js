@@ -50,6 +50,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/robots.txt");
   eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addPassthroughCopy("src/_includes/assets");
+  eleventyConfig.addPassthroughCopy("src/rss.xsl");
 
   eleventyConfig.on('eleventy.after', () => {
     require('fs').writeFileSync('docs/.nojekyll', '');
