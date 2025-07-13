@@ -6,7 +6,7 @@ date: "2025-06-29"
 
 As happens about once per year, a company has demonstrated a viable use for the currently popular LLM / RL / etc.-based AI (with a little GOFAI mixed in). Anyone familiar with tech industry practices or the world’s largest markets shouldn’t be surprised by the use case itself. Remember the phrase “Move fast and break things”? XBOW, a Cybersecurity company, handles the “breaking things” part autonomously now.
 
-Cybersecurity penetration testing, where a company figures out how to break your systems so that you can fix those vulnerabilities, [has now been dominated by a new number 1 performer](https://xbow.com/blog/top-1-how-xbow-did-it/), doubling the reputation score of the next highest hacker on the HackerOne charts.
+Cybersecurity penetration testing, where a company figures out how to break your systems so that you can fix those vulnerabilities, has now been dominated by a [new number 1 performer](https://xbow.com/blog/top-1-how-xbow-did-it/), doubling the reputation score of the next highest hacker on the HackerOne charts.
 
 This shouldn’t come as much of a surprise, since Cybercrime, the 3rd largest market in the world, does almost the same thing with the same technology. The primary difference is that Cybercrime also targets the human vulnerabilities, whereas pen testing typically focuses on only software vulnerabilities. Even so, it is encouraging to see any rare shred of competence in the AI space today, and XBOW appears to have that in ample supply.
 

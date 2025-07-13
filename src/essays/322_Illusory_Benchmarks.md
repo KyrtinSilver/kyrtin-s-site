@@ -6,7 +6,7 @@ date: "2025-07-01"
 
 [R.I.P. SWE-Bench](https://arxiv.org/abs/2506.12286), your illusion lasted a year, which is about 350 days longer than the illusion of “FrontierMath”, but not so long as the 5-year illusion of ARC-AGI. The smoke and mirrors of illusory benchmarks eventually get blown away with a change in the wind.
 
-The reason that they note for the failure of this benchmark comes back to a predictable problem that I’ve discussed before, [the matter of “Data Decomposition”](https://kyrtinatreides.com/essays/272_Fundamental_Errors/), where many in the AI space fundamentally fail to understand how LLMs and neural networks in general break down and process information in ways that are completely different from human processes.
+The reason that they note for the failure of this benchmark comes back to a predictable problem that I’ve discussed before, the matter of [“Data Decomposition”](https://kyrtinatreides.com/essays/272_Fundamental_Errors/), where many in the AI space fundamentally fail to understand how LLMs and neural networks in general break down and process information in ways that are completely different from human processes.
 
 The authors designed their approach to skip over some of the cues/triggers used for cheating by isolating a subtask. This includes withholding critical information necessary for task performance, were no data contamination present.
 

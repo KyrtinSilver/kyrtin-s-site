@@ -4,7 +4,7 @@ layout: essay.njk
 date: "2025-06-27"
 ---
 
-The AI domain recently became abuzz with [the “Your Brain on ChatGPT” paper](https://arxiv.org/abs/2506.08872) (a name that pairs well with the "ChatGPT is Bullshit" paper), but as the paper is just over 200 pages long and because I’m not the kind of lazy half-wit to discuss something without actually reading it, no doubt this probably isn’t the first that you’re hearing about it. In that span of time, I’ve heard some of the complaints made of it, as well as reading it for myself.
+The AI domain recently became abuzz with the [“Your Brain on ChatGPT”](https://arxiv.org/abs/2506.08872) paper (a name that pairs well with the ["ChatGPT is Bullshit"](https://www.researchgate.net/publication/381278855_ChatGPT_is_bullshit) paper), but as the paper is just over 200 pages long and because I’m not the kind of lazy half-wit to discuss something without actually reading it, no doubt this probably isn’t the first that you’re hearing about it. In that span of time, I’ve heard some of the complaints made of it, as well as reading it for myself.
  
 What I found in the paper is this, that they presented a balanced and nuanced representation of the subject matter covered, at a quality easily within the top 5% of papers I come across. There are no “hot takes”, nothing spicy, this is just “bread and butter” research, replicable down to the “Spectra 360 salt- and chloride-free electrode gel” they used for EEG connections. 
  

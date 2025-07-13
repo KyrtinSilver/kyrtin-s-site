@@ -8,7 +8,7 @@ Every person that you've ever met likely has a handful of words, upon which they
 
 "The ability to destroy a thing is the absolute control over it."
 
-One of the frequent questions I've encountered over the past decade has been curiosity about my name. [It was more than a year ago when I discussed this briefly with Lasse Rindom on his podcast, The Only Constant](https://open.spotify.com/episode/5F4ZYv5HC1T20javPclKRl?si=ec762a1f625e4e31&nd=1&dlsi=6654881240064222), noting that I had crafted mine specifically to serve as a GUID (Globally Unique Identifier), optimally searchable, with meaning and history wrapped around the choice of it.
+One of the frequent questions I've encountered over the past decade has been curiosity about my name. It was more than a year ago when I discussed this briefly with [Lasse Rindom](https://www.linkedin.com/in/lasserindom/) on his podcast, [The Only Constant](https://open.spotify.com/episode/5F4ZYv5HC1T20javPclKRl?si=ec762a1f625e4e31&nd=1&dlsi=6654881240064222), noting that I had crafted mine specifically to serve as a GUID (Globally Unique Identifier), optimally searchable, with meaning and history wrapped around the choice of it.
 
 For most people their name is never changed from birth to death, or only as tradition within marriage, but never intelligently reshaped to reflect that handful of most important words, and the concepts that they convey. The concepts of mine are Game Theoretic, Stoic, and follow ecological principles (as well as computer science), such as:
 
