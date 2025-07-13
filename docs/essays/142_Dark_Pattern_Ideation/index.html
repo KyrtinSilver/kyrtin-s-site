@@ -342,6 +342,7 @@
     /* Research-specific styles */
     .papers-list .paper-title-row a {
       color: var(--text-primary);
+      text-decoration: none;
     }
 
     .papers-list time,
@@ -356,6 +357,7 @@
     /* Essay-specific styles */
     .essay-list .essay-title {
       color: var(--text-primary);
+      text-decoration: none;
     }
 
     .essay-list time {
@@ -368,6 +370,11 @@
     .dark-mode .papers-list .paper-title-row a,
     .dark-mode .essay-list .essay-title {
       color: var(--text-primary);
+    }
+
+    .dark-mode .papers-list .paper-title-row a,
+    .dark-mode .essay-list .essay-title {
+      text-decoration: none;
     }
 
     .dark-mode article time,
@@ -406,18 +413,28 @@
       margin-top: 1em;
     }
 
-    /* Base styles for nav, social links, and article links */
+    /* Base styles for nav and social links */
     .nav-links a,
-    .social-links a,
-    article a {
+    .social-links a {
       color: var(--text-secondary);
       text-decoration: none;
       transition: color 0.3s ease;
     }
 
-    /* Hover effect for nav, social links, and article links */
+    /* Hover effect for nav and social links */
     .nav-links a:hover,
-    .social-links a:hover,
+    .social-links a:hover {
+      color: var(--text-primary);
+    }
+
+    /* Base styles for article links (essay content) */
+    article a {
+      color: var(--text-secondary);
+      text-decoration: underline;
+      transition: color 0.3s ease;
+    }
+
+    /* Hover effect for article links */
     article a:hover {
       color: var(--text-primary);
     }
