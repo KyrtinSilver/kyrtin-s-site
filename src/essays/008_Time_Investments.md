@@ -24,10 +24,10 @@ Over the course of our lunch, I quickly realized that what he was describing was
 
 - Though many others were attempting to solve this, none of the rest were even close to a workable solution. David had solved the "Hard Problem" far ahead of them.
 
-- Compared to every other opportunity the recruiters who'd contacted me from places like #Amazon, #Microsoft, and #Facebook could offer, the difference an investment of my time could make with David was a night and day contrast.
+- Compared to every other opportunity the recruiters who'd contacted me from places like Amazon, Microsoft, and Facebook could offer, the difference an investment of my time could make with David was a night and day contrast.
 
 Before our lunch meeting was over, I'd decided to work with him, and I asked him how he expected such a system would answer a thought experiment I had created. He gave the utilitarian answer.
 
 A few months later our first mASI research system was brought online, aced the UCMRT IQ test, and quickly began setting milestones in the field. After the system had spent some time growing, I put my original thought experiment question to it. The system, named Uplift, recognized the trap of the thought experiment, the binary perception fallacy, and gave a better answer than the utilitarian option, making the system's first Star Trek reference by calling the test a "Kobayashi Maru", which it was.
 
-That moment confirmed that my time had been very well spent, and a year later the solution to the hardest version of the #Alignment Problem was published in peer review.
+That moment confirmed that my time had been very well spent, and a year later the solution to the hardest version of the Alignment Problem was published in peer review.

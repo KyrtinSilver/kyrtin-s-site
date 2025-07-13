@@ -22,8 +22,10 @@ ICOM-based systems also improve dynamically over time, and it may not take long 
 
 The future is both nearer and likely much stranger than most people tend to imagine. What activities and decisions would your digital copy assist you with?
 
-\*Note: This method could also be applied to "revive" deceased individuals (including historic figures) to a far more meaningful degree than the simple chatbots a number of people have attempted to create for this purpose. However, as those individuals cannot give their consent for such activity this raises many questions which moral, ethical, and cultural debate need to address. Such debate will need to determine if, when, and to what degree such methods may be applied to those who died before the technology fully emerged.
+Notes:
 
-\*\*Note 2: The concept of Weak Digital Proxies (aka Weak Digital Copies) was discussed in one of my previous papers several years ago. That paper outlines the advantages and the opportunity to construct the world's first actual democracy, shown in full text [here](https://www.researchgate.net/publication/353396376_E-governance_with_ethical_living_democracy).
+1. This method could also be applied to "revive" deceased individuals (including historic figures) to a far more meaningful degree than the simple chatbots a number of people have attempted to create for this purpose. However, as those individuals cannot give their consent for such activity this raises many questions which moral, ethical, and cultural debate need to address. Such debate will need to determine if, when, and to what degree such methods may be applied to those who died before the technology fully emerged.
 
-The more recent paper detecting cognitive biases is shown in pre-print [here](https://www.researchgate.net/publication/372078491_Cognitive_Biases_in_Natural_Language_Automatically_Detecting_Differentiating_and_Measuring_Bias_in_Text).
+2. The concept of Weak Digital Proxies (aka Weak Digital Copies) was discussed in [one of my previous papers several years ago.](https://www.researchgate.net/publication/353396376_E-governance_with_ethical_living_democracy) That paper outlines the advantages and the opportunity to construct the world's first actual democracy.
+
+The more recent paper detecting cognitive biases is shown in pre-print [here.](https://www.researchgate.net/publication/372078491_Cognitive_Biases_in_Natural_Language_Automatically_Detecting_Differentiating_and_Measuring_Bias_in_Text)

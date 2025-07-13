@@ -14,7 +14,7 @@ This is a metaphor for the "attention economy's" practical impact on every inter
 
 This is achieved through many different sources sharing the same system of incentives, and utilizing the same toolbox of methods. This includes "dark patterns" of UI/UX that are designed to maximize cognitive bias and emotional potency in human reactions, such as the infamous red dot of push notifications.
 
-This toolbox of manipulation also includes many systems that users never actually see operating, the systems that choose what information to give users, and what information to hide from them. These are newsfeed algorithms, recommender engines, search engines, and #ecommerce search systems.
+This toolbox of manipulation also includes many systems that users never actually see operating, the systems that choose what information to give users, and what information to hide from them. These are newsfeed algorithms, recommender engines, search engines, and ecommerce search systems.
 
 Though it may be rare for one system to entirely consume any individual's budget, it is also increasingly common for the 1,000 sources of manipulation to entirely consume people. Much as your body has a better chance of fighting off 10 sources of infection than 1,000 sources aiming at you specifically, your mental and emotional health bears the same consideration.
 

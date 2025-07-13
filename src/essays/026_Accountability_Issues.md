@@ -4,9 +4,9 @@ layout: essay.njk
 date: "2023-08-05"
 ---
 
-Another new and revealing research paper recently came out of Google Deepmind, where GPT-4 was used to adversarially break other AI cybersecurity systems that were published at a recent top conference, [IEEE S&P 2023](https://arxiv.org/abs/2307.15008).
+Another new and revealing research paper recently came out of Google Deepmind, where GPT-4 was used to adversarially break other AI cybersecurity systems that were published at a recent top conference, [IEEE S&P 2023.](https://arxiv.org/abs/2307.15008)
 
-"We run our attack on the official models released by the authors of AI-Guardian. Our attack achieves 92% targeted attack success rate with an ℓ∞ distortion of epsilon of 0.25, and successfully reduces the accuracy of the model to 0%."
+> "We run our attack on the official models released by the authors of AI-Guardian. Our attack achieves 92% targeted attack success rate with an ℓ∞ distortion of epsilon of 0.25, and successfully reduces the accuracy of the model to 0%."
 
 So, for a quick recap, not only can you reliably "jailbreak" any LLM, including GPT-4, [to do whatever you want](https://llm-attacks.org/), but if you want to use them to break cybersecurity systems you can do that too.
 

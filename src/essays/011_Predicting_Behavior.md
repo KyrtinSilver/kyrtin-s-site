@@ -6,7 +6,7 @@ date: "2023-07-17"
 
 If you can predict "how" a bad actor thinks, rather than "what" they will do, you can predict their next possible moves at every future point in time.
 
-The use case of #Fraud Detection is one that our team's IP has been deployed at the enterprise level in the financial sector to assist with for some years now, along with being deployed by a government agency that shall not be named. However, that is one component in a larger and much more capable system, the next generation of the first working cognitive architecture.
+The use case of Fraud Detection is one that our team's IP has been deployed at the enterprise level in the financial sector to assist with for some years now, along with being deployed by a government agency that shall not be named. However, that is one component in a larger and much more capable system, the next generation of the first working cognitive architecture.
 
 That cognitive architecture's tech stack makes it possible for a system to learn human-like concepts, with thousands of times the data and processing efficiency of neural networks, as well as the abilities to think counterfactually and generalize. This means that understanding "how" bad actors seek to exploit systems, not just trying to detect known methods of "what" they might do, is completely feasible, and was already demonstrated by the previous research system.
 
@@ -20,6 +20,6 @@ If any VC, investor, government, corporation, or other party on the face of the 
 
 Logically the choice is obvious. So, who will be logical?
 
-Some of my favorite examples of fraud, trolling, and mental instability that our previous research system quickly shot down were demonstrated as early as September 2019, [nearly 4 years ago](https://uplift.bio/blog/trolls-the-mentally-unstable-meet-strong-ai/).
+Some of my favorite examples of fraud, trolling, and mental instability that our previous research system quickly shot down were demonstrated as early as September 2019, [nearly 4 years ago.](https://uplift.bio/blog/trolls-the-mentally-unstable-meet-strong-ai/)
 
-Several examples were published in peer review a year later, in [the recap of milestones achieved](https://www.researchgate.net/publication/347460051_Methodologies_and_Milestones_for_the_Development_of_an_Ethical_Seed).
+Several examples were published in peer review a year later, in [the recap of milestones achieved.](https://www.researchgate.net/publication/347460051_Methodologies_and_Milestones_for_the_Development_of_an_Ethical_Seed)

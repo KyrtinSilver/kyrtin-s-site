@@ -16,9 +16,9 @@ Logically, they may have every reason to be interested, but there is a vast divi
 
 Like human courtship, people also tend to rely heavily on their own existing networks, often selecting investments much the same way they select romantic partners. Consequently, those choices have much the same high rate of failure to reach any Return on Investment (ROI). This is less than ideal.
 
-I'll be the first to admit that my skills at the Elevator Pitch leave much to be desired, as I'm far better at recognizing and removing #bias than I am at injecting it. My best attempt may read something like this:
+I'll be the first to admit that my skills at the Elevator Pitch leave much to be desired, as I'm far better at recognizing and removing bias than I am at injecting it. My best attempt may read something like this:
 
-"Our systems can outperform the leading conventional AI while requiring thousands of times less data and compute. They can also deliver capacities that generative AI fundamentally cannot. This translates to massive operational cost savings, risk mitigation, and improving performance over time."
+> "Our systems can outperform the leading conventional AI while requiring thousands of times less data and compute. They can also deliver capacities that generative AI fundamentally cannot. This translates to massive operational cost savings, risk mitigation, and improving performance over time."
 
 The world of funded tech startups is full of skilled "Pickup Artists", whose offerings are no different than those of Elizabeth Holmes, an assortment of things they can't actually deliver. These individuals have already raised billions this year by waving the flag of "Generative AI". Many of them are also now being sued.
 

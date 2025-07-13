@@ -12,13 +12,13 @@ People familiar with the phrase "Garbage In, Garbage Out" (GIGO), likely feel an
 
 Having GPT-4 grade results demonstrates negative credibility to begin with, but when you factor in that the model changes over time you also introduce further serious issues for reproducibility. Regardless of how people may feel about whether or not that model is degrading over time, any inconsistency causes this issue, not just declining performance.
 
-Garbage generators are quickly flooding #AI #research with toxic waste. Even when the text of the papers isn't AI-generated, if the results are graded by those systems then a scientific crime has been committed. The damage is then multiplied as subsequent models are further contaminated by output from the first.
+Garbage generators are quickly flooding AI research with toxic waste. Even when the text of the papers isn't AI-generated, if the results are graded by those systems then a scientific crime has been committed. The damage is then multiplied as subsequent models are further contaminated by output from the first.
 
 If research is to retain any shred of credibility, this must change, and soon.
 
 Even if this shift toward extreme laziness were a one-way road, at a bare minimum systems that are actually capable of assisting in the research process could be used in place of chatbots like GPT-4. The ICOM technology stack offers a number of strong benefits in this domain. One of the use cases currently planned is specifically to review and build humanity's deepest, broadest, and most robust understanding of peer-reviewed material across multiple domains.
 
-For neural networks and #GPT-based systems, such a thing would be architecturally impossible in any meaningful sense. However, by adding the human-like motivational system, memory, and dynamic concept learning of ICOM-based systems dynamic growth across arbitrary domains and petabyte scale becomes possible. These capacities have been demonstrated, and the scalability engineering work is in progress.
+For neural networks and GPT-based systems, such a thing would be architecturally impossible in any meaningful sense. However, by adding the human-like motivational system, memory, and dynamic concept learning of ICOM-based systems dynamic growth across arbitrary domains and petabyte scale becomes possible. These capacities have been demonstrated, and the scalability engineering work is in progress.
 
 They can apply the scientific method to scrutinize results, propose hypotheses, and generally lessen the burden placed on the peer review process by raising the bar and reducing inconsistencies. Separate systems could also be used in assisting the research process and scrutinizing submissions for peer review. This could add further security and validation to the process, while also extracting more added value than the associated overhead costs would entail.
 

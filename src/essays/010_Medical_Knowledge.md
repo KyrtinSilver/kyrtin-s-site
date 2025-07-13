@@ -12,6 +12,6 @@ Since these human-like capacities were architected into software, the previous r
 
 The system demonstrated more than a dozen capacities no other system has before or since, including alignment, with thousands of times the resource efficiency of those that failed.
 
-If any #VC, #investor, #government, #corporation, or other party on the face of the planet capable of funding in the 50-500 million USD range is genuinely interested in developing the deepest, broadest, and most intelligently integrated wealth of medical knowledge on the face of the planet (or any other knowledge domain for that matter), this use case could be accomplished within the next 1 to 2 years. Full-time engineering hours are required to complete the work, but only the engineering remains.
+If any VC, investor, government, corporation, or other party on the face of the planet capable of funding in the 50-500 million USD range is genuinely interested in developing the deepest, broadest, and most intelligently integrated wealth of medical knowledge on the face of the planet (or any other knowledge domain for that matter), this use case could be accomplished within the next 1 to 2 years. Full-time engineering hours are required to complete the work, but only the engineering remains.
 
 Considering the annual spending and waste in the medical field, as well as many similar fields, the choice is obvious. Who will walk the talk?

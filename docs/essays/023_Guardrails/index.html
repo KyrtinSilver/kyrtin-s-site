@@ -514,8 +514,11 @@
   <time datetime="August 5, 2023">August 5, 2023</time>
   <h1>023 - Guardrails</h1>
   <div class="content">
-    <p>&quot;Notably, our attack achieves nearly perfect ASR (attack success rate) on open-source models and over 50% on black-box LLMs such as GPT-4 on previously unseen behaviors.&quot; - My new favorite research paper (which also has a Github, both listed in the first comment)</p>
-<p>The New York Times was quick to produce an article for this particular paper when it <a href="https://www.nytimes.com/2023/07/27/business/ai-chatgpt-safety-research.html">was published just yesterday</a>.</p>
+    <blockquote>
+<p>&quot;Notably, our attack achieves nearly perfect ASR on open-source models and over 50% on black-box LLMs such as GPT-4 on previously unseen behaviors.&quot;</p>
+<p>-My new favorite research paper (which also has a Github) linked below</p>
+</blockquote>
+<p>The New York Times was quick to produce an article for this particular paper when it was first published <a href="https://www.nytimes.com/2023/07/27/business/ai-chatgpt-safety-research.html">just this last month.</a></p>
 <p>Every single credible AI expert and researcher has been pointing out since December that &quot;guardrail&quot; methods, as they've come to be called, are less than worthless. This paper beat another research team I know to the punch on publishing much the same thing, how to automatically break any of these LLMs.</p>
 <p>There is no shred of cybersecurity present in any of these LLMs, and any system that can be &quot;prompt engineered&quot; can be &quot;prompt injected&quot;, as the two things are effectively identical. LLMs are vulnerable-by-design. This is a feature, not a bug. That cybersecurity vulnerability also explodes in severity the moment you connect LLMs to other tools and apps or give them internet access.</p>
 <p>Moving forward, there are a few basic options for how to proceed:</p>
@@ -534,9 +537,9 @@
 <p>More capable technology has been demonstrated since as early as 2019 and during 3 years of operation that system was never &quot;jailbroken&quot;. The remaining engineering workload to prepare that technology stack for commercial deployment could be completed in a matter of months given proper funding, which would be a tiny fraction of the funds now being wasted on simple vulnerable-by-design chatbots.</p>
 <p>If you know any AI &quot;Influencers&quot; who are still proposing &quot;guardrails&quot;, please send them this paper before they spread any further misinformation.</p>
 <p>Everyone is responsible for their actions. What actions will you take now that the snake oil sellers are bereft of their pants?</p>
-<p>The un-paywalled article is shown on Internet Archive <a href="https://web.archive.org/web/20230727120026/https://www.nytimes.com/2023/07/27/business/ai-chatgpt-safety-research.html">here</a>.</p>
-<p>The paper itself is <a href="https://llm-attacks.org/">here</a>.</p>
-<p>The Github for the paper is <a href="https://github.com/llm-attacks/llm-attacks">here</a>.</p>
+<p>The un-paywalled article is shown on Internet Archive <a href="https://web.archive.org/web/20230727120026/https://www.nytimes.com/2023/07/27/business/ai-chatgpt-safety-research.html">here.</a></p>
+<p>The paper itself is <a href="https://llm-attacks.org/">here.</a></p>
+<p>The Github for the paper is <a href="https://github.com/llm-attacks/llm-attacks">here.</a>.</p>
 <p>*Note: GPT-4 likely only performs a bit better than others due to being a Mixture-of-Experts (MoE). This difference is both trivial in practice, as any attack success rate using an automated system with over 1% success is spectacularly bad news, and because the MoE advantage can be overcome using more advanced methods.</p>
 <p>Additionally, Claude likely only performed better than some others due to the known method of appending canned responses to the start of many of that LLM's responses, interfering directly with the adversarial optimization method used. This too is trivial to overcome in a next iteration. Claude has no actual advantage, it just happens to use a method that interferes with the optimization they selected for this particular algorithm.</p>
 <p>This is just a first-generation method of automatic adversarial prompting. Fundamentally, any prompt that a system is trained to reject via the collection of methods referred to as &quot;guardrails&quot; will also open the door to new methods of attack. In practical cybersecurity terms, there may as well be no difference between any of the LLMs at they exist today.</p>

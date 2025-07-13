@@ -28,8 +28,6 @@ The net result is very counterintuitive, that 1% gains for mediocre technology a
 
 All of these problems are opportunities proportionate to their severity, but it takes skill and courage to step out of the status quo.
 
-#ai #startup #innovation #investment #bias
-
 In the spirit of making this more scientifically quantifiable, I decided to distill points 1-3 into a one-sentence litmus test and send the resulting question to 30+ VCs and investors, in the interest of establishing statistical significance.
 
 My educated guess is that 80% fall prey to the combination of 1 and 2, with either no response or a canned response, correlated to network connection strength. Then, another 80% of the remainder will likely fall prey to 3, leaving only 4% by the time the focus shifts to number 4.

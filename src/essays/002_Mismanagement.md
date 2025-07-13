@@ -8,7 +8,7 @@ Researchers, including at least one Nobel Prize winner, have repeatedly demonstr
 
 VCs, investors, and related systems also function as gatekeepers, able to effectively prevent the emergence of any company where a minimum threshold of resources is required, which is basically any company that requires a single veteran software developer, as people have mortgages to pay.
 
-#Governments and corporate HR departments are other kinds of gatekeepers, ruled by cognitive biases to at least the same degree, and often far more in more complex systems.
+Governments and corporate HR departments are other kinds of gatekeepers, ruled by cognitive biases to at least the same degree, and often far more in more complex systems.
 
 One of our next lines of research for the Cognitive Bias Detection System will include attempting to isolate time-series patterns of cognitive bias expression that can be used to identify bad actors engaging in "persuasion" tactics. If we can identify the next Bernie Madoff, Elizabeth Holmes, Sam Bankman-Fried, or Ruja Ignatova before the schemes they're running explode, substantial amounts of damage might be prevented.
 

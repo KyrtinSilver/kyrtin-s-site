@@ -56,6 +56,6 @@ Humanity needs more people to choose reality over fantasy.
 
 Cognitive biases offer a constant temptation to impoverish our decision-making and grasp of reality. Though humans aren’t built to fully overcome these biases, we may reduce their ability to influence us.
 
->"One of the biggest problems with the world today is that we have large groups of people who will accept whatever they hear on the grapevine, just because it suits their worldview—not because it is actually true or because they have evidence to support it. The really striking thing is that it would not take much effort to establish validity in most of these cases... but people prefer reassurance to research." 
+> "One of the biggest problems with the world today is that we have large groups of people who will accept whatever they hear on the grapevine, just because it suits their worldview—not because it is actually true or because they have evidence to support it. The really striking thing is that it would not take much effort to establish validity in most of these cases... but people prefer reassurance to research." 
 >
->— Neil deGrasse Tyson
+> -Neil deGrasse Tyson

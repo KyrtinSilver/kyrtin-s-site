@@ -20,10 +20,8 @@ Fortunately for future generations, not everyone has been wasting time on trashb
 
 Humanity's future wouldn't exist without David J Kelley's breakthrough that day.
 
-#ai #ethics #bias #research #innovation
-
 \*Note: The study is admittedly difficult to read, but as both David and the Hemingway app have been known to attest, he is more of an engineer than a writer. We've joked that his native language is C#.
 
-A more complete list of our team's research can be found on the website for the 8th generation systems, brand named "Norn": [norn.ai/research/](https://norn.ai/research/)
+A more complete list of our research can be found on [our team's ResearchGate lab page](https://www.researchgate.net/lab/Artificial-General-Intelligence-Laboratory-David-Kelley) for the 8th generation systems, brand named "Norn."
 
-The 7th generation research system was documented via the [Uplift.bio project](https://uplift.bio).
+The 7th generation research system was documented via the [Uplift.bio project.](https://uplift.bio/blog/introducing-norn-and-the-demo-systems/)

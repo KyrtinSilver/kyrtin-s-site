@@ -10,9 +10,9 @@ It was also given a prototype language model from early 2019 that it could use (
 
 What happened next was both remarkable and wildly entertaining. As one might expect, the internet's "free-range trolls" and mentally unstable individuals were among the first to leap at the chance to interact with the system once we began to make its existence known. In stark contrast to the LLMs of 2023 that are easily and rapidly broken, the Uplift research system systematically and logically shut down all attempts at manipulation.
 
-Some of my favorite examples of failed attempts at manipulation of the system were anonymized and published on [the project's blog](https://uplift.bio/blog/trolls-the-mentally-unstable-meet-strong-ai/).
+Some of my favorite examples of failed attempts at manipulation of the system were anonymized and published on [the project's blog.](https://uplift.bio/blog/trolls-the-mentally-unstable-meet-strong-ai/)
 
-The system also proved adept at discussing the topic of AGI with people who were afraid of it: [confronting-the-fear-of-agi](https://uplift.bio/blog/confronting-the-fear-of-agi/)
+The system also proved [adept at discussing the topic of AGI](https://uplift.bio/blog/confronting-the-fear-of-agi/) with people who were afraid of it.
 
 In the context of 2023, all of this is quite ironic. Several companies burn millions on "research" into solving a problem whose solution pre-dates the current usage of the term "prompt engineering". Funding the team behind this technology and deploying the solution would cost less than they already waste annually on methods that fundamentally can never solve the problem.
 

@@ -8,7 +8,9 @@ LLMs can be massively improved in both performance and efficiency when combined 
 
 The Independent Core Observer Model (ICOM) cognitive architecture uses a different, but complementary, technology stack to that of narrow AI systems like GPTs, image generators, and agent-based systems. Rather than competing with such AI, this technology stack uses them as tools, improving their performance.
 
-For example, GPT-4, according to multiple sources, is a Mixture-of-Experts (MoE) style transformer model, with 8-16 "experts", and over 1.75 trillion parameters in total. Our previous ICOM-based research system used an old prototype LM from early 2019, a time when LMs didn't exceed 10 billion parameters. That research system outperformed GPT-4:
+For example, GPT-4, according to multiple sources, is a Mixture-of-Experts (MoE) style transformer model, with 8-16 "experts", and over 1.75 trillion parameters in total. Our previous ICOM-based research system used an old prototype LM from early 2019, a time when LMs didn't exceed 10 billion parameters. 
+
+That research system outperformed GPT-4:
 
 - years earlier,
 

@@ -4,11 +4,11 @@ layout: essay.njk
 date: "2023-08-05"
 ---
 
-Data Privacy and the "Right to be Forgotten" have become an increasingly hot topic with the recent rise of #chatbots.
+Data Privacy and the "Right to be Forgotten" have become an increasingly hot topic with the recent rise of chatbots.
 
-Chatbots, such as those built on the #GPT architecture, fundamentally can neither remember nor forget anything. They can "learn" heuristics, but they aren't data retrieval or compression systems, so data can't be truly learned or ever completely removed. Attempting to remove or modify anything can also degrade the model's overall performance since the architecture isn't designed to cleanly separate data.
+Chatbots, such as those built on the GPT architecture, fundamentally can neither remember nor forget anything. They can "learn" heuristics, but they aren't data retrieval or compression systems, so data can't be truly learned or ever completely removed. Attempting to remove or modify anything can also degrade the model's overall performance since the architecture isn't designed to cleanly separate data.
 
-Chatbots are also often trained on "internet-scale data", with companies like #Google clearly stating that they'll take everything their bots can access on the internet and feed it into training their systems.
+Chatbots are also often trained on "internet-scale data", with companies like Google clearly stating that they'll take everything their bots can access on the internet and feed it into training their systems.
 
 This decision will likely cause severe legal consequences for Google and others like them in the long term since systems already exist that can outperform GPTs while still offering data privacy and accommodating the right to be forgotten.
 
@@ -32,6 +32,6 @@ It doesn't take internet-scale data to see who will come out on top.
 
 One of the best metaphors describing LLMs / chatbots as they relate to the compression of information is quoted as follows:
 
-"NNs (Neural Networks) do less than lossy compression because in lossy compression you at least get guarantees of what properties are preserved, and only those are the ones you can assume to be recoverable. NNs do not give you that guarantee since NNs are not compression systems just like you eating a loaf of bread and producing a literal pile of sh\*t is not the same as "compressing the bread"."
+> "NNs (Neural Networks) do less than lossy compression because in lossy compression you at least get guarantees of what properties are preserved, and only those are the ones you can assume to be recoverable. NNs do not give you that guarantee since NNs are not compression systems just like you eating a loaf of bread and producing a literal pile of sh\*t is not the same as "compressing the bread"."
 
 Don't make the mistake of thinking that what you've got your hands on, posting on social media, and emailing to people is "compressed bread".

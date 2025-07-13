@@ -14,7 +14,7 @@ eleventyExcludeFromCollections: true
   <author>
     <name>Kyrtin Atreides</name>
   </author>
-  {%- for essay in collections.essays %}
+    {%- for essay in collections.essays %}
   <entry>
     <title type="html">{{ essay.data.title | escape }}</title>
     <link href="{{ essay.url | absoluteUrl('https://kyrtinatreides.com') }}" rel="alternate" type="text/html" title="{{ essay.data.title | escape }}"/>
@@ -25,5 +25,5 @@ eleventyExcludeFromCollections: true
 <![CDATA[{{ essay.content | rssContent | safe }}]]>
     </content>
   </entry>
-  {%- endfor %}
+    {%- endfor %}
 </feed>

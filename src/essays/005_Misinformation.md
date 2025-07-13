@@ -16,8 +16,4 @@ With the ability to detect cognitive biases in text, as we've recently demonstra
 
 Anyone who wants higher quality information and subsequent wiser decisions has every reason to pursue this path where cognitive bias is detected automatically, at speed and scale. Statistically, the only exceptions to this are the bad actors exploiting flaws in the current system.
 
-#bias #cognitivebias #ai #research #misinformation
-
-Misinformation Spreading, photorealistic
-
-The recent detection system study pre-print: [Cognitive Biases in Natural Language Automatically Detecting, Differentiating, and Measuring Bias in Text](https://www.researchgate.net/publication/372078491_Cognitive_Biases_in_Natural_Language_Automatically_Detecting_Differentiating_and_Measuring_Bias_in_Text).
+The recent detection system study, via pre-print: [Cognitive Biases in Natural Language Automatically Detecting, Differentiating, and Measuring Bias in Text.](https://www.researchgate.net/publication/372078491_Cognitive_Biases_in_Natural_Language_Automatically_Detecting_Differentiating_and_Measuring_Bias_in_Text)

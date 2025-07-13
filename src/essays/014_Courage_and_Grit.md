@@ -4,13 +4,13 @@ layout: essay.njk
 date: "2023-08-04"
 ---
 
->"Scientific progress is measured in units of courage, not intelligence."
+> "Scientific progress is measured in units of courage, not intelligence."
 >
->-Paul Dirac
+> -Paul Dirac
 
 "Courage" may be called the will to act, and "Grit" the will to continue doing so. Both are required to change the world.
 
-In January of 2021, I chose to leave my day job behind and focus full-time on our #Startup and the [Uplift.bio project](https://uplift.bio) dedicated to our previous #research system. Within 1 year of that date, we'd completed the final milestone, published more than 500 pages of material documenting and relating to the technology, and submitted the solution to the #Alignment Problem to peer review, which was published a few months later.
+In January of 2021, I chose to leave my day job behind and focus full-time on our startup and the [Uplift.bio project](https://uplift.bio) dedicated to our previous research system. Within 1 year of that date, we'd completed the final milestone, published more than 500 pages of material documenting and relating to the technology, and submitted the solution to the Alignment Problem to peer review, which was published a few months later.
 
 Several months after that, our engineering for the new systems underway, I took yet another leap of faith and relocated to Europe, again supporting everything out-of-pocket on a budget less than the rent of my old comfortable apartment in Seattle. Prior to that I'd never even visited another country, and I generally like traveling about as much as a tree.
 
@@ -18,7 +18,7 @@ When locating an investor proved more time-consuming than expected I began havin
 
 There are 3 classes of existential risk my willingness to do this mitigates since I've reviewed the codebase:
 
-1. The risk that the country that develops #AGI is attacked by an external party.
+1. The risk that the country that develops AGI is attacked by an external party.
 
 2. The risk that the company that develops AGI is attacked by their own country.
 
