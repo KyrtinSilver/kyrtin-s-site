@@ -4,7 +4,7 @@ layout: essay.njk
 date: "2025-02-18"
 ---
 
-After more than 2 years, LLMs and RL models (with or without fraudrailing) are still vulnerable-by-design, as nothing has fundamentally changed about the architecture. If anything, “Agentic” BS has [only compounded the cybersecurity problems](https://embracethered.com/blog/posts/2025/chatgpt-operator-prompt-injection-exploits/). One recent video example is shown [here](https://www.youtube.com/watch?v=WAtTs00Qev8&ab_channel=EmbraceTheRed)
+After more than 2 years, LLMs and RL models (with or without fraudrailing) are still vulnerable-by-design, as nothing has fundamentally changed about the architecture. If anything, “Agentic” BS has only compounded the [cybersecurity problems](https://embracethered.com/blog/posts/2025/chatgpt-operator-prompt-injection-exploits/). One recent video example is shown [here.](https://www.youtube.com/watch?v=WAtTs00Qev8&ab_channel=EmbraceTheRed)
 
 These cybersecurity threats are only “mitigated”, in a completely opaque manner, after researchers explicitly walk LLM providers through demonstrations of the specific exploits. This also means that any exploit is likely to remain active in the wild for so long a time as no cybersecurity researcher finds and reports that exact exploit. There is very little incentive to report them, and major incentives to exploit them, so it is statistically unwise to rely on charity from researchers, particularly when they’re handing their findings over to some of the tech industry’s most obvious con artists, people who they’re not likely to be philosophically aligned with.
 

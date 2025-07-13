@@ -12,7 +12,7 @@ Whether or not the competition gives us a gold star, or whatever one is supposed
 
 The score validation process for ARC-AGI is complicated for anything that can’t simply be uploaded to Kaggle like a proprietary and patent-pending cognitive architecture developed over the past 11 years from scratch, but I’d be rather surprised if they proved unwilling to validate a new high score.
 
-Our CEO will present the company on stage for the 10th: [https://aiconference.com/](https://aiconference.com/)
+Our CEO will present the company on stage at the 10th anniversary of [The AI Conference.](https://aiconference.com/)
 
 I’ll be grading the competence of the VC panel remotely from Japan.
 
