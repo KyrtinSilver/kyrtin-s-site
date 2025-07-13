@@ -20,4 +20,3 @@ This litmus test is particularly useful, as many Disinformation Brokers intentio
 
 Research in AI may be effectively dead today, but once the corpses are buried and no longer targets for investment, then credible research may once again be funded, and technology like what has silently sat at the cutting edge for the past half a decade may be funded and commercially deployed.
 
-![Research in AI](https://media.licdn.com/dms/image/v2/D5622AQG2zfcd6oxJ3w/feedshare-shrink_800/feedshare-shrink_800/0/1729382425480?e=1736985600&v=beta&t=AXzWaCQ4ch18ZbNWlmjaV6foShq3Pg-9_7hoe_LSeQo)

@@ -18,4 +18,3 @@ Cognitive Biases are useful until they are wrong, but when they're wrong they ar
 
 Innovation is taking calculated risks to reach those Blue Oceans and Unconsumers. "Fermentation" is the alternative.
 
-![Hidden Markets](https://media.licdn.com/dms/image/v2/D5622AQEdO9iGSoEluw/feedshare-shrink_800/B56ZSW.fhBHEAo-/0/1737699753156?e=1741219200&v=beta&t=w45EfxI5ck7vzD7Z2_Y-E0dG5gml80U-dOQm3HDyrAs)

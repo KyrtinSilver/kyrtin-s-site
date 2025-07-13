@@ -18,4 +18,3 @@ This means that there is virtually never a reason to use “Synthetic Data” ou
 
 Again, the difference is astronomical, in addition to cleanly dividing success from failure.
 
-![Synthetic Data](https://media.licdn.com/dms/image/v2/D5622AQGf0MNSFTJJng/feedshare-shrink_800/feedshare-shrink_800/0/1729661298512?e=1736985600&v=beta&t=Ub9WR5YKY0bAc4jWwZxP6mFgLmaR7bcqi4i3dfuyf1o)

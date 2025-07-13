@@ -18,4 +18,3 @@ For the moment there is only one such architecture, the Independent Core Observe
 
 You’ll get to see it for yourself in 2025.
 
-![Something Truly New](https://media.licdn.com/dms/image/v2/D5622AQFUmvqCPKuIFA/feedshare-shrink_800/B56ZP2i_hDG8Ag-/0/1735008189025?e=1738195200&v=beta&t=UZBtW3xQ212S98nejGrv6r9NEtpi2GPu8mY3iEVNT8o)

@@ -20,4 +20,3 @@ Even with their decision to exclude us because we don’t build LLMs and won’t
 
 Now, back to our core engineering work. This little detour is over, and after the web form is updated we’ll be back to working toward the complete systems slated for commercial deployment.
 
-![Some Good News](https://media.licdn.com/dms/image/v2/D5622AQFM50m6F9VUlw/feedshare-shrink_800/feedshare-shrink_800/0/1726963450313?e=1736985600&v=beta&t=tc7nN2-jrV63mMJo-gX4-7Vl4uKm_VODCXVk8q49Cko)

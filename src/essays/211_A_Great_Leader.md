@@ -17,4 +17,3 @@ With access to such a resource, an executive team could ask for support in makin
 
 The difference between the two amounts to an insurmountable advantage within any competitive system, as far wiser decisions can be more quickly, and with greater support from employees spanning all levels of a company. Companies, like the human body, could within them contain a functional and integrated human-like intelligence, built from the collective intelligence of all members of the company.
 
-![A Great Leader](https://media.licdn.com/dms/image/v2/D5622AQEbf7oFP3cSIA/feedshare-shrink_800/feedshare-shrink_800/0/1720664770268?e=1737590400&v=beta&t=DO76giBpC20TSFwoN0RAKwLxd8XWoXEJ80JdF3LEFGE)

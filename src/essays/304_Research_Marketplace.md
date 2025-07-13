@@ -23,4 +23,3 @@ The reasons why researchers could be HIGHLY motivated to adopt this and never lo
 
 Even with at least one paper that I should publish this year, I've ignored every "Call for papers" email received in the past 6 months. Those of us not subject to "Publish or Perish" have very little incentive to waste such time. The solution is clear, so I hope that someone builds it.
 
-![Research Marketplace](https://media.licdn.com/dms/image/v2/D5622AQFjPRMwlq3QJA/feedshare-shrink_800/B56ZcUaBKcGQBA-/0/1748394054886?e=1751500800&v=beta&t=SmOKs8eqHLbF5BoP6IKvE_fnWcal5zFh50csk2Oka_M)

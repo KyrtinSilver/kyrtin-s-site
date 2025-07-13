@@ -20,4 +20,3 @@ For some it will be far greater, and for others far lesser, particularly if you 
 
 Anyone riding the Titanic of big tech who just scraped the broad side of the internet’s iceberg isn’t likely to stay above water in the long-term.
 
-![The Great Divide](https://media.licdn.com/dms/image/v2/D5622AQG2pmXF4aS4Yw/feedshare-shrink_800/feedshare-shrink_800/0/1723008698747?e=1736985600&v=beta&t=HQvpMJT-ojeQHij0FtwmgGDivMFLm_7g8LH5H2bY7ig)

@@ -22,4 +22,3 @@ The AI that people are familiar with today isn’t built to handle complexity, a
 
 Complexity never stops increasing in the real world, so the clock is ticking. Humanity handles complexity terribly today and may be terrible at far greater speeds and scale with the addition of comically awful technology like LLMs.
 
-![Infinitely More Ways](https://media.licdn.com/dms/image/v2/D5622AQEBTHK4USahAw/feedshare-shrink_800/feedshare-shrink_800/0/1728630831307?e=1736985600&v=beta&t=tjuVXnjAm9UymZD2OlWZmTwsAH0N91t31rbuSHzDaqs)

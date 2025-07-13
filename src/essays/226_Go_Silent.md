@@ -16,4 +16,3 @@ Our CEO will present the company on stage for the 10th: [https://aiconference.co
 
 I’ll be grading the competence of the VC panel remotely from Japan.
 
-[![Go Silent](https://u.today/sites/default/files/styles/event_full/public/2024-09/51641.jpg)](https://aiconference.com/)

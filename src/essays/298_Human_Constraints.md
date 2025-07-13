@@ -16,4 +16,3 @@ Claims that "AGI is just around the corner" and that "AGI is impossible" are equ
 
 Without understanding the reality of which problems remain solved and unsolved, no viable predictions can be made, and so many broken clocks may be right twice per day, but that isn't to be confused with an accurate reflection of time in reality.
 
-![Human Constraints](https://media.licdn.com/dms/image/v2/D5622AQGgAnKBZCMAVw/feedshare-shrink_800/B56ZWX6i.bGUAg-/0/1742010462702?e=1745452800&v=beta&t=V3X-38w_XbDMPoQYfW-pHB6BX5MjUg9Oem7HyQWaST4)

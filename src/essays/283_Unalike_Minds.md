@@ -21,4 +21,3 @@ The irony today is a product of population dynamics operating over time and on d
 
 The silver lining is that even if such "AI Influencers" ignore reality, scientific progress continues, and the ground upon which they may stand continues to shrink with the waters around them rising. Bullshit can't halt progress, "it can only delay it for a little while."
 
-![Unalike Minds](https://media.licdn.com/dms/image/v2/D5622AQE4gxSwU-OWtA/feedshare-shrink_800/B56ZSqbgltGsAg-/0/1738026126199?e=1741824000&v=beta&t=GMes30v5qHMmoGD8h4ECzm5sF32qPF9aCvL2oIi_J28)

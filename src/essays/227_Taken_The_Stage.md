@@ -32,4 +32,3 @@ What has changed in the past 5 years has been the research that we’ve conducte
 
 I have another post scheduled to go over these results in more detail, and compare them to the nearest other scores on both leaderboards (Prize and Public ARC-AGI) and verification of our results with the ARC-AGI Challenge team should take place following the conference.
 
-![Taken The Stage](https://media.licdn.com/dms/image/v2/D5622AQHwQJh4GSs9ew/feedshare-shrink_800/feedshare-shrink_800/0/1725998906919?e=1736985600&v=beta&t=eBzriJcvGbZZNv7p6I_MhfI77YvCAafKqp2yeFGMlNc)

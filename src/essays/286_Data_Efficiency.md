@@ -26,4 +26,3 @@ That technology predated LLMs such as GPT3, while being built and run on volunte
 
 This is an insurmountable advantage, and it has been sitting on the table for years, during which time both the technological moat of the technology and demand have only grown, with demand in particular increasing by orders of magnitude.
 
-![Data Efficiency](https://media.licdn.com/dms/image/v2/D5622AQHmk63Mo3s0eg/feedshare-shrink_800/B56ZTyv5RlHoAg-/0/1739239429706?e=1742428800&v=beta&t=DuBUyWQUALtcYqNn4YKHnU8BohKaS07X1n4hBS2dfbQ)

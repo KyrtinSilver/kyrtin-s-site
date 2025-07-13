@@ -16,4 +16,3 @@ Those who work with organized crime are called "accomplices", so try not to be o
 
 In all probability if they did this (which is unlikely), it could trigger a power grab by the US's organized crime, such as initiating martial law or some equivalent, but the US will in all probability require such a severe shock to move out of apathy and complacency into a position of taking action to restore the country to some semblance of freedom. Until then, it will remain a joke, and the joke is on every US citizen. The US will soon have no allies left if this continues.
 
-[![Tariffs](https://media.licdn.com/dms/image/v2/D5622AQGE12mmL-d5Nw/feedshare-shrink_800/B56ZWE7iMoGUBw-/0/1741691955318?e=1745452800&v=beta&t=9si3yxGkfS1M82wEMt402vohYltYOl-Mim801E4ZV8g)](https://tradingeconomics.com/united-states/exports-by-country)

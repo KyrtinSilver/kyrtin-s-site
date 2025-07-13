@@ -22,4 +22,3 @@ That ability to generalize to truly OOD problems means that above the critical e
 
 Before you gulp down that “AI solution”, be sure that you’re drinking from the right container.
 
-![Critical Steps](https://media.licdn.com/dms/image/v2/D4D22AQGIUZ3J56SLhQ/feedshare-shrink_800/feedshare-shrink_800/0/1732907582802?e=1736985600&v=beta&t=yw4hwFAmxcBxiTB4ggPedRZzNBxVZoAJH8ch2h06uCQ)

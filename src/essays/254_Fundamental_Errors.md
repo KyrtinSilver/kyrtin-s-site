@@ -18,4 +18,3 @@ There is no fundamental uncertainty as to what these trivially simple technologi
 
 This is not a matter of “AI Skepticism”, as skepticism requires uncertainty, and much as it is obvious that a toaster can’t do your taxes, LLMs, RL, and “agents” aren’t fundamentally viable for most use cases either, they are just narrow tools.
 
-![Fundamental Errors](https://media.licdn.com/dms/image/v2/D5622AQFLmR0EupIn3Q/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1732230395904?e=1736985600&v=beta&t=7h0SXqOGKt7ql5uW_BAf1Qm6Ucj5CN9RTLp7CGFhDgs)

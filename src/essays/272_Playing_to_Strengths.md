@@ -34,4 +34,3 @@ Of course, our list of options goes well beyond these two. No one step of this p
 
 No matter what you duct tape to a Muppet, it will remain a Muppet, and by using that Muppet you’ll just be doing your best impression of Gollum from LOTR, talking to yourself in 2 different voices. The future looks nothing like the fever dreams that people were sold under the umbrella of “GenAI” or “Agents”, but that future is coming nonetheless. If you want to continue LARPING LOTR with your best Gollum impression, no doubt Peter Theil will be right there beside you, but for the rest of us there are better things to do.
 
-![Playing to Strengths](https://media.licdn.com/dms/image/v2/D5622AQEUT7dXC5xVEA/feedshare-shrink_2048_1536/B56ZQGx72mHIAs-/0/1735280543176?e=1738800000&v=beta&t=EIQYveVZl1PLPshAwwpzBj9ohWk_YLHgrWVuv_UUblM)

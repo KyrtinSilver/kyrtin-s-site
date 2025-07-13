@@ -21,4 +21,3 @@ If and when you encounter these end-of-year predictions and “reports”, simpl
 
 The net effect of them being systematically wrong with such a terrible baseline is effectively worse than random, so you’d literally be better off asking a Magic 8 Ball than most AI Influencers or major consultancies. Neither one has a meaningful understanding, but the Magic 8 Ball is at least unbiased.
 
-![Dreams of AI](https://media.licdn.com/dms/image/v2/D5622AQGYOihX2w_NCQ/feedshare-shrink_800/feedshare-shrink_800/0/1732247978070?e=1736985600&v=beta&t=SWebPAvDVDPLnr-OahV5Cb5cT-FTHK4YnwG323sYz-0)

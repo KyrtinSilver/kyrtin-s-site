@@ -18,4 +18,3 @@ Systems specifically built from scratch to handle and thrive under hyper-complex
 
 When you have the technology to know what you should focus on next, and how, what will you do?
 
-![Value Creation](https://media.licdn.com/dms/image/v2/D5622AQHQR2A-29zOng/feedshare-shrink_2048_1536/B56ZTpUzU2GUAo-/0/1739081338548?e=1742428800&v=beta&t=Oydyq22tG1GACcBZ5nAcVWsL8viwH8DVbMRsjVawh88)

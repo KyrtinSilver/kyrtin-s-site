@@ -24,4 +24,3 @@ It might be fair to treat LLMs like guns for any serious tech company. You donâ€
 
 Speaking practically, as I'm not a "Doomer", the very last people on the face of the planet who should have access to "AI Agents" are those who want them the most today. Treat those systems like bioweapons, as they can do far more indiscriminate and widespread damage than guns.
 
-![Decomposing Problems](https://media.licdn.com/dms/image/v2/D5622AQGvarEthzKi5A/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1732572265951?e=1736985600&v=beta&t=R6PAXeND_48J6wi9g6-Wh8J8wOXeRsxiM71_kKnPbJ0)

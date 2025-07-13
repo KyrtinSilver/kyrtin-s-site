@@ -18,4 +18,3 @@ At the extreme end of “magical thinking” we have the current “Agentic” c
 
 If you want viable tool use, you need actual intelligence, with a human-like motivational system, and the cognitive processes of a working cognitive architecture. Fortunately, those aren’t theoretical, they’ve been demonstrated for half a decade. Ironically, nobody was paying "Attention".
 
-![Tool Use](https://media.licdn.com/dms/image/v2/D5622AQE2XGLmCiw23A/feedshare-shrink_800/feedshare-shrink_800/0/1729673535646?e=1736985600&v=beta&t=2uv1q9zk8_-ZD-L7enDKMPONo30O0Cm-ZEXarz-6N3U)

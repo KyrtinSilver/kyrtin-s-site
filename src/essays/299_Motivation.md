@@ -28,4 +28,3 @@ There are also a small number like myself, whose core source of motivation can't
 
 Money can buy traitors, but traitors make for poor allies and employees. If the "Why" and "How" of your organization's motivation aren't viable, then the outcome only matters in the short term, as the ship is still sinking. No poorly motivated company is unsinkable.
 
-![Motivation](https://media.licdn.com/dms/image/v2/D5622AQFgimhnPrfDjw/feedshare-shrink_800/B56ZXLKl5OGoAo-/0/1742870307575?e=1746057600&v=beta&t=8Sidsu6PSwDWfJS6vDGioDzFtyquCJhskjatVx3NKyU)

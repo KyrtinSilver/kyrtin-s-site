@@ -20,4 +20,3 @@ In the meantime, I can be reached here, via ResearchGate, Discord, or any other 
 
 "First they ignore you. Then they ridicule you. And then they attack you and want to burn you. And then they build monuments to you." –Nicholas Klein
 
-![Hanlon's Weekend](https://media.licdn.com/dms/image/v2/D5622AQF_stZx1cXuTQ/feedshare-shrink_800/B56Zcj120PHUAk-/0/1748653010615?e=1751500800&v=beta&t=2Ep8MuY6ENUWlPnIOXiKY0aD7jb8YDywSnSwJMdgfd4)

@@ -16,4 +16,3 @@ That technology isn't hypothetical or theoretical and has been demonstrated sinc
 
 If your systems displayed only the files and emails that you actually need, when you need them, and archived or cleaned up the rest, how much more productive might you be? Those systems are extensions of your own cognition, so de-cluttering them also de-clutters your mind.
 
-![Your Clutter, Your Data](https://media.licdn.com/dms/image/v2/D5622AQFHp-I1ilDSZw/feedshare-shrink_800/B56ZVZwzd0GUAg-/0/1740967721456?e=1744243200&v=beta&t=5wMT2QRj4AZlX1AUEFtTCKztvi1Hq0iYJlLogomjnoc)

@@ -22,4 +22,3 @@ If the EU follows the US, making all but the tools of the AI industry's most obv
 
 I'm personally appreciating Vietnam right now, and when the US eventually decides to push the big red button on maximum stupidity, I will be on the opposite side of the planet, but I do hope that Europe doesn't send itself into a new Dark Age by repeating the US's mistakes.
 
-![Opensource Lawfare](https://media.licdn.com/dms/image/v2/D5622AQGN5M-uKkHS0A/feedshare-shrink_800/B56ZTFOAtvGQAg-/0/1738475573797?e=1741824000&v=beta&t=OT4sZ6fJZTRLs6iyk_yQMcHHRWoI2qtBIY4p1bwqLe4)

@@ -22,4 +22,3 @@ Humanity only requires 1 competent and/or ethical investor in order to avoid ext
 
 Sometimes, I do hate being proven right.
 
-![Another Year](https://media.licdn.com/dms/image/v2/D5622AQFlauQwHiKXyg/feedshare-shrink_800/feedshare-shrink_800/0/1731626916803?e=1736985600&v=beta&t=yjYSwtdBbe5BPYAbMt6N2SjxWzC3AxkyheD4j74MQi4)

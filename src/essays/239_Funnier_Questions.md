@@ -18,4 +18,3 @@ Our systems are graph-native, with the graph dynamically growing and being refin
 
 You can fail at any speed you like, and on any budget, if your technology and vision don't mesh with reality.
 
-![Funnier Questions](https://media.licdn.com/dms/image/v2/D4D22AQERJpi9lLTYKQ/feedshare-shrink_800/feedshare-shrink_800/0/1729653210651?e=1736985600&v=beta&t=GqPTy3rjg1_JsR25t6BuxNLkBF8j6-I8JcSTRjaxVlk)

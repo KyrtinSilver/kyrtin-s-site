@@ -29,4 +29,3 @@ Individual methods to be combined for warping and scrambling pages can, for exam
 
 This can allow for all of the greedy scrapers to irreversibly contaminate their newest models. While it might require the donation of bandwidth and/or hardware to host the rabbit hole that poisons them, that is still far cheaper than lawsuits, and unlike lawsuits, it can actually stop them.
 
-![Greedily Scraping](https://media.licdn.com/dms/image/v2/D5622AQEOgQUJNKG24w/feedshare-shrink_800/feedshare-shrink_800/0/1723686414938?e=1736985600&v=beta&t=mj-9AQ3flOITKkcr0qlE0PtMcMNtj3eRcNBnIavMqdY)

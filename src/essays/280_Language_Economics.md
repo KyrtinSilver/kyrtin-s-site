@@ -22,4 +22,3 @@ Taking this approach, you could have systems that utilize the full breadth of av
 
 The world more often than not needs better systems, not more data or compute.
 
-![Language Economics](https://media.licdn.com/dms/image/v2/D5622AQEAc9-cqq9X-w/feedshare-shrink_800/B56ZSRAhANGoAo-/0/1737599619575?e=1741219200&v=beta&t=qI0Vi6c_addJB-Ctjege4sOTd98f-RukSHH6pCu6UBY)

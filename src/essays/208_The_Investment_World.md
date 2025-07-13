@@ -18,4 +18,3 @@ The quickest way for anyone to prove that they don’t understand the first thin
 
 In practice, this default that most investors strictly adhere to amounts to a largely blind guessing game, a high-stakes version of “Go Fish”, where you have to guess both what they’re specifically interested in, and how best to communicate the value you offer to their domain of interest. That absurdity gates the deployment of any technology that is neither narrow nor fragile, with the gate itself being governed by both high “noise” (statistical and seemingly random decision influences), and cognitive biases (often heuristic, but systematic and predictable deviations).
 
-![Investment World](https://media.licdn.com/dms/image/v2/D5622AQGZwdISbOQA0Q/feedshare-shrink_800/feedshare-shrink_800/0/1719798525964?e=1737590400&v=beta&t=0wyvllmgFvob3BBssoqBxo0_NClR9J3m2lF3rQZipz0)

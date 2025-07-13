@@ -18,4 +18,3 @@ While a handful of games may be produced in a 3-5 year period that benefit from 
 
 Previously I had thought that perhaps when Nvidia's revenue eventually implodes as the current AI scams collapse they could fall back on their market of gamers…but when the gamers have virtually no games left that are worth playing, they have no reason to pay Nvidia's premium. Jensen should never have chased that bird.
 
-![Hardware Without Purpose](https://media.licdn.com/dms/image/v2/D5622AQFCZjHpswN_rA/feedshare-shrink_480/B56ZXSVj2UGoAY-/0/1742990623955?e=1746662400&v=beta&t=MVPhKjL1Pq8ZNBYXSZnwI3X951EjJyjlejQPxEKTwto)

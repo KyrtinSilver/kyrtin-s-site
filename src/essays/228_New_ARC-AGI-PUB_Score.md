@@ -26,4 +26,3 @@ The top team for the Prize leaderboard has also been specifically working on the
 
 “The best is yet to come.” -Sinatra
 
-![New ARC-AGI-PUB Score](https://media.licdn.com/dms/image/v2/D5622AQFIeLSy4wD-RA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1726177862978?e=1736985600&v=beta&t=QAGbJmWygPw-HkqAkUyUNhcDHFk2upY3DF1GVVFqK9o)

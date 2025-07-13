@@ -18,4 +18,3 @@ However, these sleazy methods only continue to remain viable so long as they rem
 
 "AI Agents" certainly aren't up to the task of performing those actions necessary for people to overcome these dark patterns and discrimination, nor could they ever realistically be, but that isn't true of more capable and fundamentally different technology. The potential savings shown below are just one example of the tip of the iceberg.
 
-![Localization Scaling](https://media.licdn.com/dms/image/v2/D5622AQF8Qxc1NEmGfQ/feedshare-shrink_800/B56ZcUsRvuGQAg-/0/1748398841780?e=1751500800&v=beta&t=Gboboqj9lJCv_aewDMIZRIir_ufccrwdukeqQNFWss8)

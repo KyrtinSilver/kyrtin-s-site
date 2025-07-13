@@ -16,4 +16,3 @@ Whether you call that insanity, stupidity, or addiction is partly a matter of se
 
 New technologies, with actual moats, are what tend to require funding to reach the minimum viable thresholds for demonstration and evaluation. If that goal-post of funds required is increased above the initial value more than once, you're probably dealing with snake oil peddlers. Rather, the required sum should generally go down, as methods improve. This is also a matter of simple best practices.
 
-![Engineering Reality](https://media.licdn.com/dms/image/v2/D5622AQHEOO6O2SqN0A/feedshare-shrink_800/B56ZWOZzYQHQAg-/0/1741850884133?e=1745452800&v=beta&t=jILoCKWmotCxyZl9kfdYwxnXaM_Dz1ctYIblns46wwo)

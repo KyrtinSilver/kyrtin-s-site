@@ -22,4 +22,3 @@ With "AI Agents", this gets exponentially worse, as every step in a multi-step p
 
 [Utility Engineering: Analyzing and Controlling Emergent Value Systems in AIs](https://arxiv.org/abs/2502.08640)
 
-![(Mis)alignment](https://media.licdn.com/dms/image/v2/D5622AQGFOLB6oZVVIw/feedshare-shrink_800/B56ZWDevspGoAg-/0/1741667630565?e=1745452800&v=beta&t=nZY-54HYM5vWpcK2zKRl4Y27nrEggTRf9NCmeWSsBk8)

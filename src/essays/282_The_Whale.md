@@ -18,4 +18,3 @@ When that time comes, either Hedge Funds will be positioned and ready to profit 
 
 If nobody predicts when it will pop correctly, then everyone loses, but if one group is smart enough to back viable technology and know or control when the news breaks, then they'll capture that pivotal moment that makes or breaks the future of companies and nations alike.
 
-![Opensource Whale](https://media.licdn.com/dms/image/v2/D4D22AQEUMstYKKjkug/feedshare-shrink_800/B4DZSrRn6oHkAg-/0/1738040312150?e=1741824000&v=beta&t=qpzSi7DQcPc2KTb_PAJjYtKIvlVjzdN0IxHL8jenWRs)

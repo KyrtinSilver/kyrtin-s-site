@@ -18,4 +18,3 @@ The ICOM cognitive architecture that my team works with, the one that has stood 
 
 What this means for users, clients, and regulations is that users and clients can freely change the data these systems utilize, both adding and removing it, and if regulations change then removing any data required for compliance is not only possible but fairly trivial. Again, the tech industry created a fake problem in an attempt to justify theft, but the cutting edge has no such problem.
 
-![Privacy and Copyright](https://media.licdn.com/dms/image/v2/D4D22AQGUInZI15aQDg/feedshare-shrink_800/feedshare-shrink_800/0/1729740114997?e=1736985600&v=beta&t=gnEAqexjOfJbiBuPi14rrXCXK32ePqI24JJYtSHGJA8)

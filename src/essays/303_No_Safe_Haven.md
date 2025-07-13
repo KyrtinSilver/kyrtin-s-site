@@ -18,4 +18,3 @@ If someone tells you that an LLM, RL, or "agentic" derivate thereof can be used 
 
 If anyone intends to pitch you AI related to cognitive bias, meet them on the roof of your building. If they run afoul of this, just give them a little push in the right direction, off of the edge.
 
-![No Safe Haven](https://media.licdn.com/dms/image/v2/D5622AQGHmOkNOEB2sA/feedshare-shrink_800/B56ZaJwW70G4Ak-/0/1746067878184?e=1750896000&v=beta&t=jhMpcU3WBnYzW-OinKY-2l9jEN_w9r0KhjPRkhBgGFo)

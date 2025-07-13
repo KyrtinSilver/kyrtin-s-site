@@ -16,4 +16,3 @@ Random people on the internet aren’t your friends, your “network”, or your
 
 If you encounter a troll, a bot, a spreader of disinformation, or some other form of bad actor, you can simply block them. If you do that, leaving behind those who choose to roll in their own filth, you’ll live a better life for it.
 
-[![Emo Philips](https://img.youtube.com/vi/d4hRBcqB-_8/hqdefault.jpg)](https://youtu.be/d4hRBcqB-_8?t=259)

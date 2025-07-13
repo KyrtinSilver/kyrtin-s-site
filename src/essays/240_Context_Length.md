@@ -24,4 +24,3 @@ This also requires none of the other naïve and inexcusable wastes of compute, l
 
 The right architecture makes an astronomical difference, which is also usually the difference between success and failure.
 
-![Context Length](https://media.licdn.com/dms/image/v2/D4D22AQHa2f9OATkMkg/feedshare-shrink_800/feedshare-shrink_800/0/1729658426032?e=1736985600&v=beta&t=_OKGTEt7GGjZEopwdvedNWrdPIn3JlX9v6HfrDofIZE)

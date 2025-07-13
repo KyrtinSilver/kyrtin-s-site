@@ -18,4 +18,3 @@ Another more powerful option emerges when you introduce scalable human-like syst
 
 Implementing better governance could easily save companies millions, countries billions, and the world trillions.
 
-![Fluid Governance](https://media.licdn.com/dms/image/v2/D5622AQEdCGMMGsqyyA/feedshare-shrink_2048_1536/B56ZQaqfVKGsAs-/0/1735614134062?e=1738800000&v=beta&t=8pQUuMbPP-5SJ2mOLUAQOdCL9HECNioXAIFZtk6zloQ)

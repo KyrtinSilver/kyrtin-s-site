@@ -18,4 +18,3 @@ It is exhausting to drag people along through the education process, like rollin
 
 Pioneering the cutting edge and educating people on that same edge are two distinctly separate things, and one can easily detract from the other. Do whatever you do best, be it education, research, or engineering, and let others who specialize differently do what they do best. For those who are best at staring at their own feet and hallucinating about Utopian or Dystopian futures, just walk away and leave them behind.
 
-![Genuine Expertise](https://media.licdn.com/dms/image/v2/D5622AQGMhiQ0lu1ILA/feedshare-shrink_800/B56ZSB8vcdHwAg-/0/1737346972212?e=1740614400&v=beta&t=8lgSNccUMeuxm0YbzIYPCLZPCBUGYFMPb1HLxqxcVag)

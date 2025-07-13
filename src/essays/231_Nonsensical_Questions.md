@@ -20,4 +20,3 @@ If you haven’t heard of us it is because people in the media share the same co
 
 Cognitive biases make the world go round, frauds like Altman weaponize them, and many never see beyond them. Humans can’t perform at a “human level” without them, but they are useful until they aren’t. Recognizing when they aren’t is a skill that more people need to develop. They’d ask much smarter questions if they did.
 
-![Nonsensical Questions](https://media.licdn.com/dms/image/v2/D5622AQEPnEQxLVeU0A/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1727236573869?e=1736985600&v=beta&t=x9JHTP4qtHhtBnIcM-JZjl68eJjXY2k510HtA_fbnPc)

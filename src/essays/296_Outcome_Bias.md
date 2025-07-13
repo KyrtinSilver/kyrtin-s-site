@@ -18,4 +18,3 @@ Humans are amazing creatures in terms of the outcomes of imagination, such as th
 
 The next time you see anyone in the AI domain engaging in Anthropomorphism, just picture them playing with dolls or sucking on a pacifier. The basic structure of why they do it is much the same, even though the multi-billion dollar price tag is notably higher.
 
-[![Outcome Bias](https://media.licdn.com/dms/image/v2/D5622AQEriFfbrELIJg/feedshare-shrink_800/B56ZWN4acwGUAk-/0/1741842135309?e=1745452800&v=beta&t=UrW6WxgvFBmZbJWBFhHjc7FI8jzPH9hSEPeRKSZYEUo)](https://upload.wikimedia.org/wikipedia/commons/6/65/Cognitive_bias_codex_en.svg)

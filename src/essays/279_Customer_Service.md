@@ -16,4 +16,3 @@ Two of the things that everyone seems to want and will tell you about are AI for
 
 Everyone knows that their cybersecurity is crap, that the dependencies and third-parties their systems are built on are full of vulnerabilities, and any actual AI expert can tell you that LLM-based systems are vulnerable-by-design, making vulnerable every system that they touch. In psychological terms, cybersecurity is where normal coding meets sharp spikes in fear, paranoia, and shame, effectively clamping down on many discussions in a negative and self-reinforcing loop. Both communication and a lack of communication can strongly undermine efforts in this domain, leaving many paralyzed until cut. Those without viable cybersecurity today are like Schrödinger's cat.
 
-![Customer Service](https://media.licdn.com/dms/image/v2/D5622AQG5JsINsDxYtg/feedshare-shrink_800/B56ZSCVjKsHsAg-/0/1737353475542?e=1741219200&v=beta&t=FyiDZusHTmxiUPvyDNQ72JOHPgjEVQxcT4d-PQhWMfk)

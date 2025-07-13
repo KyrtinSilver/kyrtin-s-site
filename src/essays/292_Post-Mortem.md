@@ -16,4 +16,3 @@ The bubble will pop the moment OpenAI fails to raise, as they can neither functi
 
 My team will continue pioneering the actual cutting edge, even on spare time and pocket change, as there is no better investment to be made.
 
-![Post Mortem](https://media.licdn.com/dms/image/v2/D5622AQE2Pw0rXJrH3Q/feedshare-shrink_800/B56ZVUsfRyGQAk-/0/1740882704403?e=1744243200&v=beta&t=13CQYQoXe0BvoAs4J1-N2xdEfi9GB_4Wwo8jyfZrHsc)

@@ -18,4 +18,3 @@ Today people are overwhelmed by cognitive biases like "Choice Overload" at every
 
 In the next several years the "safest option" may reliably become the one that a human reaches with the help of viable technology. The Dilbert comic below illustrates OpenAI.
 
-![Overload](https://media.licdn.com/dms/image/v2/D5622AQH7KlvDJLWq1g/feedshare-shrink_800/B56ZRJAMMdGsAo-/0/1736391574890?e=1739404800&v=beta&t=cMSbZvG4ywjx5rzFOZXYGKiMVgJBh6jNvrzgEr1WjGk)

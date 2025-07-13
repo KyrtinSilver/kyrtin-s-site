@@ -22,5 +22,4 @@ Fortunately, that same technology required for actual democracy can be applied t
 
 Customers, users, and citizens can also provide checks and balance to prevent some of the less desirable edge-cases of over-reach by both corporations and governments, keeping all parties accountable. 
 
-![Unions-as-a-Platform](https://media.licdn.com/dms/image/v2/D5622AQH4TZzYmgUdbw/feedshare-shrink_1280/B56ZTdp4TZGUAk-/0/1738885531317?e=1741824000&v=beta&t=lxnHSDGJdIVMx1bpIsJQK0kYqOUFtDx8rGChPglpg-0)
 

@@ -16,4 +16,3 @@ For all of the absurd talk of "AGI" that comes out of half-wit tech-bros and the
 
 The future bears little resemblance to science fiction, as do the opportunities it presents.
 
-![Blue Ocean Markets](https://media.licdn.com/dms/image/v2/D5622AQHKkpD_NsUx2g/feedshare-shrink_800/B56ZX0XTdtGcAg-/0/1743561505288?e=1746662400&v=beta&t=JySz5GFqSyY5GRzDd42wPMRGtZhfuG4k8oBVMfiQ38M)

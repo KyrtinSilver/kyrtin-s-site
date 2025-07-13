@@ -24,4 +24,3 @@ Within the next generation of human-like intelligent software systems, capable o
 
 Incomplete systems are inherently vulnerable to parasites, but healthy parasite-free systems can easily outcompete those in the long term, and we already have the technology to build them.
 
-![Three Philosophers](https://media.licdn.com/dms/image/v2/D5622AQGkIe1zXGWctw/feedshare-shrink_800/feedshare-shrink_800/0/1720671395636?e=1737590400&v=beta&t=E1aDyrK5w6yq9BWHmz1JNySf1IOrbmKE2SFeV7T8TCI)

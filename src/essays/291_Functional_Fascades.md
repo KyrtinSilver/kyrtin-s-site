@@ -22,4 +22,3 @@ That isn't to say that overt corruption is the goal, but if the half-assed burea
 
 The illusion of a functional system is worse than having no system at all. This is also shown in "GenAI", where half-assed AI systems like those of OpenAI and Anthropic are frequently worse to implement than the total absence of such a system. They too are completely vulnerable-by-design to bad actors, with "guardrails"(fraudrails) whose only purpose is to damage the experience and options available to ordinary people, not to prevent any motivated parties for performing any abuse.
 
-![Functional Fascades](https://media.licdn.com/dms/image/v2/D5622AQHjsNqCmykHhg/feedshare-shrink_800/B56ZUr9chQHsAg-/0/1740199283300?e=1743638400&v=beta&t=dhpYtGgxUm8V4kviXCZHtGMhUyv2gk4AoaW4UJcpVdg)

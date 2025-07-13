@@ -32,4 +32,3 @@ No, trivial and trash technology like LLMs can’t deliver these solutions, but 
 
 The best time to make the wise choice was 5 years ago, but the second-best time is today. You always have the choice to let go of the sunk cost of past mistakes, learn, and move forward. Will you?
 
-![Your Company](https://media.licdn.com/dms/image/v2/D5622AQH5KTfSZejAPQ/feedshare-shrink_800/feedshare-shrink_800/0/1721970688728?e=1737590400&v=beta&t=sdhAxKg5rw3GiM4Tw8QnC9swHsy4a4sEV0nKspJ9ugQ)

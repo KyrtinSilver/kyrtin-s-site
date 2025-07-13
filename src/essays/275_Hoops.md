@@ -25,4 +25,3 @@ The status quo severely harms all parties, even as they take that harm for grant
 
 Every year the number of flaming hoops increases, both locally and globally, with the burden placed on those least equipped for it, while consequently increasing the risks posed by bad actors. There are few better ways to kill economies than to kill off an increasing portion of local business through bureaucracy while swamping everyone in uncertainty.
 
-![Flaming Hoops](https://media.licdn.com/dms/image/v2/D5622AQH3S8asRzhVIQ/feedshare-shrink_800/B56ZQ6ID.kGoAg-/0/1736141980118?e=1739404800&v=beta&t=mi7qZG7jV_TO2a2R1F5ULjjINKSK83OIpZBUcoqgBeA)

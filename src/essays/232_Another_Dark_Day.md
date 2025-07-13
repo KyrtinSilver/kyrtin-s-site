@@ -12,4 +12,3 @@ There are finite and fast-approaching limits as to how long this may continue. B
 
 The current normative level of stupidity in the tech industry has climbed to such great heights that new words need to be coined to describe it. Likewise, a large portion of the competence distribution can now simply be labeled "Soylent Green".
 
-![Another Dark Day](https://media.licdn.com/dms/image/v2/D5622AQH2IvpzDQhV3w/feedshare-shrink_800/feedshare-shrink_800/0/1727913404404?e=1736985600&v=beta&t=utZShyvZfTRNv2X4BNLQQVvPrLnu46qj2SNw1B1upkA)

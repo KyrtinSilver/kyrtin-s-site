@@ -20,4 +20,3 @@ Whatever the outcome of the upcoming election, this remains true, as it did in y
 
 Will you put down the exploding phone or rock the "Van Gogh"?
 
-![Raising During Elections](https://media.licdn.com/dms/image/v2/D5622AQF4tYyJI4m-WA/feedshare-shrink_800/feedshare-shrink_800/0/1721361824150?e=1737590400&v=beta&t=zDoMLSw476wRQcs0H02zy8I0ydArkj_TuQl-PrPpKDE)

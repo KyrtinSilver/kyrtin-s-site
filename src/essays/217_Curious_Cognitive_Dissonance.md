@@ -18,4 +18,3 @@ Personally, I can say that OpenAI and Anthropic employees will be permanently bl
 
 This is the sort of thing that you can expect of corporations once our technology is commercially deployed and giving companies and governments effectively superintelligent and scalable minds, each representing the collective intelligence and perspectives of their employees and citizens. That said, entire books could be written on this subject, as there is quite a lot to wrap your head around.
 
-![Curious Cognitive Dissonance](https://media.licdn.com/dms/image/v2/D5622AQGH2qjM6BqZnQ/feedshare-shrink_800/feedshare-shrink_800/0/1721789441988?e=1737590400&v=beta&t=C6TuPPK8l_gAvYM02ULzg9yAL4axaeqOCq53Q1QxXAc)

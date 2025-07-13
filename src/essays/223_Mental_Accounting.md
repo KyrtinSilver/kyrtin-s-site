@@ -18,4 +18,3 @@ The toolbox should continue to include categories, and humans can more or less c
 
 That will be bad news for a few parasitic industries, but exceptionally good news for everyone they’ve been bleeding dry for years or decades. The world of human health changed dramatically with the discovery and deployment of antibiotics, and the deployment of such working collective intelligence systems is likely to prove just as potent.
 
-![Mental Accounting](https://media.licdn.com/dms/image/v2/D5622AQGROHykQBCX6g/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1723348416246?e=1736985600&v=beta&t=EjCtWJykh--p-aOUgH-NmN9jV-_he1m0wWTPDVwHePI)

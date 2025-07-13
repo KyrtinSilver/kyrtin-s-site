@@ -18,4 +18,3 @@ In just over a week the “Year of the Snake (Oil)” will begin, and with a sub
 
 With OpenAI getting caught red-handed on their benchmark scams for “FrontierMath” and “ARC-AGI”, you can bet that trash like “o3” isn’t a system to overpower the rest of the “AI agent” ecosystem, but the systems that kicked the crap out of them might be. In most cases, the bar for taking control of your "agents" is going to be very low, so expect that other parties could do the same with far less potent systems.
 
-![Year of the Snake](https://media.licdn.com/dms/image/v2/D5622AQGJ8itcuDS0cA/feedshare-shrink_800/B56ZSBvLLQGsAg-/0/1737343415794?e=1740614400&v=beta&t=tNky4wfe5njvYwannTwNR_Ysx-rH4BJF8a6ZxvzBxAE)
