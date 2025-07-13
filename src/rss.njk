@@ -4,14 +4,13 @@ eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="/rss.xsl"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.apple.com/itunes/podcasts/">
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Kyrtin Atreides</title>
     <atom:link href="https://kyrtinatreides.com/rss.xml" rel="self" type="application/rss+xml" />
     <link>https://kyrtinatreides.com/</link>
     <description>Edge perspectives on AI, tech, and society</description>
     <language>en</language>
-    <author>Kyrtin Atreides</author>
     <itunes:author>Kyrtin Atreides</itunes:author>
     <pubDate>{{ (collections.essays[0].date or now) | dateToRfc822 }}</pubDate>
     <lastBuildDate>{{ (collections.essays[0].date or now) | dateToRfc822 }}</lastBuildDate>
