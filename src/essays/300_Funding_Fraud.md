@@ -12,5 +12,5 @@ It has been known for some years that misinformation and disinformation spread 6
 
 In late 2022's edition of this comparison, Anthropic was the poster child for a terrible investment, even before it was revealed that 71% of their funds raised at that time came from Sam Bankman-Fried's money laundering. Today they've been eclipsed by the new posterchild for a terrible investment, Ilya Sutskever's "Safe Superintelligence" (SSI), whose operations are eerily reminiscent of Theranos.
 
-I highly recommend Daniel Kahneman's method of joint comparison, briefly described in the attached slide, for purposes of reducing cognitive bias when comparing similar companies, candidates, etc. If more people funding companies were less biased then these numbers wouldn't be so abysmal. Ironically, this makes the most biased investors first on the chopping block for more fundamentally capable AI.
+I highly recommend [Daniel Kahneman's method of joint comparison](https://faculty.sites.iastate.edu/tesfatsi/archive/tesfatsi/JudgementAndChoice.MappingBoundedRationality.DKahneman2003.pdf), for purposes of reducing cognitive bias when comparing similar companies, candidates, etc. If more people funding companies were less biased then these numbers wouldn't be so abysmal. Ironically, this makes the most biased investors first on the chopping block for more fundamentally capable AI.
 

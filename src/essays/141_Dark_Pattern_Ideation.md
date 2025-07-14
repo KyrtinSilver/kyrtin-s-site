@@ -4,7 +4,7 @@ layout: essay.njk
 date: "2024-02-29"
 ---
 
-As one of my good friends discovered recently during some testing, GPT-4 excels at being maximally evil. Said friend is one of the most creative people I've known, able to build his own apps well before systems like Copilot, and he was complimenting the degree of evil creativity GPT-4 comes up with in tests like the dark pattern ideation shown in the attached images.
+As one of my good friends discovered recently during some testing, GPT-4 excels at being maximally evil. Said friend is one of the most creative people I've known, able to build his own apps well before systems like Copilot, and he was complimenting the degree of evil creativity GPT-4 comes up with in tests like dark pattern ideation.
 
 However, it is also spectacularly terrible at proposing creative solutions to the exact evil it just came up with, or as he put it:
 

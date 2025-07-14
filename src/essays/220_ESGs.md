@@ -18,7 +18,7 @@ Such systems could, for example:
 
 - Iteratively improve governance, operation, and cooperation, increasing the company’s ability to pivot into opportunities as they emerge.
 
-For a more advanced and complete integration, a company could also architect their org chart around such systems, replacing typical and often tall hierarchies with direct connections to the mind of the organization for every employee. One version of this is illustrated in the attached image, where employees from interns to the CEO all interact with the system in different capacities, each fulfilling their respective roles as part of that interaction.
+For a more advanced and complete integration, a company could also architect their org chart around such systems, replacing typical and often tall hierarchies with direct connections to the mind of the organization for every employee. One version of this is where employees from interns to the CEO all interact with the system in different capacities, each fulfilling their respective roles as part of that interaction.
 
 In this chart executives serve their roles, considering the objectives within their respective scopes, and the AGI or sub-AGI Collective Intelligence System dynamically considers the objectives, prioritizing them. With the full scope of data considered and objectives integrated and prioritized, they may be operationalized, distributing tasks to employees based on their skills, performance, availability, etc.
 

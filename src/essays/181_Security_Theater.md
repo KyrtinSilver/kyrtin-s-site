@@ -18,4 +18,4 @@ A system that was built on spare time and pocket change vastly outperformed all 
 
 If even 1% of the funds that have been wasted on the fraud of "guardrailing" LLMs had been invested in a fundamentally viable architecture then the exploding overhead cost (paired with zero actual security gains) wouldn't be the cash cow for bad actors that it serves as today.
 
-Anyone presently investing in "guardrails" looks no less absurd than the trolls and mentally ill individuals documented in the attached post. They can seek professional help at any time, but will they?
+Anyone presently investing in "guardrails" looks no less absurd than the trolls and mentally ill individuals. They can seek professional help at any time, but will they?

@@ -15,5 +15,3 @@ Is this technically possible? Perhaps, very conditionally, but the tools to make
 Groupthink, as eloquently illustrated in "The Canceling of the American Mind" directly prevents the development of the tools that such a process would necessarily require. The necessary capacities can't be developed, because it is taboo to even acknowledge that they exist, and that taboo is enforced under threat from hordes of largely anonymous trolls acting as bullies.
 
 This leads to the final answer as to whether such a thing is possible absent collective intelligence. While it may be technically possible absent collective intelligence, it isn't practical without it, and it is impossible within systems where Groupthink, the opposite of collective intelligence, plays a leading role. The result negatively impacts the vast majority of humans on the planet, a detriment that may be credited to sources of Groupthink directly as their ethical debt to humanity.
-
-The attached meme is brought to you by security researchers, chronically laughing at Microsoft. The disturbing trend it jokingly refers to happens to be relevant.

@@ -18,7 +18,7 @@ Old posts and edits to posts are most likely to go unnoticed, even if a user is 
 
 - Edit new posts for active users adding the invisible text, either promptly after they are first posted, or roughly 5 days later, when they are unlikely to notice.
 
-- With as little as 100,000 instances of any specific GUID and associated command/attack in the attached invisible characters, any LLM trained on that data will likely memorize them, effectively producing backdoors into any system trained by a company foolish enough to use scraped "internet-scale data".
+- With as little as 100,000 instances of any specific GUID and associated command/attack (ex invisible characters), any LLM trained on that data will likely memorize them, effectively producing backdoors into any system trained by a company foolish enough to use scraped "internet-scale data".
 
 - With your bank of attack vectors invisibly etched into the LLM during training, any invisible GUID can be injected into any text likely to be copy/pasted by users, invoking any form of manipulation or data exfiltration you cooked up.
 

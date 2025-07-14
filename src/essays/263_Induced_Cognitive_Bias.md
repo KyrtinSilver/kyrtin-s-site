@@ -4,7 +4,7 @@ layout: essay.njk
 date: "2024-12-18"
 ---
 
-It may be time to add a new cognitive bias to the list, named "AI Retrospection". A similar concept of "Rosy Retrospection", the tendency to remember the past as more positive than it actually was, has been around and documented for some time. This new form of warping frequently produces laughable results, though many of them aren't as immediately recognizable as the attached example, and some multi-billion dollar decisions have been based on equally laughable AI warping in recent memory.
+It may be time to add a new cognitive bias to the list, named "AI Retrospection". A similar concept of "Rosy Retrospection", the tendency to remember the past as more positive than it actually was, has been around and documented for some time. This new form of warping frequently produces laughable results, though many of them aren't immediately recognizable, and some multi-billion dollar decisions have been based on equally laughable AI warping in recent memory.
 memory.
 
 As today's over-hyped AI severely warps all content, any perceptions, conscious or unconscious, built upon that warped content are sure to manifest as a new cognitive bias among the humans whose lives are saturated with it. As this artificially induced cognitive bias takes place and takes root, it can reliably and systematically degrade the effective intelligence of any human subject to it.

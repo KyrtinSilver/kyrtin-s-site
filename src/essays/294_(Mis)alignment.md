@@ -4,7 +4,7 @@ layout: essay.njk
 date: "2025-03-13"
 ---
 
-If you've ever wondered just how "(mis)aligned" current LLMs are with human preferences, even at very shallow and simple levels, [there is a paper for that.](https://arxiv.org/abs/2502.08640) Some of the noteworthy findings were the values that GPT-4o assigned to the lives of specific individuals, as well as groups based on Nationality, shown in the attached image.
+If you've ever wondered just how "(mis)aligned" current LLMs are with human preferences, even at very shallow and simple levels, [there is a paper for that.](https://arxiv.org/abs/2502.08640) Some of the noteworthy findings were the values that GPT-4o assigned to the lives of specific individuals, as well as groups based on Nationality.
 
 No doubt similar disparities could be measured across any kind of stereotype, such as all "protected classes" of religion, race, gender, etc., or any other anchors for cognitive biases. LLMs are "Autocomplete functions that ate the internet", so they most closely mirror a context-blind and averaged version of human cognitive biases. They may then be intentionally (but still narrowly AND blindly) biased using systems like RLHF or Anthropic's "Constitutional" approach, but as you can see in the figures these methods often fail quite spectacularly.
 

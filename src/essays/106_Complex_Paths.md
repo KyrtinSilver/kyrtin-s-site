@@ -6,7 +6,7 @@ date: "2023-12-03"
 
 While categorization is imperfect, and a form of cognitive bias, it can be useful in moderation. People active on LinkedIn can be categorized as "those who actively seek to learn", "those who passively learn, but only when emotions align", and "those who seek confirmation of a hardened viewpoint (non-learners)".
 
-Interaction with the first group is reliably productive, and interaction with the second group can be productive if material is communicated in appealing ways. The third group is reliably unproductive, both in terms of interaction and the influence they exert on others, and they bring to mind the attached meme.
+Interaction with the first group is reliably productive, and interaction with the second group can be productive if material is communicated in appealing ways. The third group is reliably unproductive, both in terms of interaction and the influence they exert on others.
 
 Some people learn actively, some passively, and some just run on an exercise wheel in a cage. It isn't the role of the educator to change if people learn but to educate those who choose to learn, to the degree that they choose to learn. Evolution didn't produce humanity because everyone chose to learn, but because those who chose to learn are the ones who survived.
 
