@@ -4,7 +4,7 @@ layout: "essay.njk"
 date: 2024-10-26
 ---
 
-“The most valuable insight to give voice to is the one that practically nobody else is articulating.”
+> “The most valuable insight to give voice to is the one that practically nobody else is articulating.”
 
 The first handful of people to point something out offer far greater value than the million that may follow. This is part of the philosophy I adhere to when determining what is worth saying (a tiny fraction of what crosses my mind), and subsequently how to say it. Of course, this is the polar opposite of repeating popular narratives.
 
