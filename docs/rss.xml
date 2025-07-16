@@ -33,11 +33,11 @@
   </entry>
   <entry>
     <title type="html">333 - The (Substack) Saga Begins</title>
-    <link href="https://kyrtinatreides.com/essays/333_The%20(Substack)%20Saga%20Begins/" rel="alternate" type="text/html" title="333 - The (Substack) Saga Begins"/>
+    <link href="https://kyrtinatreides.com/essays/333_The_(Substack)_Saga_Begins/" rel="alternate" type="text/html" title="333 - The (Substack) Saga Begins"/>
     <published>2025-07-15T12:00:00Z</published>
     <updated>2025-07-15T12:00:00Z</updated>
-    <id>https://kyrtinatreides.com/essays/333_The%20(Substack)%20Saga%20Begins/</id>
-    <content type="html" xml:base="https://kyrtinatreides.com/essays/333_The%20(Substack)%20Saga%20Begins/">
+    <id>https://kyrtinatreides.com/essays/333_The_(Substack)_Saga_Begins/</id>
+    <content type="html" xml:base="https://kyrtinatreides.com/essays/333_The_(Substack)_Saga_Begins/">
 <![CDATA[<p>People have mentioned that LinkedIn makes it difficult to see what someone is posting, so with some help from a good friend and colleague I’ve set up a Substack for the purpose of cross-posting everything, including exporting over 300 previous LinkedIn posts there.</p>
 <p>It has become rather comical seeing “Top Voice” influencers with 100-200K followers who’re getting less traction on their own posts than my median or average, presumably as the AI slop washes away other content from newsfeeds, optimizing to the selection algorithm. I don’t actually want to become an influencer, but I don’t want people to struggle needlessly against LinkedIn’s AI slop in search of what I share either.</p>
 <p>What I share is 90% demonstrated, 5% prediction, 4% questions, and ~1% personal preference or opinion (where so noted), with no quotas to meet or anyone to appease. If something is worth my time to write about it, I will max out the character limit doing so. If it is not, then you probably won’t hear about it from me.</p>
@@ -592,11 +592,11 @@ I’m very tempted to scrape the comment data from the replies I received into a
   </entry>
   <entry>
     <title type="html">309 - Fruit-Based Skepticism</title>
-    <link href="https://kyrtinatreides.com/essays/309_Fruit-Based%20Skepticism/" rel="alternate" type="text/html" title="309 - Fruit-Based Skepticism"/>
+    <link href="https://kyrtinatreides.com/essays/309_Fruit-Based_Skepticism/" rel="alternate" type="text/html" title="309 - Fruit-Based Skepticism"/>
     <published>2025-06-08T12:00:00Z</published>
     <updated>2025-06-08T12:00:00Z</updated>
-    <id>https://kyrtinatreides.com/essays/309_Fruit-Based%20Skepticism/</id>
-    <content type="html" xml:base="https://kyrtinatreides.com/essays/309_Fruit-Based%20Skepticism/">
+    <id>https://kyrtinatreides.com/essays/309_Fruit-Based_Skepticism/</id>
+    <content type="html" xml:base="https://kyrtinatreides.com/essays/309_Fruit-Based_Skepticism/">
 <![CDATA[<p>Apple doesn't often deliver AI papers, but when it does they tend to be worth a read. Their new paper <a href="https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf">"The Illusion of Thinking"</a> shredding claims of "Large Reasoning Models"(LRMs) is worth examining for AI practitioners and enthusiasts alike.</p>
 <p>The findings are exactly what real experts predict and expect, that LLMs perform some very simple tasks better than "LRMs", that those LRMs offer some advantage on some slightly more complex tasks, and that both collapse completely under "high-complexity" tasks. Note, "high-complexity" in this paper still consists of simple controlled puzzles, practically nothing by real-world standards of complexity. They both collapse to less than worthlessness long before any non-trivial degree of complexity is reached.</p>
 <p>They are just the vanilla architecture (LLMs) and a specialty flavor with more bias from additional (often hand-engineered) structures added (LRMs) so you get the same fundamental limitations but with bias and specialization driving some relatively minor performance differences. This is similar to how LLMs were found to better obey the rules of a game before biasing factors like RLHF, as that added bias prevents them from strictly fitting to the curves of the data. LRMs add potentially useful, but systematically wrong, bias to the process, causing this trade-off.</p>
