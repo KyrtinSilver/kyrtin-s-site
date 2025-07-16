@@ -4,7 +4,7 @@ layout: essay.njk
 date: "2025-07-15"
 ---
 
-People have mentioned that LinkedIn makes it difficult to see what someone is posting, so with some help from a good friend and colleague I’ve set up a Substack for the purpose of cross-posting everything, including exporting over 300 previous LinkedIn posts there.
+People have mentioned that LinkedIn makes it difficult to see what someone is posting, so with some help from a good friend and colleague [I’ve set up a Substack](https://kyrtin.substack.com/) for the purpose of cross-posting everything, including exporting over 300 previous LinkedIn posts there.
 
 It has become rather comical seeing “Top Voice” influencers with 100-200K followers who’re getting less traction on their own posts than my median or average, presumably as the AI slop washes away other content from newsfeeds, optimizing to the selection algorithm. I don’t actually want to become an influencer, but I don’t want people to struggle needlessly against LinkedIn’s AI slop in search of what I share either.
 
