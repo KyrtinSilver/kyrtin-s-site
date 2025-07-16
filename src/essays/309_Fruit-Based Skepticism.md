@@ -4,7 +4,7 @@ layout: essay.njk
 date: "2025-06-08"
 ---
 
-Apple doesn't often deliver AI papers, but when it does they tend to be worth a read. Their new paper ["The Illusion of Thinking"](https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf)shredding claims of "Large Reasoning Models"(LRMs) is worth examining for AI practitioners and enthusiasts alike.
+Apple doesn't often deliver AI papers, but when it does they tend to be worth a read. Their new paper ["The Illusion of Thinking"](https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf) shredding claims of "Large Reasoning Models"(LRMs) is worth examining for AI practitioners and enthusiasts alike.
 
 The findings are exactly what real experts predict and expect, that LLMs perform some very simple tasks better than "LRMs", that those LRMs offer some advantage on some slightly more complex tasks, and that both collapse completely under "high-complexity" tasks. Note, "high-complexity" in this paper still consists of simple controlled puzzles, practically nothing by real-world standards of complexity. They both collapse to less than worthlessness long before any non-trivial degree of complexity is reached.
  

@@ -1606,7 +1606,7 @@
   
   
   <url>
-    <loc>https://kyrtinatreides.com/research/21_Cognitive_biases_in_natural_language_Automatically_detecting_differentiating_and_measuring_bias_in_text/</loc>
+    <loc>https://kyrtinatreides.com/research/21_Cognitive_Biases_in_Natural_Language_Automatically_Detecting_Differentiating_and_Measuring_Bias_in_Text/</loc>
     <lastmod>2024-10-01T00:00:00.000Z</lastmod>
   </url>
   
@@ -1900,6 +1900,13 @@
   
   
   <url>
+    <loc>https://kyrtinatreides.com/research/</loc>
+    <lastmod>2024-12-18T16:09:56.907Z</lastmod>
+  </url>
+  
+  
+  
+  <url>
     <loc>https://kyrtinatreides.com/essays/265_Retrospection/</loc>
     <lastmod>2024-12-19T00:00:00.000Z</lastmod>
   </url>
@@ -1909,6 +1916,15 @@
   <url>
     <loc>https://kyrtinatreides.com/essays/266_Compute_Claims/</loc>
     <lastmod>2024-12-20T00:00:00.000Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  <url>
+    <loc>https://kyrtinatreides.com/essays/</loc>
+    <lastmod>2024-12-23T16:53:30.910Z</lastmod>
   </url>
   
   
@@ -1993,22 +2009,6 @@
   <url>
     <loc>https://kyrtinatreides.com/research/20_The_Case_for_Human-like_Scalable_Intelligence_in_the_Medical_Field/</loc>
     <lastmod>2025-01-22T00:00:00.000Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  <url>
-    <loc>https://kyrtinatreides.com/</loc>
-    <lastmod>2025-01-23T00:06:32.914Z</lastmod>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://kyrtinatreides.com/research/</loc>
-    <lastmod>2025-01-23T00:06:32.914Z</lastmod>
   </url>
   
   
@@ -2399,8 +2399,22 @@
   
   
   <url>
-    <loc>https://kyrtinatreides.com/essays/</loc>
-    <lastmod>2025-07-13T06:42:40.250Z</lastmod>
+    <loc>https://kyrtinatreides.com/</loc>
+    <lastmod>2025-07-14T18:24:23.061Z</lastmod>
+  </url>
+  
+  
+  
+  <url>
+    <loc>https://kyrtinatreides.com/essays/333_The%20(Substack)%20Saga%20Begins/</loc>
+    <lastmod>2025-07-15T00:00:00.000Z</lastmod>
+  </url>
+  
+  
+  
+  <url>
+    <loc>https://kyrtinatreides.com/essays/334_Heuristic_Skewing/</loc>
+    <lastmod>2025-07-16T00:00:00.000Z</lastmod>
   </url>
   
 </urlset>
