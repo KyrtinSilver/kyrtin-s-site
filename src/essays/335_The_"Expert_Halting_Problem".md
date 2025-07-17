@@ -1,5 +1,5 @@
 ---
-title: "335 - The "Expert Halting Problem" "
+title: '335 - The "Expert Halting Problem"'
 layout: essay.njk
 date: "2025-07-16"
 ---
