@@ -1,7 +1,7 @@
 ---
 title: "335 - The "Expert Halting Problem""
 layout: essay.njk
-date: "2025-07-17"
+date: "2025-07-16"
 ---
 
 Today, many in tech face the “Expert Halting Problem”, which is to say that many experts systematically fail to recognize the boundaries beyond which their own expertise takes a short dive off of a tall cliff.
