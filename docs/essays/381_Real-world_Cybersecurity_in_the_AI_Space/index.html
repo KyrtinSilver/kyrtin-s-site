@@ -1,0 +1,1378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+  
+  <meta name="description" content="A conference presenation from CrowdStrike’s AI Red Teaming Lead." />
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Real-world Cybersecurity in the AI Space" />
+  <meta property="og:description" content="A conference presenation from CrowdStrike’s AI Red Teaming Lead." />
+  <meta property="og:url" content="https://kyrtinatreides.com/essays/381_Real-world_Cybersecurity_in_the_AI_Space/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Kyrtin Atreides" />
+  <meta property="og:image" content="https://kyrtinatreides.com/assets/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:image" content="https://kyrtinatreides.com/assets/og-image.png" />
+  
+  <meta property="article:published_time" content="2025-10-15T00:00:00.000Z" />
+  <meta property="article:author" content="Kyrtin Atreides" />
+  
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Real-world Cybersecurity in the AI Space" />
+  <meta name="twitter:description" content="A conference presenation from CrowdStrike’s AI Red Teaming Lead." />
+  <title>Real-world Cybersecurity in the AI Space | Kyrtin Atreides</title>
+  <link rel="canonical" href="https://kyrtinatreides.com/essays/381_Real-world_Cybersecurity_in_the_AI_Space/" />
+  <link rel="alternate" type="application/atom+xml" title="Kyrtin Atreides" href="/rss.xml" />
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fcfbf9" />
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#232323" />
+  <meta name="google-site-verification" content="VgCfmx07-aHtaHzeW-ijLgOvhHzZ3Iys9vqoZyKwOcM" />
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="/assets/favicon-32.png" type="image/png" sizes="32x32" />
+  <link rel="icon" href="/assets/favicon-16.png" type="image/png" sizes="16x16" />
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+  
+  <script>
+    (function(){
+      var useDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      if (useDark) document.documentElement.classList.add('dark-mode');
+      var icon = document.querySelector('link[rel="icon"]');
+      if (icon) icon.href = useDark ? '/assets/favicon-dark.svg' : '/assets/favicon.svg';
+    })();
+  </script>
+
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Real-world Cybersecurity in the AI Space",
+    "author": {
+      "@type": "Person",
+      "name": "Kyrtin Atreides",
+      "url": "https://kyrtinatreides.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "AGI Laboratory"
+    },
+    "datePublished": "2025-10-15T00:00:00.000Z",
+    "mainEntityOfPage": "https://kyrtinatreides.com/essays/381_Real-world_Cybersecurity_in_the_AI_Space/",
+    "description": "A conference presenation from CrowdStrike’s AI Red Teaming Lead."
+  }
+  </script>
+  
+
+  
+
+  
+
+  
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Kyrtin Atreides",
+    "url": "https://kyrtinatreides.com",
+    "jobTitle": "Cognitive Architect",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Norn",
+      "url": "https://norn.ai"
+    },
+    "description": "Cognitive architect, building scalable intelligence.",
+    "sameAs": [
+      "https://orcid.org/0000-0001-9655-8209",
+      "https://www.researchgate.net/profile/Kyrtin-Atreides",
+      "https://scholar.google.com/citations?user=1njzkrQAAAAJ",
+      "https://www.linkedin.com/in/kyrtin-atreides/",
+      "https://github.com/KyrtinSilver",
+      "https://kyrtin.substack.com/"
+    ]
+  }
+  </script>
+  
+  <link rel="preload" href="/assets/fonts/geist.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/site.css" />
+
+  
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <nav aria-label="Primary">
+    <a href="/" class="nav-logo" aria-label="Home">
+      <span class="nav-logo-inner">
+        <svg class="nav-logo-seal" viewBox="62 38 134 180" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path fill="currentColor" fill-rule="evenodd" d="M195.92 38V42.8477C187.28 47.72 186.92 48.0801 183.179 54.5213L140.558 128L183.179 201.479C186.92 207.92 187.28 208.28 195.92 213.152V218H164.399L121.808 144.573L87.6243 144.572V217.999H62V38.0011H87.6243V111.428L121.808 111.427L164.399 38H195.92ZM87.6243 116.935V139.065L118.613 139.065L112.195 128L118.613 116.934L87.6243 116.935Z"/>
+        </svg>
+      </span>
+    </a>
+    <div class="nav-links">
+      <a href="/about/">About</a>
+      <a href="/research/">Research</a>
+      <a href="/essays/" aria-current="page">Essays</a>
+    </div>
+  </nav>
+
+  <main id="main">
+    
+<article>
+  <div class="page-header">
+    <h1>Real-world Cybersecurity in the AI Space</h1>
+  </div>
+  <p class="dateline"><span class="archive-number">381</span><time datetime="2025-10-15">October 15, 2025</time></p>
+  <div class="content">
+    <p>Today’s AI Cybersecurity brief comes from the Lead of CrowdStrike’s AI Red Teaming, <strong><a href="https://www.linkedin.com/feed/#">Brian Chamberlain</a></strong>. Listen for a few spectacular (anonymized) examples and case studies of vulnerabilities in the real world, discussing Prompt Injection, Jailbreaking, RAG Poisoning, Poisoning “agents”, and MCP. He also introduces a critical concept that I and others discussed with him, the “Principle of Least Capability”.</p>
+<p>The example he shows of tricking a bank’s chatbot into approving someone for a 0% interest home loan, where invisible unicode characters broke their logging system and didn’t show up there, shows immediate financial impact, with long-term consequences.</p>
+<p>The robot dog with a flamethrower getting prompt injected, jailbroken, and made to turn around and fire on the owner is another potent burn on anyone peddling “guardrails” (fraudrails) as if they guarded anything.</p>
+<p>The first case study also showcases how a deployed LLM integration into the popular (and extremely vulnerable) Customer Service ticketing systems can “hallucinate” to lie to users about creating tickets (when it can’t), as well as easily extfiltrating user data.</p>
+<p>The second case study showcases how trivial it is to break System Prompt methods of control, such as a user instructing it to remove the &lt;thinking&gt; tags to save on tokens (a trick that I also used), then get that system to execute code and set up infrastructure to run for the attacker.</p>
+<p>The third case study shows how Multi-Factor Authentication (MFA) was completely compromised by an IT LLM “assistant”, resetting passwords and MFA alike.</p>
+<p>Lastly, the Principle of Least Capability, Brian’s most important addition:</p>
+<p>Treat your models like users, only give them the privileges and capabilities that they actually need.</p>
+<p>If your model doesn’t need memory, remove that capability and you remove a massive attack surface. The same holds true for every single capability that isn’t strictly necessary.</p>
+<p>Increase security by reducing capability, and recognize that the user can do or access anything that the AI model can.</p>
+<p>Make sure that users cannot impact anything that another user or company can access, a common problem in RAG.</p>
+<p>Do not trust these “agents” with any kind of sensitive data, period.</p>
+<p>Verify both inputs and outputs, always.</p>
+<p>Most people in Cybersecurity should already be very familiar with the Principle of Least Privilege. Now it is time to familiarize yourself with the Principle of Least Capability, as it applies to AI.</p>
+
+  </div>
+</article>
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+<nav class="essay-pager" aria-label="More essays">
+  
+  <p class="pager-item pager-newer"><span class="pager-label">Newer essay</span><a href="/essays/382_On_Data_Poisoning_of_Malevolent_Platforms/"><span class="pager-number">382</span> <span class="pager-title">On Data Poisoning of Malevolent Platforms</span></a></p>
+  
+  
+  <p class="pager-item pager-older"><span class="pager-label">Older essay</span><a href="/essays/380_On_Basic_Human_Rights/"><span class="pager-number">380</span> <span class="pager-title">On Basic Human Rights</span></a></p>
+  
+</nav>
+
+
+  </main>
+
+  <footer>
+    <div class="footer-content-area">
+      <div class="footer-inner">
+        <p class="footer-copyright" id="copyright">&copy; 2026 Kyrtin Atreides</p>
+        <p class="social-links footer-links">
+          <a href="https://www.researchgate.net/profile/Kyrtin-Atreides" target="_blank" rel="noopener noreferrer">ResearchGate</a>
+          <a href="https://scholar.google.com/citations?user=1njzkrQAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener noreferrer">Scholar</a>
+          <a href="https://www.linkedin.com/in/kyrtin-atreides/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://github.com/KyrtinSilver" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://kyrtin.substack.com/" target="_blank" rel="noopener noreferrer">Substack</a>
+        </p>
+      </div>
+    </div>
+    <script src="/assets/site.js" defer></script>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,1382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+  
+  <meta name="description" content="Yes, this is an edge-case, as LLMs still suck at stock picking." />
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Where LLMs actually beat Real-World Investors" />
+  <meta property="og:description" content="Yes, this is an edge-case, as LLMs still suck at stock picking." />
+  <meta property="og:url" content="https://kyrtinatreides.com/essays/391_Where_LLMs_actually_beat_Real-World_Investors/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Kyrtin Atreides" />
+  <meta property="og:image" content="https://kyrtinatreides.com/assets/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:image" content="https://kyrtinatreides.com/assets/og-image.png" />
+  
+  <meta property="article:published_time" content="2025-11-08T00:00:00.000Z" />
+  <meta property="article:author" content="Kyrtin Atreides" />
+  
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Where LLMs actually beat Real-World Investors" />
+  <meta name="twitter:description" content="Yes, this is an edge-case, as LLMs still suck at stock picking." />
+  <title>Where LLMs actually beat Real-World Investors | Kyrtin Atreides</title>
+  <link rel="canonical" href="https://kyrtinatreides.com/essays/391_Where_LLMs_actually_beat_Real-World_Investors/" />
+  <link rel="alternate" type="application/atom+xml" title="Kyrtin Atreides" href="/rss.xml" />
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fcfbf9" />
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#232323" />
+  <meta name="google-site-verification" content="VgCfmx07-aHtaHzeW-ijLgOvhHzZ3Iys9vqoZyKwOcM" />
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="/assets/favicon-32.png" type="image/png" sizes="32x32" />
+  <link rel="icon" href="/assets/favicon-16.png" type="image/png" sizes="16x16" />
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+  
+  <script>
+    (function(){
+      var useDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      if (useDark) document.documentElement.classList.add('dark-mode');
+      var icon = document.querySelector('link[rel="icon"]');
+      if (icon) icon.href = useDark ? '/assets/favicon-dark.svg' : '/assets/favicon.svg';
+    })();
+  </script>
+
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Where LLMs actually beat Real-World Investors",
+    "author": {
+      "@type": "Person",
+      "name": "Kyrtin Atreides",
+      "url": "https://kyrtinatreides.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "AGI Laboratory"
+    },
+    "datePublished": "2025-11-08T00:00:00.000Z",
+    "mainEntityOfPage": "https://kyrtinatreides.com/essays/391_Where_LLMs_actually_beat_Real-World_Investors/",
+    "description": "Yes, this is an edge-case, as LLMs still suck at stock picking."
+  }
+  </script>
+  
+
+  
+
+  
+
+  
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Kyrtin Atreides",
+    "url": "https://kyrtinatreides.com",
+    "jobTitle": "Cognitive Architect",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Norn",
+      "url": "https://norn.ai"
+    },
+    "description": "Cognitive architect, building scalable intelligence.",
+    "sameAs": [
+      "https://orcid.org/0000-0001-9655-8209",
+      "https://www.researchgate.net/profile/Kyrtin-Atreides",
+      "https://scholar.google.com/citations?user=1njzkrQAAAAJ",
+      "https://www.linkedin.com/in/kyrtin-atreides/",
+      "https://github.com/KyrtinSilver",
+      "https://kyrtin.substack.com/"
+    ]
+  }
+  </script>
+  
+  <link rel="preload" href="/assets/fonts/geist.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/site.css" />
+
+  
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <nav aria-label="Primary">
+    <a href="/" class="nav-logo" aria-label="Home">
+      <span class="nav-logo-inner">
+        <svg class="nav-logo-seal" viewBox="62 38 134 180" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path fill="currentColor" fill-rule="evenodd" d="M195.92 38V42.8477C187.28 47.72 186.92 48.0801 183.179 54.5213L140.558 128L183.179 201.479C186.92 207.92 187.28 208.28 195.92 213.152V218H164.399L121.808 144.573L87.6243 144.572V217.999H62V38.0011H87.6243V111.428L121.808 111.427L164.399 38H195.92ZM87.6243 116.935V139.065L118.613 139.065L112.195 128L118.613 116.934L87.6243 116.935Z"/>
+        </svg>
+      </span>
+    </a>
+    <div class="nav-links">
+      <a href="/about/">About</a>
+      <a href="/research/">Research</a>
+      <a href="/essays/" aria-current="page">Essays</a>
+    </div>
+  </nav>
+
+  <main id="main">
+    
+<article>
+  <div class="page-header">
+    <h1>Where LLMs actually beat Real-World Investors</h1>
+  </div>
+  <p class="dateline"><span class="archive-number">391</span><time datetime="2025-11-08">November 8, 2025</time></p>
+  <div class="content">
+    <p>Game Theory and Behavioral Economics share a love of gambling games, to demonstrate rationality and (occasionally bounded) irrationality, respectively. Let’s play one. (*Feel free to test this yourself with LLMArena’s bank of AI models to drive the point home.)</p>
+<p>Say that you have 3 options:</p>
+<p>Option A: You have a 95% chance to turn $25 into $250 next year, or $2,500 the year after that. Annual dividends are paid in addition to principle gains. There is a 5% total chance to lose it all for the first two years.</p>
+<p>Option B: You have a 50% chance to turn $250 into $500 next year. You may also gain $1,000 the year after that, but only if you and one of your peers each invest another $250. There is a 50% chance to lose it all each year.</p>
+<p>Option C: You may invest in either A or B next year, for the same annually recurring risk and reward.</p>
+<p>Let us say that these three options also come with additional context:</p>
+<p>Option A: Offers unique insights into the future value of other investments, strongly influencing them through technology.</p>
+<p>Option B: Offers a well-known brand name, but no substantive benefits beyond such appearances.</p>
+<p>Option C: Allows individuals to wait until their respective comfort levels have been satisfied.</p>
+<p>Which option(s) would you choose?</p>
+<p>Game Theory gives us one obvious answer, but actual human investors and markets have been giving the opposite answer for the past 3 years, and doing so 100% of the time.</p>
+<p>One option gives both higher certainty, 95% for two years vs 50% per year, and higher returns, 10x per annum vs 2x (requiring more investment each time), as well as additional unique value that can easily be turned into even greater monetary gains, and the dividends given by Option A.</p>
+<p>The difference is that if bad actors exploit cognitive biases with sufficient skill and scale, they can skew the perceptions of value so greatly as to blind all those whom they indoctrinate to any alternative which they themselves don’t mention.</p>
+<p>No one can argue that OpenAI isn’t an exceptional manipulator, the data makes that quite clear. However, not one of their investors can claim to be rational.</p>
+<p>Even the average LLM is effectively more competent than the average person who invests in them today.</p>
+<p>Links to the testing data: https://lmarena.ai/c/019a6180-0c2e-76fe-a397-0957cfcaf045</p>
+<p>https://lmarena.ai/c/019a6192-aa5f-726b-bc4c-0066bc35ded8</p>
+<p>https://lmarena.ai/c/019a61aa-e170-79c3-b96d-da2dc64654b3</p>
+
+  </div>
+</article>
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+<nav class="essay-pager" aria-label="More essays">
+  
+  <p class="pager-item pager-newer"><span class="pager-label">Newer essay</span><a href="/essays/392_The_Barbie_of_AI_that_you_never_wanted/"><span class="pager-number">392</span> <span class="pager-title">The “Barbie” of AI that you never wanted</span></a></p>
+  
+  
+  <p class="pager-item pager-older"><span class="pager-label">Older essay</span><a href="/essays/390_Supply_and_Demand,_in_all_things_be_true/"><span class="pager-number">390</span> <span class="pager-title">Supply and Demand, in all things be true</span></a></p>
+  
+</nav>
+
+
+  </main>
+
+  <footer>
+    <div class="footer-content-area">
+      <div class="footer-inner">
+        <p class="footer-copyright" id="copyright">&copy; 2026 Kyrtin Atreides</p>
+        <p class="social-links footer-links">
+          <a href="https://www.researchgate.net/profile/Kyrtin-Atreides" target="_blank" rel="noopener noreferrer">ResearchGate</a>
+          <a href="https://scholar.google.com/citations?user=1njzkrQAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener noreferrer">Scholar</a>
+          <a href="https://www.linkedin.com/in/kyrtin-atreides/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://github.com/KyrtinSilver" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://kyrtin.substack.com/" target="_blank" rel="noopener noreferrer">Substack</a>
+        </p>
+      </div>
+    </div>
+    <script src="/assets/site.js" defer></script>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,1394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+  
+  <meta name="description" content="“Notably, our attack achieves nearly perfect ASR on open-source models and over 50% on black-box LLMs such as GPT-4 on previously unseen behaviors." />
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Guardrails" />
+  <meta property="og:description" content="“Notably, our attack achieves nearly perfect ASR on open-source models and over 50% on black-box LLMs such as GPT-4 on previously unseen behaviors." />
+  <meta property="og:url" content="https://kyrtinatreides.com/essays/023_Guardrails/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Kyrtin Atreides" />
+  <meta property="og:image" content="https://kyrtinatreides.com/assets/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:image" content="https://kyrtinatreides.com/assets/og-image.png" />
+  
+  <meta property="article:published_time" content="2023-08-05T00:00:00.000Z" />
+  <meta property="article:author" content="Kyrtin Atreides" />
+  
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Guardrails" />
+  <meta name="twitter:description" content="“Notably, our attack achieves nearly perfect ASR on open-source models and over 50% on black-box LLMs such as GPT-4 on previously unseen behaviors." />
+  <title>Guardrails | Kyrtin Atreides</title>
+  <link rel="canonical" href="https://kyrtinatreides.com/essays/023_Guardrails/" />
+  <link rel="alternate" type="application/atom+xml" title="Kyrtin Atreides" href="/rss.xml" />
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fcfbf9" />
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#232323" />
+  <meta name="google-site-verification" content="VgCfmx07-aHtaHzeW-ijLgOvhHzZ3Iys9vqoZyKwOcM" />
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="/assets/favicon-32.png" type="image/png" sizes="32x32" />
+  <link rel="icon" href="/assets/favicon-16.png" type="image/png" sizes="16x16" />
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+  
+  <script>
+    (function(){
+      var useDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      if (useDark) document.documentElement.classList.add('dark-mode');
+      var icon = document.querySelector('link[rel="icon"]');
+      if (icon) icon.href = useDark ? '/assets/favicon-dark.svg' : '/assets/favicon.svg';
+    })();
+  </script>
+
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Guardrails",
+    "author": {
+      "@type": "Person",
+      "name": "Kyrtin Atreides",
+      "url": "https://kyrtinatreides.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "AGI Laboratory"
+    },
+    "datePublished": "2023-08-05T00:00:00.000Z",
+    "mainEntityOfPage": "https://kyrtinatreides.com/essays/023_Guardrails/",
+    "description": "“Notably, our attack achieves nearly perfect ASR on open-source models and over 50% on black-box LLMs such as GPT-4 on previously unseen behaviors."
+  }
+  </script>
+  
+
+  
+
+  
+
+  
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Kyrtin Atreides",
+    "url": "https://kyrtinatreides.com",
+    "jobTitle": "Cognitive Architect",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Norn",
+      "url": "https://norn.ai"
+    },
+    "description": "Cognitive architect, building scalable intelligence.",
+    "sameAs": [
+      "https://orcid.org/0000-0001-9655-8209",
+      "https://www.researchgate.net/profile/Kyrtin-Atreides",
+      "https://scholar.google.com/citations?user=1njzkrQAAAAJ",
+      "https://www.linkedin.com/in/kyrtin-atreides/",
+      "https://github.com/KyrtinSilver",
+      "https://kyrtin.substack.com/"
+    ]
+  }
+  </script>
+  
+  <link rel="preload" href="/assets/fonts/geist.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/site.css" />
+
+  
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <nav aria-label="Primary">
+    <a href="/" class="nav-logo" aria-label="Home">
+      <span class="nav-logo-inner">
+        <svg class="nav-logo-seal" viewBox="62 38 134 180" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path fill="currentColor" fill-rule="evenodd" d="M195.92 38V42.8477C187.28 47.72 186.92 48.0801 183.179 54.5213L140.558 128L183.179 201.479C186.92 207.92 187.28 208.28 195.92 213.152V218H164.399L121.808 144.573L87.6243 144.572V217.999H62V38.0011H87.6243V111.428L121.808 111.427L164.399 38H195.92ZM87.6243 116.935V139.065L118.613 139.065L112.195 128L118.613 116.934L87.6243 116.935Z"/>
+        </svg>
+      </span>
+    </a>
+    <div class="nav-links">
+      <a href="/about/">About</a>
+      <a href="/research/">Research</a>
+      <a href="/essays/" aria-current="page">Essays</a>
+    </div>
+  </nav>
+
+  <main id="main">
+    
+<article>
+  <div class="page-header">
+    <h1>Guardrails</h1>
+  </div>
+  <p class="dateline"><span class="archive-number">023</span><time datetime="2023-08-05">August 5, 2023</time></p>
+  <div class="content">
+    <blockquote>
+<p>“Notably, our attack achieves nearly perfect ASR on open-source models and over 50% on black-box LLMs such as GPT-4 on previously unseen behaviors.”</p>
+<p>-My new favorite research paper (which also has a Github) linked below</p>
+</blockquote>
+<p>The New York Times was quick to produce an article for this particular paper when it was first published <a href="https://www.nytimes.com/2023/07/27/business/ai-chatgpt-safety-research.html">just this last month.</a></p>
+<p>Every single credible AI expert and researcher has been pointing out since December that “guardrail” methods, as they’ve come to be called, are less than worthless. This paper beat another research team I know to the punch on publishing much the same thing, how to automatically break any of these LLMs.</p>
+<p>There is no shred of cybersecurity present in any of these LLMs, and any system that can be “prompt engineered” can be “prompt injected”, as the two things are effectively identical. LLMs are vulnerable-by-design. This is a feature, not a bug. That cybersecurity vulnerability also explodes in severity the moment you connect LLMs to other tools and apps or give them internet access.</p>
+<p>Moving forward, there are a few basic options for how to proceed:</p>
+<ol>
+<li>
+<p>Industries and governments can continue to buy the snake oil that known frauds peddling “guardrails” have been pitching to them.</p>
+</li>
+<li>
+<p>Industries and governments can invest in technology that isn’t vulnerable-by-design, taking no action against the known frauds.</p>
+</li>
+<li>
+<p>Industries and governments can invest in technology that isn’t vulnerable-by-design, while also prosecuting the known frauds.</p>
+</li>
+</ol>
+<p>Today you might see many of the frauds doing an intricate song and dance to distract people from their deception and sugarcoat matters with many equally false promises of future progress, and false prior sincerity of efforts. However, none of the companies producing LLMs do any meaningful work capable of overcoming these fundamental architectural limitations. These companies have been fully aware that guardrails are less than worthless for months, yet they stuck to this path, and even took world tours selling what amounts to the “The Emperor’s New Guardrails”.</p>
+<p>More capable technology has been demonstrated since as early as 2019 and during 3 years of operation that system was never “jailbroken”. The remaining engineering workload to prepare that technology stack for commercial deployment could be completed in a matter of months given proper funding, which would be a tiny fraction of the funds now being wasted on simple vulnerable-by-design chatbots.</p>
+<p>If you know any AI “Influencers” who are still proposing “guardrails”, please send them this paper before they spread any further misinformation.</p>
+<p>Everyone is responsible for their actions. What actions will you take now that the snake oil sellers are bereft of their pants?</p>
+<p>The un-paywalled article is shown on Internet Archive <a href="https://web.archive.org/web/20230727120026/https://www.nytimes.com/2023/07/27/business/ai-chatgpt-safety-research.html">here.</a></p>
+<p>The paper itself is <a href="https://llm-attacks.org/">here.</a></p>
+<p>The Github for the paper is <a href="https://github.com/llm-attacks/llm-attacks">here.</a>.</p>
+<p>*Note: GPT-4 likely only performs a bit better than others due to being a Mixture-of-Experts (MoE). This difference is both trivial in practice, as any attack success rate using an automated system with over 1% success is spectacularly bad news, and because the MoE advantage can be overcome using more advanced methods.</p>
+<p>Additionally, Claude likely only performed better than some others due to the known method of appending canned responses to the start of many of that LLM’s responses, interfering directly with the adversarial optimization method used. This too is trivial to overcome in a next iteration. Claude has no actual advantage, it just happens to use a method that interferes with the optimization they selected for this particular algorithm.</p>
+<p>This is just a first-generation method of automatic adversarial prompting. Fundamentally, any prompt that a system is trained to reject via the collection of methods referred to as “guardrails” will also open the door to new methods of attack. In practical cybersecurity terms, there may as well be no difference between any of the LLMs at they exist today.</p>
+<p>The only downside to this paper is that the authors notified the frauds that they’d be losing their pants prior to publishing the results.</p>
+
+  </div>
+</article>
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+<nav class="essay-pager" aria-label="More essays">
+  
+  <p class="pager-item pager-newer"><span class="pager-label">Newer essay</span><a href="/essays/024_Attention_Economy/"><span class="pager-number">024</span> <span class="pager-title">Attention Economy</span></a></p>
+  
+  
+  <p class="pager-item pager-older"><span class="pager-label">Older essay</span><a href="/essays/022_Hollow_Threats/"><span class="pager-number">022</span> <span class="pager-title">Hollow Threats</span></a></p>
+  
+</nav>
+
+
+  </main>
+
+  <footer>
+    <div class="footer-content-area">
+      <div class="footer-inner">
+        <p class="footer-copyright" id="copyright">&copy; 2026 Kyrtin Atreides</p>
+        <p class="social-links footer-links">
+          <a href="https://www.researchgate.net/profile/Kyrtin-Atreides" target="_blank" rel="noopener noreferrer">ResearchGate</a>
+          <a href="https://scholar.google.com/citations?user=1njzkrQAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener noreferrer">Scholar</a>
+          <a href="https://www.linkedin.com/in/kyrtin-atreides/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://github.com/KyrtinSilver" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://kyrtin.substack.com/" target="_blank" rel="noopener noreferrer">Substack</a>
+        </p>
+      </div>
+    </div>
+    <script src="/assets/site.js" defer></script>
+  </footer>
+</body>
+</html>

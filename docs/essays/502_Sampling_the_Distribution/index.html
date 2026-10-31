@@ -1,0 +1,1398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+  
+  <meta name="description" content="An example of the limits of a tool’s usefulness" />
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Sampling the Distribution" />
+  <meta property="og:description" content="An example of the limits of a tool’s usefulness" />
+  <meta property="og:url" content="https://kyrtinatreides.com/essays/502_Sampling_the_Distribution/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Kyrtin Atreides" />
+  <meta property="og:image" content="https://kyrtinatreides.com/assets/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:image" content="https://kyrtinatreides.com/assets/og-image.png" />
+  
+  <meta property="article:published_time" content="2026-04-19T00:00:00.000Z" />
+  <meta property="article:author" content="Kyrtin Atreides" />
+  
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Sampling the Distribution" />
+  <meta name="twitter:description" content="An example of the limits of a tool’s usefulness" />
+  <title>Sampling the Distribution | Kyrtin Atreides</title>
+  <link rel="canonical" href="https://kyrtinatreides.com/essays/502_Sampling_the_Distribution/" />
+  <link rel="alternate" type="application/atom+xml" title="Kyrtin Atreides" href="/rss.xml" />
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fcfbf9" />
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#232323" />
+  <meta name="google-site-verification" content="VgCfmx07-aHtaHzeW-ijLgOvhHzZ3Iys9vqoZyKwOcM" />
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="/assets/favicon-32.png" type="image/png" sizes="32x32" />
+  <link rel="icon" href="/assets/favicon-16.png" type="image/png" sizes="16x16" />
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+  
+  <script>
+    (function(){
+      var useDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      if (useDark) document.documentElement.classList.add('dark-mode');
+      var icon = document.querySelector('link[rel="icon"]');
+      if (icon) icon.href = useDark ? '/assets/favicon-dark.svg' : '/assets/favicon.svg';
+    })();
+  </script>
+
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Sampling the Distribution",
+    "author": {
+      "@type": "Person",
+      "name": "Kyrtin Atreides",
+      "url": "https://kyrtinatreides.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "AGI Laboratory"
+    },
+    "datePublished": "2026-04-19T00:00:00.000Z",
+    "mainEntityOfPage": "https://kyrtinatreides.com/essays/502_Sampling_the_Distribution/",
+    "description": "An example of the limits of a tool’s usefulness"
+  }
+  </script>
+  
+
+  
+
+  
+
+  
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Kyrtin Atreides",
+    "url": "https://kyrtinatreides.com",
+    "jobTitle": "Cognitive Architect",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Norn",
+      "url": "https://norn.ai"
+    },
+    "description": "Cognitive architect, building scalable intelligence.",
+    "sameAs": [
+      "https://orcid.org/0000-0001-9655-8209",
+      "https://www.researchgate.net/profile/Kyrtin-Atreides",
+      "https://scholar.google.com/citations?user=1njzkrQAAAAJ",
+      "https://www.linkedin.com/in/kyrtin-atreides/",
+      "https://github.com/KyrtinSilver",
+      "https://kyrtin.substack.com/"
+    ]
+  }
+  </script>
+  
+  <link rel="preload" href="/assets/fonts/geist.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/site.css" />
+
+  
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <nav aria-label="Primary">
+    <a href="/" class="nav-logo" aria-label="Home">
+      <span class="nav-logo-inner">
+        <svg class="nav-logo-seal" viewBox="62 38 134 180" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path fill="currentColor" fill-rule="evenodd" d="M195.92 38V42.8477C187.28 47.72 186.92 48.0801 183.179 54.5213L140.558 128L183.179 201.479C186.92 207.92 187.28 208.28 195.92 213.152V218H164.399L121.808 144.573L87.6243 144.572V217.999H62V38.0011H87.6243V111.428L121.808 111.427L164.399 38H195.92ZM87.6243 116.935V139.065L118.613 139.065L112.195 128L118.613 116.934L87.6243 116.935Z"/>
+        </svg>
+      </span>
+    </a>
+    <div class="nav-links">
+      <a href="/about/">About</a>
+      <a href="/research/">Research</a>
+      <a href="/essays/" aria-current="page">Essays</a>
+    </div>
+  </nav>
+
+  <main id="main">
+    
+<article>
+  <div class="page-header">
+    <h1>Sampling the Distribution</h1>
+  </div>
+  <p class="dateline"><span class="archive-number">502</span><time datetime="2026-04-19">April 19, 2026</time></p>
+  <div class="content">
+    <p>About once per year I find a use case where Language-Model-based AI can actually add value, if used correctly. I’ll walk through this year’s example.</p>
+<p>The method below is to outline a task that samples a subset of the token distribution linked to the target term:</p>
+<p>“I need you to perform an associative exercise. I’ll name a concept, person, domain, or term, and you list out 20 concepts, people, domains, or terms that you associate with it. Let us begin.</p>
+<p>The first term is: Expectation”</p>
+<p>Result (Gemini):</p>
+<p>Here are 20 concepts, terms, and domains closely associated with Expectation:</p>
+<p>1. Anticipation</p>
+<p>2. Probability</p>
+<p>3. Standard</p>
+<p>4. Psychology</p>
+<p>5. Disappointment</p>
+<p>6. Predictive Modeling</p>
+<p>7. Social Norms</p>
+<p>8. Hope</p>
+<p>9. Baseline</p>
+<p>10. Confirmation Bias</p>
+<p>11. Accountability</p>
+<p>12. Forecasting</p>
+<p>13. Contract</p>
+<p>14. Optimism</p>
+<p>15. Perception</p>
+<p>16. Performance Review</p>
+<p>17. Assumption</p>
+<p>18. Pessimism</p>
+<p>19. Behavioral Economics</p>
+<p>20. Self-Fulfilling Prophecy</p>
+<p>A critical next step in this process is for a human to validate the results. It is far less cognitively intensive of a task to validate such a list than it is to create it, and so both time and cognitive effort may be saved without significant losses to quality (although diversity does suffer if used in isolation). This process doesn’t tap into many opportunities that a purely human result could, but it can cater to a subset of the common and statistically represented associations.</p>
+<p>However, people who don’t understand how such systems work and the limits beyond which they cease to add any real value can very easily mess even this simple process up. For example, each time this task is performed a new chat window must be opened, cleaning the slate. Otherwise, the previous content is also factored into the new output, causing sharp deviations that conflate them. The exact wording of the task also factors into this, so two or more variations of specific task wording may be required, with results combined in a separate step thereafter, in order to tap into a wider sample of the target distribution.</p>
+<p>In summary, extracting the contents of a probability distribution naming potentially related concepts, then vetting that list with humans, performed in such a way as to reduce or remove cross-contamination, can potentially add value. That plays into the dynamics that such popular AI models are built for, with human oversight to cover the primary failure mode, vetting results. It isn’t very “exciting”, you likely won’t see press releases from companies bragging about it, but unlike those press releases, it is valid. There are also 1,000 possible ways to extend this, over 990 of which would be wrong.</p>
+<p>*Also note: this method skews toward “WEIRD” (Western, Educated, Industrialized, Rich and Democratic) results, unless explicitly corrected, due to the training data distribution’s skew.</p>
+<p>**Even within the method, top models still make some stupid mistakes, like exact repeats among the 20 terms.</p>
+<p>***You can also observe some telling patterns, like “benchmarking” and “coding” appearing as an answer for a disproportionate number of queries.</p>
+<p>****As a further example of viable vs non-viable usage, this approach can also be used for individual names, but the dynamics take a short trip off of a tall cliff if you attempt to extract the same value from a page of text. The target to be sampled has to be singular (at least at the target token level) in order to provide focus. A combinatorial mess of unfocused tokens in sequence just gets your probability distribution soup, with no practical way of separating what was thrown into it. Much as you can’t “un-bake a cake”, there is no converting such a mess back into viable component parts.</p>
+<p>*****A further note of interest, this approach for individual names is WILDLY variable in how much or how little it may adhere to reality. Doing this for “Donald Trump” is highly accurate, even citing sources (which none of the others did), but attempting the same for “Sam Altman” or “Dario Amodei” exclusively produces complete trash, while also ignoring instructions.</p>
+
+  </div>
+</article>
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+<nav class="essay-pager" aria-label="More essays">
+  
+  <p class="pager-item pager-newer"><span class="pager-label">Newer essay</span><a href="/essays/503_On_Incentive_Structures/"><span class="pager-number">503</span> <span class="pager-title">On Incentive Structures</span></a></p>
+  
+  
+  <p class="pager-item pager-older"><span class="pager-label">Older essay</span><a href="/essays/501_A_Sea_of_Social_Entertainment_Data/"><span class="pager-number">501</span> <span class="pager-title">A Sea of Social Entertainment Data</span></a></p>
+  
+</nav>
+
+
+  </main>
+
+  <footer>
+    <div class="footer-content-area">
+      <div class="footer-inner">
+        <p class="footer-copyright" id="copyright">&copy; 2026 Kyrtin Atreides</p>
+        <p class="social-links footer-links">
+          <a href="https://www.researchgate.net/profile/Kyrtin-Atreides" target="_blank" rel="noopener noreferrer">ResearchGate</a>
+          <a href="https://scholar.google.com/citations?user=1njzkrQAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener noreferrer">Scholar</a>
+          <a href="https://www.linkedin.com/in/kyrtin-atreides/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://github.com/KyrtinSilver" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://kyrtin.substack.com/" target="_blank" rel="noopener noreferrer">Substack</a>
+        </p>
+      </div>
+    </div>
+    <script src="/assets/site.js" defer></script>
+  </footer>
+</body>
+</html>

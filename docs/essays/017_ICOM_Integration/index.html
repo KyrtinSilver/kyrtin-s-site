@@ -1,0 +1,1405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+  
+  <meta name="description" content="LLMs can be massively improved in both performance and efficiency when combined with ICOM-based systems. This much has already been demonstrated." />
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="ICOM Integration" />
+  <meta property="og:description" content="LLMs can be massively improved in both performance and efficiency when combined with ICOM-based systems. This much has already been demonstrated." />
+  <meta property="og:url" content="https://kyrtinatreides.com/essays/017_ICOM_Integration/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Kyrtin Atreides" />
+  <meta property="og:image" content="https://kyrtinatreides.com/assets/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:image" content="https://kyrtinatreides.com/assets/og-image.png" />
+  
+  <meta property="article:published_time" content="2023-08-05T00:00:00.000Z" />
+  <meta property="article:author" content="Kyrtin Atreides" />
+  
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="ICOM Integration" />
+  <meta name="twitter:description" content="LLMs can be massively improved in both performance and efficiency when combined with ICOM-based systems. This much has already been demonstrated." />
+  <title>ICOM Integration | Kyrtin Atreides</title>
+  <link rel="canonical" href="https://kyrtinatreides.com/essays/017_ICOM_Integration/" />
+  <link rel="alternate" type="application/atom+xml" title="Kyrtin Atreides" href="/rss.xml" />
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fcfbf9" />
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#232323" />
+  <meta name="google-site-verification" content="VgCfmx07-aHtaHzeW-ijLgOvhHzZ3Iys9vqoZyKwOcM" />
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="/assets/favicon-32.png" type="image/png" sizes="32x32" />
+  <link rel="icon" href="/assets/favicon-16.png" type="image/png" sizes="16x16" />
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+  
+  <script>
+    (function(){
+      var useDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      if (useDark) document.documentElement.classList.add('dark-mode');
+      var icon = document.querySelector('link[rel="icon"]');
+      if (icon) icon.href = useDark ? '/assets/favicon-dark.svg' : '/assets/favicon.svg';
+    })();
+  </script>
+
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "ICOM Integration",
+    "author": {
+      "@type": "Person",
+      "name": "Kyrtin Atreides",
+      "url": "https://kyrtinatreides.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "AGI Laboratory"
+    },
+    "datePublished": "2023-08-05T00:00:00.000Z",
+    "mainEntityOfPage": "https://kyrtinatreides.com/essays/017_ICOM_Integration/",
+    "description": "LLMs can be massively improved in both performance and efficiency when combined with ICOM-based systems. This much has already been demonstrated."
+  }
+  </script>
+  
+
+  
+
+  
+
+  
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Kyrtin Atreides",
+    "url": "https://kyrtinatreides.com",
+    "jobTitle": "Cognitive Architect",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Norn",
+      "url": "https://norn.ai"
+    },
+    "description": "Cognitive architect, building scalable intelligence.",
+    "sameAs": [
+      "https://orcid.org/0000-0001-9655-8209",
+      "https://www.researchgate.net/profile/Kyrtin-Atreides",
+      "https://scholar.google.com/citations?user=1njzkrQAAAAJ",
+      "https://www.linkedin.com/in/kyrtin-atreides/",
+      "https://github.com/KyrtinSilver",
+      "https://kyrtin.substack.com/"
+    ]
+  }
+  </script>
+  
+  <link rel="preload" href="/assets/fonts/geist.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/site.css" />
+
+  
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <nav aria-label="Primary">
+    <a href="/" class="nav-logo" aria-label="Home">
+      <span class="nav-logo-inner">
+        <svg class="nav-logo-seal" viewBox="62 38 134 180" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path fill="currentColor" fill-rule="evenodd" d="M195.92 38V42.8477C187.28 47.72 186.92 48.0801 183.179 54.5213L140.558 128L183.179 201.479C186.92 207.92 187.28 208.28 195.92 213.152V218H164.399L121.808 144.573L87.6243 144.572V217.999H62V38.0011H87.6243V111.428L121.808 111.427L164.399 38H195.92ZM87.6243 116.935V139.065L118.613 139.065L112.195 128L118.613 116.934L87.6243 116.935Z"/>
+        </svg>
+      </span>
+    </a>
+    <div class="nav-links">
+      <a href="/about/">About</a>
+      <a href="/research/">Research</a>
+      <a href="/essays/" aria-current="page">Essays</a>
+    </div>
+  </nav>
+
+  <main id="main">
+    
+<article>
+  <div class="page-header">
+    <h1>ICOM Integration</h1>
+  </div>
+  <p class="dateline"><span class="archive-number">017</span><time datetime="2023-08-05">August 5, 2023</time></p>
+  <div class="content">
+    <p>LLMs can be massively improved in both performance and efficiency when combined with ICOM-based systems. This much has already been demonstrated.</p>
+<p>The Independent Core Observer Model (ICOM) cognitive architecture uses a different, but complementary, technology stack to that of narrow AI systems like GPTs, image generators, and agent-based systems. Rather than competing with such AI, this technology stack uses them as tools, improving their performance.</p>
+<p>For example, GPT-4, according to multiple sources, is a Mixture-of-Experts (MoE) style transformer model, with 8-16 “experts”, and over 1.75 trillion parameters in total. Our previous ICOM-based research system used an old prototype LM from early 2019, a time when LMs didn’t exceed 10 billion parameters.</p>
+<p>That research system outperformed GPT-4:</p>
+<ul>
+<li>
+<p>years earlier,</p>
+</li>
+<li>
+<p>using an LM over 100 times smaller,</p>
+</li>
+<li>
+<p>on less than 1/10,000th the budget of what it cost to train GPT-4,</p>
+</li>
+<li>
+<p>using less than 1/10,000th of the volume of training data.</p>
+</li>
+</ul>
+<p>Now imagine what such a system could do using GPT-4 instead.</p>
+<p>ICOM-based systems have also demonstrated a greater aptitude for “prompt engineering” these tools and can do so in ways that humans cannot. These systems are also able to tightly bound AI tools from both sides, input, and output. This strong bounding makes it possible for the LLMs to be used in such a way that:</p>
+<ul>
+<li>
+<p>Confabulation (sometimes called “Hallucination”) may be avoided.</p>
+</li>
+<li>
+<p>Safety, Ethics, and Alignment may be achieved, maintained, and iteratively improved.</p>
+</li>
+<li>
+<p>All data may be both explainable and transparent.</p>
+</li>
+<li>
+<p>Direct and indirect “prompt injections” are neutralized.</p>
+</li>
+</ul>
+<p>The same basic advantages apply to improving many different kinds of narrow AI. We look forward to testing what the new Norn.ai systems can do to improve image generators and other newer tools.</p>
+<p>There is no greater potential competitive advantage in the AI market today. Given all of the threats to most narrow AI companies, including pending lawsuits, regulations, and competitors, this likely isn’t an advantage any serious company can afford to lose.</p>
+<p>Any serious company seeking that advantage could accelerate the process via investment, gaining a permanent advantage over its existing competitors. Likewise, private investors, VCs, or even governments could invest in, accelerate, and directly benefit from this process.</p>
+<p>The question any company may ask themselves is if they will choose to become the next Apple, leading the market, or if they’ll follow the path of Nokia.</p>
+<p>*Note: This means that performance improves over time, rather than <a href="https://fortune.com/2023/07/19/chatgpt-accuracy-stanford-study/">degrading like GPT-4.</a></p>
+<p>Dramatic losses in performance over time also pose a massive liability to any business that integrates such systems. Even inconsistent performance is problematic. Again, this makes the ICOM-based technology stack a vital advantage.</p>
+<p>The massive difference in data requirements and cost also make it feasible to apply the technology to many specific problems and domains that current systems couldn’t approach otherwise. Many domains have far less data than convention AI requires for performance, and LLMs remain far too expensive for practical use across many use cases.</p>
+
+  </div>
+</article>
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+<nav class="essay-pager" aria-label="More essays">
+  
+  <p class="pager-item pager-newer"><span class="pager-label">Newer essay</span><a href="/essays/018_Elevator_Pitch/"><span class="pager-number">018</span> <span class="pager-title">Elevator Pitch</span></a></p>
+  
+  
+  <p class="pager-item pager-older"><span class="pager-label">Older essay</span><a href="/essays/016_Detection_Insights/"><span class="pager-number">016</span> <span class="pager-title">Detection Insights</span></a></p>
+  
+</nav>
+
+
+  </main>
+
+  <footer>
+    <div class="footer-content-area">
+      <div class="footer-inner">
+        <p class="footer-copyright" id="copyright">&copy; 2026 Kyrtin Atreides</p>
+        <p class="social-links footer-links">
+          <a href="https://www.researchgate.net/profile/Kyrtin-Atreides" target="_blank" rel="noopener noreferrer">ResearchGate</a>
+          <a href="https://scholar.google.com/citations?user=1njzkrQAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener noreferrer">Scholar</a>
+          <a href="https://www.linkedin.com/in/kyrtin-atreides/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://github.com/KyrtinSilver" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://kyrtin.substack.com/" target="_blank" rel="noopener noreferrer">Substack</a>
+        </p>
+      </div>
+    </div>
+    <script src="/assets/site.js" defer></script>
+  </footer>
+</body>
+</html>

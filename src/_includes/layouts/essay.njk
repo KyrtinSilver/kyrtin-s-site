@@ -1,0 +1,32 @@
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+<article>
+  <div class="page-header">
+    <h1>{{ title | archiveName }}</h1>
+  </div>
+  <p class="dateline">{% if title | archiveNumber %}<span class="archive-number">{{ title | archiveNumber }}</span>{% endif %}<time datetime="{{ date | isoDateOnly }}">{{ date | date }}</time></p>
+  <div class="content">
+    {{ content | safe }}
+  </div>
+</article>
+
+{% set newer = null %}
+{% set older = null %}
+{% for post in collections.essays %}
+  {% if post.url == page.url %}
+    {% if not loop.first %}{% set newer = collections.essays[loop.index0 - 1] %}{% endif %}
+    {% if not loop.last %}{% set older = collections.essays[loop.index0 + 1] %}{% endif %}
+  {% endif %}
+{% endfor %}
+{% if newer or older %}
+<nav class="essay-pager" aria-label="More essays">
+  {% if newer %}
+  <p class="pager-item pager-newer"><span class="pager-label">Newer essay</span><a href="{{ newer.url }}">{% if newer.data.title | archiveNumber %}<span class="pager-number">{{ newer.data.title | archiveNumber }}</span> {% endif %}<span class="pager-title">{{ newer.data.title | archiveName }}</span></a></p>
+  {% endif %}
+  {% if older %}
+  <p class="pager-item pager-older"><span class="pager-label">Older essay</span><a href="{{ older.url }}">{% if older.data.title | archiveNumber %}<span class="pager-number">{{ older.data.title | archiveNumber }}</span> {% endif %}<span class="pager-title">{{ older.data.title | archiveName }}</span></a></p>
+  {% endif %}
+</nav>
+{% endif %}
+{% endblock %}
