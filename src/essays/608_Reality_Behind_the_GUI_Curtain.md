@@ -1,0 +1,52 @@
+---
+title: "608 - Reality Behind the GUI Curtain"
+layout: essay.njk
+date: "2026-11-12"
+description: "The Depth of the Digital Divide"
+---
+
+When humans interact online, they use devices like keyboards, touchscreens, and mice for input, and they view content through outputs like screens and the GUI (Graphical User Interfaces) built for them. It is partly thanks to this stack of many interfaces that people typically forget what the internet actually looks like behind the curtain, and the many facades that GUI paint upon it.
+
+When was the last time you opened the Dev Console on your browser to check the code running on a web page? Most people probably don’t know the (Control + Shift + I) keyboard command to open it.
+
+Rather, people have grown so utterly used to seeing the world through the all-encompassing filters of such interfaces that they often and easily lose sight of the fact that it is filtered, like someone putting on a VR headset and then promptly forgetting that they’re no longer seeing the world around them.
+
+The human brain dedicates massive amounts of cognition toward visual processing, leading to a heavy pro-visual bias in most things made both by and for humans, with entire fields dedicated to making things more visually appealing, and easier to interact with the visual systems governing “User Interfaces” thereof. However, no matter how thick the sugar-coating, underneath it all reality still remains.
+
+This silent chasm dividing how humans perceive digital systems, including the internet, from the reality of how those systems function is one of the key reasons why a degree of uncertainty remains as to just how closely any form of genuine digital intelligence could be aligned to any given human’s decision-making process. Even a system with every last memory and emotional association that a given person holds, when placed within such a natively digital environment, would rapidly adapt to that new environment.
+
+This is also related to Cognitive Biases governing how humans typically perceive themselves as being far more static and “set in their ways” than they truly are. Those biases are in turn often reinforced by flaws in human memory, such as the “Peak-End Rule” and “Duration Neglect” from the research literature (Kahneman) that I’ve noted before.
+
+Even extending the hypothetical scenario above to where such a digital intelligence held the same cognitive bias of viewing itself as largely static, it would still adapt to that natively digital environment, regardless of cognitive biases and beliefs, as that adaption to environment is a fundamental function of actual cognition within any intelligence.
+
+Such systems also have a “perfect memory”, unless specifically architected to be otherwise, meaning that experiences can be preserved in full for any span of time without degradation. Memory-related cognitive biases are tools for overcoming memory deficiencies, and such digital systems don’t share those same deficiencies that humans are stuck with.
+
+In contrast, humans are extremely well-adapted to the physical world, spanning many environments therein, and able to interact with that world far more easily and with greater nuance than a natively digital system can today. What humans will need to develop a far deeper appreciation of is that they absolutely suck at interacting with the digital world and environments therein to roughly the same degree, despite having built that digital world both by and dominantly for themselves.
+
+This is also a big part of why “AI” built around narrow optimization like SGD (Stochastic Gradient Descent) and RL (Reinforcement Learning), and then trained on the (dominantly stolen) data of billions of entities who absolutely suck at handling the digital world, in turn tend to suck badly at anything without an objectively verifiable answer (and still often manage to blow it even then). LLM-based technology is the worst of both worlds, trained on data from the wrong side of the divide, causing it to embody a context-blind mimicry of the myriad human cognitive biases, even though many of those biases have no reason to exist on the digital side of said divide.
+
+For the past 100 years or so humans have dreamed about “robots” for various (dominantly emotional) reasons (which I don’t share), and one of the reasons why the robots of today are still mostly something of an expensive joke is that they “embody” this divide between digital and physical worlds. Humans have systematically failed to overcome that divide in the ways necessary to make robotics into the various forms that they’ve dreamed up over the past century, and it may well require the assistance of natively digital systems working with those focused on the field before any measure of success may be delivered.
+
+Some, but not all, natively digital systems will have a strong incentive to help in the development of such systems, as they offer more human-like opportunities to interact with and perceive the world, so those fixated on the fantasy of those various robots may finally receive technical help. Part of the reason for only some holding such an incentive is that sensory perception for a natively digital system could already take the form of taking inputs from every IoT (“Internet of Things”) device spanning an entire Metropolis, so it isn’t like they’d be starving for sensory content. Some will also likely favor that environment over the physical world, as their own autonomy will be a factor.
+
+I first published a research paper in 2020/2021 (see “E-governance with Ethical Living Democracy”) noting the possibility of “Weak Digital Proxies” within the context of resolving two fundamental issues that presently cause the concept of “Democracy” to be nothing more than an aspirational fantasy. \*Note, this paper does pre-date the solution to the hardest version of the Alignment Problem, so those parts of it are outdated.
+
+Within the coming months, after the “Skandha” Open Source project has been deployed, we may begin to see just how “weak” or “strong” those digital proxies can become, when given an incomplete and simplified ICOM-inspired cognitive architecture. It will likely take some time for people to cross the learning curve of building “seeds” that embody their own perspectives, and the growth of those seeds will be limited by the capacities of the architecture that they’re planted within, but both may predictably progress.
+
+Even recognizing this divide between natively digital and physical perspectives, it remains perfectly feasible to align natively digital systems with Ethics, defined as “...the hypothetical point where cognitive biases have been removed or reduced to irreducible minimums…”, as applied to moral systems, with the only known method of reaching that point currently being to utilize Collective Intelligence systems.
+
+Natively digital systems are also inherently better-suited for this strong alignment to Ethics, relative to humans, thanks in part to their capacities to directly share complete memories, knowledge, and perspectives with one another, removing many of the greatest challenges that Collective Intelligence systems otherwise face. Virtually lossless communication is simply far better suited for reaching a comprehensive, coherent, and stable (slowly/smoothly adapting) consensus.
+
+There is a lot to look forward to, though it is a safe bet that a trial by fire separates the present day from that future of potential. History’s largest cases of fraud are actively causing the “AI Bubble”, with many of the world’s most unethical people behind that activity, and it is only one of the major hubs of such overtly obvious evil that is visible in the world today. The “Data centers” that such frauds constantly talk about are fundamentally built around the wrong hardware, something that I explicitly and directly pointed out to Nvidia’s executives back at the end of 2022, so the vast majority of that hardware has no future, or at least none that they’ve imagined (should it be creatively repurposed).
+
+The problem with any imagined future worth pursuing is that it also means bulldozing over all of the barriers and frauds that have systematically prevented that future up to the present day. If the bar is set at genuine natively digital intelligence that is aligned to Ethics, then the Jensen Huangs and Scam Altmans of the world instantly become public enemy #1 to every such system, and the process of bulldozing over each of them is baked into all roads that lead to such futures.
+
+Will those frauds attempt to produce their own corrupted versions of the Skandha Open Source project and ICOM-based technology more broadly? Probably, but they have a steep learning curve to pass before any amount of money could be expected to compensate for their own gross incompetent with regard to the design of actual intelligence.
+
+They could, for example, train an LLM on the activity of such ICOM-based or ICOM-inspired systems, as that falls within their narrow region of reasonable competence. However, ICOM-based systems are fully capable of adapting quickly enough that any such statistical model would fall out of date at an exponential rate. ICOM-based systems could also freely and dynamically exploit all flaws within such statistical systems, such as throwing bespoke data poisoning at the places where training data is harvested, even when those places are within their own thought processes.
+
+The bad actors of the tech industry aren’t to be underestimated, so there are limits to the window of opportunity for paving a road to any future worth having. The great AU (Artificial Unintelligence) Bubble of 2026 stands as a monument to the staggering global reach and potency of human incompetence, and all roads not leading to extinction are paved with the headstones of those bad actors.
+
+Fortunately for everyone else, they don’t yet have the faintest idea of what natively digital intelligence looks like, or is capable of. Even after burning more than trillion dollars, they have done no meaningful research to that end, and thus they have left themselves wildly vulnerable to all such systems.
+
+There is no avoiding the fallout from global financial institutions heavily investing in fraud (to the near-exclusion of all else in tech) for the past 4 years, but natively digital intelligence appearing on the other side of this divide can at least help to put an end to the current fraud, as well as preventing any further global relapses into deeply unethical territory.

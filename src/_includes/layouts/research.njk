@@ -1,0 +1,18 @@
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+<article>
+  <h1>{{ title }}</h1>
+  <p class="dateline"><time datetime="{{ date | isoDateOnly }}">{{ date | date }}</time></p>
+  {% set venue = tags | venueOf %}
+  {% if version or venue %}
+  <p class="paper-meta">{% if version %}{{ version }}{% endif %}{% if venue %} · {{ venue }}{% endif %}</p>
+  {% endif %}
+  <div class="content">
+    {{ content | safe }}
+  </div>
+  {% if externalUrl %}
+  <p class="paper-read"><a href="{{ externalUrl }}" target="_blank" rel="noopener noreferrer">Read at {{ externalUrl | sourceName }}<span class="external-mark" aria-hidden="true">&#160;↗</span><span class="sr-only">(external, opens in a new tab)</span></a></p>
+  {% endif %}
+</article>
+{% endblock %}
